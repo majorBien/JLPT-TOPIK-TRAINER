@@ -1,0 +1,457 @@
+{
+  "level": "N3",
+  "questions": [
+    {
+      "id": "g01",
+      "type": "grammar_fill",
+      "grammar_point": "〜そうだ（様子）",
+      "prompt": "今にも 雨が 降り（　　）だから、かさを 持って いこう。",
+      "options": [
+        "そう",
+        "よう",
+        "らしい",
+        "みたい"
+      ],
+      "answer": 0,
+      "note": "Stem + そうだ = looks like it's about to. 'It looks like it will rain any moment, so let's take an umbrella.'"
+    },
+    {
+      "id": "g02",
+      "type": "grammar_fill",
+      "grammar_point": "〜くせに",
+      "prompt": "彼は 日本人の（　　）、漢字が ぜんぜん 書けない。",
+      "options": [
+        "くせに",
+        "ために",
+        "ように",
+        "おかげで"
+      ],
+      "answer": 0,
+      "note": "〜くせに = even though (critical tone). 'Even though he's Japanese, he can't write kanji at all.'"
+    },
+    {
+      "id": "g03",
+      "type": "grammar_fill",
+      "grammar_point": "〜おかげで",
+      "prompt": "先生の（　　）、試験に 合格できました。",
+      "options": [
+        "おかげで",
+        "せいで",
+        "くせに",
+        "わりに"
+      ],
+      "answer": 0,
+      "note": "〜おかげで = thanks to (positive result). せいで is used for bad results."
+    },
+    {
+      "id": "g04",
+      "type": "grammar_fill",
+      "grammar_point": "〜わりに",
+      "prompt": "この レストランは 値段の（　　） おいしくない。",
+      "options": [
+        "わりに",
+        "おかげで",
+        "ために",
+        "かわりに"
+      ],
+      "answer": 0,
+      "note": "〜わりに = considering. 'This restaurant isn't tasty considering its prices.'"
+    },
+    {
+      "id": "g05",
+      "type": "grammar_fill",
+      "grammar_point": "〜ば〜ほど",
+      "prompt": "勉強すれば する（　　）、わからない ことが 出て くる。",
+      "options": [
+        "ほど",
+        "まで",
+        "ばかり",
+        "だけ"
+      ],
+      "answer": 0,
+      "note": "〜ば〜ほど = the more ..., the more ... 'The more I study, the more things I don't understand come up.'"
+    },
+    {
+      "id": "g06",
+      "type": "grammar_fill",
+      "grammar_point": "〜に違いない",
+      "prompt": "あんなに 練習したのだから、優勝する（　　）。",
+      "options": [
+        "に違いない",
+        "わけがない",
+        "はずがない",
+        "ものか"
+      ],
+      "answer": 0,
+      "note": "〜に違いない = must be, surely. 'After practising that much, they will surely win.'"
+    },
+    {
+      "id": "g07",
+      "type": "grammar_fill",
+      "grammar_point": "〜たばかりだ",
+      "prompt": "日本に 来た（　　）なので、まだ 何も わかりません。",
+      "options": [
+        "ばかり",
+        "うち",
+        "まま",
+        "とおり"
+      ],
+      "answer": 0,
+      "note": "た-form + ばかり = just did. 'I've only just come to Japan, so I don't know anything yet.'"
+    },
+    {
+      "id": "g08",
+      "type": "grammar_fill",
+      "grammar_point": "〜たまま",
+      "prompt": "テレビを つけた（　　） 寝て しまった。",
+      "options": [
+        "まま",
+        "ながら",
+        "ばかり",
+        "うちに"
+      ],
+      "answer": 0,
+      "note": "た-form + まま = leaving it as it is. 'I fell asleep with the TV on.'"
+    },
+    {
+      "id": "g09",
+      "type": "grammar_fill",
+      "grammar_point": "〜うちに",
+      "prompt": "若い（　　）に、いろいろな 国へ 行って みたい。",
+      "options": [
+        "うち",
+        "まま",
+        "ほど",
+        "ばかり"
+      ],
+      "answer": 0,
+      "note": "〜うちに = while (before the state changes). 'While I'm young, I want to visit many countries.'"
+    },
+    {
+      "id": "g10",
+      "type": "grammar_fill",
+      "grammar_point": "〜には（能力の主体）",
+      "prompt": "この 問題は 難しすぎて、わたし（　　） 解けない。",
+      "options": [
+        "には",
+        "まで",
+        "へは",
+        "とは"
+      ],
+      "answer": 0,
+      "note": "Person + には + potential = for someone, ... (can/cannot). 'This problem is too hard for me to solve.'"
+    },
+    {
+      "id": "g11",
+      "type": "grammar_fill",
+      "grammar_point": "〜とおり（に）",
+      "prompt": "医者に 言われた（　　）、毎日 薬を 飲んで います。",
+      "options": [
+        "とおり",
+        "ばかり",
+        "くせに",
+        "わりに"
+      ],
+      "answer": 0,
+      "note": "〜とおり = just as. 'I take the medicine every day, just as the doctor told me.'"
+    },
+    {
+      "id": "g12",
+      "type": "grammar_fill",
+      "grammar_point": "〜ため（原因）",
+      "prompt": "大雨が 降った（　　）、試合は 中止に なった。",
+      "options": [
+        "ため",
+        "くせに",
+        "わりに",
+        "とおり"
+      ],
+      "answer": 0,
+      "note": "〜ため = because of (formal cause). 'Because of heavy rain, the match was cancelled.'"
+    },
+    {
+      "id": "g13",
+      "type": "grammar_fill",
+      "grammar_point": "〜ような",
+      "prompt": "彼女は 何も 知らない（　　） 顔を して いる。",
+      "options": [
+        "ような",
+        "そうな",
+        "らしい",
+        "ために"
+      ],
+      "answer": 0,
+      "note": "〜ような = as if. 'She is making a face as if she knows nothing.'"
+    },
+    {
+      "id": "g14",
+      "type": "grammar_fill",
+      "grammar_point": "〜向け",
+      "prompt": "この 本は 子ども（　　） 書かれて いますが、大人が 読んでも おもしろいです。",
+      "options": [
+        "向けに",
+        "ばかりに",
+        "くせに",
+        "までに"
+      ],
+      "answer": 0,
+      "note": "〜向け = aimed at. 'This book was written for children, but it's interesting for adults too.'"
+    },
+    {
+      "id": "g15",
+      "type": "grammar_fill",
+      "grammar_point": "〜最中",
+      "prompt": "食事の（　　）に 電話が かかって きた。",
+      "options": [
+        "最中",
+        "うち",
+        "まま",
+        "とおり"
+      ],
+      "answer": 0,
+      "note": "〜の最中に = right in the middle of. 'The phone rang right in the middle of dinner.'"
+    },
+    {
+      "id": "g16",
+      "type": "grammar_fill",
+      "grammar_point": "〜によると",
+      "prompt": "天気予報に（　　）、あしたは 雪が 降る そうです。",
+      "options": [
+        "よると",
+        "ついて",
+        "対して",
+        "とって"
+      ],
+      "answer": 0,
+      "note": "〜によると = according to. 'According to the weather forecast, it will snow tomorrow.'"
+    },
+    {
+      "id": "g17",
+      "type": "grammar_fill",
+      "grammar_point": "〜にとって",
+      "prompt": "わたし（　　） いちばん 大切なのは 家族です。",
+      "options": [
+        "にとって",
+        "について",
+        "によって",
+        "に対して"
+      ],
+      "answer": 0,
+      "note": "〜にとって = for, to (from the viewpoint of). 'For me, the most important thing is my family.'"
+    },
+    {
+      "id": "g18",
+      "type": "grammar_fill",
+      "grammar_point": "〜によって（違い）",
+      "prompt": "この 町では 季節（　　） 色々な 祭りが あります。",
+      "options": [
+        "によって",
+        "にとって",
+        "について",
+        "に対して"
+      ],
+      "answer": 0,
+      "note": "〜によって = depending on. 'In this town there are various festivals depending on the season.'"
+    },
+    {
+      "id": "g19",
+      "type": "grammar_fill",
+      "grammar_point": "〜そうになる",
+      "prompt": "その 話を 聞いて、泣き（　　） なった。",
+      "options": [
+        "そうに",
+        "ように",
+        "ほどに",
+        "らしく"
+      ],
+      "answer": 0,
+      "note": "Stem + そうになる = almost (do). 'Hearing that story, I almost cried.'"
+    },
+    {
+      "id": "g20",
+      "type": "grammar_fill",
+      "grammar_point": "まるで〜ようだ",
+      "prompt": "あの 二人は まるで 本当の 兄弟の（　　）。",
+      "options": [
+        "ようだ",
+        "そうだ",
+        "らしい",
+        "はずだ"
+      ],
+      "answer": 0,
+      "note": "まるで〜のようだ = just like. 'Those two are just like real brothers.'"
+    },
+    {
+      "id": "g21",
+      "type": "grammar_fill",
+      "grammar_point": "〜わけではない",
+      "prompt": "高い 店の 料理が いつも おいしい（　　）。",
+      "options": [
+        "わけではない",
+        "はずだ",
+        "ことだ",
+        "ものだ"
+      ],
+      "answer": 0,
+      "note": "〜わけではない = it's not necessarily the case that. 'Food at expensive restaurants isn't always tasty.'"
+    },
+    {
+      "id": "g22",
+      "type": "grammar_fill",
+      "grammar_point": "〜ようになる",
+      "prompt": "毎日 練習して、ピアノが 弾ける（　　）。",
+      "options": [
+        "ように なった",
+        "ことに なった",
+        "ために なった",
+        "そうに なった"
+      ],
+      "answer": 0,
+      "note": "Potential + ようになる = become able to. 'By practising every day, I became able to play the piano.'"
+    },
+    {
+      "id": "g23",
+      "type": "grammar_fill",
+      "grammar_point": "〜ついでに",
+      "prompt": "買い物に 行く（　　）、郵便局に 寄った。",
+      "options": [
+        "ついでに",
+        "かわりに",
+        "おかげで",
+        "うちに"
+      ],
+      "answer": 0,
+      "note": "〜ついでに = while (doing A), also do B. 'While going shopping, I dropped by the post office.'"
+    },
+    {
+      "id": "g24",
+      "type": "grammar_fill",
+      "grammar_point": "〜たびに",
+      "prompt": "この 写真を 見る（　　）、子どもの ころを 思い出す。",
+      "options": [
+        "たびに",
+        "ついでに",
+        "くせに",
+        "わりに"
+      ],
+      "answer": 0,
+      "note": "〜たびに = every time. 'Every time I look at this photo, I remember my childhood.'"
+    },
+    {
+      "id": "s01",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "彼が 会社を ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 知らなかった。",
+      "options": [
+        "だれも",
+        "を",
+        "やめた",
+        "こと"
+      ],
+      "answer": 1,
+      "note": "Correct order: やめた こと を だれも → 彼が 会社を やめた ことを だれも 知らなかった。"
+    },
+    {
+      "id": "s02",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "日本語が ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 毎日 練習して います。",
+      "options": [
+        "ために",
+        "なる",
+        "話せる",
+        "ように"
+      ],
+      "answer": 1,
+      "note": "Correct order: 話せる ように なる ために → 日本語が 話せるように なるために 毎日 練習しています。"
+    },
+    {
+      "id": "s03",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "これは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ です。",
+      "options": [
+        "料理",
+        "もらった",
+        "母に",
+        "教えて"
+      ],
+      "answer": 1,
+      "note": "Correct order: 母に 教えて もらった 料理 → これは 母に 教えて もらった 料理です。"
+    },
+    {
+      "id": "s04",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "雨が 降って いる ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 出かけた。",
+      "options": [
+        "持たずに",
+        "のに",
+        "を",
+        "かさ"
+      ],
+      "answer": 2,
+      "note": "Correct order: のに かさ を 持たずに → 雨が 降っているのに かさを 持たずに 出かけた。"
+    },
+    {
+      "id": "r01",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "社員の みなさんへ\n来週の 月曜日から 金曜日まで、エレベーターの 点検を 行います。点検中は エレベーターが 使えませんので、階段を 利用して ください。重い 荷物が ある 場合は、前日までに 総務課に 連絡すれば、手伝いの 者が 行きます。\n総務課 佐藤",
+      "prompt": "重い 荷物を 運びたい 人は どう しなければ なりませんか。",
+      "options": [
+        "前日までに 総務課に 連絡する",
+        "点検中に エレベーターを 使う",
+        "月曜日に 階段で 運ぶ",
+        "佐藤さんに 荷物を 預ける"
+      ],
+      "answer": 0,
+      "note": "前日までに総務課に連絡すれば、手伝いの者が行きます."
+    },
+    {
+      "id": "r02",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "最近、本を 紙ではなく スマートフォンで 読む 人が 増えて いる。確かに、何冊でも 持ち歩けるのは 便利だ。しかし、わたしは やはり 紙の 本が 好きだ。ページを めくる 音や 紙の においが、読書を 特別な 時間に して くれるからだ。",
+      "prompt": "筆者が 紙の 本を 好きな 理由は 何ですか。",
+      "options": [
+        "読書が 特別な 時間に なるから",
+        "何冊でも 持ち歩けるから",
+        "スマートフォンより 安いから",
+        "目が 疲れないから"
+      ],
+      "answer": 0,
+      "note": "〜からだ gives the reason: the sound of pages and the smell of paper make reading a special time. 'Portable' is the advantage of phones."
+    },
+    {
+      "id": "r03",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "市立図書館からの お知らせ\n四月から 開館時間が 変わります。平日は 午前九時から 午後八時まで、土日は 午前十時から 午後六時までです。また、毎月 第三月曜日は 休館日と なります。本の 返却は、休館日でも 入口の 返却ポストを ご利用ください。",
+      "prompt": "四月の 第三月曜日に できる ことは 何ですか。",
+      "options": [
+        "返却ポストに 本を 返す",
+        "午前九時から 本を 借りる",
+        "午後八時まで 勉強する",
+        "午前十時から 本を 探す"
+      ],
+      "answer": 0,
+      "note": "The third Monday is a closing day, but books can still be returned through the return box."
+    },
+    {
+      "id": "r04",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "わたしは 毎朝 一時間 早く 起きて、ジョギングを する ことに して いる。始めた ころは つらかったが、今では 走らないと 一日が 始まらない 気が する。体が 丈夫に なった だけでなく、仕事にも 集中できる ように なった。",
+      "prompt": "筆者は ジョギングを 始めて、どう 変わりましたか。",
+      "options": [
+        "体が 丈夫に なり、仕事にも 集中できる ように なった",
+        "朝 起きるのが 遅く なった",
+        "仕事を やめて、走る 時間が 増えた",
+        "一日中 疲れる ように なった"
+      ],
+      "answer": 0,
+      "note": "体が丈夫になっただけでなく、仕事にも集中できるようになった."
+    }
+  ]
+}

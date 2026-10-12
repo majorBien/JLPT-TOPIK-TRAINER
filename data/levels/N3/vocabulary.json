@@ -1,0 +1,725 @@
+{
+  "level": "N3",
+  "entries": [
+    {
+      "id": "n3v001",
+      "word": "環境",
+      "reading": "かんきょう",
+      "meaning": "environment",
+      "pos": "noun",
+      "example": "環境を 守るために、ごみを 減らしましょう。",
+      "kanji_distractors": [
+        "還境",
+        "環竟"
+      ]
+    },
+    {
+      "id": "n3v002",
+      "word": "情報",
+      "reading": "じょうほう",
+      "meaning": "information",
+      "pos": "noun",
+      "example": "インターネットで 旅行の 情報を 集めました。",
+      "kanji_distractors": [
+        "清報",
+        "情服"
+      ]
+    },
+    {
+      "id": "n3v003",
+      "word": "責任",
+      "reading": "せきにん",
+      "meaning": "responsibility",
+      "pos": "noun",
+      "example": "この 仕事の 責任は わたしに あります。",
+      "kanji_distractors": [
+        "積任",
+        "責住"
+      ]
+    },
+    {
+      "id": "n3v004",
+      "word": "印象",
+      "reading": "いんしょう",
+      "meaning": "impression",
+      "pos": "noun",
+      "example": "彼の 第一印象は とても よかった。",
+      "kanji_distractors": [
+        "印像",
+        "却象"
+      ]
+    },
+    {
+      "id": "n3v005",
+      "word": "効果",
+      "reading": "こうか",
+      "meaning": "effect",
+      "pos": "noun",
+      "example": "この 薬は すぐに 効果が 出ます。",
+      "kanji_distractors": [
+        "効菓",
+        "郊果"
+      ]
+    },
+    {
+      "id": "n3v006",
+      "word": "結果",
+      "reading": "けっか",
+      "meaning": "result",
+      "pos": "noun",
+      "example": "試験の 結果は 来週 わかります。",
+      "kanji_distractors": [
+        "結菓",
+        "給果"
+      ]
+    },
+    {
+      "id": "n3v007",
+      "word": "状態",
+      "reading": "じょうたい",
+      "meaning": "condition, state",
+      "pos": "noun",
+      "example": "この 車は まだ いい 状態です。",
+      "kanji_distractors": [
+        "伏態",
+        "状熊"
+      ]
+    },
+    {
+      "id": "n3v008",
+      "word": "目的",
+      "reading": "もくてき",
+      "meaning": "purpose",
+      "pos": "noun",
+      "example": "今回の 旅行の 目的は 何ですか。",
+      "kanji_distractors": [
+        "目約",
+        "自的"
+      ]
+    },
+    {
+      "id": "n3v009",
+      "word": "距離",
+      "reading": "きょり",
+      "meaning": "distance",
+      "pos": "noun",
+      "example": "駅から 会社までの 距離は 二キロです。",
+      "kanji_distractors": [
+        "拒離",
+        "距難"
+      ]
+    },
+    {
+      "id": "n3v010",
+      "word": "範囲",
+      "reading": "はんい",
+      "meaning": "range, scope",
+      "pos": "noun",
+      "example": "テストの 範囲は どこから どこまでですか。",
+      "kanji_distractors": [
+        "範井",
+        "笵囲"
+      ]
+    },
+    {
+      "id": "n3v011",
+      "word": "期間",
+      "reading": "きかん",
+      "meaning": "period (of time)",
+      "pos": "noun",
+      "example": "セールの 期間は 一週間です。",
+      "kanji_distractors": [
+        "期問",
+        "其間"
+      ]
+    },
+    {
+      "id": "n3v012",
+      "word": "現在",
+      "reading": "げんざい",
+      "meaning": "the present, now",
+      "pos": "noun",
+      "example": "現在、東京に 住んで います。",
+      "kanji_distractors": [
+        "現存",
+        "見在"
+      ]
+    },
+    {
+      "id": "n3v013",
+      "word": "全体",
+      "reading": "ぜんたい",
+      "meaning": "the whole",
+      "pos": "noun",
+      "example": "クラス 全体で 話し合いました。",
+      "kanji_distractors": [
+        "金体",
+        "全休"
+      ]
+    },
+    {
+      "id": "n3v014",
+      "word": "部分",
+      "reading": "ぶぶん",
+      "meaning": "part",
+      "pos": "noun",
+      "example": "この 部分の 意味が よく わかりません。",
+      "kanji_distractors": [
+        "都分",
+        "部份"
+      ]
+    },
+    {
+      "id": "n3v015",
+      "word": "内容",
+      "reading": "ないよう",
+      "meaning": "content",
+      "pos": "noun",
+      "example": "手紙の 内容を 教えて ください。",
+      "kanji_distractors": [
+        "肉容",
+        "内客"
+      ]
+    },
+    {
+      "id": "n3v016",
+      "word": "確認",
+      "reading": "かくにん",
+      "meaning": "confirmation, check",
+      "pos": "noun",
+      "example": "出かける 前に、もう 一度 確認して ください。",
+      "kanji_distractors": [
+        "確忍",
+        "碓認"
+      ]
+    },
+    {
+      "id": "n3v017",
+      "word": "努力",
+      "reading": "どりょく",
+      "meaning": "effort",
+      "pos": "noun",
+      "example": "毎日の 努力が 大切です。",
+      "kanji_distractors": [
+        "怒力",
+        "努刀"
+      ]
+    },
+    {
+      "id": "n3v018",
+      "word": "成功",
+      "reading": "せいこう",
+      "meaning": "success",
+      "pos": "noun",
+      "example": "みんなの おかげで、計画は 成功しました。",
+      "kanji_distractors": [
+        "城功",
+        "成巧"
+      ]
+    },
+    {
+      "id": "n3v019",
+      "word": "交換",
+      "reading": "こうかん",
+      "meaning": "exchange",
+      "pos": "noun",
+      "example": "メールアドレスを 交換しましょう。",
+      "kanji_distractors": [
+        "校換",
+        "交喚"
+      ]
+    },
+    {
+      "id": "n3v020",
+      "word": "比較",
+      "reading": "ひかく",
+      "meaning": "comparison",
+      "pos": "noun",
+      "example": "二つの 商品を 比較してから 買います。",
+      "kanji_distractors": [
+        "批較",
+        "比校"
+      ]
+    },
+    {
+      "id": "n3v021",
+      "word": "疑う",
+      "reading": "うたがう",
+      "meaning": "to doubt, to suspect",
+      "pos": "verb",
+      "example": "人の 話を すぐ 疑う のは よくないです。",
+      "kanji_distractors": [
+        "凝う",
+        "擬う"
+      ]
+    },
+    {
+      "id": "n3v022",
+      "word": "迷う",
+      "reading": "まよう",
+      "meaning": "to get lost, to hesitate",
+      "pos": "verb",
+      "example": "初めての 町では 道に 迷う ことが 多いです。",
+      "kanji_distractors": [
+        "送う",
+        "述う"
+      ]
+    },
+    {
+      "id": "n3v023",
+      "word": "許す",
+      "reading": "ゆるす",
+      "meaning": "to forgive, to permit",
+      "pos": "verb",
+      "example": "彼の うそを 許す ことは できません。",
+      "kanji_distractors": [
+        "評す",
+        "計す"
+      ]
+    },
+    {
+      "id": "n3v024",
+      "word": "支払う",
+      "reading": "しはらう",
+      "meaning": "to pay",
+      "pos": "verb",
+      "example": "カードで 支払う ことも できます。",
+      "kanji_distractors": [
+        "支仏う",
+        "友払う"
+      ]
+    },
+    {
+      "id": "n3v025",
+      "word": "雇う",
+      "reading": "やとう",
+      "meaning": "to hire",
+      "pos": "verb",
+      "example": "店で 学生を 雇う ことに しました。",
+      "kanji_distractors": [
+        "顧う",
+        "屋う"
+      ]
+    },
+    {
+      "id": "n3v026",
+      "word": "詳しい",
+      "reading": "くわしい",
+      "meaning": "detailed",
+      "pos": "i-adj",
+      "example": "もっと 詳しい 説明を して ください。",
+      "kanji_distractors": [
+        "祥しい",
+        "群しい"
+      ]
+    },
+    {
+      "id": "n3v027",
+      "word": "険しい",
+      "reading": "けわしい",
+      "meaning": "steep, severe",
+      "pos": "i-adj",
+      "example": "険しい 山道を 三時間 歩きました。",
+      "kanji_distractors": [
+        "検しい",
+        "倹しい"
+      ]
+    },
+    {
+      "id": "n3v028",
+      "word": "怪しい",
+      "reading": "あやしい",
+      "meaning": "suspicious",
+      "pos": "i-adj",
+      "example": "怪しい 人が 家の 前に 立って います。",
+      "kanji_distractors": [
+        "経しい",
+        "径しい"
+      ]
+    },
+    {
+      "id": "n3v029",
+      "word": "貧しい",
+      "reading": "まずしい",
+      "meaning": "poor",
+      "pos": "i-adj",
+      "example": "貧しい 人々を 助ける 仕事が したいです。",
+      "kanji_distractors": [
+        "貪しい",
+        "貨しい"
+      ]
+    },
+    {
+      "id": "n3v030",
+      "word": "鋭い",
+      "reading": "するどい",
+      "meaning": "sharp",
+      "pos": "i-adj",
+      "example": "この ナイフは とても 鋭いです。",
+      "kanji_distractors": [
+        "鉛い",
+        "悦い"
+      ]
+    },
+    {
+      "id": "n3v031",
+      "word": "浅い",
+      "reading": "あさい",
+      "meaning": "shallow",
+      "pos": "i-adj",
+      "example": "この 川は 浅いので、子どもでも 安全です。",
+      "kanji_distractors": [
+        "残い",
+        "銭い"
+      ]
+    },
+    {
+      "id": "n3v032",
+      "word": "正確",
+      "reading": "せいかく",
+      "meaning": "accurate",
+      "pos": "na-adj",
+      "example": "正確な 時間を 教えて ください。",
+      "kanji_distractors": [
+        "正碓",
+        "生確"
+      ]
+    },
+    {
+      "id": "n3v033",
+      "word": "豊か",
+      "reading": "ゆたか",
+      "meaning": "rich, abundant",
+      "pos": "na-adj",
+      "example": "この 国は 自然が 豊かです。",
+      "kanji_distractors": [
+        "農か",
+        "曲か"
+      ]
+    },
+    {
+      "id": "n3v034",
+      "word": "平等",
+      "reading": "びょうどう",
+      "meaning": "equal",
+      "pos": "na-adj",
+      "example": "法律の 前では すべての 人が 平等です。",
+      "kanji_distractors": [
+        "平筝",
+        "乎等"
+      ]
+    },
+    {
+      "id": "n3v035",
+      "word": "新鮮",
+      "reading": "しんせん",
+      "meaning": "fresh",
+      "pos": "na-adj",
+      "example": "この 店の 魚は とても 新鮮です。",
+      "kanji_distractors": [
+        "新鱗",
+        "親鮮"
+      ]
+    },
+    {
+      "id": "n3v036",
+      "word": "適当",
+      "reading": "てきとう",
+      "meaning": "suitable; half-hearted",
+      "pos": "na-adj",
+      "example": "適当な 言葉を 選んで ください。",
+      "kanji_distractors": [
+        "摘当",
+        "適常"
+      ]
+    },
+    {
+      "id": "n3v037",
+      "word": "突然",
+      "reading": "とつぜん",
+      "meaning": "suddenly",
+      "pos": "adverb",
+      "example": "突然 雨が 降り出しました。",
+      "kanji_distractors": [
+        "突燃",
+        "空然"
+      ]
+    },
+    {
+      "id": "n3v038",
+      "word": "次第に",
+      "reading": "しだいに",
+      "meaning": "gradually",
+      "pos": "adverb",
+      "example": "次第に 寒く なって きました。",
+      "kanji_distractors": [
+        "次弟に",
+        "欠第に"
+      ]
+    },
+    {
+      "id": "n3v039",
+      "word": "偶然",
+      "reading": "ぐうぜん",
+      "meaning": "by chance",
+      "pos": "adverb",
+      "example": "駅で 偶然 先生に 会いました。",
+      "kanji_distractors": [
+        "遇然",
+        "隅然"
+      ]
+    },
+    {
+      "id": "n3v040",
+      "word": "案外",
+      "reading": "あんがい",
+      "meaning": "unexpectedly",
+      "pos": "adverb",
+      "example": "この 店は 案外 安いです。",
+      "kanji_distractors": [
+        "安外",
+        "案夕"
+      ]
+    },
+    {
+      "id": "n3v041",
+      "word": "互いに",
+      "reading": "たがいに",
+      "meaning": "mutually, each other",
+      "pos": "adverb",
+      "example": "兄弟は 互いに 助け合って 生きて きました。",
+      "kanji_distractors": [
+        "瓦いに",
+        "五いに"
+      ]
+    },
+    {
+      "id": "n3v042",
+      "word": "影響",
+      "reading": "えいきょう",
+      "meaning": "influence, effect",
+      "pos": "noun",
+      "example": "台風の 影響で 電車が 止まりました。",
+      "kanji_distractors": [
+        "景響",
+        "影郷"
+      ]
+    },
+    {
+      "id": "n3v043",
+      "word": "解決",
+      "reading": "かいけつ",
+      "meaning": "solution, settlement",
+      "pos": "noun",
+      "example": "この 問題を 解決する 方法を 考えましょう。",
+      "kanji_distractors": [
+        "解快",
+        "角決"
+      ]
+    },
+    {
+      "id": "n3v044",
+      "word": "判断",
+      "reading": "はんだん",
+      "meaning": "judgement",
+      "pos": "noun",
+      "example": "どちらが 正しいか 判断するのは 難しいです。",
+      "kanji_distractors": [
+        "判継",
+        "半断"
+      ]
+    },
+    {
+      "id": "n3v045",
+      "word": "状況",
+      "reading": "じょうきょう",
+      "meaning": "situation, circumstances",
+      "pos": "noun",
+      "example": "今の 状況を 詳しく 説明して ください。",
+      "kanji_distractors": [
+        "状兄",
+        "伏況"
+      ]
+    },
+    {
+      "id": "n3v046",
+      "word": "制度",
+      "reading": "せいど",
+      "meaning": "system, institution",
+      "pos": "noun",
+      "example": "新しい 制度が 来年から 始まります。",
+      "kanji_distractors": [
+        "製度",
+        "制席"
+      ]
+    },
+    {
+      "id": "n3v047",
+      "word": "価値",
+      "reading": "かち",
+      "meaning": "value, worth",
+      "pos": "noun",
+      "example": "この 絵には 大きな 価値が あります。",
+      "kanji_distractors": [
+        "価植",
+        "賀値"
+      ]
+    },
+    {
+      "id": "n3v048",
+      "word": "資源",
+      "reading": "しげん",
+      "meaning": "resources",
+      "pos": "noun",
+      "example": "日本は 資源が 少ない 国です。",
+      "kanji_distractors": [
+        "資原",
+        "姿源"
+      ]
+    },
+    {
+      "id": "n3v049",
+      "word": "記憶",
+      "reading": "きおく",
+      "meaning": "memory",
+      "pos": "noun",
+      "example": "子どもの ころの 記憶は あまり ありません。",
+      "kanji_distractors": [
+        "記億",
+        "紀憶"
+      ]
+    },
+    {
+      "id": "n3v050",
+      "word": "感情",
+      "reading": "かんじょう",
+      "meaning": "emotion, feeling",
+      "pos": "noun",
+      "example": "彼は あまり 感情を 顔に 出しません。",
+      "kanji_distractors": [
+        "感清",
+        "惑情"
+      ]
+    },
+    {
+      "id": "n3v051",
+      "word": "期待",
+      "reading": "きたい",
+      "meaning": "expectation",
+      "pos": "noun",
+      "example": "両親の 期待に 応えたいです。",
+      "kanji_distractors": [
+        "期持",
+        "其待"
+      ]
+    },
+    {
+      "id": "n3v052",
+      "word": "認める",
+      "reading": "みとめる",
+      "meaning": "to admit, to recognise",
+      "pos": "verb",
+      "example": "彼は 自分の 間違いを 認める ことが できない。",
+      "kanji_distractors": [
+        "忍める",
+        "認る"
+      ]
+    },
+    {
+      "id": "n3v053",
+      "word": "含む",
+      "reading": "ふくむ",
+      "meaning": "to include, to contain",
+      "pos": "verb",
+      "example": "この 料金は 税金を 含む 値段です。",
+      "kanji_distractors": [
+        "合む",
+        "含く"
+      ]
+    },
+    {
+      "id": "n3v054",
+      "word": "譲る",
+      "reading": "ゆずる",
+      "meaning": "to hand over, to give up (a seat)",
+      "pos": "verb",
+      "example": "電車で お年寄りに 席を 譲る のは 当然です。",
+      "kanji_distractors": [
+        "護る",
+        "譲す"
+      ]
+    },
+    {
+      "id": "n3v055",
+      "word": "防ぐ",
+      "reading": "ふせぐ",
+      "meaning": "to prevent",
+      "pos": "verb",
+      "example": "かぜを 防ぐ ために、手を よく 洗いましょう。",
+      "kanji_distractors": [
+        "坊ぐ",
+        "妨ぐ"
+      ]
+    },
+    {
+      "id": "n3v056",
+      "word": "越える",
+      "reading": "こえる",
+      "meaning": "to go over, to cross",
+      "pos": "verb",
+      "example": "この 山を 越える と、海が 見えます。",
+      "kanji_distractors": [
+        "起える",
+        "趣える"
+      ]
+    },
+    {
+      "id": "n3v057",
+      "word": "与える",
+      "reading": "あたえる",
+      "meaning": "to give, to provide",
+      "pos": "verb",
+      "example": "子どもに 夢を 与える 仕事が したいです。",
+      "kanji_distractors": [
+        "写える",
+        "与る"
+      ]
+    },
+    {
+      "id": "n3v058",
+      "word": "述べる",
+      "reading": "のべる",
+      "meaning": "to state, to express",
+      "pos": "verb",
+      "example": "会議で 自分の 意見を 述べる のは 難しいです。",
+      "kanji_distractors": [
+        "術べる",
+        "迷べる"
+      ]
+    },
+    {
+      "id": "n3v059",
+      "word": "実際に",
+      "reading": "じっさいに",
+      "meaning": "actually, in practice",
+      "pos": "adverb",
+      "example": "実際に 使って みると、とても 便利でした。",
+      "kanji_distractors": [
+        "実除に",
+        "寒際に"
+      ]
+    },
+    {
+      "id": "n3v060",
+      "word": "結局",
+      "reading": "けっきょく",
+      "meaning": "after all, in the end",
+      "pos": "adverb",
+      "example": "結局、旅行には 行きませんでした。",
+      "kanji_distractors": [
+        "結居",
+        "給局"
+      ]
+    }
+  ]
+}

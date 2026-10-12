@@ -1,0 +1,457 @@
+{
+  "level": "N5",
+  "questions": [
+    {
+      "id": "g01",
+      "type": "grammar_fill",
+      "grammar_point": "を（目的語）",
+      "prompt": "わたしは 毎朝 パン（　　） 食べます。",
+      "options": [
+        "を",
+        "に",
+        "で",
+        "が"
+      ],
+      "answer": 0,
+      "note": "を marks the object: パンを食べる 'eat bread'."
+    },
+    {
+      "id": "g02",
+      "type": "grammar_fill",
+      "grammar_point": "〜まで",
+      "prompt": "家から 駅（　　） 歩いて 十分です。",
+      "options": [
+        "まで",
+        "を",
+        "が",
+        "の"
+      ],
+      "answer": 0,
+      "note": "〜から〜まで = from ... to ... 'From home to the station is a 10-minute walk.'"
+    },
+    {
+      "id": "g03",
+      "type": "grammar_fill",
+      "grammar_point": "で（場所）",
+      "prompt": "図書館（　　） 勉強します。",
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "note": "で marks the place where an action happens. 'I study at the library.'"
+    },
+    {
+      "id": "g04",
+      "type": "grammar_fill",
+      "grammar_point": "〜があります",
+      "prompt": "机の 上に 本（　　） あります。",
+      "options": [
+        "が",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "note": "Existence: 〜に〜があります 'There is a book on the desk.'"
+    },
+    {
+      "id": "g05",
+      "type": "grammar_fill",
+      "grammar_point": "でした（過去）",
+      "prompt": "きのうは 雨（　　）。",
+      "options": [
+        "でした",
+        "です",
+        "でしょう",
+        "ません"
+      ],
+      "answer": 0,
+      "note": "Past of です is でした. 'Yesterday it was rainy.'"
+    },
+    {
+      "id": "g06",
+      "type": "grammar_fill",
+      "grammar_point": "あまり〜ない",
+      "prompt": "この 料理は あまり おいしく（　　）。",
+      "options": [
+        "ありません",
+        "です",
+        "でした",
+        "ます"
+      ],
+      "answer": 0,
+      "note": "あまり + negative = not very. 'This dish isn't very tasty.'"
+    },
+    {
+      "id": "g07",
+      "type": "grammar_fill",
+      "grammar_point": "〜ませんか",
+      "prompt": "あした、いっしょに 公園へ 行き（　　）か。",
+      "options": [
+        "ません",
+        "ました",
+        "たい",
+        "て"
+      ],
+      "answer": 0,
+      "note": "〜ませんか = invitation 'Won't you go to the park with me tomorrow?'"
+    },
+    {
+      "id": "g08",
+      "type": "grammar_fill",
+      "grammar_point": "〜たい",
+      "prompt": "夏休みに 日本へ 行き（　　）です。",
+      "options": [
+        "たい",
+        "ない",
+        "て",
+        "ます"
+      ],
+      "answer": 0,
+      "note": "Verb stem + たい = want to. 'I want to go to Japan in summer.'"
+    },
+    {
+      "id": "g09",
+      "type": "grammar_fill",
+      "grammar_point": "〜てください",
+      "prompt": "すみません、窓を 開けて（　　）。",
+      "options": [
+        "ください",
+        "たい",
+        "です",
+        "ましょう"
+      ],
+      "answer": 0,
+      "note": "〜てください = please do. 'Excuse me, please open the window.'"
+    },
+    {
+      "id": "g10",
+      "type": "grammar_fill",
+      "grammar_point": "〜てもいいですか",
+      "prompt": "ここで 写真を とって（　　） いいですか。",
+      "options": [
+        "も",
+        "は",
+        "が",
+        "を"
+      ],
+      "answer": 0,
+      "note": "〜てもいいですか = may I? 'May I take photos here?'"
+    },
+    {
+      "id": "g11",
+      "type": "grammar_fill",
+      "grammar_point": "〜てはいけません",
+      "prompt": "ここで たばこを すって（　　） いけません。",
+      "options": [
+        "は",
+        "も",
+        "が",
+        "を"
+      ],
+      "answer": 0,
+      "note": "〜てはいけません = must not. 'You must not smoke here.'"
+    },
+    {
+      "id": "g12",
+      "type": "grammar_fill",
+      "grammar_point": "〜たあとで",
+      "prompt": "ごはんを 食べた（　　）、歯を みがきます。",
+      "options": [
+        "あとで",
+        "まえに",
+        "ながら",
+        "より"
+      ],
+      "answer": 0,
+      "note": "た-form + あとで = after doing. 'After eating, I brush my teeth.'"
+    },
+    {
+      "id": "g13",
+      "type": "grammar_fill",
+      "grammar_point": "〜まえに",
+      "prompt": "寝る（　　）に、シャワーを あびます。",
+      "options": [
+        "まえ",
+        "あと",
+        "から",
+        "ながら"
+      ],
+      "answer": 0,
+      "note": "Dictionary form + まえに = before doing. 'Before going to bed I take a shower.'"
+    },
+    {
+      "id": "g14",
+      "type": "grammar_fill",
+      "grammar_point": "〜より（比較）",
+      "prompt": "わたしは 兄（　　） 若いです。",
+      "options": [
+        "より",
+        "ほど",
+        "から",
+        "まで"
+      ],
+      "answer": 0,
+      "note": "A は B より〜 = A is more ~ than B. 'I am younger than my brother.'"
+    },
+    {
+      "id": "g15",
+      "type": "grammar_fill",
+      "grammar_point": "どちら",
+      "prompt": "りんごと みかんと、（　　）が 好きですか。",
+      "options": [
+        "どちら",
+        "どれ",
+        "なに",
+        "だれ"
+      ],
+      "answer": 0,
+      "note": "Choosing between two things uses どちら. 'Which do you like, apples or mandarins?'"
+    },
+    {
+      "id": "g16",
+      "type": "grammar_fill",
+      "grammar_point": "〜ながら",
+      "prompt": "音楽を 聞き（　　） 勉強します。",
+      "options": [
+        "ながら",
+        "たい",
+        "まえに",
+        "あとで"
+      ],
+      "answer": 0,
+      "note": "Stem + ながら = while doing. 'I study while listening to music.'"
+    },
+    {
+      "id": "g17",
+      "type": "grammar_fill",
+      "grammar_point": "〜たり〜たりする",
+      "prompt": "日曜日は 本を 読んだり、買い物を（　　） します。",
+      "options": [
+        "したり",
+        "して",
+        "する",
+        "した"
+      ],
+      "answer": 0,
+      "note": "〜たり〜たりする lists example activities. 'On Sundays I read books, go shopping and so on.'"
+    },
+    {
+      "id": "g18",
+      "type": "grammar_fill",
+      "grammar_point": "な形容詞＋で",
+      "prompt": "この 部屋は 静か（　　） 広いです。",
+      "options": [
+        "で",
+        "くて",
+        "に",
+        "な"
+      ],
+      "answer": 0,
+      "note": "Linking a na-adjective: 静かで. 'This room is quiet and spacious.'"
+    },
+    {
+      "id": "g19",
+      "type": "grammar_fill",
+      "grammar_point": "い形容詞＋くて",
+      "prompt": "この かばんは 安（　　） 軽いです。",
+      "options": [
+        "くて",
+        "で",
+        "い",
+        "かった"
+      ],
+      "answer": 0,
+      "note": "Linking an i-adjective: 安い → 安くて. 'This bag is cheap and light.'"
+    },
+    {
+      "id": "g20",
+      "type": "grammar_fill",
+      "grammar_point": "いる／ある",
+      "prompt": "あそこに 子どもが（　　）。",
+      "options": [
+        "います",
+        "あります",
+        "です",
+        "します"
+      ],
+      "answer": 0,
+      "note": "People and animals use いる, things use ある. 'There is a child over there.'"
+    },
+    {
+      "id": "g21",
+      "type": "grammar_fill",
+      "grammar_point": "に（時間）",
+      "prompt": "毎朝 七時（　　） 起きます。",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "note": "Clock times take に. 'I get up at seven every morning.'"
+    },
+    {
+      "id": "g22",
+      "type": "grammar_fill",
+      "grammar_point": "の（所有）",
+      "prompt": "これは だれ（　　） かさですか。",
+      "options": [
+        "の",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "note": "の shows possession. 'Whose umbrella is this?'"
+    },
+    {
+      "id": "g23",
+      "type": "grammar_fill",
+      "grammar_point": "まだ〜ていない",
+      "prompt": "「もう 宿題を しましたか。」「いいえ、（　　） して いません。」",
+      "options": [
+        "まだ",
+        "もう",
+        "よく",
+        "すぐ"
+      ],
+      "answer": 0,
+      "note": "まだ〜ていない = not yet. 'No, I haven't done it yet.'"
+    },
+    {
+      "id": "g24",
+      "type": "grammar_fill",
+      "grammar_point": "い形容詞の過去",
+      "prompt": "きのうの テストは やさし（　　） です。",
+      "options": [
+        "かった",
+        "くて",
+        "でした",
+        "く"
+      ],
+      "answer": 0,
+      "note": "Past of an i-adjective: やさしい → やさしかったです. 'Yesterday's test was easy.'"
+    },
+    {
+      "id": "s01",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "きのう ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 見ました。",
+      "options": [
+        "で",
+        "ねこ",
+        "公園",
+        "を"
+      ],
+      "answer": 1,
+      "note": "Correct order: 公園 で ねこ を → きのう 公園で ねこを 見ました。"
+    },
+    {
+      "id": "s02",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "これは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ です。",
+      "options": [
+        "作った",
+        "ケーキ",
+        "が",
+        "母"
+      ],
+      "answer": 0,
+      "note": "Correct order: 母 が 作った ケーキ → これは 母が 作った ケーキです。"
+    },
+    {
+      "id": "s03",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "あそこ ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 人は 山田さんです。",
+      "options": [
+        "いる",
+        "読んで",
+        "で",
+        "本を"
+      ],
+      "answer": 1,
+      "note": "Correct order: で 本を 読んで いる → あそこで 本を 読んで いる 人は 山田さんです。"
+    },
+    {
+      "id": "s04",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "テーブルの ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ ありますか。",
+      "options": [
+        "が",
+        "何",
+        "上",
+        "に"
+      ],
+      "answer": 1,
+      "note": "Correct order: 上 に 何 が → テーブルの 上に 何が ありますか。"
+    },
+    {
+      "id": "r01",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "リンさんへ\nきょうは 雨ですから、テニスは しません。あした 十時に 学校の 前で 会いましょう。ラケットを 忘れないで ください。\nたなか",
+      "prompt": "リンさんは あした 何時に どこへ 行きますか。",
+      "options": [
+        "十時に 学校の 前へ 行きます",
+        "十時に テニスの 店へ 行きます",
+        "きょう 学校の 前へ 行きます",
+        "あした 雨ですから 行きません"
+      ],
+      "answer": 0,
+      "note": "あした十時に学校の前で会いましょう → 10:00, in front of the school."
+    },
+    {
+      "id": "r02",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "わたしは 毎朝 六時に 起きます。それから 犬と さんぽを します。七時に 朝ごはんを 食べて、八時に 家を 出ます。でも、日曜日は 九時まで 寝ます。",
+      "prompt": "日曜日、この 人は 何時に 起きますか。",
+      "options": [
+        "九時",
+        "六時",
+        "七時",
+        "八時"
+      ],
+      "answer": 0,
+      "note": "日曜日は九時まで寝ます → on Sundays they sleep until nine."
+    },
+    {
+      "id": "r03",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "さくらスーパー\n毎日 朝 九時から 夜 十時まで\n水曜日は 休みです。\n土曜日と 日曜日は 肉が 安いです。",
+      "prompt": "肉を 安く 買いたいです。いつ 行きますか。",
+      "options": [
+        "土曜日の 午後",
+        "月曜日の 朝",
+        "水曜日の 夜",
+        "金曜日の 夜"
+      ],
+      "answer": 0,
+      "note": "Meat is cheap on Saturdays and Sundays."
+    },
+    {
+      "id": "r04",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "わたしの 家族は 四人です。父と 母と 姉と わたしです。姉は 大学生で、東京に 住んで います。わたしは 高校生です。父と 母は 大阪の 会社で 働いて います。",
+      "prompt": "東京に 住んで いるのは だれですか。",
+      "options": [
+        "姉",
+        "父",
+        "母",
+        "わたし"
+      ],
+      "answer": 0,
+      "note": "姉は大学生で、東京に住んでいます → the older sister."
+    }
+  ]
+}

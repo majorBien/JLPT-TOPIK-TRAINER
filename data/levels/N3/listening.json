@@ -1,0 +1,410 @@
+{
+  "level": "N3",
+  "source": "Original scripts written for this app in JLPT N3 format (not copied from official tests).",
+  "items": [
+    {
+      "id": "l01",
+      "type": "task",
+      "situation": "会社で 男の人と 女の人が 話して います。女の人は このあと まず 何を しますか。",
+      "question": "女の人は このあと まず 何を しますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "鈴木さん、来週の 出張の ホテル、もう 予約した？"
+        },
+        {
+          "speaker": "F",
+          "text": "いえ、まだです。先に 新幹線の 切符を 買おうと 思って いて。"
+        },
+        {
+          "speaker": "M",
+          "text": "切符は 前の 日でも 買えるけど、ホテルは すぐ いっぱいに なるから、そっちを 先に した ほうが いいよ。"
+        },
+        {
+          "speaker": "F",
+          "text": "そうですね。じゃ、そうします。あ、それから 出張の 報告書は いつまでに 出せば いいですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "帰ってから 一週間 以内で いいよ。"
+        }
+      ],
+      "options": [
+        "出張の 計画を 立てる",
+        "ホテルを 予約する",
+        "報告書を 書く",
+        "新幹線の 切符を 買う"
+      ],
+      "answer": 1,
+      "note": "ホテルはすぐいっぱいになるから、そっちを先に → she books the hotel first."
+    },
+    {
+      "id": "l02",
+      "type": "task",
+      "situation": "大学で 先生と 学生が 話して います。学生は レポートを どう 直しますか。",
+      "question": "学生は レポートを どう 直しますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "林さん、レポート 読みましたよ。内容は いいんですが、少し 長すぎますね。"
+        },
+        {
+          "speaker": "F",
+          "text": "何ページぐらいに すれば いいですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "五ページ 以内に まとめて ください。それと、使った 資料の 名前を 最後に 書いて おいて ください。"
+        },
+        {
+          "speaker": "F",
+          "text": "グラフは このままで いいですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "グラフは わかりやすいので、そのままで いいです。"
+        }
+      ],
+      "options": [
+        "短く して、資料の 名前を 書く",
+        "グラフを 増やして、資料の 名前を 消す",
+        "長く して、グラフを 消す",
+        "内容を 変えて、グラフを 直す"
+      ],
+      "answer": 0,
+      "note": "五ページ以内にまとめる + 資料の名前を書く; the graphs stay as they are."
+    },
+    {
+      "id": "l03",
+      "type": "task",
+      "situation": "電話で 女の人と 男の人が 話して います。男の人は あした 何時に どこへ 行きますか。",
+      "question": "男の人は あした 何時に どこへ 行きますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "もしもし、木村です。あしたの 打ち合わせ、場所が 変わったんですが。"
+        },
+        {
+          "speaker": "M",
+          "text": "え、会議室じゃ ないんですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "ええ、会議室が 使えなく なったので、駅前の 喫茶店に しました。"
+        },
+        {
+          "speaker": "M",
+          "text": "わかりました。時間は 二時の ままですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "いえ、お店が 混むので、一時半に 変更しました。"
+        }
+      ],
+      "options": [
+        "二時に 会議室へ 行く",
+        "二時に 駅前の 喫茶店へ 行く",
+        "一時半に 会議室へ 行く",
+        "一時半に 駅前の 喫茶店へ 行く"
+      ],
+      "answer": 3,
+      "note": "Place: 駅前の喫茶店. Time: changed to 1:30."
+    },
+    {
+      "id": "l04",
+      "type": "task",
+      "situation": "男の人と 女の人が 引っ越しの 準備に ついて 話して います。男の人は このあと 何を しますか。",
+      "question": "男の人は このあと 何を しますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "引っ越しの 荷物、もう 箱に 入れた？"
+        },
+        {
+          "speaker": "M",
+          "text": "本は 全部 入れたよ。服は あした やる つもり。"
+        },
+        {
+          "speaker": "F",
+          "text": "電気や ガスの 連絡は？"
+        },
+        {
+          "speaker": "M",
+          "text": "あ、まだだ。"
+        },
+        {
+          "speaker": "F",
+          "text": "それは 早く しないと、新しい 部屋で 使えないよ。服は わたしが やって おくから。"
+        },
+        {
+          "speaker": "M",
+          "text": "ありがとう。じゃ、すぐ 電話する。"
+        }
+      ],
+      "options": [
+        "服を 箱に 入れる",
+        "電気や ガスの 会社に 連絡する",
+        "本を 箱に 入れる",
+        "新しい 部屋を 探す"
+      ],
+      "answer": 1,
+      "note": "She will pack the clothes; he calls the electricity and gas companies right away."
+    },
+    {
+      "id": "l05",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。男の人は どうして 会社を やめましたか。",
+      "question": "男の人は どうして 会社を やめましたか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "山本さん、会社 やめたんだって？ 給料が 安かったの？"
+        },
+        {
+          "speaker": "M",
+          "text": "いや、給料は 悪くなかったよ。仕事も おもしろかったし。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃあ、どうして？ 人間関係？"
+        },
+        {
+          "speaker": "M",
+          "text": "実は、ずっと 料理の 勉強が したくて。来月から 調理の 専門学校に 通うんだ。"
+        }
+      ],
+      "options": [
+        "料理の 勉強が したいから",
+        "人間関係が 悪かったから",
+        "仕事が つまらなかったから",
+        "給料が 安かったから"
+      ],
+      "answer": 0,
+      "note": "実は、ずっと料理の勉強がしたくて → he wants to study cooking."
+    },
+    {
+      "id": "l06",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。女の人は 新しい 部屋の 何が いちばん 気に入って いますか。",
+      "question": "女の人は 新しい 部屋の 何が いちばん 気に入って いますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "新しい 部屋、どう？ 駅から 近いんだよね。"
+        },
+        {
+          "speaker": "F",
+          "text": "うん、歩いて 五分。でも それより、窓から 海が 見えるのが 最高なの。"
+        },
+        {
+          "speaker": "M",
+          "text": "へえ、いいね。広さは？"
+        },
+        {
+          "speaker": "F",
+          "text": "前の 部屋より ちょっと 狭いけど、まあ 大丈夫。"
+        }
+      ],
+      "options": [
+        "前の 部屋より 広い ところ",
+        "窓から 海が 見える ところ",
+        "駅から 近い ところ",
+        "家賃が 安い ところ"
+      ],
+      "answer": 1,
+      "note": "でもそれより、窓から海が見えるのが最高 → the sea view."
+    },
+    {
+      "id": "l07",
+      "type": "point",
+      "situation": "先生が 学生に 話して います。あしたの 試験で 使っては いけない ものは 何ですか。",
+      "question": "あしたの 試験で 使っては いけない ものは 何ですか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "あしたの 試験に ついて 説明します。辞書は 使っても いいです。ただし、電子辞書は だめです。紙の 辞書だけに して ください。それから、計算機は 使っても かまいません。携帯電話は かばんの 中に 入れて おいて ください。"
+        }
+      ],
+      "options": [
+        "鉛筆",
+        "電子辞書",
+        "計算機",
+        "紙の 辞書"
+      ],
+      "answer": 1,
+      "note": "ただし、電子辞書はだめです → electronic dictionaries are not allowed."
+    },
+    {
+      "id": "l08",
+      "type": "point",
+      "situation": "男の人と 女の人が 映画に ついて 話して います。女の人は 映画の 何が よくなかったと 言って いますか。",
+      "question": "女の人は 映画の 何が よくなかったと 言って いますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "きのうの 映画、どうだった？"
+        },
+        {
+          "speaker": "F",
+          "text": "話は おもしろかったし、俳優も よかったよ。"
+        },
+        {
+          "speaker": "M",
+          "text": "音楽は？"
+        },
+        {
+          "speaker": "F",
+          "text": "音楽も きれいだった。ただ、ちょっと 長すぎて、最後の ほうは 疲れちゃった。"
+        }
+      ],
+      "options": [
+        "話",
+        "長さ",
+        "俳優",
+        "音楽"
+      ],
+      "answer": 1,
+      "note": "ただ、ちょっと長すぎて → it was too long."
+    },
+    {
+      "id": "l09",
+      "type": "utterance",
+      "situation": "先生の 研究室に 入ります。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "失礼しました。",
+        "失礼します。",
+        "お疲れさまでした。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Entering: 失礼します. Leaving: 失礼しました."
+    },
+    {
+      "id": "l10",
+      "type": "utterance",
+      "situation": "会社で、同僚より 先に 帰ります。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "お疲れさまでした。どうぞ お先に。",
+        "ごちそうさまでした。",
+        "お先に 失礼します。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "Leaving work before others: お先に失礼します."
+    },
+    {
+      "id": "l11",
+      "type": "utterance",
+      "situation": "友達が 試験に 合格しました。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "残念だったね。",
+        "おめでとう。よかったね。",
+        "お大事に。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Congratulating: おめでとう."
+    },
+    {
+      "id": "l12",
+      "type": "utterance",
+      "situation": "上司の 荷物が 重そうです。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "お持ちしましょうか。",
+        "持って いただけますか。",
+        "お持ちに なりますか。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Humble offer: お〜しましょうか = shall I (do it for you)?"
+    },
+    {
+      "id": "l13",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "この 資料、あしたまでに コピーして おいて もらえる？"
+        }
+      ],
+      "options": [
+        "はい、わかりました。",
+        "はい、コピーして もらいました。",
+        "いいえ、コピーしなくても いいです。"
+      ],
+      "answer": 0,
+      "option_speaker": "F",
+      "note": "A request (〜てもらえる？) → accept: はい、わかりました."
+    },
+    {
+      "id": "l14",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "すみません、ここで たばこを 吸っても かまいませんか。"
+        }
+      ],
+      "options": [
+        "申し訳ありませんが、ここは 禁煙なんです。",
+        "はい、吸わなくても かまいません。",
+        "いいえ、どういたしまして。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Asking permission → polite refusal: ここは禁煙なんです."
+    },
+    {
+      "id": "l15",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "あれ、まだ 帰らないの？"
+        }
+      ],
+      "options": [
+        "うん、この 仕事が 終わったら 帰る。",
+        "ううん、まだ 来て いないよ。",
+        "うん、もう 帰ったよ。"
+      ],
+      "answer": 0,
+      "option_speaker": "F",
+      "note": "Not leaving yet → I'll go home once this work is done."
+    },
+    {
+      "id": "l16",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "週末、もし よかったら、うちに 遊びに 来ない？"
+        }
+      ],
+      "options": [
+        "いいえ、来なくても いいよ。",
+        "うん、遊びに 来たよ。",
+        "ありがとう。ぜひ 行きたいな。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "Invitation → accept: ぜひ行きたい."
+    }
+  ]
+}

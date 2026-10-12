@@ -1,0 +1,737 @@
+{
+  "level": "N5",
+  "entries": [
+    {
+      "id": "n5v001",
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning": "school",
+      "pos": "noun",
+      "example": "毎朝 八時に 学校へ 行きます。",
+      "kanji_distractors": [
+        "字校",
+        "学交"
+      ]
+    },
+    {
+      "id": "n5v002",
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": "teacher",
+      "pos": "noun",
+      "example": "山田先生は とても やさしいです。",
+      "kanji_distractors": [
+        "光生",
+        "先性"
+      ]
+    },
+    {
+      "id": "n5v003",
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "train",
+      "pos": "noun",
+      "example": "電車で 会社へ 行きます。",
+      "kanji_distractors": [
+        "雷車",
+        "電東"
+      ]
+    },
+    {
+      "id": "n5v004",
+      "word": "天気",
+      "reading": "てんき",
+      "meaning": "weather",
+      "pos": "noun",
+      "example": "今日は 天気が いいですね。",
+      "kanji_distractors": [
+        "天汽",
+        "夫気"
+      ]
+    },
+    {
+      "id": "n5v005",
+      "word": "時間",
+      "reading": "じかん",
+      "meaning": "time",
+      "pos": "noun",
+      "example": "時間が ありませんから、タクシーで 行きましょう。",
+      "kanji_distractors": [
+        "持間",
+        "時問"
+      ]
+    },
+    {
+      "id": "n5v006",
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "name",
+      "pos": "noun",
+      "example": "ここに 名前を 書いて ください。",
+      "kanji_distractors": [
+        "各前",
+        "名箭"
+      ]
+    },
+    {
+      "id": "n5v007",
+      "word": "友達",
+      "reading": "ともだち",
+      "meaning": "friend",
+      "pos": "noun",
+      "example": "日曜日に 友達と 映画を 見ました。",
+      "kanji_distractors": [
+        "友逹",
+        "反達"
+      ]
+    },
+    {
+      "id": "n5v008",
+      "word": "食べ物",
+      "reading": "たべもの",
+      "meaning": "food",
+      "pos": "noun",
+      "example": "好きな 食べ物は 何ですか。",
+      "kanji_distractors": [
+        "食ベ物",
+        "良べ物"
+      ]
+    },
+    {
+      "id": "n5v009",
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "afternoon, p.m.",
+      "pos": "noun",
+      "example": "午後 三時に 駅で 会いましょう。",
+      "kanji_distractors": [
+        "牛後",
+        "午彼"
+      ]
+    },
+    {
+      "id": "n5v010",
+      "word": "外国",
+      "reading": "がいこく",
+      "meaning": "foreign country",
+      "pos": "noun",
+      "example": "来年 外国へ 旅行に 行きます。",
+      "kanji_distractors": [
+        "外困",
+        "夕国"
+      ]
+    },
+    {
+      "id": "n5v011",
+      "word": "新聞",
+      "reading": "しんぶん",
+      "meaning": "newspaper",
+      "pos": "noun",
+      "example": "父は 毎朝 新聞を 読みます。",
+      "kanji_distractors": [
+        "親聞",
+        "新間"
+      ]
+    },
+    {
+      "id": "n5v012",
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "meaning": "bank",
+      "pos": "noun",
+      "example": "銀行は 三時に 閉まります。",
+      "kanji_distractors": [
+        "鉛行",
+        "銀衍"
+      ]
+    },
+    {
+      "id": "n5v013",
+      "word": "部屋",
+      "reading": "へや",
+      "meaning": "room",
+      "pos": "noun",
+      "example": "わたしの 部屋は 二階に あります。",
+      "kanji_distractors": [
+        "部尾",
+        "都屋"
+      ]
+    },
+    {
+      "id": "n5v014",
+      "word": "図書館",
+      "reading": "としょかん",
+      "meaning": "library",
+      "pos": "noun",
+      "example": "図書館で 本を 借りました。",
+      "kanji_distractors": [
+        "図書舘",
+        "国書館"
+      ]
+    },
+    {
+      "id": "n5v015",
+      "word": "映画",
+      "reading": "えいが",
+      "meaning": "movie",
+      "pos": "noun",
+      "example": "週末に 映画を 見に 行きませんか。",
+      "kanji_distractors": [
+        "映面",
+        "英画"
+      ]
+    },
+    {
+      "id": "n5v016",
+      "word": "料理",
+      "reading": "りょうり",
+      "meaning": "cooking, dish",
+      "pos": "noun",
+      "example": "母の 料理は とても おいしいです。",
+      "kanji_distractors": [
+        "科理",
+        "料埋"
+      ]
+    },
+    {
+      "id": "n5v017",
+      "word": "写真",
+      "reading": "しゃしん",
+      "meaning": "photograph",
+      "pos": "noun",
+      "example": "ここで 写真を とっても いいですか。",
+      "kanji_distractors": [
+        "写直",
+        "字真"
+      ]
+    },
+    {
+      "id": "n5v018",
+      "word": "先週",
+      "reading": "せんしゅう",
+      "meaning": "last week",
+      "pos": "noun",
+      "example": "先週 京都へ 行きました。",
+      "kanji_distractors": [
+        "先過",
+        "光週"
+      ]
+    },
+    {
+      "id": "n5v019",
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day",
+      "pos": "noun",
+      "example": "毎日 日本語を 勉強します。",
+      "kanji_distractors": [
+        "母日",
+        "毎曰"
+      ]
+    },
+    {
+      "id": "n5v020",
+      "word": "会社",
+      "reading": "かいしゃ",
+      "meaning": "company",
+      "pos": "noun",
+      "example": "父の 会社は 駅の 前に あります。",
+      "kanji_distractors": [
+        "会杜",
+        "合社"
+      ]
+    },
+    {
+      "id": "n5v021",
+      "word": "お金",
+      "reading": "おかね",
+      "meaning": "money",
+      "pos": "noun",
+      "example": "今日は お金が あまり ありません。",
+      "kanji_distractors": [
+        "お全",
+        "お釡"
+      ]
+    },
+    {
+      "id": "n5v022",
+      "word": "水",
+      "reading": "みず",
+      "meaning": "water",
+      "pos": "noun",
+      "example": "水を 一ぱい ください。",
+      "kanji_distractors": [
+        "氷",
+        "永"
+      ]
+    },
+    {
+      "id": "n5v023",
+      "word": "山",
+      "reading": "やま",
+      "meaning": "mountain",
+      "pos": "noun",
+      "example": "あの 山は とても 高いです。",
+      "kanji_distractors": [
+        "出",
+        "由"
+      ]
+    },
+    {
+      "id": "n5v024",
+      "word": "雨",
+      "reading": "あめ",
+      "meaning": "rain",
+      "pos": "noun",
+      "example": "あしたは 雨が 降るでしょう。",
+      "kanji_distractors": [
+        "両",
+        "雪"
+      ]
+    },
+    {
+      "id": "n5v025",
+      "word": "駅",
+      "reading": "えき",
+      "meaning": "station",
+      "pos": "noun",
+      "example": "駅まで 歩いて 十分です。",
+      "kanji_distractors": [
+        "馬",
+        "訳"
+      ]
+    },
+    {
+      "id": "n5v026",
+      "word": "道",
+      "reading": "みち",
+      "meaning": "road, way",
+      "pos": "noun",
+      "example": "この 道を まっすぐ 行って ください。",
+      "kanji_distractors": [
+        "遣",
+        "首"
+      ]
+    },
+    {
+      "id": "n5v027",
+      "word": "車",
+      "reading": "くるま",
+      "meaning": "car",
+      "pos": "noun",
+      "example": "父は 新しい 車を 買いました。",
+      "kanji_distractors": [
+        "東",
+        "単"
+      ]
+    },
+    {
+      "id": "n5v028",
+      "word": "家族",
+      "reading": "かぞく",
+      "meaning": "family",
+      "pos": "noun",
+      "example": "わたしの 家族は 五人です。",
+      "kanji_distractors": [
+        "家旅",
+        "宅族"
+      ]
+    },
+    {
+      "id": "n5v029",
+      "word": "言葉",
+      "reading": "ことば",
+      "meaning": "word, language",
+      "pos": "noun",
+      "example": "この 言葉は どういう 意味ですか。",
+      "kanji_distractors": [
+        "言菜",
+        "語葉"
+      ]
+    },
+    {
+      "id": "n5v030",
+      "word": "来年",
+      "reading": "らいねん",
+      "meaning": "next year",
+      "pos": "noun",
+      "example": "来年 日本へ 行きたいです。",
+      "kanji_distractors": [
+        "来午",
+        "米年"
+      ]
+    },
+    {
+      "id": "n5v031",
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go",
+      "pos": "verb",
+      "example": "あした 銀行へ 行く つもりです。",
+      "kanji_distractors": [
+        "往く",
+        "仃く"
+      ]
+    },
+    {
+      "id": "n5v032",
+      "word": "来る",
+      "reading": "くる",
+      "meaning": "to come",
+      "pos": "verb",
+      "example": "母は 土曜日に 来ると 言いました。",
+      "kanji_distractors": [
+        "耒る",
+        "未る"
+      ]
+    },
+    {
+      "id": "n5v033",
+      "word": "見る",
+      "reading": "みる",
+      "meaning": "to see, to watch",
+      "pos": "verb",
+      "example": "夜 テレビを 見る のが 好きです。",
+      "kanji_distractors": [
+        "貝る",
+        "兄る"
+      ]
+    },
+    {
+      "id": "n5v034",
+      "word": "書く",
+      "reading": "かく",
+      "meaning": "to write",
+      "pos": "verb",
+      "example": "手紙を 書く 時間が ありません。",
+      "kanji_distractors": [
+        "晝く",
+        "畫く"
+      ]
+    },
+    {
+      "id": "n5v035",
+      "word": "読む",
+      "reading": "よむ",
+      "meaning": "to read",
+      "pos": "verb",
+      "example": "寝る 前に 本を 読む のが 好きです。",
+      "kanji_distractors": [
+        "続む",
+        "説む"
+      ]
+    },
+    {
+      "id": "n5v036",
+      "word": "飲む",
+      "reading": "のむ",
+      "meaning": "to drink",
+      "pos": "verb",
+      "example": "朝 コーヒーを 飲む 人は 多いです。",
+      "kanji_distractors": [
+        "欽む",
+        "飯む"
+      ]
+    },
+    {
+      "id": "n5v037",
+      "word": "買う",
+      "reading": "かう",
+      "meaning": "to buy",
+      "pos": "verb",
+      "example": "駅の 前の 店で パンを 買う つもりです。",
+      "kanji_distractors": [
+        "貸う",
+        "員う"
+      ]
+    },
+    {
+      "id": "n5v038",
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "to listen, to ask",
+      "pos": "verb",
+      "example": "音楽を 聞く のが 好きです。",
+      "kanji_distractors": [
+        "間く",
+        "問く"
+      ]
+    },
+    {
+      "id": "n5v039",
+      "word": "話す",
+      "reading": "はなす",
+      "meaning": "to speak",
+      "pos": "verb",
+      "example": "日本語で 話す のは まだ むずかしいです。",
+      "kanji_distractors": [
+        "活す",
+        "語す"
+      ]
+    },
+    {
+      "id": "n5v040",
+      "word": "休む",
+      "reading": "やすむ",
+      "meaning": "to rest, to be absent",
+      "pos": "verb",
+      "example": "頭が 痛いので、学校を 休む つもりです。",
+      "kanji_distractors": [
+        "体む",
+        "林む"
+      ]
+    },
+    {
+      "id": "n5v041",
+      "word": "待つ",
+      "reading": "まつ",
+      "meaning": "to wait",
+      "pos": "verb",
+      "example": "バスを 待つ 人が たくさん います。",
+      "kanji_distractors": [
+        "持つ",
+        "侍つ"
+      ]
+    },
+    {
+      "id": "n5v042",
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "to go home",
+      "pos": "verb",
+      "example": "何時に 家へ 帰る つもりですか。",
+      "kanji_distractors": [
+        "掃る",
+        "婦る"
+      ]
+    },
+    {
+      "id": "n5v043",
+      "word": "入る",
+      "reading": "はいる",
+      "meaning": "to enter",
+      "pos": "verb",
+      "example": "部屋に 入る 前に、くつを ぬいで ください。",
+      "kanji_distractors": [
+        "人る",
+        "八る"
+      ]
+    },
+    {
+      "id": "n5v044",
+      "word": "起きる",
+      "reading": "おきる",
+      "meaning": "to get up",
+      "pos": "verb",
+      "example": "あしたは 五時に 起きる つもりです。",
+      "kanji_distractors": [
+        "赴きる",
+        "超きる"
+      ]
+    },
+    {
+      "id": "n5v045",
+      "word": "教える",
+      "reading": "おしえる",
+      "meaning": "to teach",
+      "pos": "verb",
+      "example": "姉の 仕事は 英語を 教える ことです。",
+      "kanji_distractors": [
+        "孝える",
+        "数える"
+      ]
+    },
+    {
+      "id": "n5v046",
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "to understand",
+      "pos": "verb",
+      "example": "この 問題が 分かる 人は いますか。",
+      "kanji_distractors": [
+        "兮かる",
+        "公かる"
+      ]
+    },
+    {
+      "id": "n5v047",
+      "word": "高い",
+      "reading": "たかい",
+      "meaning": "expensive, tall",
+      "pos": "i-adj",
+      "example": "この かばんは とても 高いです。",
+      "kanji_distractors": [
+        "商い",
+        "亮い"
+      ]
+    },
+    {
+      "id": "n5v048",
+      "word": "新しい",
+      "reading": "あたらしい",
+      "meaning": "new",
+      "pos": "i-adj",
+      "example": "新しい くつを 買いました。",
+      "kanji_distractors": [
+        "親しい",
+        "新らしい"
+      ]
+    },
+    {
+      "id": "n5v049",
+      "word": "暑い",
+      "reading": "あつい",
+      "meaning": "hot (weather)",
+      "pos": "i-adj",
+      "example": "今日は とても 暑いですね。",
+      "kanji_distractors": [
+        "署い",
+        "著い"
+      ]
+    },
+    {
+      "id": "n5v050",
+      "word": "安い",
+      "reading": "やすい",
+      "meaning": "cheap",
+      "pos": "i-adj",
+      "example": "この 店の 野菜は 安いです。",
+      "kanji_distractors": [
+        "案い",
+        "女い"
+      ]
+    },
+    {
+      "id": "n5v051",
+      "word": "寒い",
+      "reading": "さむい",
+      "meaning": "cold (weather)",
+      "pos": "i-adj",
+      "example": "冬は とても 寒いです。",
+      "kanji_distractors": [
+        "塞い",
+        "実い"
+      ]
+    },
+    {
+      "id": "n5v052",
+      "word": "長い",
+      "reading": "ながい",
+      "meaning": "long",
+      "pos": "i-adj",
+      "example": "この 川は とても 長いです。",
+      "kanji_distractors": [
+        "張い",
+        "帳い"
+      ]
+    },
+    {
+      "id": "n5v053",
+      "word": "古い",
+      "reading": "ふるい",
+      "meaning": "old (things)",
+      "pos": "i-adj",
+      "example": "これは 古い お寺です。",
+      "kanji_distractors": [
+        "占い",
+        "固い"
+      ]
+    },
+    {
+      "id": "n5v054",
+      "word": "元気",
+      "reading": "げんき",
+      "meaning": "healthy, energetic",
+      "pos": "na-adj",
+      "example": "お父さんは 元気ですか。",
+      "kanji_distractors": [
+        "元汽",
+        "完気"
+      ]
+    },
+    {
+      "id": "n5v055",
+      "word": "静か",
+      "reading": "しずか",
+      "meaning": "quiet",
+      "pos": "na-adj",
+      "example": "図書館の 中は 静かです。",
+      "kanji_distractors": [
+        "清か",
+        "浄か"
+      ]
+    },
+    {
+      "id": "n5v056",
+      "word": "有名",
+      "reading": "ゆうめい",
+      "meaning": "famous",
+      "pos": "na-adj",
+      "example": "この 店は とても 有名です。",
+      "kanji_distractors": [
+        "右名",
+        "有各"
+      ]
+    },
+    {
+      "id": "n5v057",
+      "word": "好き",
+      "reading": "すき",
+      "meaning": "liked",
+      "pos": "na-adj",
+      "example": "わたしは 犬が 好きです。",
+      "kanji_distractors": [
+        "娃き",
+        "妤き"
+      ]
+    },
+    {
+      "id": "n5v058",
+      "word": "便利",
+      "reading": "べんり",
+      "meaning": "convenient",
+      "pos": "na-adj",
+      "example": "駅の 近くは 便利です。",
+      "kanji_distractors": [
+        "使利",
+        "便科"
+      ]
+    },
+    {
+      "id": "n5v059",
+      "word": "少し",
+      "reading": "すこし",
+      "meaning": "a little",
+      "pos": "adverb",
+      "example": "少し 待って ください。",
+      "kanji_distractors": [
+        "小し",
+        "沙し"
+      ]
+    },
+    {
+      "id": "n5v060",
+      "word": "全部",
+      "reading": "ぜんぶ",
+      "meaning": "all, everything",
+      "pos": "adverb",
+      "example": "ケーキを 全部 食べました。",
+      "kanji_distractors": [
+        "金部",
+        "全都"
+      ]
+    },
+    {
+      "id": "n5v061",
+      "word": "一番",
+      "reading": "いちばん",
+      "meaning": "most, number one",
+      "pos": "adverb",
+      "example": "果物の 中で りんごが 一番 好きです。",
+      "kanji_distractors": [
+        "一香",
+        "一蕃"
+      ]
+    }
+  ]
+}

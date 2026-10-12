@@ -1,0 +1,2475 @@
+{
+  "level": "N4",
+  "questions": [
+    {
+      "id": "g01",
+      "type": "grammar_fill",
+      "grammar_point": "〜ようになる",
+      "prompt": "日本に 来てから、納豆が 食べられる（　　）なりました。",
+      "options": [
+        "ように",
+        "ために",
+        "そうに",
+        "ことに"
+      ],
+      "answer": 0,
+      "note": "〜ようになる = change of ability/habit. 'Since coming to Japan I've become able to eat natto.'"
+    },
+    {
+      "id": "g02",
+      "type": "grammar_fill",
+      "grammar_point": "〜ことにする",
+      "prompt": "健康の ために、毎朝 走る（　　）しました。",
+      "options": [
+        "ことに",
+        "ことが",
+        "ものに",
+        "そうに"
+      ],
+      "answer": 0,
+      "note": "〜ことにする = decide to do. 'For my health, I decided to run every morning.'"
+    },
+    {
+      "id": "g03",
+      "type": "grammar_fill",
+      "grammar_point": "〜てしまう",
+      "prompt": "大切な 書類を 電車に 忘れて（　　）。",
+      "options": [
+        "しまいました",
+        "おきました",
+        "みました",
+        "あげました"
+      ],
+      "answer": 0,
+      "note": "〜てしまう = something done (regrettably) / completely. 'I (unfortunately) left important documents on the train.'"
+    },
+    {
+      "id": "g04",
+      "type": "grammar_fill",
+      "grammar_point": "〜ておく",
+      "prompt": "会議の 前に、資料を コピーして（　　）ください。",
+      "options": [
+        "おいて",
+        "しまって",
+        "みて",
+        "あって"
+      ],
+      "answer": 0,
+      "note": "〜ておく = do in advance. 'Please copy the materials before the meeting.'"
+    },
+    {
+      "id": "g05",
+      "type": "grammar_fill",
+      "grammar_point": "〜そうだ（様態）",
+      "prompt": "空が 暗いですね。雨が 降り（　　）です。",
+      "options": [
+        "そう",
+        "よう",
+        "らしい",
+        "みたい"
+      ],
+      "answer": 0,
+      "note": "Masu-stem + そうだ = looks like it's about to. 'The sky is dark. It looks like rain.'"
+    },
+    {
+      "id": "g06",
+      "type": "grammar_fill",
+      "grammar_point": "〜そうだ（伝聞）",
+      "prompt": "天気予報に よると、明日は 雪が 降る（　　）。",
+      "options": [
+        "そうです",
+        "ことです",
+        "ところです",
+        "ばかりです"
+      ],
+      "answer": 0,
+      "note": "Plain form + そうだ = I heard that. 〜によると pairs with hearsay. 'According to the forecast, it will snow tomorrow.'"
+    },
+    {
+      "id": "g07",
+      "type": "grammar_fill",
+      "grammar_point": "〜ば",
+      "prompt": "この 薬を 飲め（　　）、すぐ よく なりますよ。",
+      "options": [
+        "ば",
+        "たら",
+        "て",
+        "と"
+      ],
+      "answer": 0,
+      "note": "Conditional ば: 飲む → 飲めば. 'If you take this medicine you'll soon get better.'"
+    },
+    {
+      "id": "g08",
+      "type": "grammar_fill",
+      "grammar_point": "〜たら",
+      "prompt": "駅に 着い（　　）、電話して ください。",
+      "options": [
+        "たら",
+        "ば",
+        "と",
+        "ても"
+      ],
+      "answer": 0,
+      "note": "〜たら = when/after (one-time future event). 着く → 着いたら. 'Please call me when you arrive at the station.'"
+    },
+    {
+      "id": "g09",
+      "type": "grammar_fill",
+      "grammar_point": "〜なら",
+      "prompt": "京都へ 行く（　　）、秋が いいですよ。",
+      "options": [
+        "なら",
+        "たら",
+        "ので",
+        "のに"
+      ],
+      "answer": 0,
+      "note": "〜なら = if (that's the case) — giving advice on a topic. 'If you're going to Kyoto, autumn is good.'"
+    },
+    {
+      "id": "g10",
+      "type": "grammar_fill",
+      "grammar_point": "〜のに",
+      "prompt": "たくさん 勉強した（　　）、試験に 落ちて しまいました。",
+      "options": [
+        "のに",
+        "ので",
+        "から",
+        "ために"
+      ],
+      "answer": 0,
+      "note": "〜のに = even though (contrary to expectation). 'Even though I studied a lot, I failed the exam.'"
+    },
+    {
+      "id": "g11",
+      "type": "grammar_fill",
+      "grammar_point": "〜ために（目的）",
+      "prompt": "日本の 会社で 働く（　　）、日本語を 勉強して います。",
+      "options": [
+        "ために",
+        "ばかりに",
+        "ところに",
+        "までに"
+      ],
+      "answer": 0,
+      "note": "Volitional verb + ために = in order to. 'I study Japanese in order to work at a Japanese company.'"
+    },
+    {
+      "id": "g12",
+      "type": "grammar_fill",
+      "grammar_point": "〜ながら",
+      "prompt": "音楽を 聞き（　　）、宿題を します。",
+      "options": [
+        "ながら",
+        "ても",
+        "たり",
+        "ので"
+      ],
+      "answer": 0,
+      "note": "Masu-stem + ながら = while doing. 'I do homework while listening to music.'"
+    },
+    {
+      "id": "g13",
+      "type": "grammar_fill",
+      "grammar_point": "受身形",
+      "prompt": "電車の 中で、となりの 人に 足を ふま（　　）、とても 痛かったです。",
+      "options": [
+        "れて",
+        "せて",
+        "られて",
+        "させて"
+      ],
+      "answer": 0,
+      "note": "Passive (suffering passive): ふむ → ふまれる. 'On the train, the person next to me stepped on my foot.'"
+    },
+    {
+      "id": "g14",
+      "type": "grammar_fill",
+      "grammar_point": "使役形",
+      "prompt": "わたしは 毎日 子どもに 野菜を 食べ（　　）います。体に いいですから。",
+      "options": [
+        "させて",
+        "られて",
+        "させられて",
+        "たがって"
+      ],
+      "answer": 0,
+      "note": "Causative: 食べる → 食べさせる (make/let someone eat). 'I make my child eat vegetables every day.'"
+    },
+    {
+      "id": "g15",
+      "type": "grammar_fill",
+      "grammar_point": "〜てもいい",
+      "prompt": "すみません、この ペンを 使って（　　）か。",
+      "options": [
+        "もいいです",
+        "はいけません",
+        "おきます",
+        "しまいます"
+      ],
+      "answer": 0,
+      "note": "〜てもいいですか = may I…? 'Excuse me, may I use this pen?'"
+    },
+    {
+      "id": "g16",
+      "type": "grammar_fill",
+      "grammar_point": "〜なければならない",
+      "prompt": "明日は 朝 早く 起き（　　）なりません。",
+      "options": [
+        "なければ",
+        "なくても",
+        "ないで",
+        "なくて"
+      ],
+      "answer": 0,
+      "note": "〜なければならない = must. 'Tomorrow I have to get up early.'"
+    },
+    {
+      "id": "g17",
+      "type": "grammar_fill",
+      "grammar_point": "〜なくてもいい",
+      "prompt": "明日は 休みなので、会社へ 行か（　　）いいです。",
+      "options": [
+        "なくても",
+        "なくては",
+        "ないので",
+        "ないと"
+      ],
+      "answer": 0,
+      "note": "〜なくてもいい = don't have to. 'Tomorrow is a day off, so I don't have to go to the office.'"
+    },
+    {
+      "id": "g18",
+      "type": "grammar_fill",
+      "grammar_point": "〜つもりだ",
+      "prompt": "来年 日本へ 留学する（　　）です。",
+      "options": [
+        "つもり",
+        "ばかり",
+        "ところ",
+        "まま"
+      ],
+      "answer": 0,
+      "note": "Dictionary form + つもりだ = intend to. 'I intend to study abroad in Japan next year.'"
+    },
+    {
+      "id": "g19",
+      "type": "grammar_fill",
+      "grammar_point": "〜たことがある",
+      "prompt": "わたしは 富士山に 登った（　　）が あります。",
+      "options": [
+        "こと",
+        "もの",
+        "ところ",
+        "とき"
+      ],
+      "answer": 0,
+      "note": "〜たことがある = have experienced. 'I have climbed Mt. Fuji.'"
+    },
+    {
+      "id": "g20",
+      "type": "grammar_fill",
+      "grammar_point": "〜てくれる",
+      "prompt": "友だちが わたしに 本を 貸して（　　）。",
+      "options": [
+        "くれました",
+        "あげました",
+        "もらいました",
+        "いただきました"
+      ],
+      "answer": 0,
+      "note": "Someone does something for ME → 〜てくれる. 'My friend lent me a book.'"
+    },
+    {
+      "id": "g21",
+      "type": "grammar_fill",
+      "grammar_point": "〜てもらう",
+      "prompt": "わたしは 先生に 作文を なおして（　　）。",
+      "options": [
+        "もらいました",
+        "くれました",
+        "あげました",
+        "さしあげました"
+      ],
+      "answer": 0,
+      "note": "I receive an action from someone (に) → 〜てもらう. 'I had my teacher correct my essay.'"
+    },
+    {
+      "id": "g22",
+      "type": "grammar_fill",
+      "grammar_point": "〜かどうか",
+      "prompt": "パーティーに 行く（　　）、まだ わかりません。",
+      "options": [
+        "かどうか",
+        "ことか",
+        "のに",
+        "ように"
+      ],
+      "answer": 0,
+      "note": "〜かどうか = whether or not. 'I don't know yet whether I'll go to the party.'"
+    },
+    {
+      "id": "g23",
+      "type": "grammar_fill",
+      "grammar_point": "〜ようにする",
+      "prompt": "毎日 野菜を 食べる（　　）して います。",
+      "options": [
+        "ように",
+        "ために",
+        "そうに",
+        "までに"
+      ],
+      "answer": 0,
+      "note": "〜ようにしている = make an effort to (habitually). 'I try to eat vegetables every day.'"
+    },
+    {
+      "id": "g24",
+      "type": "grammar_fill",
+      "grammar_point": "〜はずだ",
+      "prompt": "田中さんは 今日 来る（　　）ですが、まだ 来ません。",
+      "options": [
+        "はず",
+        "つもり",
+        "ばかり",
+        "ところ"
+      ],
+      "answer": 0,
+      "note": "〜はずだ = should be (expectation based on reason). 'Tanaka-san should come today, but hasn't yet.'"
+    },
+    {
+      "id": "g25",
+      "type": "grammar_fill",
+      "grammar_point": "〜ところだ",
+      "prompt": "今 ちょうど 家を 出る（　　）です。",
+      "options": [
+        "ところ",
+        "ばかり",
+        "はず",
+        "こと"
+      ],
+      "answer": 0,
+      "note": "Dictionary form + ところだ = just about to. 'I'm just about to leave the house.'"
+    },
+    {
+      "id": "g26",
+      "type": "grammar_fill",
+      "grammar_point": "〜たばかり",
+      "prompt": "さっき 昼ご飯を 食べた（　　）なので、おなかが いっぱいです。",
+      "options": [
+        "ばかり",
+        "ながら",
+        "ように",
+        "ために"
+      ],
+      "answer": 0,
+      "note": "〜たばかり = just did. 'I just ate lunch, so I'm full.'"
+    },
+    {
+      "id": "g27",
+      "type": "grammar_fill",
+      "grammar_point": "尊敬語",
+      "prompt": "社長は もう お帰りに（　　）。",
+      "options": [
+        "なりました",
+        "しました",
+        "いたしました",
+        "ございました"
+      ],
+      "answer": 0,
+      "note": "Honorific: お + stem + になる (raising the other's action). 'The president has already gone home.'"
+    },
+    {
+      "id": "g28",
+      "type": "grammar_fill",
+      "grammar_point": "謙譲語",
+      "prompt": "明日 わたしが そちらへ（　　）。",
+      "options": [
+        "うかがいます",
+        "いらっしゃいます",
+        "おいでになります",
+        "めしあがります"
+      ],
+      "answer": 0,
+      "note": "Humble form of 行く/訪ねる = うかがう (my own action). 'I will visit you tomorrow.'"
+    },
+    {
+      "id": "g29",
+      "type": "grammar_fill",
+      "grammar_point": "〜し",
+      "prompt": "この 店は 安い（　　）、おいしいし、よく 来ます。",
+      "options": [
+        "し",
+        "から",
+        "のに",
+        "ので"
+      ],
+      "answer": 0,
+      "note": "〜し、〜し = listing reasons. 'This shop is cheap, tasty, and so I come often.'"
+    },
+    {
+      "id": "g30",
+      "type": "grammar_fill",
+      "grammar_point": "〜すぎる",
+      "prompt": "昨日 お酒を 飲み（　　）、頭が 痛いです。",
+      "options": [
+        "すぎて",
+        "やすくて",
+        "にくくて",
+        "ながら"
+      ],
+      "answer": 0,
+      "note": "Stem + すぎる = too much. 'I drank too much yesterday, so my head hurts.'"
+    },
+    {
+      "id": "g31",
+      "type": "grammar_fill",
+      "grammar_point": "〜やすい",
+      "prompt": "この ペンは 軽くて 書き（　　）です。",
+      "options": [
+        "やすい",
+        "そうに",
+        "ながら",
+        "ように"
+      ],
+      "answer": 0,
+      "note": "Stem + やすい = easy to do. 'This pen is light and easy to write with.'"
+    },
+    {
+      "id": "g32",
+      "type": "grammar_fill",
+      "grammar_point": "〜と（条件）",
+      "prompt": "この ボタンを 押す（　　）、お茶が 出ます。",
+      "options": [
+        "と",
+        "なら",
+        "ても",
+        "のに"
+      ],
+      "answer": 0,
+      "note": "〜と = whenever/natural consequence. 'When you press this button, tea comes out.'"
+    },
+    {
+      "id": "g33",
+      "type": "grammar_fill",
+      "grammar_point": "〜てみる",
+      "prompt": "この 服、着て（　　）も いいですか。",
+      "options": [
+        "みて",
+        "おいて",
+        "しまって",
+        "あって"
+      ],
+      "answer": 0,
+      "note": "〜てみる = try doing. 'May I try on these clothes?'"
+    },
+    {
+      "id": "g34",
+      "type": "grammar_fill",
+      "grammar_point": "〜ても",
+      "prompt": "雨が 降って（　　）、試合は 行います。",
+      "options": [
+        "も",
+        "から",
+        "ので",
+        "は"
+      ],
+      "answer": 0,
+      "note": "〜ても = even if. 'Even if it rains, the match will be held.'"
+    },
+    {
+      "id": "g35",
+      "type": "grammar_fill",
+      "grammar_point": "〜ことになる",
+      "prompt": "来月から 大阪の 支社で 働く（　　）。",
+      "options": [
+        "ことに なりました",
+        "ことに しました",
+        "ように しました",
+        "ために なりました"
+      ],
+      "answer": 0,
+      "note": "〜ことになる = it has been decided (by others/circumstances) that ..."
+    },
+    {
+      "id": "g36",
+      "type": "grammar_fill",
+      "grammar_point": "〜ことになる",
+      "prompt": "会議は あしたの 十時から 始める（　　） います。",
+      "options": [
+        "ことに なって",
+        "ように なって",
+        "ために なって",
+        "そうに なって"
+      ],
+      "answer": 0,
+      "note": "〜ことになっている = it is arranged/scheduled that ..."
+    },
+    {
+      "id": "g37",
+      "type": "grammar_fill",
+      "grammar_point": "可能形",
+      "prompt": "わたしは 漢字が 三百ぐらい（　　）。",
+      "options": [
+        "書けます",
+        "書かれます",
+        "書かせます",
+        "書きます"
+      ],
+      "answer": 0,
+      "note": "Potential form: 書く → 書ける (can write)."
+    },
+    {
+      "id": "g38",
+      "type": "grammar_fill",
+      "grammar_point": "可能形",
+      "prompt": "この 店では カードが（　　）か。",
+      "options": [
+        "使えます",
+        "使います",
+        "使って",
+        "使わせます"
+      ],
+      "answer": 0,
+      "note": "Potential form: 使う → 使える."
+    },
+    {
+      "id": "g39",
+      "type": "grammar_fill",
+      "grammar_point": "〜ことができる",
+      "prompt": "この 部屋で たばこを 吸う（　　）。",
+      "options": [
+        "ことは できません",
+        "ことは なりません",
+        "ことに しません",
+        "ことに なりません"
+      ],
+      "answer": 0,
+      "note": "〜ことができる = can, be allowed to."
+    },
+    {
+      "id": "g40",
+      "type": "grammar_fill",
+      "grammar_point": "〜（よ）うと思う",
+      "prompt": "夏休みに 富士山に（　　）と 思って います。",
+      "options": [
+        "登ろう",
+        "登る",
+        "登った",
+        "登れ"
+      ],
+      "answer": 0,
+      "note": "Volitional + と思う = I'm thinking of doing."
+    },
+    {
+      "id": "g41",
+      "type": "grammar_fill",
+      "grammar_point": "〜（よ）うと思う",
+      "prompt": "来年から 日本語の 学校に（　　）と 思います。",
+      "options": [
+        "通おう",
+        "通い",
+        "通え",
+        "通わ"
+      ],
+      "answer": 0,
+      "note": "Volitional of 通う is 通おう."
+    },
+    {
+      "id": "g42",
+      "type": "grammar_fill",
+      "grammar_point": "〜てある",
+      "prompt": "窓が 開けて（　　）。だれが 開けたのでしょう。",
+      "options": [
+        "あります",
+        "います",
+        "おきます",
+        "しまいます"
+      ],
+      "answer": 0,
+      "note": "他動詞 + てある = a state left by someone's action."
+    },
+    {
+      "id": "g43",
+      "type": "grammar_fill",
+      "grammar_point": "〜てある",
+      "prompt": "会議室の 机の 上に 資料が 置いて（　　）。",
+      "options": [
+        "あります",
+        "います",
+        "みます",
+        "きます"
+      ],
+      "answer": 0,
+      "note": "置いてある = has been placed (on purpose)."
+    },
+    {
+      "id": "g44",
+      "type": "grammar_fill",
+      "grammar_point": "〜ている（結果）",
+      "prompt": "ドアが 開いて（　　）。風が 入って きます。",
+      "options": [
+        "います",
+        "あります",
+        "おきます",
+        "みます"
+      ],
+      "answer": 0,
+      "note": "自動詞 + ている = resulting state (the door is open)."
+    },
+    {
+      "id": "g45",
+      "type": "grammar_fill",
+      "grammar_point": "〜てあげる",
+      "prompt": "わたしは 妹に 本を 読んで（　　）。",
+      "options": [
+        "あげました",
+        "くれました",
+        "もらいました",
+        "いただきました"
+      ],
+      "answer": 0,
+      "note": "〜てあげる = do something for someone else."
+    },
+    {
+      "id": "g46",
+      "type": "grammar_fill",
+      "grammar_point": "〜てさしあげる",
+      "prompt": "先生の 荷物を 持って（　　）。",
+      "options": [
+        "さしあげました",
+        "くださいました",
+        "いただきました",
+        "くれました"
+      ],
+      "answer": 0,
+      "note": "〜てさしあげる = humble form of 〜てあげる."
+    },
+    {
+      "id": "g47",
+      "type": "grammar_fill",
+      "grammar_point": "〜ていただく",
+      "prompt": "先生に 作文を 直して（　　）。",
+      "options": [
+        "いただきました",
+        "さしあげました",
+        "くださいました",
+        "あげました"
+      ],
+      "answer": 0,
+      "note": "〜ていただく = humble form of 〜てもらう."
+    },
+    {
+      "id": "g48",
+      "type": "grammar_fill",
+      "grammar_point": "〜てくださる",
+      "prompt": "社長が わたしたちに お茶を いれて（　　）。",
+      "options": [
+        "くださいました",
+        "いただきました",
+        "さしあげました",
+        "あげました"
+      ],
+      "answer": 0,
+      "note": "〜てくださる = honorific form of 〜てくれる."
+    },
+    {
+      "id": "g49",
+      "type": "grammar_fill",
+      "grammar_point": "〜てほしい",
+      "prompt": "母に もっと ゆっくり 休んで（　　）。",
+      "options": [
+        "ほしいです",
+        "たいです",
+        "あげます",
+        "みたいです"
+      ],
+      "answer": 0,
+      "note": "〜てほしい = I want someone else to do."
+    },
+    {
+      "id": "g50",
+      "type": "grammar_fill",
+      "grammar_point": "〜てほしい",
+      "prompt": "この 仕事は あしたまでに 田中さんに やって（　　）んですが。",
+      "options": [
+        "ほしい",
+        "くれたい",
+        "おきたい",
+        "ありたい"
+      ],
+      "answer": 0,
+      "note": "〜てほしいんですが = soft request."
+    },
+    {
+      "id": "g51",
+      "type": "grammar_fill",
+      "grammar_point": "〜させてください",
+      "prompt": "気分が 悪いので、少し（　　） ください。",
+      "options": [
+        "休ませて",
+        "休んで",
+        "休まれて",
+        "休まさせて"
+      ],
+      "answer": 0,
+      "note": "使役 + てください = please let me ..."
+    },
+    {
+      "id": "g52",
+      "type": "grammar_fill",
+      "grammar_point": "〜させてください",
+      "prompt": "その 仕事は ぜひ わたしに（　　） ください。",
+      "options": [
+        "やらせて",
+        "やられて",
+        "やって",
+        "やらさせて"
+      ],
+      "answer": 0,
+      "note": "やらせてください = please let me do it."
+    },
+    {
+      "id": "g53",
+      "type": "grammar_fill",
+      "grammar_point": "使役受身",
+      "prompt": "子どものころ、母に 嫌いな 野菜を（　　）。",
+      "options": [
+        "食べさせられました",
+        "食べさせました",
+        "食べさせて もらいました",
+        "食べられさせました"
+      ],
+      "answer": 0,
+      "note": "使役受身 = be made to do (against one's will)."
+    },
+    {
+      "id": "g54",
+      "type": "grammar_fill",
+      "grammar_point": "使役受身",
+      "prompt": "部長に 夜 遅くまで（　　）。",
+      "options": [
+        "働かされました",
+        "働かせました",
+        "働かれました",
+        "働けました"
+      ],
+      "answer": 0,
+      "note": "働く → 働かされる (made to work)."
+    },
+    {
+      "id": "g55",
+      "type": "grammar_fill",
+      "grammar_point": "〜らしい",
+      "prompt": "天気予報に よると、あしたは 雪が 降る（　　）。",
+      "options": [
+        "らしいです",
+        "ましょう",
+        "たいです",
+        "ことです"
+      ],
+      "answer": 0,
+      "note": "〜らしい = I hear / it seems (from information)."
+    },
+    {
+      "id": "g56",
+      "type": "grammar_fill",
+      "grammar_point": "〜らしい",
+      "prompt": "今日は 春（　　） 暖かい 日ですね。",
+      "options": [
+        "らしい",
+        "そうな",
+        "ような",
+        "ために"
+      ],
+      "answer": 0,
+      "note": "名詞 + らしい = typical of, just like (spring weather)."
+    },
+    {
+      "id": "g57",
+      "type": "grammar_fill",
+      "grammar_point": "〜ようだ",
+      "prompt": "電気が ついて いますね。だれか いる（　　）。",
+      "options": [
+        "ようです",
+        "そうに",
+        "らしく",
+        "ために"
+      ],
+      "answer": 0,
+      "note": "〜ようだ = it seems (judging from what I see)."
+    },
+    {
+      "id": "g58",
+      "type": "grammar_fill",
+      "grammar_point": "〜ようだ",
+      "prompt": "この 雪は まるで 綿の（　　）。",
+      "options": [
+        "ようです",
+        "そうです",
+        "らしいです",
+        "ためです"
+      ],
+      "answer": 0,
+      "note": "まるで〜のようだ = just like."
+    },
+    {
+      "id": "g59",
+      "type": "grammar_fill",
+      "grammar_point": "〜みたいだ",
+      "prompt": "あの 二人は けんかを した（　　）。話して いません。",
+      "options": [
+        "みたいです",
+        "そうな",
+        "ために",
+        "ような"
+      ],
+      "answer": 0,
+      "note": "〜みたいだ = casual 〜ようだ."
+    },
+    {
+      "id": "g60",
+      "type": "grammar_fill",
+      "grammar_point": "〜かもしれない",
+      "prompt": "空が 暗いですね。午後から 雨が 降る（　　）。",
+      "options": [
+        "かもしれません",
+        "ばかりです",
+        "つもりです",
+        "ことに します"
+      ],
+      "answer": 0,
+      "note": "〜かもしれない = might."
+    },
+    {
+      "id": "g61",
+      "type": "grammar_fill",
+      "grammar_point": "〜だろう／でしょう",
+      "prompt": "あしたは たぶん 晴れる（　　）。",
+      "options": [
+        "でしょう",
+        "ましょう",
+        "ください",
+        "ません"
+      ],
+      "answer": 0,
+      "note": "たぶん〜でしょう = probably."
+    },
+    {
+      "id": "g62",
+      "type": "grammar_fill",
+      "grammar_point": "〜にくい",
+      "prompt": "この ペンは 書き（　　）です。",
+      "options": [
+        "にくい",
+        "やすく",
+        "たく",
+        "ながら"
+      ],
+      "answer": 0,
+      "note": "Stem + にくい = hard to do."
+    },
+    {
+      "id": "g63",
+      "type": "grammar_fill",
+      "grammar_point": "〜にくい",
+      "prompt": "この 薬は 苦くて 飲み（　　）。",
+      "options": [
+        "にくいです",
+        "やすいです",
+        "たいです",
+        "すぎです"
+      ],
+      "answer": 0,
+      "note": "飲みにくい = hard to swallow/take."
+    },
+    {
+      "id": "g64",
+      "type": "grammar_fill",
+      "grammar_point": "〜方",
+      "prompt": "すみません、この 機械の 使い（　　）を 教えて ください。",
+      "options": [
+        "方",
+        "間",
+        "上",
+        "前"
+      ],
+      "answer": 0,
+      "note": "Stem + 方 = how to do."
+    },
+    {
+      "id": "g65",
+      "type": "grammar_fill",
+      "grammar_point": "〜方",
+      "prompt": "漢字の 読み（　　）が わかりません。",
+      "options": [
+        "方",
+        "ため",
+        "こと",
+        "さ"
+      ],
+      "answer": 0,
+      "note": "読み方 = how to read."
+    },
+    {
+      "id": "g66",
+      "type": "grammar_fill",
+      "grammar_point": "〜出す",
+      "prompt": "子どもが 急に 泣き（　　）。",
+      "options": [
+        "出しました",
+        "始まりました",
+        "終わりました",
+        "続けました"
+      ],
+      "answer": 0,
+      "note": "Stem + 出す = suddenly start."
+    },
+    {
+      "id": "g67",
+      "type": "grammar_fill",
+      "grammar_point": "〜始める",
+      "prompt": "三年前から 日本語を 勉強し（　　）。",
+      "options": [
+        "始めました",
+        "続きました",
+        "たがりました",
+        "なさいました"
+      ],
+      "answer": 0,
+      "note": "Stem + 始める = begin to."
+    },
+    {
+      "id": "g68",
+      "type": "grammar_fill",
+      "grammar_point": "〜終わる",
+      "prompt": "この 本は もう 読み（　　）。",
+      "options": [
+        "終わりました",
+        "終えりました",
+        "始まりました",
+        "続きました"
+      ],
+      "answer": 0,
+      "note": "Stem + 終わる = finish doing."
+    },
+    {
+      "id": "g69",
+      "type": "grammar_fill",
+      "grammar_point": "〜続ける",
+      "prompt": "雨が 一週間も 降り（　　） います。",
+      "options": [
+        "続けて",
+        "終えて",
+        "出して",
+        "始まって"
+      ],
+      "answer": 0,
+      "note": "Stem + 続ける = keep doing."
+    },
+    {
+      "id": "g70",
+      "type": "grammar_fill",
+      "grammar_point": "〜ないで",
+      "prompt": "けさは 朝ごはんを 食べ（　　） 学校へ 来ました。",
+      "options": [
+        "ないで",
+        "なくて",
+        "なくても",
+        "ないと"
+      ],
+      "answer": 0,
+      "note": "〜ないで = without doing."
+    },
+    {
+      "id": "g71",
+      "type": "grammar_fill",
+      "grammar_point": "〜ずに",
+      "prompt": "辞書を 使わ（　　） この 本を 読みました。",
+      "options": [
+        "ずに",
+        "ないに",
+        "ずで",
+        "なくに"
+      ],
+      "answer": 0,
+      "note": "〜ずに = written form of 〜ないで."
+    },
+    {
+      "id": "g72",
+      "type": "grammar_fill",
+      "grammar_point": "〜なくて（理由）",
+      "prompt": "宿題が 終わら（　　）、先生に しかられました。",
+      "options": [
+        "なくて",
+        "なければ",
+        "なくても",
+        "ないなら"
+      ],
+      "answer": 0,
+      "note": "〜なくて = because (it) didn't..."
+    },
+    {
+      "id": "g73",
+      "type": "grammar_fill",
+      "grammar_point": "〜なさい",
+      "prompt": "もう 遅いですから、早く 寝（　　）。",
+      "options": [
+        "なさい",
+        "ください",
+        "ましょう",
+        "たい"
+      ],
+      "answer": 0,
+      "note": "Stem + なさい = order (parent → child, tests)."
+    },
+    {
+      "id": "g74",
+      "type": "grammar_fill",
+      "grammar_point": "命令形・禁止",
+      "prompt": "「止まれ」は 「止まり（　　）」と いう 意味です。",
+      "options": [
+        "なさい",
+        "たい",
+        "ましょう",
+        "ません"
+      ],
+      "answer": 0,
+      "note": "止まれ = imperative = 止まりなさい."
+    },
+    {
+      "id": "g75",
+      "type": "grammar_fill",
+      "grammar_point": "禁止形（〜な）",
+      "prompt": "ここに 車を 止める（　　）。",
+      "options": [
+        "な",
+        "ろ",
+        "ませ",
+        "ない"
+      ],
+      "answer": 0,
+      "note": "Dictionary form + な = don't! (prohibition)."
+    },
+    {
+      "id": "g76",
+      "type": "grammar_fill",
+      "grammar_point": "〜までに",
+      "prompt": "レポートは 金曜日（　　） 出して ください。",
+      "options": [
+        "までに",
+        "まで",
+        "までも",
+        "までは"
+      ],
+      "answer": 0,
+      "note": "〜までに = by (deadline). まで = until (continuous)."
+    },
+    {
+      "id": "g77",
+      "type": "grammar_fill",
+      "grammar_point": "〜まで",
+      "prompt": "駅の 前で 三時（　　） 待って いました。",
+      "options": [
+        "まで",
+        "までに",
+        "までで",
+        "までは"
+      ],
+      "answer": 0,
+      "note": "まで = until (an action continues)."
+    },
+    {
+      "id": "g78",
+      "type": "grammar_fill",
+      "grammar_point": "〜間",
+      "prompt": "夏休みの（　　）、ずっと 国に 帰って いました。",
+      "options": [
+        "間",
+        "間に",
+        "うちで",
+        "中に"
+      ],
+      "answer": 0,
+      "note": "〜間 = during the whole time."
+    },
+    {
+      "id": "g79",
+      "type": "grammar_fill",
+      "grammar_point": "〜間に",
+      "prompt": "母が 寝て いる（　　）、部屋を 掃除しました。",
+      "options": [
+        "間に",
+        "間",
+        "までに",
+        "ながら"
+      ],
+      "answer": 0,
+      "note": "〜間に = at some point during."
+    },
+    {
+      "id": "g80",
+      "type": "grammar_fill",
+      "grammar_point": "〜場合は",
+      "prompt": "火事の（　　）、エレベーターを 使わないで ください。",
+      "options": [
+        "場合は",
+        "ためには",
+        "ようには",
+        "ところは"
+      ],
+      "answer": 0,
+      "note": "〜場合は = in case of."
+    },
+    {
+      "id": "g81",
+      "type": "grammar_fill",
+      "grammar_point": "〜ているところだ",
+      "prompt": "今 ちょうど 晩ごはんを 食べて いる（　　）です。",
+      "options": [
+        "ところ",
+        "ばかり",
+        "はず",
+        "つもり"
+      ],
+      "answer": 0,
+      "note": "〜ているところ = in the middle of doing."
+    },
+    {
+      "id": "g82",
+      "type": "grammar_fill",
+      "grammar_point": "〜たところだ",
+      "prompt": "今 駅に 着いた（　　）です。",
+      "options": [
+        "ところ",
+        "ほう",
+        "こと",
+        "もの"
+      ],
+      "answer": 0,
+      "note": "〜たところ = have just done (this moment)."
+    },
+    {
+      "id": "g83",
+      "type": "grammar_fill",
+      "grammar_point": "〜しか〜ない",
+      "prompt": "財布に 百円（　　） ありません。",
+      "options": [
+        "しか",
+        "だけ",
+        "ばかり",
+        "ほど"
+      ],
+      "answer": 0,
+      "note": "しか + negative = only."
+    },
+    {
+      "id": "g84",
+      "type": "grammar_fill",
+      "grammar_point": "〜だけ",
+      "prompt": "この クラスで 漢字が 読めないのは わたし（　　）です。",
+      "options": [
+        "だけ",
+        "しか",
+        "ほど",
+        "まで"
+      ],
+      "answer": 0,
+      "note": "だけ = only (with affirmative)."
+    },
+    {
+      "id": "g85",
+      "type": "grammar_fill",
+      "grammar_point": "〜ほど〜ない",
+      "prompt": "今年の 夏は 去年（　　） 暑く ありません。",
+      "options": [
+        "ほど",
+        "より",
+        "だけ",
+        "しか"
+      ],
+      "answer": 0,
+      "note": "AはBほど〜ない = A is not as ~ as B."
+    },
+    {
+      "id": "g86",
+      "type": "grammar_fill",
+      "grammar_point": "〜より〜ほうが",
+      "prompt": "バスより 電車の（　　）が 速いです。",
+      "options": [
+        "ほう",
+        "方法",
+        "もの",
+        "こと"
+      ],
+      "answer": 0,
+      "note": "Bより Aのほうが = A is more ~ than B."
+    },
+    {
+      "id": "g87",
+      "type": "grammar_fill",
+      "grammar_point": "〜の中で〜がいちばん",
+      "prompt": "スポーツの（　　）で、何が いちばん 好きですか。",
+      "options": [
+        "中",
+        "間",
+        "内",
+        "外"
+      ],
+      "answer": 0,
+      "note": "〜の中で〜がいちばん = the most among."
+    },
+    {
+      "id": "g88",
+      "type": "grammar_fill",
+      "grammar_point": "〜と同じ",
+      "prompt": "わたしの かばんは 姉の かばん（　　） 同じです。",
+      "options": [
+        "と",
+        "に",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "note": "AはBと同じ = the same as."
+    },
+    {
+      "id": "g89",
+      "type": "grammar_fill",
+      "grammar_point": "〜ように（目的）",
+      "prompt": "風邪を ひかない（　　）、毎日 運動して います。",
+      "options": [
+        "ように",
+        "ほどに",
+        "までに",
+        "そうに"
+      ],
+      "answer": 0,
+      "note": "ように after potential/negative forms = so that."
+    },
+    {
+      "id": "g90",
+      "type": "grammar_fill",
+      "grammar_point": "〜ように（目的）",
+      "prompt": "後ろの 人にも 聞こえる（　　）、大きな 声で 話して ください。",
+      "options": [
+        "ように",
+        "ために",
+        "ことに",
+        "はずに"
+      ],
+      "answer": 0,
+      "note": "聞こえる is non-volitional → ように, not ために."
+    },
+    {
+      "id": "g91",
+      "type": "grammar_fill",
+      "grammar_point": "〜ように言う",
+      "prompt": "医者に たばこを 吸わない（　　） 言われました。",
+      "options": [
+        "ように",
+        "ために",
+        "ことに",
+        "ほどに"
+      ],
+      "answer": 0,
+      "note": "〜ように言う = indirect command."
+    },
+    {
+      "id": "g92",
+      "type": "grammar_fill",
+      "grammar_point": "〜ように頼む",
+      "prompt": "友達に ノートを 貸して くれる（　　） 頼みました。",
+      "options": [
+        "ように",
+        "ために",
+        "ほど",
+        "そうに"
+      ],
+      "answer": 0,
+      "note": "〜ように頼む = ask someone to do."
+    },
+    {
+      "id": "g93",
+      "type": "grammar_fill",
+      "grammar_point": "〜ことがある",
+      "prompt": "わたしは たまに 朝ごはんを 食べない（　　）。",
+      "options": [
+        "ことが あります",
+        "ためです",
+        "ことが できます",
+        "ところです"
+      ],
+      "answer": 0,
+      "note": "Dictionary/ない form + ことがある = sometimes."
+    },
+    {
+      "id": "g94",
+      "type": "grammar_fill",
+      "grammar_point": "〜ていく",
+      "prompt": "これから 寒く なって（　　） でしょう。",
+      "options": [
+        "いく",
+        "くる",
+        "おく",
+        "みる"
+      ],
+      "answer": 0,
+      "note": "〜ていく = change continuing from now on."
+    },
+    {
+      "id": "g95",
+      "type": "grammar_fill",
+      "grammar_point": "〜てくる",
+      "prompt": "だんだん 日本語が わかって（　　）。",
+      "options": [
+        "きました",
+        "いきました",
+        "おきました",
+        "しまいました"
+      ],
+      "answer": 0,
+      "note": "〜てくる = change up to now."
+    },
+    {
+      "id": "g96",
+      "type": "grammar_fill",
+      "grammar_point": "〜がる",
+      "prompt": "妹は 新しい ゲームを ほし（　　） います。",
+      "options": [
+        "がって",
+        "そうで",
+        "たくて",
+        "らしくて"
+      ],
+      "answer": 0,
+      "note": "〜がる = shows (3rd person) feelings."
+    },
+    {
+      "id": "g97",
+      "type": "grammar_fill",
+      "grammar_point": "〜たがる",
+      "prompt": "子どもは いつも 外で 遊び（　　）。",
+      "options": [
+        "たがります",
+        "たくです",
+        "ほしいです",
+        "がりです"
+      ],
+      "answer": 0,
+      "note": "〜たがる = (someone else) wants to."
+    },
+    {
+      "id": "g98",
+      "type": "grammar_fill",
+      "grammar_point": "〜さ（名詞化）",
+      "prompt": "この 箱の 重（　　）を はかって ください。",
+      "options": [
+        "さ",
+        "く",
+        "け",
+        "き"
+      ],
+      "answer": 0,
+      "note": "Adjective stem + さ = -ness (weight)."
+    },
+    {
+      "id": "g99",
+      "type": "grammar_fill",
+      "grammar_point": "〜のが好き",
+      "prompt": "わたしは 音楽を 聞く（　　） 好きです。",
+      "options": [
+        "のが",
+        "のを",
+        "ことを",
+        "もので"
+      ],
+      "answer": 0,
+      "note": "Dictionary form + のが好き = like doing."
+    },
+    {
+      "id": "g100",
+      "type": "grammar_fill",
+      "grammar_point": "〜のを忘れる",
+      "prompt": "窓を 閉める（　　） 忘れました。",
+      "options": [
+        "のを",
+        "のが",
+        "のに",
+        "ので"
+      ],
+      "answer": 0,
+      "note": "〜のを忘れる = forget to do."
+    },
+    {
+      "id": "g101",
+      "type": "grammar_fill",
+      "grammar_point": "〜ので",
+      "prompt": "雨が 降って いる（　　）、出かけません。",
+      "options": [
+        "ので",
+        "のに",
+        "のは",
+        "のを"
+      ],
+      "answer": 0,
+      "note": "〜ので = because (polite, objective)."
+    },
+    {
+      "id": "g102",
+      "type": "grammar_fill",
+      "grammar_point": "〜けれども",
+      "prompt": "この 店は 高い（　　）、とても おいしいです。",
+      "options": [
+        "けれども",
+        "ために",
+        "ように",
+        "までに"
+      ],
+      "answer": 0,
+      "note": "〜けれども = but."
+    },
+    {
+      "id": "g103",
+      "type": "grammar_fill",
+      "grammar_point": "〜でも（例示）",
+      "prompt": "のどが かわきましたね。お茶（　　） 飲みませんか。",
+      "options": [
+        "でも",
+        "しか",
+        "まで",
+        "ほど"
+      ],
+      "answer": 0,
+      "note": "〜でも = or something (suggestion)."
+    },
+    {
+      "id": "g104",
+      "type": "grammar_fill",
+      "grammar_point": "疑問詞＋でも",
+      "prompt": "この 仕事は だれ（　　） できます。",
+      "options": [
+        "でも",
+        "しか",
+        "まで",
+        "ほど"
+      ],
+      "answer": 0,
+      "note": "疑問詞 + でも = any-."
+    },
+    {
+      "id": "g105",
+      "type": "grammar_fill",
+      "grammar_point": "〜という",
+      "prompt": "これは「さくら」（　　） 花です。",
+      "options": [
+        "という",
+        "といって",
+        "といった",
+        "とする"
+      ],
+      "answer": 0,
+      "note": "〜という = called, named."
+    },
+    {
+      "id": "g106",
+      "type": "grammar_fill",
+      "grammar_point": "〜たらどうですか",
+      "prompt": "疲れて いるなら、少し 休ん（　　）。",
+      "options": [
+        "だらどうですか",
+        "でおきますか",
+        "ではいけませんか",
+        "だほうがいいですか"
+      ],
+      "answer": 0,
+      "note": "〜たらどうですか = why don't you ...?"
+    },
+    {
+      "id": "g107",
+      "type": "grammar_fill",
+      "grammar_point": "〜ほうがいい",
+      "prompt": "熱が あるなら、病院へ 行った（　　）。",
+      "options": [
+        "ほうが いいですよ",
+        "ことが ありますよ",
+        "ところですよ",
+        "つもりですよ"
+      ],
+      "answer": 0,
+      "note": "た-form + ほうがいい = you'd better."
+    },
+    {
+      "id": "g108",
+      "type": "grammar_fill",
+      "grammar_point": "〜ほうがいい（否定）",
+      "prompt": "夜 遅く 一人で 歩かない（　　）。",
+      "options": [
+        "ほうが いいですよ",
+        "ことが いいですよ",
+        "ために いいですよ",
+        "ように いいですよ"
+      ],
+      "answer": 0,
+      "note": "ない-form + ほうがいい = you'd better not."
+    },
+    {
+      "id": "g109",
+      "type": "grammar_fill",
+      "grammar_point": "〜ばよかった",
+      "prompt": "もっと 勉強すれ（　　）。",
+      "options": [
+        "ば よかった",
+        "たら いい",
+        "ても いい",
+        "ば いけない"
+      ],
+      "answer": 0,
+      "note": "〜ばよかった = I wish I had ..."
+    },
+    {
+      "id": "g110",
+      "type": "grammar_fill",
+      "grammar_point": "〜てもかまわない",
+      "prompt": "この ペンを 使っても（　　）か。",
+      "options": [
+        "かまいません",
+        "いけません",
+        "なりません",
+        "しかたありません"
+      ],
+      "answer": 0,
+      "note": "〜てもかまわない = it's all right to ..."
+    },
+    {
+      "id": "g111",
+      "type": "grammar_fill",
+      "grammar_point": "〜なくてはいけない",
+      "prompt": "あしたは 早く 起きなくては（　　）。",
+      "options": [
+        "いけません",
+        "いいです",
+        "かまいません",
+        "大丈夫です"
+      ],
+      "answer": 0,
+      "note": "〜なくてはいけない = must."
+    },
+    {
+      "id": "g112",
+      "type": "grammar_fill",
+      "grammar_point": "〜ないといけない",
+      "prompt": "薬を 毎日 飲まないと（　　）。",
+      "options": [
+        "いけません",
+        "いいです",
+        "しまいます",
+        "みます"
+      ],
+      "answer": 0,
+      "note": "〜ないといけない = must (casual-polite)."
+    },
+    {
+      "id": "g113",
+      "type": "grammar_fill",
+      "grammar_point": "〜ようとする",
+      "prompt": "家を 出（　　） したら、電話が 鳴りました。",
+      "options": [
+        "ようと",
+        "ように",
+        "ために",
+        "そうに"
+      ],
+      "answer": 0,
+      "note": "Volitional + とする = be about to / try to."
+    },
+    {
+      "id": "g114",
+      "type": "grammar_fill",
+      "grammar_point": "〜つもりだった",
+      "prompt": "行く（　　）が、行けませんでした。",
+      "options": [
+        "つもりでした",
+        "はずです",
+        "ことです",
+        "ところです"
+      ],
+      "answer": 0,
+      "note": "〜つもりだった = had intended to."
+    },
+    {
+      "id": "g115",
+      "type": "grammar_fill",
+      "grammar_point": "疑問詞＋か",
+      "prompt": "パーティーに だれが 来る（　　） 知って いますか。",
+      "options": [
+        "か",
+        "かどうか",
+        "と",
+        "のを"
+      ],
+      "answer": 0,
+      "note": "Question word + 〜か = embedded question."
+    },
+    {
+      "id": "g116",
+      "type": "grammar_fill",
+      "grammar_point": "〜にする",
+      "prompt": "わたしは コーヒー（　　） します。",
+      "options": [
+        "に",
+        "が",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "note": "〜にする = decide on / choose."
+    },
+    {
+      "id": "g117",
+      "type": "grammar_fill",
+      "grammar_point": "〜くする",
+      "prompt": "音が 大きいので、もう 少し 小さ（　　） して ください。",
+      "options": [
+        "く",
+        "に",
+        "さ",
+        "な"
+      ],
+      "answer": 0,
+      "note": "i-adj → 〜くする = make (it) ~."
+    },
+    {
+      "id": "g118",
+      "type": "grammar_fill",
+      "grammar_point": "〜になる",
+      "prompt": "弟は 来年 二十歳（　　） なります。",
+      "options": [
+        "に",
+        "が",
+        "を",
+        "と"
+      ],
+      "answer": 0,
+      "note": "Noun + になる = become."
+    },
+    {
+      "id": "g119",
+      "type": "grammar_fill",
+      "grammar_point": "お〜ください",
+      "prompt": "どうぞ こちらで お待ち（　　）。",
+      "options": [
+        "ください",
+        "します",
+        "いたします",
+        "なります"
+      ],
+      "answer": 0,
+      "note": "お + stem + ください = honorific request."
+    },
+    {
+      "id": "g120",
+      "type": "grammar_fill",
+      "grammar_point": "お〜になる",
+      "prompt": "社長は もう お帰り（　　）。",
+      "options": [
+        "に なりました",
+        "しました",
+        "いたしました",
+        "ございました"
+      ],
+      "answer": 0,
+      "note": "お + stem + になる = honorific."
+    },
+    {
+      "id": "g121",
+      "type": "grammar_fill",
+      "grammar_point": "お〜する",
+      "prompt": "重そうですね。お持ち（　　）。",
+      "options": [
+        "しましょうか",
+        "に なりましょうか",
+        "くださいましょうか",
+        "いただきましょうか"
+      ],
+      "answer": 0,
+      "note": "お + stem + する = humble offer."
+    },
+    {
+      "id": "g122",
+      "type": "grammar_fill",
+      "grammar_point": "〜ていただけませんか",
+      "prompt": "すみません、写真を 撮って（　　）。",
+      "options": [
+        "いただけませんか",
+        "さしあげませんか",
+        "くださいましょうか",
+        "もらいましょうか"
+      ],
+      "answer": 0,
+      "note": "〜ていただけませんか = very polite request."
+    },
+    {
+      "id": "g123",
+      "type": "grammar_fill",
+      "grammar_point": "〜てもらえませんか",
+      "prompt": "ちょっと 手伝って（　　）。",
+      "options": [
+        "もらえませんか",
+        "あげませんか",
+        "くれましょうか",
+        "やりませんか"
+      ],
+      "answer": 0,
+      "note": "〜てもらえませんか = polite request."
+    },
+    {
+      "id": "g124",
+      "type": "grammar_fill",
+      "grammar_point": "〜はずがない",
+      "prompt": "あんなに まじめな 人が うそを つく（　　）。",
+      "options": [
+        "はずが ありません",
+        "はずです",
+        "ことが あります",
+        "つもりです"
+      ],
+      "answer": 0,
+      "note": "〜はずがない = there's no way that ..."
+    },
+    {
+      "id": "g125",
+      "type": "grammar_fill",
+      "grammar_point": "〜おきに",
+      "prompt": "この バスは 十分（　　） 来ます。",
+      "options": [
+        "おきに",
+        "ずつ",
+        "ばかり",
+        "しか"
+      ],
+      "answer": 0,
+      "note": "〜おきに = every (interval)."
+    },
+    {
+      "id": "g126",
+      "type": "grammar_fill",
+      "grammar_point": "〜ずつ",
+      "prompt": "一日に 漢字を 五つ（　　） 覚えます。",
+      "options": [
+        "ずつ",
+        "ごと",
+        "おき",
+        "しか"
+      ],
+      "answer": 0,
+      "note": "Number + ずつ = each, at a time."
+    },
+    {
+      "id": "g127",
+      "type": "grammar_fill",
+      "grammar_point": "〜ぐらい",
+      "prompt": "駅まで 歩いて 十分（　　） かかります。",
+      "options": [
+        "ぐらい",
+        "しか",
+        "ずつ",
+        "まで"
+      ],
+      "answer": 0,
+      "note": "ぐらい = about (approximate amount)."
+    },
+    {
+      "id": "g128",
+      "type": "grammar_fill",
+      "grammar_point": "〜のに（用途）",
+      "prompt": "この はさみは 紙を 切る（　　） 使います。",
+      "options": [
+        "のに",
+        "ので",
+        "のを",
+        "のが"
+      ],
+      "answer": 0,
+      "note": "Dictionary form + のに使う = used for."
+    },
+    {
+      "id": "g129",
+      "type": "grammar_fill",
+      "grammar_point": "〜すぎる",
+      "prompt": "きのう お酒を 飲み（　　）、頭が 痛いです。",
+      "options": [
+        "すぎて",
+        "すぎで",
+        "すぎに",
+        "すぎると"
+      ],
+      "answer": 0,
+      "note": "Stem + すぎる = too much."
+    },
+    {
+      "id": "g130",
+      "type": "grammar_fill",
+      "grammar_point": "〜てみる",
+      "prompt": "この 服、着て（　　） いいですか。",
+      "options": [
+        "みても",
+        "おいても",
+        "しまっても",
+        "あっても"
+      ],
+      "answer": 0,
+      "note": "〜てみる = try doing."
+    },
+    {
+      "id": "g131",
+      "type": "grammar_fill",
+      "grammar_point": "〜ておく",
+      "prompt": "お客さんが 来る 前に、部屋を 掃除して（　　）。",
+      "options": [
+        "おきます",
+        "あります",
+        "います",
+        "みます"
+      ],
+      "answer": 0,
+      "note": "〜ておく = do in advance."
+    },
+    {
+      "id": "g132",
+      "type": "grammar_fill",
+      "grammar_point": "〜てしまう",
+      "prompt": "大切な 書類を なくして（　　）。",
+      "options": [
+        "しまいました",
+        "おきました",
+        "ありました",
+        "みました"
+      ],
+      "answer": 0,
+      "note": "〜てしまう = regret / completion."
+    },
+    {
+      "id": "g133",
+      "type": "grammar_fill",
+      "grammar_point": "〜そうだ（様態）",
+      "prompt": "この ケーキ、おいし（　　）ですね。",
+      "options": [
+        "そう",
+        "よう",
+        "らしい",
+        "みたい"
+      ],
+      "answer": 0,
+      "note": "i-adj stem + そうだ = looks ~."
+    },
+    {
+      "id": "g134",
+      "type": "grammar_fill",
+      "grammar_point": "〜そうだ（伝聞）",
+      "prompt": "ニュースに よると、あした 台風が 来る（　　）。",
+      "options": [
+        "そうです",
+        "そうに",
+        "ような",
+        "らしく"
+      ],
+      "answer": 0,
+      "note": "Plain form + そうだ = I hear that (〜によると〜そうだ)."
+    },
+    {
+      "id": "g135",
+      "type": "grammar_fill",
+      "grammar_point": "〜ても",
+      "prompt": "いくら 考えても、答えが（　　）。",
+      "options": [
+        "わかりません",
+        "わかります",
+        "わかりました",
+        "わかるでしょう"
+      ],
+      "answer": 0,
+      "note": "〜ても + negative result = even if."
+    },
+    {
+      "id": "g136",
+      "type": "grammar_fill",
+      "grammar_point": "〜のに（逆接）",
+      "prompt": "一生懸命 勉強した（　　）、試験に 落ちて しまいました。",
+      "options": [
+        "のに",
+        "ので",
+        "から",
+        "ために"
+      ],
+      "answer": 0,
+      "note": "〜のに = although (with disappointment)."
+    },
+    {
+      "id": "g137",
+      "type": "grammar_fill",
+      "grammar_point": "〜なら",
+      "prompt": "京都へ 行く（　　）、秋が いいですよ。",
+      "options": [
+        "なら",
+        "たら",
+        "と",
+        "ば"
+      ],
+      "answer": 0,
+      "note": "〜なら = if (giving advice based on what someone said)."
+    },
+    {
+      "id": "g138",
+      "type": "grammar_fill",
+      "grammar_point": "〜と（条件）",
+      "prompt": "この ボタンを 押す（　　）、お湯が 出ます。",
+      "options": [
+        "と",
+        "なら",
+        "たら",
+        "ても"
+      ],
+      "answer": 0,
+      "note": "〜と = whenever / automatic result."
+    },
+    {
+      "id": "g139",
+      "type": "grammar_fill",
+      "grammar_point": "〜たら",
+      "prompt": "駅に 着い（　　）、電話して ください。",
+      "options": [
+        "たら",
+        "と",
+        "ば",
+        "なら"
+      ],
+      "answer": 0,
+      "note": "〜たら = when/after (then do)."
+    },
+    {
+      "id": "g140",
+      "type": "grammar_fill",
+      "grammar_point": "〜ば",
+      "prompt": "安けれ（　　）、買います。",
+      "options": [
+        "ば",
+        "と",
+        "たら",
+        "なら"
+      ],
+      "answer": 0,
+      "note": "i-adj ば-form: 安い → 安ければ."
+    },
+    {
+      "id": "s01",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "あの ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 人は 田中さんです。",
+      "options": [
+        "かけて",
+        "めがね",
+        "いる",
+        "を"
+      ],
+      "answer": 0,
+      "note": "Correct order: めがね を かけて いる → あの めがねを かけている人は 田中さんです。"
+    },
+    {
+      "id": "s02",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "わたしは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ が あります。",
+      "options": [
+        "こと",
+        "日本",
+        "行った",
+        "へ"
+      ],
+      "answer": 2,
+      "note": "Correct order: 日本 へ 行った こと → わたしは 日本へ 行った ことが あります。"
+    },
+    {
+      "id": "s03",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "これは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ ケーキです。",
+      "options": [
+        "くれた",
+        "母",
+        "作って",
+        "が"
+      ],
+      "answer": 2,
+      "note": "Correct order: 母 が 作って くれた → これは 母が 作って くれた ケーキです。"
+    },
+    {
+      "id": "s04",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "テストの ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ ください。",
+      "options": [
+        "書いて",
+        "名前",
+        "を",
+        "前に"
+      ],
+      "answer": 2,
+      "note": "Correct order: 前に 名前 を 書いて → テストの 前に 名前を 書いて ください。"
+    },
+    {
+      "id": "s05",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 本は とても おもしろかったです。",
+      "options": [
+        "貸して",
+        "先生",
+        "いただいた",
+        "に"
+      ],
+      "answer": 0,
+      "note": "Correct order: 先生 に 貸して いただいた → 先生に貸していただいた本は とても おもしろかったです。"
+    },
+    {
+      "id": "s06",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "あしたまでに ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ ください。",
+      "options": [
+        "出して",
+        "この",
+        "書類を",
+        "おいて"
+      ],
+      "answer": 0,
+      "note": "Correct order: この 書類を 出して おいて → あしたまでに この書類を出しておいてください。"
+    },
+    {
+      "id": "s07",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "この 料理は ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 作りました。",
+      "options": [
+        "教えて",
+        "もらった",
+        "とおりに",
+        "母に"
+      ],
+      "answer": 1,
+      "note": "Correct order: 母に 教えて もらった とおりに → この 料理は 母に教えてもらったとおりに作りました。"
+    },
+    {
+      "id": "s08",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "わたしは 来年 ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 思って います。",
+      "options": [
+        "入ろう",
+        "大学に",
+        "と",
+        "日本の"
+      ],
+      "answer": 0,
+      "note": "Correct order: 日本の 大学に 入ろう と → わたしは 来年 日本の大学に入ろうと思って います。"
+    },
+    {
+      "id": "s09",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "かぎを ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ しまいました。",
+      "options": [
+        "ないで",
+        "出て",
+        "かけ",
+        "家を"
+      ],
+      "answer": 3,
+      "note": "Correct order: かけ ないで 家を 出て → かぎを かけないで家を出てしまいました。"
+    },
+    {
+      "id": "s10",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "駅に ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ ください。",
+      "options": [
+        "ら",
+        "電話して",
+        "着いた",
+        "先生に"
+      ],
+      "answer": 3,
+      "note": "Correct order: 着いた ら 先生に 電話して → 駅に 着いたら先生に電話してください。"
+    },
+    {
+      "id": "s11",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "大事な ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ ように して ください。",
+      "options": [
+        "ない",
+        "書類",
+        "を",
+        "なくさ"
+      ],
+      "answer": 3,
+      "note": "Correct order: 書類 を なくさ ない → 大事な 書類をなくさないように して ください。"
+    },
+    {
+      "id": "s12",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "その ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ ありません。",
+      "options": [
+        "話は",
+        "こと",
+        "が",
+        "聞いた"
+      ],
+      "answer": 1,
+      "note": "Correct order: 話は 聞いた こと が → その 話は聞いたことがありません。"
+    },
+    {
+      "id": "s13",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "わたしは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ が あります。",
+      "options": [
+        "こと",
+        "を",
+        "着物",
+        "着た"
+      ],
+      "answer": 3,
+      "note": "Correct order: 着物 を 着た こと → わたしは 着物を着たことが あります。"
+    },
+    {
+      "id": "s14",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "テストの ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 遊びに 行きましょう。",
+      "options": [
+        "終わった",
+        "ら",
+        "が",
+        "勉強"
+      ],
+      "answer": 0,
+      "note": "Correct order: 勉強 が 終わった ら → テストの 勉強が終わったら遊びに 行きましょう。"
+    },
+    {
+      "id": "s15",
+      "type": "sentence_order",
+      "grammar_point": "文の組み立て（★）",
+      "prompt": "先生が ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 覚えて いますか。",
+      "options": [
+        "ことを",
+        "で",
+        "授業",
+        "言った"
+      ],
+      "answer": 3,
+      "note": "Correct order: 授業 で 言った ことを → 先生が 授業で言ったことを覚えて いますか。"
+    },
+    {
+      "id": "r01",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "山田さんへ\n明日の 会議は 十時からの 予定でしたが、部長が 出張から 戻るのが 遅く なるので、午後 二時からに 変わりました。会議の 前に、先週 渡した 資料を もう 一度 読んで おいて ください。それから、会議室が 三階から 五階に 変わったので、気を つけて ください。\n中村",
+      "prompt": "山田さんは 明日 何を しなければ なりませんか。",
+      "options": [
+        "十時までに 三階の 会議室へ 行く",
+        "二時までに 資料を 読んで、五階の 会議室へ 行く",
+        "部長に 新しい 資料を 渡す",
+        "午前中に 部長と 出張に 行く"
+      ],
+      "answer": 1,
+      "note": "Meeting moved to 2pm, read last week's materials beforehand, room moved to the 5th floor."
+    },
+    {
+      "id": "r02",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "わたしは 去年の 春、日本に 来ました。来た ばかりの ころは、日本語が あまり わからなかったので、買い物や 電車に 乗る ことも 大変でした。でも、となりの 家の おばあさんが 毎週 日本語を 教えて くれたので、少しずつ 話せる ように なりました。今は アルバイトも して います。来年は 日本の 大学に 入る つもりです。",
+      "prompt": "この 人が 日本語が 話せる ように なったのは どうしてですか。",
+      "options": [
+        "日本の 大学で 勉強したから",
+        "アルバイトで 毎日 話したから",
+        "となりの おばあさんに 教えて もらったから",
+        "学校で 毎週 勉強したから"
+      ],
+      "answer": 2,
+      "note": "〜てくれたので → the neighbour taught them every week."
+    },
+    {
+      "id": "r03",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "わたしは 去年の 春、日本に 来ました。来た ばかりの ころは、日本語が あまり わからなかったので、買い物や 電車に 乗る ことも 大変でした。でも、となりの 家の おばあさんが 毎週 日本語を 教えて くれたので、少しずつ 話せる ように なりました。今は アルバイトも して います。来年は 日本の 大学に 入る つもりです。",
+      "prompt": "この 人は 来年 何を する つもりですか。",
+      "options": [
+        "アルバイトを 始める",
+        "日本の 大学に 入る",
+        "国へ 帰る",
+        "おばあさんに 日本語を 教える"
+      ],
+      "answer": 1,
+      "note": "来年は 日本の 大学に 入る つもりです。"
+    },
+    {
+      "id": "r04",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "図書館の お知らせ\n・本は 一人 五冊まで、二週間 借りる ことが できます。\n・辞書と 雑誌は 借りる ことが できません。図書館の 中で 読んで ください。\n・毎週 月曜日は 休みです。\n・図書館が 閉まって いる ときは、入口の 前の ポストに 本を 返して ください。",
+      "prompt": "この 図書館に ついて 正しい ものは どれですか。",
+      "options": [
+        "雑誌は 一週間 借りる ことが できる",
+        "月曜日に 本を 借りる ことが できる",
+        "図書館が 閉まって いても、本を 返す ことが できる",
+        "辞書は 五冊まで 借りる ことが できる"
+      ],
+      "answer": 2,
+      "note": "When closed, books can be returned via the post box at the entrance."
+    },
+    {
+      "id": "r05",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "先週の 日曜日、友だちと 山へ ハイキングに 行きました。朝は いい 天気でしたが、昼ごろから 急に 雨が 降って きました。かさを 持って いなかったので、近くの 店で 買おうと 思いましたが、店は 閉まって いました。それで、わたしたちは 山の 上の 小さい 家で 雨が やむまで 待ちました。",
+      "prompt": "二人は どうして 小さい 家で 待ちましたか。",
+      "options": [
+        "店で かさを 買ったから",
+        "雨が 降って、かさが なかったから",
+        "山の 上で 昼ご飯を 食べたかったから",
+        "友だちが 疲れて しまったから"
+      ],
+      "answer": 1,
+      "note": "No umbrella, shop closed → waited in the small hut until the rain stopped."
+    },
+    {
+      "id": "r06",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "リーさんへ\n山田です。きのうは ありがとうございました。借りた かさは あした 学校で 返します。それから、来週の 勉強会ですが、場所が 図書館から わたしの 家に 変わりました。時間は 同じです。地図を メールで 送りますね。",
+      "prompt": "来週の 勉強会に ついて、正しい ものは どれですか。",
+      "options": [
+        "時間は 変わらないが、場所が 山田さんの 家に なった",
+        "時間も 場所も 変わった",
+        "場所は 図書館で、時間が 変わった",
+        "勉強会は 中止に なった"
+      ],
+      "answer": 0,
+      "note": "場所が図書館から山田さんの家に変わった、時間は同じ."
+    },
+    {
+      "id": "r07",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "お知らせ\n来週の 月曜日、ビルの 電気の 工事が あります。午前九時から 午後一時まで エレベーターが 使えません。また、その 間は 二階の 食堂も 休みです。お弁当を 持って くるか、外で 食事を して ください。",
+      "prompt": "来週の 月曜日、お昼ごはんは どう しますか。",
+      "options": [
+        "お弁当を 持って くるか、外で 食べる",
+        "二階の 食堂で 食べる",
+        "一時まで 食べないで 待つ",
+        "エレベーターで 食堂へ 行く"
+      ],
+      "answer": 0,
+      "note": "The canteen is closed during the work, so bring a lunch box or eat outside."
+    },
+    {
+      "id": "r08",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "わたしは 毎週 土曜日に 近くの 公園で ボランティアを して います。公園の ごみを 拾ったり、花に 水を やったり します。初めは 友達に 誘われて 行きましたが、今は 自分で 行きたいと 思うように なりました。いろいろな 人と 話せるのが 楽しいからです。",
+      "prompt": "この 人は 今 どうして ボランティアに 行って いますか。",
+      "options": [
+        "いろいろな 人と 話せるのが 楽しいから",
+        "友達に 誘われたから",
+        "公園の 近くに 住んで いるから",
+        "花が 好きだから"
+      ],
+      "answer": 0,
+      "note": "今は自分で行きたい … いろいろな人と話せるのが楽しいからです."
+    },
+    {
+      "id": "r09",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "市民プール 利用案内\n・開いて いる 時間：午前十時〜午後八時（月曜日は 休み）\n・料金：大人 四百円、中学生 以下 二百円\n・小学生は 大人と いっしょに 入って ください。\n・水泳帽を かぶって ください（受付で 百円で 買えます）。",
+      "prompt": "小学生の 子どもと 大人が 一人ずつ プールに 入ります。二人とも 水泳帽が ありません。全部で いくら 払いますか。",
+      "options": [
+        "八百円",
+        "六百円",
+        "七百円",
+        "千円"
+      ],
+      "answer": 0,
+      "note": "大人400 + 子ども200 + 帽子100×2 = 800円."
+    },
+    {
+      "id": "r10",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "田中さん\n部長から 電話が ありました。あしたの 会議の 資料を 二十部 コピーして おいて ほしい そうです。それから、会議は 十時からではなく、十一時からに なったので、お客様にも 連絡して ください。資料は 部長の 机の 上に あります。\n佐藤",
+      "prompt": "田中さんが しなければ ならない ことは 何ですか。",
+      "options": [
+        "資料を コピーして、お客様に 時間の 変更を 知らせる",
+        "部長に 電話して、資料を 作る",
+        "十時までに 会議室を 準備する",
+        "お客様に 資料を 送る"
+      ],
+      "answer": 0,
+      "note": "コピーを20部 + お客様に時間の変更を連絡."
+    },
+    {
+      "id": "r11",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "日本では 電車の 中で 電話で 話す 人は あまり いません。ほかの 人の 迷惑に なるからです。でも、メールを 読んだり、ゲームを したりする 人は たくさん います。わたしの 国では 電車の 中で 電話を するのは 普通なので、初めは とても 驚きました。",
+      "prompt": "筆者は 何に 驚きましたか。",
+      "options": [
+        "日本の 電車の 中で 電話で 話す 人が 少ない こと",
+        "日本の 電車の 中で ゲームを する 人が 多い こと",
+        "自分の 国の 電車が 静かな こと",
+        "日本の 電車が 込んで いる こと"
+      ],
+      "answer": 0,
+      "note": "In the writer's country phoning on trains is normal, so they were surprised that few people do it in Japan."
+    },
+    {
+      "id": "r12",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "さくら日本語学校 夏の 特別クラス\nA 会話クラス：月・水・金 18:00〜19:30\nB 漢字クラス：火・木 18:00〜19:30\nC 試験準備クラス：土 10:00〜13:00\n※ 一人 二つまで 申し込めます。",
+      "prompt": "マリアさんは 平日の 夜 七時まで 仕事が あります。土曜日は 休みです。マリアさんが 参加できる クラスは どれですか。",
+      "options": [
+        "C だけ",
+        "A と C",
+        "B と C",
+        "A と B"
+      ],
+      "answer": 0,
+      "note": "Weekday classes start at 18:00 while she works until 19:00, so only the Saturday class C."
+    },
+    {
+      "id": "r13",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "わたしの 祖母は 八十歳ですが、毎朝 六時に 起きて、一時間 散歩を します。そして、午後は 近所の 子どもたちに 書道を 教えて います。「体も 頭も 使わないと、すぐ 年を とって しまうよ」と 祖母は いつも 言って います。",
+      "prompt": "祖母が 元気な 理由として、文章に 合う ものは どれですか。",
+      "options": [
+        "毎日 体と 頭を 使って いるから",
+        "早く 寝て いるから",
+        "子どもたちと 遊んで いるから",
+        "毎日 書道の 練習を して いるから"
+      ],
+      "answer": 0,
+      "note": "体も頭も使わないと年をとってしまう → she walks and teaches."
+    },
+    {
+      "id": "r14",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "先週、引っ越しを しました。新しい アパートは 駅から 少し 遠いですが、前の アパートより 広くて、家賃も 安いです。近くに 大きな 公園が あるので、毎朝 そこを 走って います。ただ、近くに スーパーが ないのが 少し 不便です。",
+      "prompt": "新しい アパートに ついて、合って いない ものは どれですか。",
+      "options": [
+        "駅から 近い",
+        "前の アパートより 広い",
+        "家賃が 安い",
+        "近くに スーパーが ない"
+      ],
+      "answer": 0,
+      "note": "駅から少し遠い, so 駅から近い is the one that does NOT match."
+    },
+    {
+      "id": "r15",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "図書館からの お願い\n本は 二週間 借りる ことが できます。返す 日を 過ぎた 場合は、返した 日から 一週間、新しい 本を 借りる ことが できません。また、辞書と 新聞は 図書館の 中だけで 読んで ください。",
+      "prompt": "この 図書館に ついて、正しい ものは どれですか。",
+      "options": [
+        "辞書は 家に 持って 帰る ことが できない",
+        "本は 一か月 借りる ことが できる",
+        "返すのが 遅れても、すぐ 新しい 本が 借りられる",
+        "新聞は 二週間 借りる ことが できる"
+      ],
+      "answer": 0,
+      "note": "辞書と新聞は図書館の中だけ."
+    },
+    {
+      "id": "r16",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "きのう、友達と 有名な ラーメン屋へ 行きました。店の 前には 長い 列が できて いて、一時間も 待ちました。ラーメンは おいしかったですが、一時間 待つほどでは ないと 思いました。次は 待たなくても いい 近くの 店に 行こうと 思います。",
+      "prompt": "この 人は ラーメン屋に ついて どう 思いましたか。",
+      "options": [
+        "おいしいが、長く 待つほどでは ない",
+        "とても おいしいので、また 並びたい",
+        "まずかったので、もう 行かない",
+        "安いので、また 行きたい"
+      ],
+      "answer": 0,
+      "note": "おいしかったが、一時間待つほどではない."
+    },
+    {
+      "id": "r17",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "山本さんへ\nあしたの ハイキングですが、天気予報では 午後から 雨だそうです。それで、出発を 一時間 早く して、朝 七時に 駅に 集まる ことに しました。雨が 降り出したら、すぐ 帰ります。かさを 忘れないで くださいね。\n木村",
+      "prompt": "山本さんは あした 何時に どこへ 行きますか。",
+      "options": [
+        "七時に 駅へ 行く",
+        "八時に 駅へ 行く",
+        "七時に 山へ 行く",
+        "雨なので 行かない"
+      ],
+      "answer": 0,
+      "note": "出発を一時間早くして、朝七時に駅に集まる."
+    },
+    {
+      "id": "r18",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "わたしは 小さい ころ、野菜が 大嫌いでした。でも、高校生の とき、祖父の 畑で 野菜を 育てる 手伝いを してから、変わりました。自分で 育てた トマトは とても 甘くて、驚きました。今では 野菜が いちばん 好きな 食べ物です。",
+      "prompt": "この 人が 野菜を 好きに なったのは どうしてですか。",
+      "options": [
+        "自分で 育てた 野菜が おいしかったから",
+        "祖父に 叱られたから",
+        "高校の 授業で 習ったから",
+        "体に いいと 聞いたから"
+      ],
+      "answer": 0,
+      "note": "自分で育てたトマトはとても甘くて、驚きました."
+    },
+    {
+      "id": "r19",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "ABC電気 セールの お知らせ\n期間：三月一日〜三月十日\n・テレビ、冷蔵庫：20% 引き\n・パソコン：10% 引き\n・会員カードを 持って いる 方は、さらに 5% 引き\n※ セール中の 商品は 取り替える ことが できません。",
+      "prompt": "会員カードを 持って いる 人が セールで パソコンを 買うと、何%引きに なりますか。",
+      "options": [
+        "15%",
+        "10%",
+        "20%",
+        "25%"
+      ],
+      "answer": 0,
+      "note": "パソコン10% + 会員カード5% = 15%."
+    },
+    {
+      "id": "r20",
+      "type": "reading",
+      "grammar_point": "読解（短文）",
+      "passage": "毎年 夏に なると、わたしの 町では 大きな 花火大会が あります。一万発の 花火が 上がるので、ほかの 町からも たくさんの 人が 見に 来ます。でも、人が 多すぎて、駅は とても 込みます。わたしは いつも 家の 屋上から 家族と いっしょに 見ます。",
+      "prompt": "この 人は どこで 花火を 見ますか。",
+      "options": [
+        "家の 屋上で",
+        "駅の 近くで",
+        "ほかの 町で",
+        "花火大会の 会場で"
+      ],
+      "answer": 0,
+      "note": "家の屋上から家族といっしょに見ます."
+    }
+  ]
+}

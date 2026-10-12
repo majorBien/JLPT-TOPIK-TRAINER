@@ -1,0 +1,7294 @@
+{
+  "level": "N4",
+  "entries": [
+    {
+      "id": "n4v001",
+      "word": "勉強",
+      "reading": "べんきょう",
+      "meaning": "study",
+      "pos": "noun",
+      "example": "毎日 図書館で 日本語を 勉強します。",
+      "kanji_distractors": [
+        "勉教",
+        "免強"
+      ]
+    },
+    {
+      "id": "n4v002",
+      "word": "研究",
+      "reading": "けんきゅう",
+      "meaning": "research",
+      "pos": "noun",
+      "example": "大学で 日本の 歴史を 研究して います。",
+      "kanji_distractors": [
+        "研求",
+        "究研"
+      ]
+    },
+    {
+      "id": "n4v003",
+      "word": "経験",
+      "reading": "けいけん",
+      "meaning": "experience",
+      "pos": "noun",
+      "example": "外国で 働いた 経験が ありますか。",
+      "kanji_distractors": [
+        "経検",
+        "径験"
+      ]
+    },
+    {
+      "id": "n4v004",
+      "word": "準備",
+      "reading": "じゅんび",
+      "meaning": "preparation",
+      "pos": "noun",
+      "example": "旅行の 準備は もう できましたか。",
+      "kanji_distractors": [
+        "準傭",
+        "純備"
+      ]
+    },
+    {
+      "id": "n4v005",
+      "word": "説明",
+      "reading": "せつめい",
+      "meaning": "explanation",
+      "pos": "noun",
+      "example": "先生の 説明は とても わかりやすかったです。",
+      "kanji_distractors": [
+        "説名",
+        "設明"
+      ]
+    },
+    {
+      "id": "n4v006",
+      "word": "約束",
+      "reading": "やくそく",
+      "meaning": "promise; appointment",
+      "pos": "noun",
+      "example": "友だちと 会う 約束を 忘れて しまいました。",
+      "kanji_distractors": [
+        "約速"
+      ]
+    },
+    {
+      "id": "n4v007",
+      "word": "予定",
+      "reading": "よてい",
+      "meaning": "plan; schedule",
+      "pos": "noun",
+      "example": "週末の 予定は まだ 決まって いません。",
+      "kanji_distractors": [
+        "予低",
+        "余定"
+      ]
+    },
+    {
+      "id": "n4v008",
+      "word": "習慣",
+      "reading": "しゅうかん",
+      "meaning": "habit; custom",
+      "pos": "noun",
+      "example": "寝る 前に 本を 読むのが 習慣です。",
+      "kanji_distractors": [
+        "週慣",
+        "習貫"
+      ]
+    },
+    {
+      "id": "n4v009",
+      "word": "趣味",
+      "reading": "しゅみ",
+      "meaning": "hobby",
+      "pos": "noun",
+      "example": "わたしの 趣味は 写真を とる ことです。",
+      "kanji_distractors": [
+        "趣未",
+        "取味"
+      ]
+    },
+    {
+      "id": "n4v010",
+      "word": "興味",
+      "reading": "きょうみ",
+      "meaning": "interest",
+      "pos": "noun",
+      "example": "日本の 文化に 興味が あります。",
+      "kanji_distractors": [
+        "興未",
+        "共味"
+      ]
+    },
+    {
+      "id": "n4v011",
+      "word": "意見",
+      "reading": "いけん",
+      "meaning": "opinion",
+      "pos": "noun",
+      "example": "この 計画に ついて あなたの 意見を 聞かせて ください。",
+      "kanji_distractors": [
+        "意健",
+        "異見"
+      ]
+    },
+    {
+      "id": "n4v012",
+      "word": "用意",
+      "reading": "ようい",
+      "meaning": "preparation; arrangement",
+      "pos": "noun",
+      "example": "晩ご飯の 用意を して おきました。",
+      "kanji_distractors": [
+        "要意",
+        "用以"
+      ]
+    },
+    {
+      "id": "n4v013",
+      "word": "運転",
+      "reading": "うんてん",
+      "meaning": "driving",
+      "pos": "noun",
+      "example": "父は 車の 運転が 上手です。",
+      "kanji_distractors": [
+        "運伝",
+        "運軽"
+      ]
+    },
+    {
+      "id": "n4v014",
+      "word": "案内",
+      "reading": "あんない",
+      "meaning": "guidance; showing around",
+      "pos": "noun",
+      "example": "駅まで 案内して いただけませんか。",
+      "kanji_distractors": [
+        "安内",
+        "案肉"
+      ]
+    },
+    {
+      "id": "n4v015",
+      "word": "心配",
+      "reading": "しんぱい",
+      "meaning": "worry",
+      "pos": "noun",
+      "example": "母は いつも わたしの ことを 心配して います。",
+      "kanji_distractors": [
+        "心記",
+        "新配"
+      ]
+    },
+    {
+      "id": "n4v016",
+      "word": "安心",
+      "reading": "あんしん",
+      "meaning": "relief; peace of mind",
+      "pos": "noun",
+      "example": "合格の 知らせを 聞いて 安心しました。",
+      "kanji_distractors": [
+        "案心",
+        "安信"
+      ]
+    },
+    {
+      "id": "n4v017",
+      "word": "失敗",
+      "reading": "しっぱい",
+      "meaning": "failure; mistake",
+      "pos": "noun",
+      "example": "試験に 失敗しても あきらめないで ください。",
+      "kanji_distractors": [
+        "失則",
+        "矢敗"
+      ]
+    },
+    {
+      "id": "n4v018",
+      "word": "出発",
+      "reading": "しゅっぱつ",
+      "meaning": "departure",
+      "pos": "noun",
+      "example": "飛行機は 九時に 出発します。",
+      "kanji_distractors": [
+        "出初",
+        "出廃"
+      ]
+    },
+    {
+      "id": "n4v019",
+      "word": "生活",
+      "reading": "せいかつ",
+      "meaning": "daily life",
+      "pos": "noun",
+      "example": "東京での 生活には もう 慣れましたか。",
+      "kanji_distractors": [
+        "生括",
+        "性活"
+      ]
+    },
+    {
+      "id": "n4v020",
+      "word": "世界",
+      "reading": "せかい",
+      "meaning": "world",
+      "pos": "noun",
+      "example": "世界で 一番 高い 山は どこですか。",
+      "kanji_distractors": [
+        "世介",
+        "世階"
+      ]
+    },
+    {
+      "id": "n4v021",
+      "word": "社会",
+      "reading": "しゃかい",
+      "meaning": "society",
+      "pos": "noun",
+      "example": "社会の ルールを 守りましょう。",
+      "kanji_distractors": [
+        "社絵",
+        "者会"
+      ]
+    },
+    {
+      "id": "n4v022",
+      "word": "会議",
+      "reading": "かいぎ",
+      "meaning": "meeting; conference",
+      "pos": "noun",
+      "example": "午後 三時から 会議が あります。",
+      "kanji_distractors": [
+        "会義",
+        "会儀"
+      ]
+    },
+    {
+      "id": "n4v023",
+      "word": "地図",
+      "reading": "ちず",
+      "meaning": "map",
+      "pos": "noun",
+      "example": "この 地図を 見ながら 歩きましょう。",
+      "kanji_distractors": [
+        "池図",
+        "地豆"
+      ]
+    },
+    {
+      "id": "n4v024",
+      "word": "空港",
+      "reading": "くうこう",
+      "meaning": "airport",
+      "pos": "noun",
+      "example": "空港まで バスで 一時間 かかります。",
+      "kanji_distractors": [
+        "空巷",
+        "空航"
+      ]
+    },
+    {
+      "id": "n4v025",
+      "word": "病院",
+      "reading": "びょういん",
+      "meaning": "hospital",
+      "pos": "noun",
+      "example": "かぜを ひいたので 病院へ 行きました。",
+      "kanji_distractors": [
+        "病員",
+        "病完"
+      ]
+    },
+    {
+      "id": "n4v026",
+      "word": "試合",
+      "reading": "しあい",
+      "meaning": "match; game",
+      "pos": "noun",
+      "example": "明日 サッカーの 試合が あります。",
+      "kanji_distractors": [
+        "誠合",
+        "試会"
+      ]
+    },
+    {
+      "id": "n4v027",
+      "word": "景色",
+      "reading": "けしき",
+      "meaning": "scenery",
+      "pos": "noun",
+      "example": "山の 上から 見た 景色は きれいでした。",
+      "kanji_distractors": [
+        "影色",
+        "景式"
+      ]
+    },
+    {
+      "id": "n4v028",
+      "word": "季節",
+      "reading": "きせつ",
+      "meaning": "season",
+      "pos": "noun",
+      "example": "日本で 一番 好きな 季節は 秋です。",
+      "kanji_distractors": [
+        "李節",
+        "季説"
+      ]
+    },
+    {
+      "id": "n4v029",
+      "word": "気分",
+      "reading": "きぶん",
+      "meaning": "feeling; mood",
+      "pos": "noun",
+      "example": "今日は 気分が いいです。",
+      "kanji_distractors": [
+        "汽分",
+        "気文"
+      ]
+    },
+    {
+      "id": "n4v030",
+      "word": "人口",
+      "reading": "じんこう",
+      "meaning": "population",
+      "pos": "noun",
+      "example": "この 町の 人口は 少しずつ 減って います。",
+      "kanji_distractors": [
+        "入口",
+        "人日"
+      ]
+    },
+    {
+      "id": "n4v031",
+      "word": "交通",
+      "reading": "こうつう",
+      "meaning": "traffic; transportation",
+      "pos": "noun",
+      "example": "この 町は 交通が 便利です。",
+      "kanji_distractors": [
+        "校通",
+        "交痛"
+      ]
+    },
+    {
+      "id": "n4v032",
+      "word": "工場",
+      "reading": "こうじょう",
+      "meaning": "factory",
+      "pos": "noun",
+      "example": "父は 自動車の 工場で 働いて います。",
+      "kanji_distractors": [
+        "工揚",
+        "口場"
+      ]
+    },
+    {
+      "id": "n4v033",
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "meaning": "address",
+      "pos": "noun",
+      "example": "ここに 名前と 住所を 書いて ください。",
+      "kanji_distractors": [
+        "往所",
+        "注所"
+      ]
+    },
+    {
+      "id": "n4v034",
+      "word": "番組",
+      "reading": "ばんぐみ",
+      "meaning": "TV/radio program",
+      "pos": "noun",
+      "example": "好きな テレビ番組は 何ですか。",
+      "kanji_distractors": [
+        "番粗",
+        "審組"
+      ]
+    },
+    {
+      "id": "n4v035",
+      "word": "最近",
+      "reading": "さいきん",
+      "meaning": "recently; lately",
+      "pos": "noun",
+      "example": "最近 よく 眠れません。",
+      "kanji_distractors": [
+        "最今",
+        "再近"
+      ]
+    },
+    {
+      "id": "n4v036",
+      "word": "普通",
+      "reading": "ふつう",
+      "meaning": "usually; ordinary",
+      "pos": "noun",
+      "example": "普通は 七時に 起きます。",
+      "kanji_distractors": [
+        "普痛",
+        "晋通"
+      ]
+    },
+    {
+      "id": "n4v037",
+      "word": "集める",
+      "reading": "あつめる",
+      "meaning": "to collect; to gather",
+      "pos": "verb",
+      "example": "弟は 切手を 集めるのが 好きです。",
+      "kanji_distractors": [
+        "焦める",
+        "集る"
+      ]
+    },
+    {
+      "id": "n4v038",
+      "word": "届ける",
+      "reading": "とどける",
+      "meaning": "to deliver",
+      "pos": "verb",
+      "example": "この 荷物を 明日までに 届ける ことが できますか。",
+      "kanji_distractors": [
+        "屈ける",
+        "届る"
+      ]
+    },
+    {
+      "id": "n4v039",
+      "word": "調べる",
+      "reading": "しらべる",
+      "meaning": "to look up; to investigate",
+      "pos": "verb",
+      "example": "わからない ことばは 辞書で 調べる ように して います。",
+      "kanji_distractors": [
+        "周べる",
+        "調る"
+      ]
+    },
+    {
+      "id": "n4v040",
+      "word": "比べる",
+      "reading": "くらべる",
+      "meaning": "to compare",
+      "pos": "verb",
+      "example": "二つの かばんを 比べると、こちらの ほうが 軽いです。",
+      "kanji_distractors": [
+        "北べる",
+        "比る"
+      ]
+    },
+    {
+      "id": "n4v041",
+      "word": "決める",
+      "reading": "きめる",
+      "meaning": "to decide",
+      "pos": "verb",
+      "example": "旅行の 日を 早く 決める ほうが いいですよ。",
+      "kanji_distractors": [
+        "快める",
+        "決る"
+      ]
+    },
+    {
+      "id": "n4v042",
+      "word": "続ける",
+      "reading": "つづける",
+      "meaning": "to continue",
+      "pos": "verb",
+      "example": "毎日 日本語の 勉強を 続ける ことが 大切です。",
+      "kanji_distractors": [
+        "読ける",
+        "続る"
+      ]
+    },
+    {
+      "id": "n4v043",
+      "word": "捨てる",
+      "reading": "すてる",
+      "meaning": "to throw away",
+      "pos": "verb",
+      "example": "ここに ごみを 捨てる ことは できません。",
+      "kanji_distractors": [
+        "拾てる",
+        "捨る"
+      ]
+    },
+    {
+      "id": "n4v044",
+      "word": "降りる",
+      "reading": "おりる",
+      "meaning": "to get off (a vehicle)",
+      "pos": "verb",
+      "example": "次の 駅で 電車を 降りる つもりです。",
+      "kanji_distractors": [
+        "陸りる",
+        "隆りる"
+      ]
+    },
+    {
+      "id": "n4v045",
+      "word": "送る",
+      "reading": "おくる",
+      "meaning": "to send",
+      "pos": "verb",
+      "example": "国の 両親に 写真を 送る つもりです。",
+      "kanji_distractors": [
+        "迭る",
+        "逆る"
+      ]
+    },
+    {
+      "id": "n4v046",
+      "word": "戻る",
+      "reading": "もどる",
+      "meaning": "to return; to go back",
+      "pos": "verb",
+      "example": "ちょっと 部屋に 戻るので、待って いて ください。",
+      "kanji_distractors": [
+        "涙る",
+        "戻どる"
+      ]
+    },
+    {
+      "id": "n4v047",
+      "word": "払う",
+      "reading": "はらう",
+      "meaning": "to pay",
+      "pos": "verb",
+      "example": "カードで 払う ことが できますか。",
+      "kanji_distractors": [
+        "仏う",
+        "拡う"
+      ]
+    },
+    {
+      "id": "n4v048",
+      "word": "運ぶ",
+      "reading": "はこぶ",
+      "meaning": "to carry; to transport",
+      "pos": "verb",
+      "example": "この 机を 二階へ 運ぶのを 手伝って ください。",
+      "kanji_distractors": [
+        "連ぶ",
+        "軍ぶ"
+      ]
+    },
+    {
+      "id": "n4v049",
+      "word": "慣れる",
+      "reading": "なれる",
+      "meaning": "to get used to",
+      "pos": "verb",
+      "example": "新しい 仕事に 慣れるまで 時間が かかりました。",
+      "kanji_distractors": [
+        "貫れる",
+        "馴る"
+      ]
+    },
+    {
+      "id": "n4v050",
+      "word": "間に合う",
+      "reading": "まにあう",
+      "meaning": "to be in time",
+      "pos": "verb",
+      "example": "急げば 九時の 電車に 間に合うでしょう。",
+      "kanji_distractors": [
+        "問に合う",
+        "間に会う"
+      ]
+    },
+    {
+      "id": "n4v051",
+      "word": "生まれる",
+      "reading": "うまれる",
+      "meaning": "to be born",
+      "pos": "verb",
+      "example": "赤ちゃんが 生まれるのは 来月の 予定です。",
+      "kanji_distractors": [
+        "産まる",
+        "性まれる"
+      ]
+    },
+    {
+      "id": "n4v052",
+      "word": "謝る",
+      "reading": "あやまる",
+      "meaning": "to apologize",
+      "pos": "verb",
+      "example": "悪い ことを したら、すぐ 謝る ほうが いいです。",
+      "kanji_distractors": [
+        "射る",
+        "討る"
+      ]
+    },
+    {
+      "id": "n4v053",
+      "word": "厳しい",
+      "reading": "きびしい",
+      "meaning": "strict; severe",
+      "pos": "i-adj",
+      "example": "わたしの 父は とても 厳しい 人です。",
+      "kanji_distractors": [
+        "険しい",
+        "厳い"
+      ]
+    },
+    {
+      "id": "n4v054",
+      "word": "珍しい",
+      "reading": "めずらしい",
+      "meaning": "rare; unusual",
+      "pos": "i-adj",
+      "example": "この 町で 雪が 降るのは 珍しい ことです。",
+      "kanji_distractors": [
+        "診しい",
+        "珍い"
+      ]
+    },
+    {
+      "id": "n4v055",
+      "word": "恥ずかしい",
+      "reading": "はずかしい",
+      "meaning": "embarrassing; shy",
+      "pos": "i-adj",
+      "example": "みんなの 前で 歌うのは 恥ずかしいです。",
+      "kanji_distractors": [
+        "耳ずかしい",
+        "恥かしい"
+      ]
+    },
+    {
+      "id": "n4v056",
+      "word": "細かい",
+      "reading": "こまかい",
+      "meaning": "small; detailed",
+      "pos": "i-adj",
+      "example": "細かい お金が ありますか。",
+      "kanji_distractors": [
+        "組かい",
+        "紬かい"
+      ]
+    },
+    {
+      "id": "n4v057",
+      "word": "正しい",
+      "reading": "ただしい",
+      "meaning": "correct; right",
+      "pos": "i-adj",
+      "example": "正しい 答えを えらんで ください。",
+      "kanji_distractors": [
+        "止しい",
+        "政しい"
+      ]
+    },
+    {
+      "id": "n4v058",
+      "word": "苦い",
+      "reading": "にがい",
+      "meaning": "bitter",
+      "pos": "i-adj",
+      "example": "この 薬は とても 苦いです。",
+      "kanji_distractors": [
+        "若い",
+        "古い"
+      ]
+    },
+    {
+      "id": "n4v059",
+      "word": "丁寧",
+      "reading": "ていねい",
+      "meaning": "polite; careful",
+      "pos": "na-adj",
+      "example": "先生は いつも 丁寧に 説明して くれます。",
+      "kanji_distractors": [
+        "丁年",
+        "町寧"
+      ]
+    },
+    {
+      "id": "n4v060",
+      "word": "複雑",
+      "reading": "ふくざつ",
+      "meaning": "complicated",
+      "pos": "na-adj",
+      "example": "この 問題は 複雑で よく わかりません。",
+      "kanji_distractors": [
+        "復雑",
+        "複維"
+      ]
+    },
+    {
+      "id": "n4v061",
+      "word": "大切",
+      "reading": "たいせつ",
+      "meaning": "important; precious",
+      "pos": "na-adj",
+      "example": "健康は 何よりも 大切です。",
+      "kanji_distractors": [
+        "太切",
+        "大功"
+      ]
+    },
+    {
+      "id": "n4v062",
+      "word": "特別",
+      "reading": "とくべつ",
+      "meaning": "special",
+      "pos": "na-adj",
+      "example": "今日は 特別な 日です。",
+      "kanji_distractors": [
+        "持別",
+        "特列"
+      ]
+    },
+    {
+      "id": "n4v063",
+      "word": "熱心",
+      "reading": "ねっしん",
+      "meaning": "enthusiastic; eager",
+      "pos": "na-adj",
+      "example": "彼は 熱心に 練習して います。",
+      "kanji_distractors": [
+        "熟心",
+        "熱信"
+      ]
+    },
+    {
+      "id": "n4v064",
+      "word": "自由",
+      "reading": "じゆう",
+      "meaning": "free; freedom",
+      "pos": "na-adj",
+      "example": "日曜日は 自由に 過ごしたいです。",
+      "kanji_distractors": [
+        "自油",
+        "白由"
+      ]
+    },
+    {
+      "id": "n4v065",
+      "word": "必ず",
+      "reading": "かならず",
+      "meaning": "without fail; surely",
+      "pos": "adverb",
+      "example": "明日は 必ず 来て ください。",
+      "kanji_distractors": [
+        "心ず",
+        "必らず"
+      ]
+    },
+    {
+      "id": "n4v066",
+      "word": "特に",
+      "reading": "とくに",
+      "meaning": "especially",
+      "pos": "adverb",
+      "example": "日本料理の 中で 特に すしが 好きです。",
+      "kanji_distractors": [
+        "持に",
+        "得に"
+      ]
+    },
+    {
+      "id": "n4v067",
+      "word": "急に",
+      "reading": "きゅうに",
+      "meaning": "suddenly",
+      "pos": "adverb",
+      "example": "急に 雨が 降って きました。",
+      "kanji_distractors": [
+        "急ぎに",
+        "給に"
+      ]
+    },
+    {
+      "id": "n4v068",
+      "word": "全然",
+      "reading": "ぜんぜん",
+      "meaning": "(not) at all",
+      "pos": "adverb",
+      "example": "この 映画は 全然 おもしろく なかったです。",
+      "kanji_distractors": [
+        "全前",
+        "金然"
+      ]
+    },
+    {
+      "id": "n4v069",
+      "word": "一生懸命",
+      "reading": "いっしょうけんめい",
+      "meaning": "with all one's might",
+      "pos": "adverb",
+      "example": "合格する ために 一生懸命 勉強しました。",
+      "kanji_distractors": [
+        "一生健命",
+        "一正懸命"
+      ]
+    },
+    {
+      "id": "n4v070",
+      "word": "会話",
+      "reading": "かいわ",
+      "meaning": "conversation",
+      "pos": "noun",
+      "example": "日本人と 会話を する 機会が ほしいです。",
+      "kanji_distractors": [
+        "会語",
+        "合話"
+      ]
+    },
+    {
+      "id": "n4v071",
+      "word": "文化",
+      "reading": "ぶんか",
+      "meaning": "culture",
+      "pos": "noun",
+      "example": "日本の 文化に 興味が あります。",
+      "kanji_distractors": [
+        "攵化",
+        "文花"
+      ]
+    },
+    {
+      "id": "n4v072",
+      "word": "文学",
+      "reading": "ぶんがく",
+      "meaning": "literature",
+      "pos": "noun",
+      "example": "大学で フランス文学を 勉強して います。",
+      "kanji_distractors": [
+        "文字",
+        "父学"
+      ]
+    },
+    {
+      "id": "n4v073",
+      "word": "法律",
+      "reading": "ほうりつ",
+      "meaning": "law",
+      "pos": "noun",
+      "example": "兄は 大学で 法律を 勉強して います。",
+      "kanji_distractors": [
+        "法津",
+        "去律"
+      ]
+    },
+    {
+      "id": "n4v074",
+      "word": "経済",
+      "reading": "けいざい",
+      "meaning": "economy",
+      "pos": "noun",
+      "example": "日本の 経済に ついて レポートを 書きました。",
+      "kanji_distractors": [
+        "径済",
+        "経剤"
+      ]
+    },
+    {
+      "id": "n4v075",
+      "word": "政治",
+      "reading": "せいじ",
+      "meaning": "politics",
+      "pos": "noun",
+      "example": "父は 政治の ニュースを よく 見ます。",
+      "kanji_distractors": [
+        "政冶",
+        "攻治"
+      ]
+    },
+    {
+      "id": "n4v076",
+      "word": "歴史",
+      "reading": "れきし",
+      "meaning": "history",
+      "pos": "noun",
+      "example": "京都で 日本の 歴史を 勉強しました。",
+      "kanji_distractors": [
+        "暦史",
+        "歴吏"
+      ]
+    },
+    {
+      "id": "n4v077",
+      "word": "科学",
+      "reading": "かがく",
+      "meaning": "science",
+      "pos": "noun",
+      "example": "子どもの ころから 科学が 好きでした。",
+      "kanji_distractors": [
+        "料学",
+        "科字"
+      ]
+    },
+    {
+      "id": "n4v078",
+      "word": "数学",
+      "reading": "すうがく",
+      "meaning": "mathematics",
+      "pos": "noun",
+      "example": "数学の 宿題が なかなか 終わりません。",
+      "kanji_distractors": [
+        "教学",
+        "数字"
+      ]
+    },
+    {
+      "id": "n4v079",
+      "word": "地理",
+      "reading": "ちり",
+      "meaning": "geography",
+      "pos": "noun",
+      "example": "地理の 授業で 世界の 地図を 見ました。",
+      "kanji_distractors": [
+        "池理",
+        "地埋"
+      ]
+    },
+    {
+      "id": "n4v080",
+      "word": "美術",
+      "reading": "びじゅつ",
+      "meaning": "fine arts",
+      "pos": "noun",
+      "example": "美術の 時間に 絵を かきました。",
+      "kanji_distractors": [
+        "美述",
+        "美街"
+      ]
+    },
+    {
+      "id": "n4v081",
+      "word": "技術",
+      "reading": "ぎじゅつ",
+      "meaning": "technology, skill",
+      "pos": "noun",
+      "example": "この 会社は 新しい 技術を 研究して います。",
+      "kanji_distractors": [
+        "枝術",
+        "技述"
+      ]
+    },
+    {
+      "id": "n4v082",
+      "word": "産業",
+      "reading": "さんぎょう",
+      "meaning": "industry",
+      "pos": "noun",
+      "example": "この 町の 主な 産業は 農業です。",
+      "kanji_distractors": [
+        "産案",
+        "座業"
+      ]
+    },
+    {
+      "id": "n4v083",
+      "word": "工業",
+      "reading": "こうぎょう",
+      "meaning": "manufacturing industry",
+      "pos": "noun",
+      "example": "この 地方は 工業が さかんです。",
+      "kanji_distractors": [
+        "工案",
+        "江業"
+      ]
+    },
+    {
+      "id": "n4v084",
+      "word": "貿易",
+      "reading": "ぼうえき",
+      "meaning": "trade",
+      "pos": "noun",
+      "example": "父は 貿易の 会社で 働いて います。",
+      "kanji_distractors": [
+        "貿昜",
+        "賀易"
+      ]
+    },
+    {
+      "id": "n4v085",
+      "word": "輸出",
+      "reading": "ゆしゅつ",
+      "meaning": "export",
+      "pos": "noun",
+      "example": "日本は 車を たくさん 輸出して います。",
+      "kanji_distractors": [
+        "輪出",
+        "諭出"
+      ]
+    },
+    {
+      "id": "n4v086",
+      "word": "輸入",
+      "reading": "ゆにゅう",
+      "meaning": "import",
+      "pos": "noun",
+      "example": "この 果物は 外国から 輸入した ものです。",
+      "kanji_distractors": [
+        "輪入",
+        "輸人"
+      ]
+    },
+    {
+      "id": "n4v087",
+      "word": "戦争",
+      "reading": "せんそう",
+      "meaning": "war",
+      "pos": "noun",
+      "example": "祖父は 戦争の 話を して くれました。",
+      "kanji_distractors": [
+        "単争",
+        "戦浄"
+      ]
+    },
+    {
+      "id": "n4v088",
+      "word": "国際",
+      "reading": "こくさい",
+      "meaning": "international",
+      "pos": "noun",
+      "example": "来月、国際 会議が 東京で 開かれます。",
+      "kanji_distractors": [
+        "国祭",
+        "国除"
+      ]
+    },
+    {
+      "id": "n4v089",
+      "word": "規則",
+      "reading": "きそく",
+      "meaning": "rule",
+      "pos": "noun",
+      "example": "学校の 規則を 守って ください。",
+      "kanji_distractors": [
+        "規側",
+        "現則"
+      ]
+    },
+    {
+      "id": "n4v090",
+      "word": "都合",
+      "reading": "つごう",
+      "meaning": "convenience, circumstances",
+      "pos": "noun",
+      "example": "あしたは 都合が 悪いので、行けません。",
+      "kanji_distractors": [
+        "都会",
+        "部合"
+      ]
+    },
+    {
+      "id": "n4v091",
+      "word": "理由",
+      "reading": "りゆう",
+      "meaning": "reason",
+      "pos": "noun",
+      "example": "遅れた 理由を 説明して ください。",
+      "kanji_distractors": [
+        "理田",
+        "埋由"
+      ]
+    },
+    {
+      "id": "n4v092",
+      "word": "原因",
+      "reading": "げんいん",
+      "meaning": "cause",
+      "pos": "noun",
+      "example": "事故の 原因は まだ わかりません。",
+      "kanji_distractors": [
+        "源因",
+        "原困"
+      ]
+    },
+    {
+      "id": "n4v093",
+      "word": "方法",
+      "reading": "ほうほう",
+      "meaning": "method, way",
+      "pos": "noun",
+      "example": "いい 勉強の 方法を 教えて ください。",
+      "kanji_distractors": [
+        "方去",
+        "万法"
+      ]
+    },
+    {
+      "id": "n4v094",
+      "word": "機会",
+      "reading": "きかい",
+      "meaning": "opportunity",
+      "pos": "noun",
+      "example": "日本語を 使う 機会が もっと ほしいです。",
+      "kanji_distractors": [
+        "機絵",
+        "幾会"
+      ]
+    },
+    {
+      "id": "n4v095",
+      "word": "将来",
+      "reading": "しょうらい",
+      "meaning": "future",
+      "pos": "noun",
+      "example": "将来は 日本で 働きたいです。",
+      "kanji_distractors": [
+        "奨来",
+        "将米"
+      ]
+    },
+    {
+      "id": "n4v096",
+      "word": "計画",
+      "reading": "けいかく",
+      "meaning": "plan",
+      "pos": "noun",
+      "example": "夏休みの 旅行の 計画を 立てました。",
+      "kanji_distractors": [
+        "計面",
+        "討画"
+      ]
+    },
+    {
+      "id": "n4v097",
+      "word": "予約",
+      "reading": "よやく",
+      "meaning": "reservation",
+      "pos": "noun",
+      "example": "レストランの 予約を して おきました。",
+      "kanji_distractors": [
+        "予釣",
+        "矛約"
+      ]
+    },
+    {
+      "id": "n4v098",
+      "word": "相談",
+      "reading": "そうだん",
+      "meaning": "consultation, advice",
+      "pos": "noun",
+      "example": "困った ことが あったら、相談して ください。",
+      "kanji_distractors": [
+        "想談",
+        "相淡"
+      ]
+    },
+    {
+      "id": "n4v099",
+      "word": "連絡",
+      "reading": "れんらく",
+      "meaning": "contact",
+      "pos": "noun",
+      "example": "駅に 着いたら、連絡して ください。",
+      "kanji_distractors": [
+        "連給",
+        "運絡"
+      ]
+    },
+    {
+      "id": "n4v100",
+      "word": "返事",
+      "reading": "へんじ",
+      "meaning": "reply",
+      "pos": "noun",
+      "example": "友達に メールの 返事を 書きました。",
+      "kanji_distractors": [
+        "返字",
+        "坂事"
+      ]
+    },
+    {
+      "id": "n4v101",
+      "word": "試験",
+      "reading": "しけん",
+      "meaning": "exam",
+      "pos": "noun",
+      "example": "来週 日本語の 試験が あります。",
+      "kanji_distractors": [
+        "式験",
+        "試検"
+      ]
+    },
+    {
+      "id": "n4v102",
+      "word": "授業",
+      "reading": "じゅぎょう",
+      "meaning": "class, lesson",
+      "pos": "noun",
+      "example": "月曜日の 授業は 九時から です。",
+      "kanji_distractors": [
+        "受業",
+        "授案"
+      ]
+    },
+    {
+      "id": "n4v103",
+      "word": "講義",
+      "reading": "こうぎ",
+      "meaning": "lecture",
+      "pos": "noun",
+      "example": "きょうの 講義は とても おもしろかったです。",
+      "kanji_distractors": [
+        "構義",
+        "講議"
+      ]
+    },
+    {
+      "id": "n4v104",
+      "word": "教育",
+      "reading": "きょういく",
+      "meaning": "education",
+      "pos": "noun",
+      "example": "子どもの 教育は とても 大切です。",
+      "kanji_distractors": [
+        "教肓",
+        "孝育"
+      ]
+    },
+    {
+      "id": "n4v105",
+      "word": "卒業",
+      "reading": "そつぎょう",
+      "meaning": "graduation",
+      "pos": "noun",
+      "example": "来年の 三月に 大学を 卒業します。",
+      "kanji_distractors": [
+        "率業",
+        "卒案"
+      ]
+    },
+    {
+      "id": "n4v106",
+      "word": "入学",
+      "reading": "にゅうがく",
+      "meaning": "entering a school",
+      "pos": "noun",
+      "example": "弟は 四月に 小学校に 入学しました。",
+      "kanji_distractors": [
+        "人学",
+        "入字"
+      ]
+    },
+    {
+      "id": "n4v107",
+      "word": "留学",
+      "reading": "りゅうがく",
+      "meaning": "studying abroad",
+      "pos": "noun",
+      "example": "来年 アメリカへ 留学する つもりです。",
+      "kanji_distractors": [
+        "流学",
+        "留字"
+      ]
+    },
+    {
+      "id": "n4v108",
+      "word": "合格",
+      "reading": "ごうかく",
+      "meaning": "passing (an exam)",
+      "pos": "noun",
+      "example": "試験に 合格して、とても うれしいです。",
+      "kanji_distractors": [
+        "合挌",
+        "含格"
+      ]
+    },
+    {
+      "id": "n4v109",
+      "word": "復習",
+      "reading": "ふくしゅう",
+      "meaning": "review (of lessons)",
+      "pos": "noun",
+      "example": "授業の あとで、毎日 復習して います。",
+      "kanji_distractors": [
+        "複習",
+        "復羽"
+      ]
+    },
+    {
+      "id": "n4v110",
+      "word": "予習",
+      "reading": "よしゅう",
+      "meaning": "preparing for a lesson",
+      "pos": "noun",
+      "example": "あしたの 授業の 予習を しました。",
+      "kanji_distractors": [
+        "予羽",
+        "矛習"
+      ]
+    },
+    {
+      "id": "n4v111",
+      "word": "専門",
+      "reading": "せんもん",
+      "meaning": "speciality, major",
+      "pos": "noun",
+      "example": "大学での 専門は 何ですか。",
+      "kanji_distractors": [
+        "専問",
+        "専間"
+      ]
+    },
+    {
+      "id": "n4v112",
+      "word": "中学校",
+      "reading": "ちゅうがっこう",
+      "meaning": "junior high school",
+      "pos": "noun",
+      "example": "妹は 中学校の 二年生です。",
+      "kanji_distractors": [
+        "中字校",
+        "中学交"
+      ]
+    },
+    {
+      "id": "n4v113",
+      "word": "高校",
+      "reading": "こうこう",
+      "meaning": "high school",
+      "pos": "noun",
+      "example": "高校の ときに テニスを して いました。",
+      "kanji_distractors": [
+        "高狡",
+        "高枚"
+      ]
+    },
+    {
+      "id": "n4v114",
+      "word": "小学校",
+      "reading": "しょうがっこう",
+      "meaning": "elementary school",
+      "pos": "noun",
+      "example": "小学校まで 歩いて 五分です。",
+      "kanji_distractors": [
+        "少学校",
+        "小字校"
+      ]
+    },
+    {
+      "id": "n4v115",
+      "word": "社長",
+      "reading": "しゃちょう",
+      "meaning": "company president",
+      "pos": "noun",
+      "example": "社長は 今 会議中です。",
+      "kanji_distractors": [
+        "杜長",
+        "社張"
+      ]
+    },
+    {
+      "id": "n4v116",
+      "word": "部長",
+      "reading": "ぶちょう",
+      "meaning": "department head",
+      "pos": "noun",
+      "example": "この 書類を 部長に 見せて ください。",
+      "kanji_distractors": [
+        "都長",
+        "部張"
+      ]
+    },
+    {
+      "id": "n4v117",
+      "word": "課長",
+      "reading": "かちょう",
+      "meaning": "section chief",
+      "pos": "noun",
+      "example": "課長は きょう 出張で いません。",
+      "kanji_distractors": [
+        "果長",
+        "課張"
+      ]
+    },
+    {
+      "id": "n4v118",
+      "word": "会社員",
+      "reading": "かいしゃいん",
+      "meaning": "company employee",
+      "pos": "noun",
+      "example": "兄は 会社員で、毎日 忙しいです。",
+      "kanji_distractors": [
+        "会社貝",
+        "会杜員"
+      ]
+    },
+    {
+      "id": "n4v119",
+      "word": "店員",
+      "reading": "てんいん",
+      "meaning": "shop clerk",
+      "pos": "noun",
+      "example": "店員に トイレの 場所を 聞きました。",
+      "kanji_distractors": [
+        "店貝",
+        "点員"
+      ]
+    },
+    {
+      "id": "n4v120",
+      "word": "看護師",
+      "reading": "かんごし",
+      "meaning": "nurse",
+      "pos": "noun",
+      "example": "姉は 病院で 看護師を して います。",
+      "kanji_distractors": [
+        "看獲師",
+        "着護師"
+      ]
+    },
+    {
+      "id": "n4v121",
+      "word": "歯医者",
+      "reading": "はいしゃ",
+      "meaning": "dentist",
+      "pos": "noun",
+      "example": "歯が 痛いので、歯医者へ 行きます。",
+      "kanji_distractors": [
+        "歯医著",
+        "菌医者"
+      ]
+    },
+    {
+      "id": "n4v122",
+      "word": "警官",
+      "reading": "けいかん",
+      "meaning": "police officer",
+      "pos": "noun",
+      "example": "道が わからなくて、警官に 聞きました。",
+      "kanji_distractors": [
+        "警宮",
+        "敬官"
+      ]
+    },
+    {
+      "id": "n4v123",
+      "word": "運転手",
+      "reading": "うんてんしゅ",
+      "meaning": "driver",
+      "pos": "noun",
+      "example": "タクシーの 運転手に 住所を 見せました。",
+      "kanji_distractors": [
+        "運転主",
+        "連転手"
+      ]
+    },
+    {
+      "id": "n4v124",
+      "word": "受付",
+      "reading": "うけつけ",
+      "meaning": "reception",
+      "pos": "noun",
+      "example": "名前を 受付で 言って ください。",
+      "kanji_distractors": [
+        "受附",
+        "授付"
+      ]
+    },
+    {
+      "id": "n4v125",
+      "word": "客",
+      "reading": "きゃく",
+      "meaning": "guest, customer",
+      "pos": "noun",
+      "example": "きょうは 店に 客が 多いです。",
+      "kanji_distractors": [
+        "容",
+        "各"
+      ]
+    },
+    {
+      "id": "n4v126",
+      "word": "主人",
+      "reading": "しゅじん",
+      "meaning": "husband; owner",
+      "pos": "noun",
+      "example": "主人は 今 出かけて います。",
+      "kanji_distractors": [
+        "主入",
+        "王人"
+      ]
+    },
+    {
+      "id": "n4v127",
+      "word": "家内",
+      "reading": "かない",
+      "meaning": "(my) wife",
+      "pos": "noun",
+      "example": "家内は 料理が 上手です。",
+      "kanji_distractors": [
+        "家肉",
+        "家円"
+      ]
+    },
+    {
+      "id": "n4v128",
+      "word": "夫",
+      "reading": "おっと",
+      "meaning": "husband",
+      "pos": "noun",
+      "example": "夫は 毎朝 早く 会社へ 行きます。",
+      "kanji_distractors": [
+        "天",
+        "失"
+      ]
+    },
+    {
+      "id": "n4v129",
+      "word": "妻",
+      "reading": "つま",
+      "meaning": "wife",
+      "pos": "noun",
+      "example": "妻と いっしょに 旅行に 行きました。",
+      "kanji_distractors": [
+        "妾",
+        "姜"
+      ]
+    },
+    {
+      "id": "n4v130",
+      "word": "息子",
+      "reading": "むすこ",
+      "meaning": "son",
+      "pos": "noun",
+      "example": "息子は 今年 大学に 入りました。",
+      "kanji_distractors": [
+        "自子",
+        "息字"
+      ]
+    },
+    {
+      "id": "n4v131",
+      "word": "娘",
+      "reading": "むすめ",
+      "meaning": "daughter",
+      "pos": "noun",
+      "example": "娘は ピアノを 習って います。",
+      "kanji_distractors": [
+        "浪",
+        "狼"
+      ]
+    },
+    {
+      "id": "n4v132",
+      "word": "祖父",
+      "reading": "そふ",
+      "meaning": "grandfather",
+      "pos": "noun",
+      "example": "祖父は 毎朝 散歩を します。",
+      "kanji_distractors": [
+        "祖文",
+        "租父"
+      ]
+    },
+    {
+      "id": "n4v133",
+      "word": "祖母",
+      "reading": "そぼ",
+      "meaning": "grandmother",
+      "pos": "noun",
+      "example": "祖母の 料理は とても おいしいです。",
+      "kanji_distractors": [
+        "祖毎",
+        "租母"
+      ]
+    },
+    {
+      "id": "n4v134",
+      "word": "親",
+      "reading": "おや",
+      "meaning": "parent",
+      "pos": "noun",
+      "example": "親に 心配を かけないように して います。",
+      "kanji_distractors": [
+        "新",
+        "視"
+      ]
+    },
+    {
+      "id": "n4v135",
+      "word": "赤ちゃん",
+      "reading": "あかちゃん",
+      "meaning": "baby",
+      "pos": "noun",
+      "example": "赤ちゃんが 寝て いるので、静かに して ください。",
+      "kanji_distractors": [
+        "赤ちやん",
+        "亦ちゃん"
+      ]
+    },
+    {
+      "id": "n4v136",
+      "word": "男性",
+      "reading": "だんせい",
+      "meaning": "man, male",
+      "pos": "noun",
+      "example": "あの 男性は だれですか。",
+      "kanji_distractors": [
+        "男姓",
+        "男牲"
+      ]
+    },
+    {
+      "id": "n4v137",
+      "word": "女性",
+      "reading": "じょせい",
+      "meaning": "woman, female",
+      "pos": "noun",
+      "example": "この 会社は 女性の 社員が 多いです。",
+      "kanji_distractors": [
+        "女姓",
+        "女牲"
+      ]
+    },
+    {
+      "id": "n4v138",
+      "word": "彼",
+      "reading": "かれ",
+      "meaning": "he; boyfriend",
+      "pos": "noun",
+      "example": "彼は 毎日 図書館で 勉強して います。",
+      "kanji_distractors": [
+        "役",
+        "被"
+      ]
+    },
+    {
+      "id": "n4v139",
+      "word": "彼女",
+      "reading": "かのじょ",
+      "meaning": "she; girlfriend",
+      "pos": "noun",
+      "example": "彼女は 料理が とても 上手です。",
+      "kanji_distractors": [
+        "彼如",
+        "被女"
+      ]
+    },
+    {
+      "id": "n4v140",
+      "word": "市民",
+      "reading": "しみん",
+      "meaning": "citizen",
+      "pos": "noun",
+      "example": "この 図書館は 市民なら だれでも 使えます。",
+      "kanji_distractors": [
+        "市眠",
+        "布民"
+      ]
+    },
+    {
+      "id": "n4v141",
+      "word": "近所",
+      "reading": "きんじょ",
+      "meaning": "neighbourhood",
+      "pos": "noun",
+      "example": "近所に 大きな スーパーが できました。",
+      "kanji_distractors": [
+        "近折",
+        "斤所"
+      ]
+    },
+    {
+      "id": "n4v142",
+      "word": "知り合い",
+      "reading": "しりあい",
+      "meaning": "acquaintance",
+      "pos": "noun",
+      "example": "パーティーで 知り合いに 会いました。",
+      "kanji_distractors": [
+        "知り会い",
+        "知り合ひ"
+      ]
+    },
+    {
+      "id": "n4v143",
+      "word": "気持ち",
+      "reading": "きもち",
+      "meaning": "feeling",
+      "pos": "noun",
+      "example": "あなたの 気持ちは よく わかります。",
+      "kanji_distractors": [
+        "気待ち",
+        "汽持ち"
+      ]
+    },
+    {
+      "id": "n4v144",
+      "word": "心",
+      "reading": "こころ",
+      "meaning": "heart, mind",
+      "pos": "noun",
+      "example": "彼女は 心の やさしい 人です。",
+      "kanji_distractors": [
+        "必",
+        "忙"
+      ]
+    },
+    {
+      "id": "n4v145",
+      "word": "力",
+      "reading": "ちから",
+      "meaning": "strength, power",
+      "pos": "noun",
+      "example": "この 箱は 重くて、力が いります。",
+      "kanji_distractors": [
+        "刀",
+        "万"
+      ]
+    },
+    {
+      "id": "n4v146",
+      "word": "夢",
+      "reading": "ゆめ",
+      "meaning": "dream",
+      "pos": "noun",
+      "example": "わたしの 夢は 医者に なる ことです。",
+      "kanji_distractors": [
+        "蒙",
+        "夕"
+      ]
+    },
+    {
+      "id": "n4v147",
+      "word": "用事",
+      "reading": "ようじ",
+      "meaning": "errand, things to do",
+      "pos": "noun",
+      "example": "きょうは 用事が あるので、早く 帰ります。",
+      "kanji_distractors": [
+        "要事",
+        "用字"
+      ]
+    },
+    {
+      "id": "n4v148",
+      "word": "職業",
+      "reading": "しょくぎょう",
+      "meaning": "occupation",
+      "pos": "noun",
+      "example": "この 紙に 名前と 職業を 書いて ください。",
+      "kanji_distractors": [
+        "職案",
+        "織業"
+      ]
+    },
+    {
+      "id": "n4v149",
+      "word": "給料",
+      "reading": "きゅうりょう",
+      "meaning": "salary",
+      "pos": "noun",
+      "example": "この 会社は 給料が いいです。",
+      "kanji_distractors": [
+        "給科",
+        "結料"
+      ]
+    },
+    {
+      "id": "n4v150",
+      "word": "会議室",
+      "reading": "かいぎしつ",
+      "meaning": "meeting room",
+      "pos": "noun",
+      "example": "会議室は 三階に あります。",
+      "kanji_distractors": [
+        "会儀室",
+        "会議宝"
+      ]
+    },
+    {
+      "id": "n4v151",
+      "word": "事務所",
+      "reading": "じむしょ",
+      "meaning": "office",
+      "pos": "noun",
+      "example": "事務所は 駅の 近くに あります。",
+      "kanji_distractors": [
+        "事務折",
+        "事努所"
+      ]
+    },
+    {
+      "id": "n4v152",
+      "word": "品物",
+      "reading": "しなもの",
+      "meaning": "goods, article",
+      "pos": "noun",
+      "example": "この 店は いい 品物が 多いです。",
+      "kanji_distractors": [
+        "晶物",
+        "品勿"
+      ]
+    },
+    {
+      "id": "n4v153",
+      "word": "値段",
+      "reading": "ねだん",
+      "meaning": "price",
+      "pos": "noun",
+      "example": "この 時計の 値段は いくらですか。",
+      "kanji_distractors": [
+        "植段",
+        "値投"
+      ]
+    },
+    {
+      "id": "n4v154",
+      "word": "お釣り",
+      "reading": "おつり",
+      "meaning": "change (money)",
+      "pos": "noun",
+      "example": "お釣りを もらうのを 忘れました。",
+      "kanji_distractors": [
+        "お約り",
+        "お釣リ"
+      ]
+    },
+    {
+      "id": "n4v155",
+      "word": "売り場",
+      "reading": "うりば",
+      "meaning": "sales floor, counter",
+      "pos": "noun",
+      "example": "靴の 売り場は 二階です。",
+      "kanji_distractors": [
+        "売り揚",
+        "買り場"
+      ]
+    },
+    {
+      "id": "n4v156",
+      "word": "支度",
+      "reading": "したく",
+      "meaning": "preparation",
+      "pos": "noun",
+      "example": "旅行の 支度は もう できましたか。",
+      "kanji_distractors": [
+        "支席",
+        "友度"
+      ]
+    },
+    {
+      "id": "n4v157",
+      "word": "引き出し",
+      "reading": "ひきだし",
+      "meaning": "drawer",
+      "pos": "noun",
+      "example": "はさみは 机の 引き出しに 入って います。",
+      "kanji_distractors": [
+        "引き山し",
+        "弓き出し"
+      ]
+    },
+    {
+      "id": "n4v158",
+      "word": "遠慮",
+      "reading": "えんりょ",
+      "meaning": "reserve, holding back",
+      "pos": "noun",
+      "example": "遠慮しないで、たくさん 食べて ください。",
+      "kanji_distractors": [
+        "遠虜",
+        "園慮"
+      ]
+    },
+    {
+      "id": "n4v159",
+      "word": "冗談",
+      "reading": "じょうだん",
+      "meaning": "joke",
+      "pos": "noun",
+      "example": "彼は いつも 冗談を 言って みんなを 笑わせます。",
+      "kanji_distractors": [
+        "冗淡",
+        "冘談"
+      ]
+    },
+    {
+      "id": "n4v160",
+      "word": "お礼",
+      "reading": "おれい",
+      "meaning": "thanks; thank-you gift",
+      "pos": "noun",
+      "example": "手伝って くれた 友達に お礼を 言いました。",
+      "kanji_distractors": [
+        "お札",
+        "お神"
+      ]
+    },
+    {
+      "id": "n4v161",
+      "word": "お祝い",
+      "reading": "おいわい",
+      "meaning": "celebration; gift",
+      "pos": "noun",
+      "example": "友達の 結婚の お祝いに 時計を あげました。",
+      "kanji_distractors": [
+        "お祝ひ",
+        "お税い"
+      ]
+    },
+    {
+      "id": "n4v162",
+      "word": "お見舞い",
+      "reading": "おみまい",
+      "meaning": "visiting a sick person",
+      "pos": "noun",
+      "example": "入院した 友達の お見舞いに 行きました。",
+      "kanji_distractors": [
+        "お見舞ひ",
+        "お貝舞い"
+      ]
+    },
+    {
+      "id": "n4v163",
+      "word": "お土産",
+      "reading": "おみやげ",
+      "meaning": "souvenir",
+      "pos": "noun",
+      "example": "京都で 家族に お土産を 買いました。",
+      "kanji_distractors": [
+        "お士産",
+        "お土座"
+      ]
+    },
+    {
+      "id": "n4v164",
+      "word": "贈り物",
+      "reading": "おくりもの",
+      "meaning": "gift",
+      "pos": "noun",
+      "example": "母の 誕生日に 贈り物を しました。",
+      "kanji_distractors": [
+        "送り物",
+        "贈り勿"
+      ]
+    },
+    {
+      "id": "n4v165",
+      "word": "挨拶",
+      "reading": "あいさつ",
+      "meaning": "greeting",
+      "pos": "noun",
+      "example": "朝、近所の 人に 挨拶を します。",
+      "kanji_distractors": [
+        "挨探",
+        "唉拶"
+      ]
+    },
+    {
+      "id": "n4v166",
+      "word": "招待",
+      "reading": "しょうたい",
+      "meaning": "invitation",
+      "pos": "noun",
+      "example": "友達の 結婚式に 招待されました。",
+      "kanji_distractors": [
+        "招持",
+        "紹待"
+      ]
+    },
+    {
+      "id": "n4v167",
+      "word": "結婚",
+      "reading": "けっこん",
+      "meaning": "marriage",
+      "pos": "noun",
+      "example": "兄は 来月 結婚します。",
+      "kanji_distractors": [
+        "結昏",
+        "給婚"
+      ]
+    },
+    {
+      "id": "n4v168",
+      "word": "葬式",
+      "reading": "そうしき",
+      "meaning": "funeral",
+      "pos": "noun",
+      "example": "祖父の 葬式に 家族 みんなで 行きました。",
+      "kanji_distractors": [
+        "葬試",
+        "藻式"
+      ]
+    },
+    {
+      "id": "n4v169",
+      "word": "お祭り",
+      "reading": "おまつり",
+      "meaning": "festival",
+      "pos": "noun",
+      "example": "夏に なると、町で お祭りが あります。",
+      "kanji_distractors": [
+        "お際り",
+        "お祭リ"
+      ]
+    },
+    {
+      "id": "n4v170",
+      "word": "花見",
+      "reading": "はなみ",
+      "meaning": "cherry-blossom viewing",
+      "pos": "noun",
+      "example": "週末に 公園で 花見を しました。",
+      "kanji_distractors": [
+        "花貝",
+        "化見"
+      ]
+    },
+    {
+      "id": "n4v171",
+      "word": "正月",
+      "reading": "しょうがつ",
+      "meaning": "New Year",
+      "pos": "noun",
+      "example": "正月は 家族と 過ごします。",
+      "kanji_distractors": [
+        "正丹",
+        "止月"
+      ]
+    },
+    {
+      "id": "n4v172",
+      "word": "留守",
+      "reading": "るす",
+      "meaning": "being away from home",
+      "pos": "noun",
+      "example": "きのう 友達の 家に 行きましたが、留守でした。",
+      "kanji_distractors": [
+        "留寸",
+        "流守"
+      ]
+    },
+    {
+      "id": "n4v173",
+      "word": "場所",
+      "reading": "ばしょ",
+      "meaning": "place",
+      "pos": "noun",
+      "example": "待ち合わせの 場所は どこですか。",
+      "kanji_distractors": [
+        "場折",
+        "揚所"
+      ]
+    },
+    {
+      "id": "n4v174",
+      "word": "美術館",
+      "reading": "びじゅつかん",
+      "meaning": "art museum",
+      "pos": "noun",
+      "example": "週末に 美術館で 絵を 見ました。",
+      "kanji_distractors": [
+        "美術舘",
+        "美述館"
+      ]
+    },
+    {
+      "id": "n4v175",
+      "word": "動物園",
+      "reading": "どうぶつえん",
+      "meaning": "zoo",
+      "pos": "noun",
+      "example": "子どもと 動物園へ パンダを 見に 行きました。",
+      "kanji_distractors": [
+        "動物国",
+        "働物園"
+      ]
+    },
+    {
+      "id": "n4v176",
+      "word": "植物",
+      "reading": "しょくぶつ",
+      "meaning": "plant",
+      "pos": "noun",
+      "example": "母は 部屋で 植物を 育てて います。",
+      "kanji_distractors": [
+        "殖物",
+        "植勿"
+      ]
+    },
+    {
+      "id": "n4v177",
+      "word": "港",
+      "reading": "みなと",
+      "meaning": "harbour, port",
+      "pos": "noun",
+      "example": "港には 大きな 船が とまって います。",
+      "kanji_distractors": [
+        "巷",
+        "湊"
+      ]
+    },
+    {
+      "id": "n4v178",
+      "word": "島",
+      "reading": "しま",
+      "meaning": "island",
+      "pos": "noun",
+      "example": "この 島には 車が ありません。",
+      "kanji_distractors": [
+        "鳥",
+        "烏"
+      ]
+    },
+    {
+      "id": "n4v179",
+      "word": "海岸",
+      "reading": "かいがん",
+      "meaning": "seashore",
+      "pos": "noun",
+      "example": "朝 早く 海岸を 散歩しました。",
+      "kanji_distractors": [
+        "海岩",
+        "悔岸"
+      ]
+    },
+    {
+      "id": "n4v180",
+      "word": "湖",
+      "reading": "みずうみ",
+      "meaning": "lake",
+      "pos": "noun",
+      "example": "山の 上に きれいな 湖が あります。",
+      "kanji_distractors": [
+        "胡",
+        "潮"
+      ]
+    },
+    {
+      "id": "n4v181",
+      "word": "林",
+      "reading": "はやし",
+      "meaning": "grove, woods",
+      "pos": "noun",
+      "example": "家の 後ろに 小さな 林が あります。",
+      "kanji_distractors": [
+        "材",
+        "休"
+      ]
+    },
+    {
+      "id": "n4v182",
+      "word": "森",
+      "reading": "もり",
+      "meaning": "forest",
+      "pos": "noun",
+      "example": "森の 中を 一時間 歩きました。",
+      "kanji_distractors": [
+        "桑",
+        "淼"
+      ]
+    },
+    {
+      "id": "n4v183",
+      "word": "坂",
+      "reading": "さか",
+      "meaning": "slope",
+      "pos": "noun",
+      "example": "この 坂を 上ると、駅が 見えます。",
+      "kanji_distractors": [
+        "板",
+        "阪"
+      ]
+    },
+    {
+      "id": "n4v184",
+      "word": "石",
+      "reading": "いし",
+      "meaning": "stone",
+      "pos": "noun",
+      "example": "川の 中に 大きな 石が あります。",
+      "kanji_distractors": [
+        "右",
+        "古"
+      ]
+    },
+    {
+      "id": "n4v185",
+      "word": "砂",
+      "reading": "すな",
+      "meaning": "sand",
+      "pos": "noun",
+      "example": "子どもたちが 砂で 遊んで います。",
+      "kanji_distractors": [
+        "紗",
+        "妙"
+      ]
+    },
+    {
+      "id": "n4v186",
+      "word": "草",
+      "reading": "くさ",
+      "meaning": "grass",
+      "pos": "noun",
+      "example": "庭の 草を とりました。",
+      "kanji_distractors": [
+        "早",
+        "芋"
+      ]
+    },
+    {
+      "id": "n4v187",
+      "word": "枝",
+      "reading": "えだ",
+      "meaning": "branch",
+      "pos": "noun",
+      "example": "風で 木の 枝が 折れました。",
+      "kanji_distractors": [
+        "技",
+        "支"
+      ]
+    },
+    {
+      "id": "n4v188",
+      "word": "葉",
+      "reading": "は",
+      "meaning": "leaf",
+      "pos": "noun",
+      "example": "秋に なると、木の 葉が 赤く なります。",
+      "kanji_distractors": [
+        "菓",
+        "葦"
+      ]
+    },
+    {
+      "id": "n4v189",
+      "word": "虫",
+      "reading": "むし",
+      "meaning": "insect",
+      "pos": "noun",
+      "example": "夏の 夜は 虫の 声が 聞こえます。",
+      "kanji_distractors": [
+        "中",
+        "忠"
+      ]
+    },
+    {
+      "id": "n4v190",
+      "word": "星",
+      "reading": "ほし",
+      "meaning": "star",
+      "pos": "noun",
+      "example": "今夜は 星が よく 見えます。",
+      "kanji_distractors": [
+        "皇",
+        "昼"
+      ]
+    },
+    {
+      "id": "n4v191",
+      "word": "地震",
+      "reading": "じしん",
+      "meaning": "earthquake",
+      "pos": "noun",
+      "example": "きのうの 夜、大きな 地震が ありました。",
+      "kanji_distractors": [
+        "地振",
+        "池震"
+      ]
+    },
+    {
+      "id": "n4v192",
+      "word": "台風",
+      "reading": "たいふう",
+      "meaning": "typhoon",
+      "pos": "noun",
+      "example": "台風で 電車が 止まりました。",
+      "kanji_distractors": [
+        "台夙",
+        "治風"
+      ]
+    },
+    {
+      "id": "n4v193",
+      "word": "火事",
+      "reading": "かじ",
+      "meaning": "fire (accident)",
+      "pos": "noun",
+      "example": "近所で 火事が ありました。",
+      "kanji_distractors": [
+        "火字",
+        "灰事"
+      ]
+    },
+    {
+      "id": "n4v194",
+      "word": "天気予報",
+      "reading": "てんきよほう",
+      "meaning": "weather forecast",
+      "pos": "noun",
+      "example": "天気予報に よると、あしたは 雨です。",
+      "kanji_distractors": [
+        "天汽予報",
+        "天気予服"
+      ]
+    },
+    {
+      "id": "n4v195",
+      "word": "空気",
+      "reading": "くうき",
+      "meaning": "air",
+      "pos": "noun",
+      "example": "山の 空気は とても きれいです。",
+      "kanji_distractors": [
+        "空汽",
+        "突気"
+      ]
+    },
+    {
+      "id": "n4v196",
+      "word": "光",
+      "reading": "ひかり",
+      "meaning": "light",
+      "pos": "noun",
+      "example": "窓から 明るい 光が 入って きます。",
+      "kanji_distractors": [
+        "米",
+        "先"
+      ]
+    },
+    {
+      "id": "n4v197",
+      "word": "音",
+      "reading": "おと",
+      "meaning": "sound",
+      "pos": "noun",
+      "example": "隣の 部屋から 大きな 音が しました。",
+      "kanji_distractors": [
+        "昔",
+        "者"
+      ]
+    },
+    {
+      "id": "n4v198",
+      "word": "熱",
+      "reading": "ねつ",
+      "meaning": "fever; heat",
+      "pos": "noun",
+      "example": "熱が あるので、きょうは 休みます。",
+      "kanji_distractors": [
+        "熟",
+        "勢"
+      ]
+    },
+    {
+      "id": "n4v199",
+      "word": "文法",
+      "reading": "ぶんぽう",
+      "meaning": "grammar",
+      "pos": "noun",
+      "example": "日本語の 文法は むずかしいですか。",
+      "kanji_distractors": [
+        "文去",
+        "攵法"
+      ]
+    },
+    {
+      "id": "n4v200",
+      "word": "小説",
+      "reading": "しょうせつ",
+      "meaning": "novel",
+      "pos": "noun",
+      "example": "寝る 前に 小説を 読みます。",
+      "kanji_distractors": [
+        "小設",
+        "少説"
+      ]
+    },
+    {
+      "id": "n4v201",
+      "word": "放送",
+      "reading": "ほうそう",
+      "meaning": "broadcast",
+      "pos": "noun",
+      "example": "この 番組は 毎週 土曜日に 放送されます。",
+      "kanji_distractors": [
+        "方送",
+        "放逆"
+      ]
+    },
+    {
+      "id": "n4v202",
+      "word": "映画館",
+      "reading": "えいがかん",
+      "meaning": "cinema",
+      "pos": "noun",
+      "example": "駅の 前に 新しい 映画館が できました。",
+      "kanji_distractors": [
+        "映画舘",
+        "映面館"
+      ]
+    },
+    {
+      "id": "n4v203",
+      "word": "釣り",
+      "reading": "つり",
+      "meaning": "fishing",
+      "pos": "noun",
+      "example": "父の 趣味は 釣りです。",
+      "kanji_distractors": [
+        "約り",
+        "釣リ"
+      ]
+    },
+    {
+      "id": "n4v204",
+      "word": "水泳",
+      "reading": "すいえい",
+      "meaning": "swimming",
+      "pos": "noun",
+      "example": "毎週 プールで 水泳を して います。",
+      "kanji_distractors": [
+        "氷泳",
+        "水詠"
+      ]
+    },
+    {
+      "id": "n4v205",
+      "word": "運動",
+      "reading": "うんどう",
+      "meaning": "exercise",
+      "pos": "noun",
+      "example": "健康の ために、毎日 運動して います。",
+      "kanji_distractors": [
+        "運働",
+        "連動"
+      ]
+    },
+    {
+      "id": "n4v206",
+      "word": "柔道",
+      "reading": "じゅうどう",
+      "meaning": "judo",
+      "pos": "noun",
+      "example": "弟は 柔道を 習って います。",
+      "kanji_distractors": [
+        "柔導",
+        "桑道"
+      ]
+    },
+    {
+      "id": "n4v207",
+      "word": "踊り",
+      "reading": "おどり",
+      "meaning": "dance",
+      "pos": "noun",
+      "example": "お祭りで 踊りを 見ました。",
+      "kanji_distractors": [
+        "踴り",
+        "躍り"
+      ]
+    },
+    {
+      "id": "n4v208",
+      "word": "生け花",
+      "reading": "いけばな",
+      "meaning": "flower arrangement",
+      "pos": "noun",
+      "example": "母は 毎週 生け花を 習って います。",
+      "kanji_distractors": [
+        "生け化",
+        "牲け花"
+      ]
+    },
+    {
+      "id": "n4v209",
+      "word": "道具",
+      "reading": "どうぐ",
+      "meaning": "tool",
+      "pos": "noun",
+      "example": "この 道具は 何に 使いますか。",
+      "kanji_distractors": [
+        "道貝",
+        "導具"
+      ]
+    },
+    {
+      "id": "n4v210",
+      "word": "機械",
+      "reading": "きかい",
+      "meaning": "machine",
+      "pos": "noun",
+      "example": "この 機械の 使い方を 教えて ください。",
+      "kanji_distractors": [
+        "機戒",
+        "幾械"
+      ]
+    },
+    {
+      "id": "n4v211",
+      "word": "鏡",
+      "reading": "かがみ",
+      "meaning": "mirror",
+      "pos": "noun",
+      "example": "出かける 前に 鏡を 見ました。",
+      "kanji_distractors": [
+        "境",
+        "鐘"
+      ]
+    },
+    {
+      "id": "n4v212",
+      "word": "袋",
+      "reading": "ふくろ",
+      "meaning": "bag",
+      "pos": "noun",
+      "example": "買った ものを 袋に 入れました。",
+      "kanji_distractors": [
+        "装",
+        "衰"
+      ]
+    },
+    {
+      "id": "n4v213",
+      "word": "手袋",
+      "reading": "てぶくろ",
+      "meaning": "gloves",
+      "pos": "noun",
+      "example": "寒いので、手袋を して 出かけます。",
+      "kanji_distractors": [
+        "手装",
+        "手衰"
+      ]
+    },
+    {
+      "id": "n4v214",
+      "word": "指輪",
+      "reading": "ゆびわ",
+      "meaning": "ring",
+      "pos": "noun",
+      "example": "誕生日に 指輪を もらいました。",
+      "kanji_distractors": [
+        "指輸",
+        "指論"
+      ]
+    },
+    {
+      "id": "n4v215",
+      "word": "下着",
+      "reading": "したぎ",
+      "meaning": "underwear",
+      "pos": "noun",
+      "example": "旅行に 下着を 三枚 持って 行きます。",
+      "kanji_distractors": [
+        "下差",
+        "下看"
+      ]
+    },
+    {
+      "id": "n4v216",
+      "word": "着物",
+      "reading": "きもの",
+      "meaning": "kimono",
+      "pos": "noun",
+      "example": "正月に 着物を 着ました。",
+      "kanji_distractors": [
+        "着勿",
+        "差物"
+      ]
+    },
+    {
+      "id": "n4v217",
+      "word": "布団",
+      "reading": "ふとん",
+      "meaning": "futon",
+      "pos": "noun",
+      "example": "天気が いいので、布団を 干しました。",
+      "kanji_distractors": [
+        "布困",
+        "市団"
+      ]
+    },
+    {
+      "id": "n4v218",
+      "word": "畳",
+      "reading": "たたみ",
+      "meaning": "tatami mat",
+      "pos": "noun",
+      "example": "この 部屋は 畳が 六枚 あります。",
+      "kanji_distractors": [
+        "疊",
+        "昼"
+      ]
+    },
+    {
+      "id": "n4v219",
+      "word": "押し入れ",
+      "reading": "おしいれ",
+      "meaning": "closet",
+      "pos": "noun",
+      "example": "布団を 押し入れに 入れて ください。",
+      "kanji_distractors": [
+        "押し人れ",
+        "抻し入れ"
+      ]
+    },
+    {
+      "id": "n4v220",
+      "word": "台所",
+      "reading": "だいどころ",
+      "meaning": "kitchen",
+      "pos": "noun",
+      "example": "母は 台所で 料理を して います。",
+      "kanji_distractors": [
+        "台折",
+        "治所"
+      ]
+    },
+    {
+      "id": "n4v221",
+      "word": "玄関",
+      "reading": "げんかん",
+      "meaning": "entrance hall",
+      "pos": "noun",
+      "example": "靴は 玄関で ぬいで ください。",
+      "kanji_distractors": [
+        "玄開",
+        "弦関"
+      ]
+    },
+    {
+      "id": "n4v222",
+      "word": "屋上",
+      "reading": "おくじょう",
+      "meaning": "rooftop",
+      "pos": "noun",
+      "example": "デパートの 屋上で 休みました。",
+      "kanji_distractors": [
+        "屋土",
+        "昼上"
+      ]
+    },
+    {
+      "id": "n4v223",
+      "word": "壁",
+      "reading": "かべ",
+      "meaning": "wall",
+      "pos": "noun",
+      "example": "壁に 家族の 写真を はりました。",
+      "kanji_distractors": [
+        "璧",
+        "癖"
+      ]
+    },
+    {
+      "id": "n4v224",
+      "word": "家具",
+      "reading": "かぐ",
+      "meaning": "furniture",
+      "pos": "noun",
+      "example": "新しい 部屋の 家具を 買いに 行きます。",
+      "kanji_distractors": [
+        "家貝",
+        "宅具"
+      ]
+    },
+    {
+      "id": "n4v225",
+      "word": "冷房",
+      "reading": "れいぼう",
+      "meaning": "air conditioning",
+      "pos": "noun",
+      "example": "暑いので、冷房を つけましょう。",
+      "kanji_distractors": [
+        "冷戻",
+        "冷防"
+      ]
+    },
+    {
+      "id": "n4v226",
+      "word": "暖房",
+      "reading": "だんぼう",
+      "meaning": "heating",
+      "pos": "noun",
+      "example": "寒いので、暖房を つけて ください。",
+      "kanji_distractors": [
+        "暖戻",
+        "援房"
+      ]
+    },
+    {
+      "id": "n4v227",
+      "word": "水道",
+      "reading": "すいどう",
+      "meaning": "water supply",
+      "pos": "noun",
+      "example": "水道の 水を そのまま 飲んでも 大丈夫です。",
+      "kanji_distractors": [
+        "氷道",
+        "水導"
+      ]
+    },
+    {
+      "id": "n4v228",
+      "word": "下宿",
+      "reading": "げしゅく",
+      "meaning": "boarding house",
+      "pos": "noun",
+      "example": "大学の 近くに 下宿して います。",
+      "kanji_distractors": [
+        "下縮",
+        "下佰"
+      ]
+    },
+    {
+      "id": "n4v229",
+      "word": "食料品",
+      "reading": "しょくりょうひん",
+      "meaning": "groceries",
+      "pos": "noun",
+      "example": "食料品は 地下の 売り場に あります。",
+      "kanji_distractors": [
+        "食科品",
+        "食料晶"
+      ]
+    },
+    {
+      "id": "n4v230",
+      "word": "食事",
+      "reading": "しょくじ",
+      "meaning": "meal",
+      "pos": "noun",
+      "example": "食事の 前に 手を 洗いましょう。",
+      "kanji_distractors": [
+        "食字",
+        "良事"
+      ]
+    },
+    {
+      "id": "n4v231",
+      "word": "味",
+      "reading": "あじ",
+      "meaning": "taste",
+      "pos": "noun",
+      "example": "この スープは 味が うすいです。",
+      "kanji_distractors": [
+        "未",
+        "呼"
+      ]
+    },
+    {
+      "id": "n4v232",
+      "word": "米",
+      "reading": "こめ",
+      "meaning": "rice (uncooked)",
+      "pos": "noun",
+      "example": "この 店で お米を 買います。",
+      "kanji_distractors": [
+        "来",
+        "半"
+      ]
+    },
+    {
+      "id": "n4v233",
+      "word": "昼休み",
+      "reading": "ひるやすみ",
+      "meaning": "lunch break",
+      "pos": "noun",
+      "example": "昼休みに 友達と 公園で 話しました。",
+      "kanji_distractors": [
+        "昼体み",
+        "昼休ミ"
+      ]
+    },
+    {
+      "id": "n4v234",
+      "word": "夕飯",
+      "reading": "ゆうはん",
+      "meaning": "dinner",
+      "pos": "noun",
+      "example": "きょうの 夕飯は カレーです。",
+      "kanji_distractors": [
+        "夕販",
+        "夕飲"
+      ]
+    },
+    {
+      "id": "n4v235",
+      "word": "朝寝坊",
+      "reading": "あさねぼう",
+      "meaning": "oversleeping",
+      "pos": "noun",
+      "example": "けさは 朝寝坊して、授業に 遅れました。",
+      "kanji_distractors": [
+        "朝寝防",
+        "朝寝坂"
+      ]
+    },
+    {
+      "id": "n4v236",
+      "word": "お湯",
+      "reading": "おゆ",
+      "meaning": "hot water",
+      "pos": "noun",
+      "example": "お湯を 沸かして、お茶を いれました。",
+      "kanji_distractors": [
+        "お陽",
+        "お場"
+      ]
+    },
+    {
+      "id": "n4v237",
+      "word": "弁当",
+      "reading": "べんとう",
+      "meaning": "boxed lunch",
+      "pos": "noun",
+      "example": "毎朝 自分で 弁当を 作ります。",
+      "kanji_distractors": [
+        "并当",
+        "弁堂"
+      ]
+    },
+    {
+      "id": "n4v238",
+      "word": "注射",
+      "reading": "ちゅうしゃ",
+      "meaning": "injection",
+      "pos": "noun",
+      "example": "病院で 注射を して もらいました。",
+      "kanji_distractors": [
+        "注謝",
+        "住射"
+      ]
+    },
+    {
+      "id": "n4v239",
+      "word": "怪我",
+      "reading": "けが",
+      "meaning": "injury",
+      "pos": "noun",
+      "example": "サッカーで 足に 怪我を しました。",
+      "kanji_distractors": [
+        "径我",
+        "怪餓"
+      ]
+    },
+    {
+      "id": "n4v240",
+      "word": "具合",
+      "reading": "ぐあい",
+      "meaning": "condition (health)",
+      "pos": "noun",
+      "example": "お母さんの 具合は いかがですか。",
+      "kanji_distractors": [
+        "具会",
+        "貝合"
+      ]
+    },
+    {
+      "id": "n4v241",
+      "word": "入院",
+      "reading": "にゅういん",
+      "meaning": "hospitalisation",
+      "pos": "noun",
+      "example": "祖母は 先週から 入院して います。",
+      "kanji_distractors": [
+        "人院",
+        "入完"
+      ]
+    },
+    {
+      "id": "n4v242",
+      "word": "退院",
+      "reading": "たいいん",
+      "meaning": "leaving hospital",
+      "pos": "noun",
+      "example": "父は あした 退院します。",
+      "kanji_distractors": [
+        "退完",
+        "追院"
+      ]
+    },
+    {
+      "id": "n4v243",
+      "word": "乗り物",
+      "reading": "のりもの",
+      "meaning": "vehicle",
+      "pos": "noun",
+      "example": "子どもは 乗り物が 大好きです。",
+      "kanji_distractors": [
+        "乗り勿",
+        "垂り物"
+      ]
+    },
+    {
+      "id": "n4v244",
+      "word": "地下鉄",
+      "reading": "ちかてつ",
+      "meaning": "subway",
+      "pos": "noun",
+      "example": "地下鉄で 会社へ 通って います。",
+      "kanji_distractors": [
+        "地下鈇",
+        "池下鉄"
+      ]
+    },
+    {
+      "id": "n4v245",
+      "word": "急行",
+      "reading": "きゅうこう",
+      "meaning": "express train",
+      "pos": "noun",
+      "example": "急行は この 駅に 止まりません。",
+      "kanji_distractors": [
+        "急衍",
+        "怠行"
+      ]
+    },
+    {
+      "id": "n4v246",
+      "word": "特急",
+      "reading": "とっきゅう",
+      "meaning": "limited express",
+      "pos": "noun",
+      "example": "特急に 乗れば、一時間で 着きます。",
+      "kanji_distractors": [
+        "待急",
+        "特忽"
+      ]
+    },
+    {
+      "id": "n4v247",
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "meaning": "bullet train",
+      "pos": "noun",
+      "example": "新幹線で 大阪へ 行きました。",
+      "kanji_distractors": [
+        "新幹綿",
+        "新韓線"
+      ]
+    },
+    {
+      "id": "n4v248",
+      "word": "飛行場",
+      "reading": "ひこうじょう",
+      "meaning": "airfield",
+      "pos": "noun",
+      "example": "飛行場まで バスで 一時間 かかります。",
+      "kanji_distractors": [
+        "飛行揚",
+        "飛衍場"
+      ]
+    },
+    {
+      "id": "n4v249",
+      "word": "駐車場",
+      "reading": "ちゅうしゃじょう",
+      "meaning": "car park",
+      "pos": "noun",
+      "example": "この ビルの 駐車場は 地下に あります。",
+      "kanji_distractors": [
+        "駐車揚",
+        "注車場"
+      ]
+    },
+    {
+      "id": "n4v250",
+      "word": "信号",
+      "reading": "しんごう",
+      "meaning": "traffic light",
+      "pos": "noun",
+      "example": "信号が 赤の ときは 渡らないで ください。",
+      "kanji_distractors": [
+        "信合",
+        "言号"
+      ]
+    },
+    {
+      "id": "n4v251",
+      "word": "道路",
+      "reading": "どうろ",
+      "meaning": "road",
+      "pos": "noun",
+      "example": "この 道路は いつも 込んで います。",
+      "kanji_distractors": [
+        "道絡",
+        "道露"
+      ]
+    },
+    {
+      "id": "n4v252",
+      "word": "事故",
+      "reading": "じこ",
+      "meaning": "accident",
+      "pos": "noun",
+      "example": "けさ、駅の 前で 事故が ありました。",
+      "kanji_distractors": [
+        "事古",
+        "事政"
+      ]
+    },
+    {
+      "id": "n4v253",
+      "word": "旅館",
+      "reading": "りょかん",
+      "meaning": "Japanese inn",
+      "pos": "noun",
+      "example": "京都では 旅館に 泊まりました。",
+      "kanji_distractors": [
+        "旅舘",
+        "旅官"
+      ]
+    },
+    {
+      "id": "n4v254",
+      "word": "見物",
+      "reading": "けんぶつ",
+      "meaning": "sightseeing",
+      "pos": "noun",
+      "example": "東京見物に 行きたいです。",
+      "kanji_distractors": [
+        "見勿",
+        "貝物"
+      ]
+    },
+    {
+      "id": "n4v255",
+      "word": "田舎",
+      "reading": "いなか",
+      "meaning": "countryside",
+      "pos": "noun",
+      "example": "夏休みに 田舎の 祖母の 家へ 行きます。",
+      "kanji_distractors": [
+        "田合",
+        "由舎"
+      ]
+    },
+    {
+      "id": "n4v256",
+      "word": "郊外",
+      "reading": "こうがい",
+      "meaning": "suburbs",
+      "pos": "noun",
+      "example": "郊外に 家を 建てました。",
+      "kanji_distractors": [
+        "効外",
+        "郊夕"
+      ]
+    },
+    {
+      "id": "n4v257",
+      "word": "県",
+      "reading": "けん",
+      "meaning": "prefecture",
+      "pos": "noun",
+      "example": "わたしは 静岡県の 出身です。",
+      "kanji_distractors": [
+        "具",
+        "見"
+      ]
+    },
+    {
+      "id": "n4v258",
+      "word": "市",
+      "reading": "し",
+      "meaning": "city",
+      "pos": "noun",
+      "example": "この 市には 大きな 公園が 多いです。",
+      "kanji_distractors": [
+        "布",
+        "币"
+      ]
+    },
+    {
+      "id": "n4v259",
+      "word": "村",
+      "reading": "むら",
+      "meaning": "village",
+      "pos": "noun",
+      "example": "祖父は 小さな 村に 住んで います。",
+      "kanji_distractors": [
+        "材",
+        "林"
+      ]
+    },
+    {
+      "id": "n4v260",
+      "word": "西洋",
+      "reading": "せいよう",
+      "meaning": "the West",
+      "pos": "noun",
+      "example": "この 建物は 西洋の スタイルです。",
+      "kanji_distractors": [
+        "西羊",
+        "酉洋"
+      ]
+    },
+    {
+      "id": "n4v261",
+      "word": "小包",
+      "reading": "こづつみ",
+      "meaning": "parcel",
+      "pos": "noun",
+      "example": "母に 小包を 送りました。",
+      "kanji_distractors": [
+        "小匂",
+        "少包"
+      ]
+    },
+    {
+      "id": "n4v262",
+      "word": "意味",
+      "reading": "いみ",
+      "meaning": "meaning",
+      "pos": "noun",
+      "example": "この 言葉の 意味を 教えて ください。",
+      "kanji_distractors": [
+        "意未",
+        "億味"
+      ]
+    },
+    {
+      "id": "n4v263",
+      "word": "考え",
+      "reading": "かんがえ",
+      "meaning": "idea, thought",
+      "pos": "noun",
+      "example": "それは いい 考えですね。",
+      "kanji_distractors": [
+        "孝え",
+        "考へ"
+      ]
+    },
+    {
+      "id": "n4v264",
+      "word": "間違い",
+      "reading": "まちがい",
+      "meaning": "mistake",
+      "pos": "noun",
+      "example": "この 作文には 間違いが 三つ あります。",
+      "kanji_distractors": [
+        "間違ひ",
+        "問違い"
+      ]
+    },
+    {
+      "id": "n4v265",
+      "word": "関係",
+      "reading": "かんけい",
+      "meaning": "relationship, connection",
+      "pos": "noun",
+      "example": "この 問題は わたしには 関係が ありません。",
+      "kanji_distractors": [
+        "関系",
+        "開係"
+      ]
+    },
+    {
+      "id": "n4v266",
+      "word": "途中",
+      "reading": "とちゅう",
+      "meaning": "on the way",
+      "pos": "noun",
+      "example": "学校へ 行く 途中で 雨が 降り出しました。",
+      "kanji_distractors": [
+        "途仲",
+        "徒中"
+      ]
+    },
+    {
+      "id": "n4v267",
+      "word": "最初",
+      "reading": "さいしょ",
+      "meaning": "first, beginning",
+      "pos": "noun",
+      "example": "最初は 日本語が ぜんぜん わかりませんでした。",
+      "kanji_distractors": [
+        "最切",
+        "撮初"
+      ]
+    },
+    {
+      "id": "n4v268",
+      "word": "最後",
+      "reading": "さいご",
+      "meaning": "last, end",
+      "pos": "noun",
+      "example": "映画の 最後は とても 悲しかったです。",
+      "kanji_distractors": [
+        "最后",
+        "最彼"
+      ]
+    },
+    {
+      "id": "n4v269",
+      "word": "以上",
+      "reading": "いじょう",
+      "meaning": "more than",
+      "pos": "noun",
+      "example": "二十歳 以上の 人しか 入れません。",
+      "kanji_distractors": [
+        "以土",
+        "似上"
+      ]
+    },
+    {
+      "id": "n4v270",
+      "word": "以下",
+      "reading": "いか",
+      "meaning": "less than",
+      "pos": "noun",
+      "example": "十二歳 以下の 子どもは 無料です。",
+      "kanji_distractors": [
+        "以干",
+        "似下"
+      ]
+    },
+    {
+      "id": "n4v271",
+      "word": "以内",
+      "reading": "いない",
+      "meaning": "within",
+      "pos": "noun",
+      "example": "一時間 以内に 戻って ください。",
+      "kanji_distractors": [
+        "以肉",
+        "似内"
+      ]
+    },
+    {
+      "id": "n4v272",
+      "word": "以外",
+      "reading": "いがい",
+      "meaning": "except",
+      "pos": "noun",
+      "example": "日曜日 以外は 毎日 働いて います。",
+      "kanji_distractors": [
+        "以夕",
+        "似外"
+      ]
+    },
+    {
+      "id": "n4v273",
+      "word": "半分",
+      "reading": "はんぶん",
+      "meaning": "half",
+      "pos": "noun",
+      "example": "ケーキを 半分 食べました。",
+      "kanji_distractors": [
+        "伴分",
+        "半今"
+      ]
+    },
+    {
+      "id": "n4v274",
+      "word": "倍",
+      "reading": "ばい",
+      "meaning": "double, times",
+      "pos": "noun",
+      "example": "この 町の 人口は 十年で 二倍に なりました。",
+      "kanji_distractors": [
+        "培",
+        "陪"
+      ]
+    },
+    {
+      "id": "n4v275",
+      "word": "数",
+      "reading": "かず",
+      "meaning": "number",
+      "pos": "noun",
+      "example": "クラスの 学生の 数を 数えました。",
+      "kanji_distractors": [
+        "教",
+        "類"
+      ]
+    },
+    {
+      "id": "n4v276",
+      "word": "形",
+      "reading": "かたち",
+      "meaning": "shape",
+      "pos": "noun",
+      "example": "この 雲は 魚の 形に 見えます。",
+      "kanji_distractors": [
+        "型",
+        "刑"
+      ]
+    },
+    {
+      "id": "n4v277",
+      "word": "大きさ",
+      "reading": "おおきさ",
+      "meaning": "size",
+      "pos": "noun",
+      "example": "この 箱と 同じ 大きさの 箱が ほしいです。",
+      "kanji_distractors": [
+        "太きさ",
+        "犬きさ"
+      ]
+    },
+    {
+      "id": "n4v278",
+      "word": "重さ",
+      "reading": "おもさ",
+      "meaning": "weight",
+      "pos": "noun",
+      "example": "荷物の 重さを はかりました。",
+      "kanji_distractors": [
+        "量さ",
+        "動さ"
+      ]
+    },
+    {
+      "id": "n4v279",
+      "word": "世話",
+      "reading": "せわ",
+      "meaning": "care, looking after",
+      "pos": "noun",
+      "example": "毎朝 犬の 世話を します。",
+      "kanji_distractors": [
+        "世語",
+        "也話"
+      ]
+    },
+    {
+      "id": "n4v280",
+      "word": "注意",
+      "reading": "ちゅうい",
+      "meaning": "caution, attention",
+      "pos": "noun",
+      "example": "道を 渡る ときは 車に 注意して ください。",
+      "kanji_distractors": [
+        "注音",
+        "住意"
+      ]
+    },
+    {
+      "id": "n4v281",
+      "word": "代わり",
+      "reading": "かわり",
+      "meaning": "substitute, instead",
+      "pos": "noun",
+      "example": "部長の 代わりに 会議に 出ました。",
+      "kanji_distractors": [
+        "代り",
+        "伐わり"
+      ]
+    },
+    {
+      "id": "n4v282",
+      "word": "昔",
+      "reading": "むかし",
+      "meaning": "long ago",
+      "pos": "noun",
+      "example": "昔、この あたりは 海でした。",
+      "kanji_distractors": [
+        "措",
+        "惜"
+      ]
+    },
+    {
+      "id": "n4v283",
+      "word": "今度",
+      "reading": "こんど",
+      "meaning": "next time; this time",
+      "pos": "noun",
+      "example": "今度 いっしょに 食事に 行きましょう。",
+      "kanji_distractors": [
+        "今渡",
+        "令度"
+      ]
+    },
+    {
+      "id": "n4v284",
+      "word": "今夜",
+      "reading": "こんや",
+      "meaning": "tonight",
+      "pos": "noun",
+      "example": "今夜は 早く 寝ます。",
+      "kanji_distractors": [
+        "今夕",
+        "令夜"
+      ]
+    },
+    {
+      "id": "n4v285",
+      "word": "夜中",
+      "reading": "よなか",
+      "meaning": "middle of the night",
+      "pos": "noun",
+      "example": "夜中に 電話が かかって きました。",
+      "kanji_distractors": [
+        "夜仲",
+        "液中"
+      ]
+    },
+    {
+      "id": "n4v286",
+      "word": "昼間",
+      "reading": "ひるま",
+      "meaning": "daytime",
+      "pos": "noun",
+      "example": "昼間は 暑いですが、夜は 涼しいです。",
+      "kanji_distractors": [
+        "昼問",
+        "昼聞"
+      ]
+    },
+    {
+      "id": "n4v287",
+      "word": "時代",
+      "reading": "じだい",
+      "meaning": "era, period",
+      "pos": "noun",
+      "example": "祖父は 子どもの 時代に ついて 話して くれました。",
+      "kanji_distractors": [
+        "時伐",
+        "持代"
+      ]
+    },
+    {
+      "id": "n4v288",
+      "word": "人間",
+      "reading": "にんげん",
+      "meaning": "human being",
+      "pos": "noun",
+      "example": "人間は 一人では 生きられません。",
+      "kanji_distractors": [
+        "人問",
+        "入間"
+      ]
+    },
+    {
+      "id": "n4v289",
+      "word": "世の中",
+      "reading": "よのなか",
+      "meaning": "the world, society",
+      "pos": "noun",
+      "example": "世の中には いろいろな 人が います。",
+      "kanji_distractors": [
+        "世の仲",
+        "也の中"
+      ]
+    },
+    {
+      "id": "n4v290",
+      "word": "自分",
+      "reading": "じぶん",
+      "meaning": "oneself",
+      "pos": "noun",
+      "example": "自分の 部屋は 自分で 掃除して ください。",
+      "kanji_distractors": [
+        "自文",
+        "目分"
+      ]
+    },
+    {
+      "id": "n4v291",
+      "word": "自然",
+      "reading": "しぜん",
+      "meaning": "nature",
+      "pos": "noun",
+      "example": "この 町は 自然が 多くて、気持ちが いいです。",
+      "kanji_distractors": [
+        "自燃",
+        "目然"
+      ]
+    },
+    {
+      "id": "n4v292",
+      "word": "隅",
+      "reading": "すみ",
+      "meaning": "corner (inside)",
+      "pos": "noun",
+      "example": "部屋の 隅に 机を 置きました。",
+      "kanji_distractors": [
+        "偶",
+        "遇"
+      ]
+    },
+    {
+      "id": "n4v293",
+      "word": "角",
+      "reading": "かど",
+      "meaning": "corner (street)",
+      "pos": "noun",
+      "example": "あの 角を 右に 曲がって ください。",
+      "kanji_distractors": [
+        "用",
+        "舟"
+      ]
+    },
+    {
+      "id": "n4v294",
+      "word": "向こう",
+      "reading": "むこう",
+      "meaning": "over there, the other side",
+      "pos": "noun",
+      "example": "川の 向こうに 学校が あります。",
+      "kanji_distractors": [
+        "句こう",
+        "何こう"
+      ]
+    },
+    {
+      "id": "n4v295",
+      "word": "表",
+      "reading": "おもて",
+      "meaning": "front, surface",
+      "pos": "noun",
+      "example": "紙の 表に 名前を 書いて ください。",
+      "kanji_distractors": [
+        "衰",
+        "麦"
+      ]
+    },
+    {
+      "id": "n4v296",
+      "word": "裏",
+      "reading": "うら",
+      "meaning": "back, reverse side",
+      "pos": "noun",
+      "example": "紙の 裏も 見て ください。",
+      "kanji_distractors": [
+        "里",
+        "裹"
+      ]
+    },
+    {
+      "id": "n4v297",
+      "word": "側",
+      "reading": "がわ",
+      "meaning": "side",
+      "pos": "noun",
+      "example": "道の 右側を 歩いて ください。",
+      "kanji_distractors": [
+        "測",
+        "則"
+      ]
+    },
+    {
+      "id": "n4v298",
+      "word": "真ん中",
+      "reading": "まんなか",
+      "meaning": "centre, middle",
+      "pos": "noun",
+      "example": "テーブルの 真ん中に 花を 置きました。",
+      "kanji_distractors": [
+        "真ん仲",
+        "直ん中"
+      ]
+    },
+    {
+      "id": "n4v299",
+      "word": "点",
+      "reading": "てん",
+      "meaning": "point, score",
+      "pos": "noun",
+      "example": "テストで いい 点を とりました。",
+      "kanji_distractors": [
+        "店",
+        "占"
+      ]
+    },
+    {
+      "id": "n4v300",
+      "word": "字",
+      "reading": "じ",
+      "meaning": "character, handwriting",
+      "pos": "noun",
+      "example": "彼は 字が とても きれいです。",
+      "kanji_distractors": [
+        "学",
+        "宇"
+      ]
+    },
+    {
+      "id": "n4v301",
+      "word": "席",
+      "reading": "せき",
+      "meaning": "seat",
+      "pos": "noun",
+      "example": "電車で お年寄りに 席を ゆずりました。",
+      "kanji_distractors": [
+        "度",
+        "蓆"
+      ]
+    },
+    {
+      "id": "n4v302",
+      "word": "会場",
+      "reading": "かいじょう",
+      "meaning": "venue",
+      "pos": "noun",
+      "example": "コンサートの 会場は 人で いっぱいでした。",
+      "kanji_distractors": [
+        "会揚",
+        "会湯"
+      ]
+    },
+    {
+      "id": "n4v303",
+      "word": "窓口",
+      "reading": "まどぐち",
+      "meaning": "counter, window",
+      "pos": "noun",
+      "example": "切符は 二番の 窓口で 買えます。",
+      "kanji_distractors": [
+        "窓日",
+        "窓品"
+      ]
+    },
+    {
+      "id": "n4v304",
+      "word": "非常口",
+      "reading": "ひじょうぐち",
+      "meaning": "emergency exit",
+      "pos": "noun",
+      "example": "非常口は あちらです。",
+      "kanji_distractors": [
+        "非常日",
+        "悲常口"
+      ]
+    },
+    {
+      "id": "n4v305",
+      "word": "売店",
+      "reading": "ばいてん",
+      "meaning": "kiosk",
+      "pos": "noun",
+      "example": "駅の 売店で 新聞を 買いました。",
+      "kanji_distractors": [
+        "買店",
+        "売点"
+      ]
+    },
+    {
+      "id": "n4v306",
+      "word": "八百屋",
+      "reading": "やおや",
+      "meaning": "greengrocer",
+      "pos": "noun",
+      "example": "八百屋で トマトを 買いました。",
+      "kanji_distractors": [
+        "八百昼",
+        "八白屋"
+      ]
+    },
+    {
+      "id": "n4v307",
+      "word": "喫茶店",
+      "reading": "きっさてん",
+      "meaning": "coffee shop",
+      "pos": "noun",
+      "example": "駅前の 喫茶店で 友達を 待ちました。",
+      "kanji_distractors": [
+        "喫茶点",
+        "契茶店"
+      ]
+    },
+    {
+      "id": "n4v308",
+      "word": "床屋",
+      "reading": "とこや",
+      "meaning": "barber",
+      "pos": "noun",
+      "example": "床屋で 髪を 短く 切って もらいました。",
+      "kanji_distractors": [
+        "床昼",
+        "麻屋"
+      ]
+    },
+    {
+      "id": "n4v309",
+      "word": "料金",
+      "reading": "りょうきん",
+      "meaning": "fee, charge",
+      "pos": "noun",
+      "example": "タクシーの 料金は いくらでしたか。",
+      "kanji_distractors": [
+        "科金",
+        "料全"
+      ]
+    },
+    {
+      "id": "n4v310",
+      "word": "財布",
+      "reading": "さいふ",
+      "meaning": "wallet",
+      "pos": "noun",
+      "example": "電車の 中で 財布を なくしました。",
+      "kanji_distractors": [
+        "材布",
+        "財市"
+      ]
+    },
+    {
+      "id": "n4v311",
+      "word": "人形",
+      "reading": "にんぎょう",
+      "meaning": "doll",
+      "pos": "noun",
+      "example": "妹は 人形で 遊んで います。",
+      "kanji_distractors": [
+        "人型",
+        "入形"
+      ]
+    },
+    {
+      "id": "n4v312",
+      "word": "練習",
+      "reading": "れんしゅう",
+      "meaning": "practice",
+      "pos": "noun",
+      "example": "毎日 ピアノの 練習を して います。",
+      "kanji_distractors": [
+        "練羽",
+        "錬習"
+      ]
+    },
+    {
+      "id": "n4v313",
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "meaning": "order (food, goods)",
+      "pos": "noun",
+      "example": "料理の 注文は もう しましたか。",
+      "kanji_distractors": [
+        "注攵",
+        "往文"
+      ]
+    },
+    {
+      "id": "n4v314",
+      "word": "出席",
+      "reading": "しゅっせき",
+      "meaning": "attendance",
+      "pos": "noun",
+      "example": "あしたの 会議に 出席します。",
+      "kanji_distractors": [
+        "出度",
+        "山席"
+      ]
+    },
+    {
+      "id": "n4v315",
+      "word": "欠席",
+      "reading": "けっせき",
+      "meaning": "absence",
+      "pos": "noun",
+      "example": "かぜで 授業を 欠席しました。",
+      "kanji_distractors": [
+        "欠度",
+        "次席"
+      ]
+    },
+    {
+      "id": "n4v316",
+      "word": "遅刻",
+      "reading": "ちこく",
+      "meaning": "being late",
+      "pos": "noun",
+      "example": "けさ 電車が 遅れて、遅刻しました。",
+      "kanji_distractors": [
+        "遅刺",
+        "遅亥"
+      ]
+    },
+    {
+      "id": "n4v317",
+      "word": "参加",
+      "reading": "さんか",
+      "meaning": "participation",
+      "pos": "noun",
+      "example": "あしたの パーティーに 参加しますか。",
+      "kanji_distractors": [
+        "参如",
+        "惨加"
+      ]
+    },
+    {
+      "id": "n4v318",
+      "word": "反対",
+      "reading": "はんたい",
+      "meaning": "opposition",
+      "pos": "noun",
+      "example": "父は わたしの 留学に 反対して います。",
+      "kanji_distractors": [
+        "反討",
+        "坂対"
+      ]
+    },
+    {
+      "id": "n4v319",
+      "word": "賛成",
+      "reading": "さんせい",
+      "meaning": "agreement, approval",
+      "pos": "noun",
+      "example": "その 意見に 賛成です。",
+      "kanji_distractors": [
+        "賛城",
+        "替成"
+      ]
+    },
+    {
+      "id": "n4v320",
+      "word": "競争",
+      "reading": "きょうそう",
+      "meaning": "competition",
+      "pos": "noun",
+      "example": "この 店は ほかの 店と 競争して います。",
+      "kanji_distractors": [
+        "競浄",
+        "鏡争"
+      ]
+    },
+    {
+      "id": "n4v321",
+      "word": "生産",
+      "reading": "せいさん",
+      "meaning": "production",
+      "pos": "noun",
+      "example": "この 工場では 車を 生産して います。",
+      "kanji_distractors": [
+        "生座",
+        "牲産"
+      ]
+    },
+    {
+      "id": "n4v322",
+      "word": "発音",
+      "reading": "はつおん",
+      "meaning": "pronunciation",
+      "pos": "noun",
+      "example": "日本語の 発音は 難しく ないです。",
+      "kanji_distractors": [
+        "発昔",
+        "登音"
+      ]
+    },
+    {
+      "id": "n4v323",
+      "word": "翻訳",
+      "reading": "ほんやく",
+      "meaning": "translation",
+      "pos": "noun",
+      "example": "この 手紙を 英語に 翻訳して ください。",
+      "kanji_distractors": [
+        "翻駅",
+        "番訳"
+      ]
+    },
+    {
+      "id": "n4v324",
+      "word": "通訳",
+      "reading": "つうやく",
+      "meaning": "interpreting; interpreter",
+      "pos": "noun",
+      "example": "会議で 通訳を しました。",
+      "kanji_distractors": [
+        "通駅",
+        "痛訳"
+      ]
+    },
+    {
+      "id": "n4v325",
+      "word": "紹介",
+      "reading": "しょうかい",
+      "meaning": "introduction",
+      "pos": "noun",
+      "example": "友達に 新しい 先生を 紹介しました。",
+      "kanji_distractors": [
+        "招介",
+        "紹今"
+      ]
+    },
+    {
+      "id": "n4v326",
+      "word": "喧嘩",
+      "reading": "けんか",
+      "meaning": "quarrel, fight",
+      "pos": "noun",
+      "example": "弟と 喧嘩を して しまいました。",
+      "kanji_distractors": [
+        "喧譁",
+        "宣嘩"
+      ]
+    },
+    {
+      "id": "n4v327",
+      "word": "我慢",
+      "reading": "がまん",
+      "meaning": "endurance, patience",
+      "pos": "noun",
+      "example": "痛いですが、もう 少し 我慢して ください。",
+      "kanji_distractors": [
+        "我漫",
+        "我慣"
+      ]
+    },
+    {
+      "id": "n4v328",
+      "word": "失礼",
+      "reading": "しつれい",
+      "meaning": "rudeness",
+      "pos": "noun",
+      "example": "約束の 時間に 遅れるのは 失礼です。",
+      "kanji_distractors": [
+        "失札",
+        "矢礼"
+      ]
+    },
+    {
+      "id": "n4v329",
+      "word": "集まる",
+      "reading": "あつまる",
+      "meaning": "to gather (intr.)",
+      "pos": "verb",
+      "example": "駅の 前に 人が たくさん 集まる。",
+      "kanji_distractors": [
+        "集る",
+        "焦まる"
+      ]
+    },
+    {
+      "id": "n4v330",
+      "word": "上がる",
+      "reading": "あがる",
+      "meaning": "to go up, to rise",
+      "pos": "verb",
+      "example": "来月から 電車の 料金が 上がる そうです。",
+      "kanji_distractors": [
+        "止がる",
+        "土がる"
+      ]
+    },
+    {
+      "id": "n4v331",
+      "word": "上げる",
+      "reading": "あげる",
+      "meaning": "to raise; to give",
+      "pos": "verb",
+      "example": "わからない 人は 手を 上げる ように 言われました。",
+      "kanji_distractors": [
+        "止げる",
+        "土げる"
+      ]
+    },
+    {
+      "id": "n4v332",
+      "word": "下がる",
+      "reading": "さがる",
+      "meaning": "to go down, to fall",
+      "pos": "verb",
+      "example": "夜に なると、気温が 下がる でしょう。",
+      "kanji_distractors": [
+        "不がる",
+        "丁がる"
+      ]
+    },
+    {
+      "id": "n4v333",
+      "word": "下げる",
+      "reading": "さげる",
+      "meaning": "to lower",
+      "pos": "verb",
+      "example": "ラジオの 音を 下げる のを 忘れました。",
+      "kanji_distractors": [
+        "不げる",
+        "丁げる"
+      ]
+    },
+    {
+      "id": "n4v334",
+      "word": "開く",
+      "reading": "ひらく",
+      "meaning": "to open",
+      "pos": "verb",
+      "example": "来週、新しい 社員の ために パーティーを 開く 予定です。",
+      "kanji_distractors": [
+        "閉く",
+        "開らく"
+      ]
+    },
+    {
+      "id": "n4v335",
+      "word": "続く",
+      "reading": "つづく",
+      "meaning": "to continue (intr.)",
+      "pos": "verb",
+      "example": "雨は 週末まで 続く でしょう。",
+      "kanji_distractors": [
+        "統く",
+        "読く"
+      ]
+    },
+    {
+      "id": "n4v336",
+      "word": "止まる",
+      "reading": "とまる",
+      "meaning": "to stop (intr.)",
+      "pos": "verb",
+      "example": "この 電車は 次の 駅に 止まる。",
+      "kanji_distractors": [
+        "上まる",
+        "正まる"
+      ]
+    },
+    {
+      "id": "n4v337",
+      "word": "止める",
+      "reading": "とめる",
+      "meaning": "to stop (tr.); to park",
+      "pos": "verb",
+      "example": "ここに 車を 止める ことは できません。",
+      "kanji_distractors": [
+        "上める",
+        "正める"
+      ]
+    },
+    {
+      "id": "n4v338",
+      "word": "動く",
+      "reading": "うごく",
+      "meaning": "to move",
+      "pos": "verb",
+      "example": "この 時計は 古いですが、まだ 動く。",
+      "kanji_distractors": [
+        "働く",
+        "勤く"
+      ]
+    },
+    {
+      "id": "n4v339",
+      "word": "変わる",
+      "reading": "かわる",
+      "meaning": "to change (intr.)",
+      "pos": "verb",
+      "example": "この 町は これから 大きく 変わる でしょう。",
+      "kanji_distractors": [
+        "恋わる",
+        "変る"
+      ]
+    },
+    {
+      "id": "n4v340",
+      "word": "変える",
+      "reading": "かえる",
+      "meaning": "to change (tr.)",
+      "pos": "verb",
+      "example": "部屋の 家具の 位置を 変える つもりです。",
+      "kanji_distractors": [
+        "恋える",
+        "交える"
+      ]
+    },
+    {
+      "id": "n4v341",
+      "word": "決まる",
+      "reading": "きまる",
+      "meaning": "to be decided",
+      "pos": "verb",
+      "example": "旅行の 日が 決まる まで 待って ください。",
+      "kanji_distractors": [
+        "快まる",
+        "決る"
+      ]
+    },
+    {
+      "id": "n4v342",
+      "word": "届く",
+      "reading": "とどく",
+      "meaning": "to be delivered, to reach",
+      "pos": "verb",
+      "example": "注文した 本は あした 届く 予定です。",
+      "kanji_distractors": [
+        "屈く",
+        "居く"
+      ]
+    },
+    {
+      "id": "n4v343",
+      "word": "起こす",
+      "reading": "おこす",
+      "meaning": "to wake (someone)",
+      "pos": "verb",
+      "example": "あしたの 朝 六時に 起こす のを 忘れないで ください。",
+      "kanji_distractors": [
+        "起す",
+        "超こす"
+      ]
+    },
+    {
+      "id": "n4v344",
+      "word": "倒れる",
+      "reading": "たおれる",
+      "meaning": "to fall down",
+      "pos": "verb",
+      "example": "強い 風で 木が 倒れる かもしれません。",
+      "kanji_distractors": [
+        "到れる",
+        "例れる"
+      ]
+    },
+    {
+      "id": "n4v345",
+      "word": "落ちる",
+      "reading": "おちる",
+      "meaning": "to fall, to drop",
+      "pos": "verb",
+      "example": "木から 葉が 落ちる 季節に なりました。",
+      "kanji_distractors": [
+        "洛ちる",
+        "落る"
+      ]
+    },
+    {
+      "id": "n4v346",
+      "word": "落とす",
+      "reading": "おとす",
+      "meaning": "to drop (tr.)",
+      "pos": "verb",
+      "example": "財布を 落とす と、大変です。",
+      "kanji_distractors": [
+        "洛とす",
+        "落す"
+      ]
+    },
+    {
+      "id": "n4v347",
+      "word": "壊れる",
+      "reading": "こわれる",
+      "meaning": "to break (intr.)",
+      "pos": "verb",
+      "example": "古い ものは すぐ 壊れる。",
+      "kanji_distractors": [
+        "懐れる",
+        "壊る"
+      ]
+    },
+    {
+      "id": "n4v348",
+      "word": "壊す",
+      "reading": "こわす",
+      "meaning": "to break (tr.)",
+      "pos": "verb",
+      "example": "おもちゃを 壊す と、母に 叱られます。",
+      "kanji_distractors": [
+        "懐す",
+        "環す"
+      ]
+    },
+    {
+      "id": "n4v349",
+      "word": "割れる",
+      "reading": "われる",
+      "meaning": "to crack, to break",
+      "pos": "verb",
+      "example": "この コップは 落としても 割れる ことが ありません。",
+      "kanji_distractors": [
+        "害れる",
+        "剖れる"
+      ]
+    },
+    {
+      "id": "n4v350",
+      "word": "汚れる",
+      "reading": "よごれる",
+      "meaning": "to get dirty",
+      "pos": "verb",
+      "example": "白い 服は すぐ 汚れる ので、困ります。",
+      "kanji_distractors": [
+        "汗れる",
+        "汚る"
+      ]
+    },
+    {
+      "id": "n4v351",
+      "word": "直す",
+      "reading": "なおす",
+      "meaning": "to fix, to correct",
+      "pos": "verb",
+      "example": "作文の 間違いを 直す のを 手伝って ください。",
+      "kanji_distractors": [
+        "真す",
+        "値す"
+      ]
+    },
+    {
+      "id": "n4v352",
+      "word": "直る",
+      "reading": "なおる",
+      "meaning": "to be fixed",
+      "pos": "verb",
+      "example": "この パソコンは いつ 直る でしょうか。",
+      "kanji_distractors": [
+        "真る",
+        "値る"
+      ]
+    },
+    {
+      "id": "n4v353",
+      "word": "治る",
+      "reading": "なおる",
+      "meaning": "to recover (from illness)",
+      "pos": "verb",
+      "example": "この 薬を 飲めば、かぜは すぐ 治る でしょう。",
+      "kanji_distractors": [
+        "冶る",
+        "怡る"
+      ]
+    },
+    {
+      "id": "n4v354",
+      "word": "焼く",
+      "reading": "やく",
+      "meaning": "to bake, to grill",
+      "pos": "verb",
+      "example": "日曜日に ケーキを 焼く つもりです。",
+      "kanji_distractors": [
+        "焼る",
+        "燒く"
+      ]
+    },
+    {
+      "id": "n4v355",
+      "word": "焼ける",
+      "reading": "やける",
+      "meaning": "to be baked, to burn",
+      "pos": "verb",
+      "example": "あと 五分で パンが 焼ける。",
+      "kanji_distractors": [
+        "焼る",
+        "燃ける"
+      ]
+    },
+    {
+      "id": "n4v356",
+      "word": "沸く",
+      "reading": "わく",
+      "meaning": "to boil (intr.)",
+      "pos": "verb",
+      "example": "お湯が 沸く まで 待ちましょう。",
+      "kanji_distractors": [
+        "湧く",
+        "沸る"
+      ]
+    },
+    {
+      "id": "n4v357",
+      "word": "沸かす",
+      "reading": "わかす",
+      "meaning": "to boil (tr.)",
+      "pos": "verb",
+      "example": "お茶の ために お湯を 沸かす。",
+      "kanji_distractors": [
+        "湧かす",
+        "沸す"
+      ]
+    },
+    {
+      "id": "n4v358",
+      "word": "冷える",
+      "reading": "ひえる",
+      "meaning": "to get cold",
+      "pos": "verb",
+      "example": "夜に なると、体が 冷える。",
+      "kanji_distractors": [
+        "冷る",
+        "治える"
+      ]
+    },
+    {
+      "id": "n4v359",
+      "word": "植える",
+      "reading": "うえる",
+      "meaning": "to plant",
+      "pos": "verb",
+      "example": "春に 庭に 花を 植える つもりです。",
+      "kanji_distractors": [
+        "埴える",
+        "値える"
+      ]
+    },
+    {
+      "id": "n4v360",
+      "word": "育てる",
+      "reading": "そだてる",
+      "meaning": "to raise, to bring up",
+      "pos": "verb",
+      "example": "野菜を 育てる のは 楽しいです。",
+      "kanji_distractors": [
+        "育る",
+        "肯てる"
+      ]
+    },
+    {
+      "id": "n4v361",
+      "word": "拾う",
+      "reading": "ひろう",
+      "meaning": "to pick up",
+      "pos": "verb",
+      "example": "道で ごみを 拾う ボランティアを して います。",
+      "kanji_distractors": [
+        "捨う",
+        "給う"
+      ]
+    },
+    {
+      "id": "n4v362",
+      "word": "探す",
+      "reading": "さがす",
+      "meaning": "to look for",
+      "pos": "verb",
+      "example": "駅の 近くで アパートを 探す つもりです。",
+      "kanji_distractors": [
+        "深す",
+        "採す"
+      ]
+    },
+    {
+      "id": "n4v363",
+      "word": "見つける",
+      "reading": "みつける",
+      "meaning": "to find",
+      "pos": "verb",
+      "example": "いい アルバイトを 見つける のは 難しいです。",
+      "kanji_distractors": [
+        "見付る",
+        "貝つける"
+      ]
+    },
+    {
+      "id": "n4v364",
+      "word": "見つかる",
+      "reading": "みつかる",
+      "meaning": "to be found",
+      "pos": "verb",
+      "example": "なくした かぎが 見つかる と いいですね。",
+      "kanji_distractors": [
+        "見付かる",
+        "貝つかる"
+      ]
+    },
+    {
+      "id": "n4v365",
+      "word": "考える",
+      "reading": "かんがえる",
+      "meaning": "to think, to consider",
+      "pos": "verb",
+      "example": "将来の ことを よく 考える ように して います。",
+      "kanji_distractors": [
+        "孝える",
+        "考る"
+      ]
+    },
+    {
+      "id": "n4v366",
+      "word": "思い出す",
+      "reading": "おもいだす",
+      "meaning": "to remember, to recall",
+      "pos": "verb",
+      "example": "この 歌を 聞くと、高校の ころを 思い出す。",
+      "kanji_distractors": [
+        "思い出る",
+        "恩い出す"
+      ]
+    },
+    {
+      "id": "n4v367",
+      "word": "知らせる",
+      "reading": "しらせる",
+      "meaning": "to inform",
+      "pos": "verb",
+      "example": "試験の 結果は メールで 知らせる そうです。",
+      "kanji_distractors": [
+        "知せる",
+        "和らせる"
+      ]
+    },
+    {
+      "id": "n4v368",
+      "word": "伝える",
+      "reading": "つたえる",
+      "meaning": "to convey, to tell",
+      "pos": "verb",
+      "example": "部長に この ことを 伝える のを 忘れました。",
+      "kanji_distractors": [
+        "転える",
+        "云える"
+      ]
+    },
+    {
+      "id": "n4v369",
+      "word": "答える",
+      "reading": "こたえる",
+      "meaning": "to answer",
+      "pos": "verb",
+      "example": "先生の 質問に 答える のは 難しかったです。",
+      "kanji_distractors": [
+        "答る",
+        "合える"
+      ]
+    },
+    {
+      "id": "n4v370",
+      "word": "褒める",
+      "reading": "ほめる",
+      "meaning": "to praise",
+      "pos": "verb",
+      "example": "子どもを 褒める ことは 大切です。",
+      "kanji_distractors": [
+        "保める",
+        "誉る"
+      ]
+    },
+    {
+      "id": "n4v371",
+      "word": "叱る",
+      "reading": "しかる",
+      "meaning": "to scold",
+      "pos": "verb",
+      "example": "子どもが 悪い ことを したら、叱る のも 親の 仕事です。",
+      "kanji_distractors": [
+        "叫る",
+        "吐る"
+      ]
+    },
+    {
+      "id": "n4v372",
+      "word": "怒る",
+      "reading": "おこる",
+      "meaning": "to get angry",
+      "pos": "verb",
+      "example": "約束を 忘れると、彼女は 怒る でしょう。",
+      "kanji_distractors": [
+        "努る",
+        "恕る"
+      ]
+    },
+    {
+      "id": "n4v373",
+      "word": "笑う",
+      "reading": "わらう",
+      "meaning": "to laugh, to smile",
+      "pos": "verb",
+      "example": "あの 子は よく 笑う。",
+      "kanji_distractors": [
+        "咲う",
+        "笑ふ"
+      ]
+    },
+    {
+      "id": "n4v374",
+      "word": "泣く",
+      "reading": "なく",
+      "meaning": "to cry",
+      "pos": "verb",
+      "example": "赤ちゃんが 泣く 声が 聞こえます。",
+      "kanji_distractors": [
+        "位く",
+        "立く"
+      ]
+    },
+    {
+      "id": "n4v375",
+      "word": "喜ぶ",
+      "reading": "よろこぶ",
+      "meaning": "to be glad",
+      "pos": "verb",
+      "example": "この プレゼントを あげたら、母は 喜ぶ でしょう。",
+      "kanji_distractors": [
+        "嬉ぶ",
+        "善ぶ"
+      ]
+    },
+    {
+      "id": "n4v376",
+      "word": "驚く",
+      "reading": "おどろく",
+      "meaning": "to be surprised",
+      "pos": "verb",
+      "example": "この ニュースを 聞いたら、みんな 驚く でしょう。",
+      "kanji_distractors": [
+        "警く",
+        "鶩く"
+      ]
+    },
+    {
+      "id": "n4v377",
+      "word": "困る",
+      "reading": "こまる",
+      "meaning": "to be troubled",
+      "pos": "verb",
+      "example": "電車が 止まると、困る 人が 多いです。",
+      "kanji_distractors": [
+        "因る",
+        "囲る"
+      ]
+    },
+    {
+      "id": "n4v378",
+      "word": "断る",
+      "reading": "ことわる",
+      "meaning": "to refuse",
+      "pos": "verb",
+      "example": "先輩の 誘いを 断る のは 難しいです。",
+      "kanji_distractors": [
+        "継る",
+        "斯る"
+      ]
+    },
+    {
+      "id": "n4v379",
+      "word": "頼む",
+      "reading": "たのむ",
+      "meaning": "to ask, to request",
+      "pos": "verb",
+      "example": "友達に 引っ越しの 手伝いを 頼む つもりです。",
+      "kanji_distractors": [
+        "頻む",
+        "顔む"
+      ]
+    },
+    {
+      "id": "n4v380",
+      "word": "誘う",
+      "reading": "さそう",
+      "meaning": "to invite",
+      "pos": "verb",
+      "example": "週末、友達を 映画に 誘う つもりです。",
+      "kanji_distractors": [
+        "透う",
+        "諺う"
+      ]
+    },
+    {
+      "id": "n4v381",
+      "word": "迎える",
+      "reading": "むかえる",
+      "meaning": "to meet, to welcome",
+      "pos": "verb",
+      "example": "空港で 友達を 迎える 予定です。",
+      "kanji_distractors": [
+        "仰える",
+        "迎る"
+      ]
+    },
+    {
+      "id": "n4v382",
+      "word": "訪ねる",
+      "reading": "たずねる",
+      "meaning": "to visit",
+      "pos": "verb",
+      "example": "来週 先生の 家を 訪ねる つもりです。",
+      "kanji_distractors": [
+        "訪る",
+        "防ねる"
+      ]
+    },
+    {
+      "id": "n4v383",
+      "word": "尋ねる",
+      "reading": "たずねる",
+      "meaning": "to ask, to inquire",
+      "pos": "verb",
+      "example": "わからない ときは、駅員に 尋ねる と いいですよ。",
+      "kanji_distractors": [
+        "尊ねる",
+        "尋る"
+      ]
+    },
+    {
+      "id": "n4v384",
+      "word": "伺う",
+      "reading": "うかがう",
+      "meaning": "to visit, to ask (humble)",
+      "pos": "verb",
+      "example": "あした 三時に 伺う つもりです。",
+      "kanji_distractors": [
+        "伺ふ",
+        "同う"
+      ]
+    },
+    {
+      "id": "n4v385",
+      "word": "召し上がる",
+      "reading": "めしあがる",
+      "meaning": "to eat, to drink (honorific)",
+      "pos": "verb",
+      "example": "先生は 何を 召し上がる でしょうか。",
+      "kanji_distractors": [
+        "召し止がる",
+        "招し上がる"
+      ]
+    },
+    {
+      "id": "n4v386",
+      "word": "返す",
+      "reading": "かえす",
+      "meaning": "to return (something)",
+      "pos": "verb",
+      "example": "図書館に 本を 返す のを 忘れました。",
+      "kanji_distractors": [
+        "反す",
+        "返る"
+      ]
+    },
+    {
+      "id": "n4v387",
+      "word": "移る",
+      "reading": "うつる",
+      "meaning": "to move (location)",
+      "pos": "verb",
+      "example": "来月 新しい 事務所に 移る 予定です。",
+      "kanji_distractors": [
+        "多る",
+        "稼る"
+      ]
+    },
+    {
+      "id": "n4v388",
+      "word": "引っ越す",
+      "reading": "ひっこす",
+      "meaning": "to move house",
+      "pos": "verb",
+      "example": "来年 大阪に 引っ越す つもりです。",
+      "kanji_distractors": [
+        "引っ超す",
+        "弓っ越す"
+      ]
+    },
+    {
+      "id": "n4v389",
+      "word": "通う",
+      "reading": "かよう",
+      "meaning": "to commute, to attend",
+      "pos": "verb",
+      "example": "毎日 バスで 学校に 通う。",
+      "kanji_distractors": [
+        "通ふ",
+        "痛う"
+      ]
+    },
+    {
+      "id": "n4v390",
+      "word": "通る",
+      "reading": "とおる",
+      "meaning": "to pass through",
+      "pos": "verb",
+      "example": "この 道は 車が たくさん 通る ので、危ないです。",
+      "kanji_distractors": [
+        "痛る",
+        "通おる"
+      ]
+    },
+    {
+      "id": "n4v391",
+      "word": "渡る",
+      "reading": "わたる",
+      "meaning": "to cross",
+      "pos": "verb",
+      "example": "この 橋を 渡る と、駅が あります。",
+      "kanji_distractors": [
+        "度る",
+        "波る"
+      ]
+    },
+    {
+      "id": "n4v392",
+      "word": "渡す",
+      "reading": "わたす",
+      "meaning": "to hand over",
+      "pos": "verb",
+      "example": "この 手紙を 田中さんに 渡す のを 忘れないで ください。",
+      "kanji_distractors": [
+        "度す",
+        "波す"
+      ]
+    },
+    {
+      "id": "n4v393",
+      "word": "着く",
+      "reading": "つく",
+      "meaning": "to arrive",
+      "pos": "verb",
+      "example": "この 電車は 何時に 東京に 着く か 知って いますか。",
+      "kanji_distractors": [
+        "差く",
+        "看く"
+      ]
+    },
+    {
+      "id": "n4v394",
+      "word": "乗り換える",
+      "reading": "のりかえる",
+      "meaning": "to change (trains)",
+      "pos": "verb",
+      "example": "新宿で 電車を 乗り換える。",
+      "kanji_distractors": [
+        "乗り替える",
+        "垂り換える"
+      ]
+    },
+    {
+      "id": "n4v395",
+      "word": "急ぐ",
+      "reading": "いそぐ",
+      "meaning": "to hurry",
+      "pos": "verb",
+      "example": "遅れそうなので、急ぐ ことに しました。",
+      "kanji_distractors": [
+        "忌ぐ",
+        "急ぎる"
+      ]
+    },
+    {
+      "id": "n4v396",
+      "word": "遅れる",
+      "reading": "おくれる",
+      "meaning": "to be late",
+      "pos": "verb",
+      "example": "電車が 止まって、会議に 遅れる かもしれません。",
+      "kanji_distractors": [
+        "遅る",
+        "送れる"
+      ]
+    },
+    {
+      "id": "n4v397",
+      "word": "踊る",
+      "reading": "おどる",
+      "meaning": "to dance",
+      "pos": "verb",
+      "example": "お祭りで みんなと 踊る のは 楽しいです。",
+      "kanji_distractors": [
+        "躍る",
+        "踴る"
+      ]
+    },
+    {
+      "id": "n4v398",
+      "word": "弾く",
+      "reading": "ひく",
+      "meaning": "to play (an instrument)",
+      "pos": "verb",
+      "example": "姉は ピアノを 弾く のが 上手です。",
+      "kanji_distractors": [
+        "弓く",
+        "禅く"
+      ]
+    },
+    {
+      "id": "n4v399",
+      "word": "写す",
+      "reading": "うつす",
+      "meaning": "to copy; to photograph",
+      "pos": "verb",
+      "example": "友達の ノートを 写す のは よくないです。",
+      "kanji_distractors": [
+        "字す",
+        "与す"
+      ]
+    },
+    {
+      "id": "n4v400",
+      "word": "撮る",
+      "reading": "とる",
+      "meaning": "to take (a photo)",
+      "pos": "verb",
+      "example": "ここで 写真を 撮る ことは できません。",
+      "kanji_distractors": [
+        "最る",
+        "撒る"
+      ]
+    },
+    {
+      "id": "n4v401",
+      "word": "飾る",
+      "reading": "かざる",
+      "meaning": "to decorate",
+      "pos": "verb",
+      "example": "部屋に 花を 飾る と、明るく なります。",
+      "kanji_distractors": [
+        "飭る",
+        "飯る"
+      ]
+    },
+    {
+      "id": "n4v402",
+      "word": "片付ける",
+      "reading": "かたづける",
+      "meaning": "to tidy up",
+      "pos": "verb",
+      "example": "遊んだ あとは、おもちゃを 片付ける ように して ください。",
+      "kanji_distractors": [
+        "片附ける",
+        "方付ける"
+      ]
+    },
+    {
+      "id": "n4v403",
+      "word": "干す",
+      "reading": "ほす",
+      "meaning": "to dry, to air",
+      "pos": "verb",
+      "example": "天気が いいので、洗濯物を 外に 干す つもりです。",
+      "kanji_distractors": [
+        "千す",
+        "于す"
+      ]
+    },
+    {
+      "id": "n4v404",
+      "word": "畳む",
+      "reading": "たたむ",
+      "meaning": "to fold",
+      "pos": "verb",
+      "example": "服を きれいに 畳む のは 難しいです。",
+      "kanji_distractors": [
+        "疊む",
+        "昼む"
+      ]
+    },
+    {
+      "id": "n4v405",
+      "word": "包む",
+      "reading": "つつむ",
+      "meaning": "to wrap",
+      "pos": "verb",
+      "example": "プレゼントを きれいな 紙で 包む。",
+      "kanji_distractors": [
+        "抱む",
+        "句む"
+      ]
+    },
+    {
+      "id": "n4v406",
+      "word": "釣る",
+      "reading": "つる",
+      "meaning": "to fish, to catch",
+      "pos": "verb",
+      "example": "川で 魚を 釣る のが 好きです。",
+      "kanji_distractors": [
+        "約る",
+        "鈎る"
+      ]
+    },
+    {
+      "id": "n4v407",
+      "word": "選ぶ",
+      "reading": "えらぶ",
+      "meaning": "to choose",
+      "pos": "verb",
+      "example": "好きな 料理を 選ぶ ことが できます。",
+      "kanji_distractors": [
+        "遅ぶ",
+        "撰ぶ"
+      ]
+    },
+    {
+      "id": "n4v408",
+      "word": "似る",
+      "reading": "にる",
+      "meaning": "to resemble",
+      "pos": "verb",
+      "example": "子どもは 親に 似る ものです。",
+      "kanji_distractors": [
+        "以る",
+        "侶る"
+      ]
+    },
+    {
+      "id": "n4v409",
+      "word": "足りる",
+      "reading": "たりる",
+      "meaning": "to be enough",
+      "pos": "verb",
+      "example": "この お金で 足りる か どうか わかりません。",
+      "kanji_distractors": [
+        "是りる",
+        "促りる"
+      ]
+    },
+    {
+      "id": "n4v410",
+      "word": "残る",
+      "reading": "のこる",
+      "meaning": "to remain",
+      "pos": "verb",
+      "example": "仕事が 残って いるので、会社に 残る ことに しました。",
+      "kanji_distractors": [
+        "浅る",
+        "残す"
+      ]
+    },
+    {
+      "id": "n4v411",
+      "word": "増える",
+      "reading": "ふえる",
+      "meaning": "to increase",
+      "pos": "verb",
+      "example": "これから 外国人の 観光客が 増える でしょう。",
+      "kanji_distractors": [
+        "憎える",
+        "贈える"
+      ]
+    },
+    {
+      "id": "n4v412",
+      "word": "減る",
+      "reading": "へる",
+      "meaning": "to decrease",
+      "pos": "verb",
+      "example": "運動すれば、体重が 減る でしょう。",
+      "kanji_distractors": [
+        "滅る",
+        "咸る"
+      ]
+    },
+    {
+      "id": "n4v413",
+      "word": "太る",
+      "reading": "ふとる",
+      "meaning": "to gain weight",
+      "pos": "verb",
+      "example": "甘い ものを 食べすぎると、太る よ。",
+      "kanji_distractors": [
+        "大る",
+        "犬る"
+      ]
+    },
+    {
+      "id": "n4v414",
+      "word": "痩せる",
+      "reading": "やせる",
+      "meaning": "to lose weight",
+      "pos": "verb",
+      "example": "毎日 走れば、痩せる と 思います。",
+      "kanji_distractors": [
+        "疲せる",
+        "瘦る"
+      ]
+    },
+    {
+      "id": "n4v415",
+      "word": "眠る",
+      "reading": "ねむる",
+      "meaning": "to sleep",
+      "pos": "verb",
+      "example": "赤ちゃんは よく 眠る。",
+      "kanji_distractors": [
+        "眼る",
+        "民る"
+      ]
+    },
+    {
+      "id": "n4v416",
+      "word": "生きる",
+      "reading": "いきる",
+      "meaning": "to live",
+      "pos": "verb",
+      "example": "人は 一人では 生きる ことが できません。",
+      "kanji_distractors": [
+        "性きる",
+        "生る"
+      ]
+    },
+    {
+      "id": "n4v417",
+      "word": "育つ",
+      "reading": "そだつ",
+      "meaning": "to grow up",
+      "pos": "verb",
+      "example": "この 野菜は 寒い ところでも よく 育つ。",
+      "kanji_distractors": [
+        "肯つ",
+        "育る"
+      ]
+    },
+    {
+      "id": "n4v418",
+      "word": "勝つ",
+      "reading": "かつ",
+      "meaning": "to win",
+      "pos": "verb",
+      "example": "次の 試合は ぜったい 勝つ つもりです。",
+      "kanji_distractors": [
+        "騰つ",
+        "腸つ"
+      ]
+    },
+    {
+      "id": "n4v419",
+      "word": "負ける",
+      "reading": "まける",
+      "meaning": "to lose",
+      "pos": "verb",
+      "example": "一回 負ける と、次の 試合に 出られません。",
+      "kanji_distractors": [
+        "貨ける",
+        "負る"
+      ]
+    },
+    {
+      "id": "n4v420",
+      "word": "投げる",
+      "reading": "なげる",
+      "meaning": "to throw",
+      "pos": "verb",
+      "example": "ボールを 遠くまで 投げる のは 難しいです。",
+      "kanji_distractors": [
+        "役げる",
+        "投る"
+      ]
+    },
+    {
+      "id": "n4v421",
+      "word": "触る",
+      "reading": "さわる",
+      "meaning": "to touch",
+      "pos": "verb",
+      "example": "展示品に 触る ことは できません。",
+      "kanji_distractors": [
+        "角る",
+        "蝕る"
+      ]
+    },
+    {
+      "id": "n4v422",
+      "word": "受ける",
+      "reading": "うける",
+      "meaning": "to receive; to take (an exam)",
+      "pos": "verb",
+      "example": "来月 日本語の 試験を 受ける つもりです。",
+      "kanji_distractors": [
+        "授ける",
+        "受る"
+      ]
+    },
+    {
+      "id": "n4v423",
+      "word": "下ろす",
+      "reading": "おろす",
+      "meaning": "to withdraw; to take down",
+      "pos": "verb",
+      "example": "銀行で お金を 下ろす のを 忘れました。",
+      "kanji_distractors": [
+        "丁ろす",
+        "不ろす"
+      ]
+    },
+    {
+      "id": "n4v424",
+      "word": "預ける",
+      "reading": "あずける",
+      "meaning": "to leave in someone's care",
+      "pos": "verb",
+      "example": "ホテルに 荷物を 預ける ことが できますか。",
+      "kanji_distractors": [
+        "領ける",
+        "頂ける"
+      ]
+    },
+    {
+      "id": "n4v425",
+      "word": "守る",
+      "reading": "まもる",
+      "meaning": "to protect, to keep",
+      "pos": "verb",
+      "example": "約束を 守る ことは 大切です。",
+      "kanji_distractors": [
+        "寺る",
+        "字る"
+      ]
+    },
+    {
+      "id": "n4v426",
+      "word": "騒ぐ",
+      "reading": "さわぐ",
+      "meaning": "to make noise",
+      "pos": "verb",
+      "example": "図書館で 騒ぐ のは やめて ください。",
+      "kanji_distractors": [
+        "験ぐ",
+        "駆ぐ"
+      ]
+    },
+    {
+      "id": "n4v427",
+      "word": "祈る",
+      "reading": "いのる",
+      "meaning": "to pray",
+      "pos": "verb",
+      "example": "試験に 合格できるように 神様に 祈る。",
+      "kanji_distractors": [
+        "折る",
+        "祝る"
+      ]
+    },
+    {
+      "id": "n4v428",
+      "word": "祝う",
+      "reading": "いわう",
+      "meaning": "to celebrate",
+      "pos": "verb",
+      "example": "家族で 祖母の 誕生日を 祝う つもりです。",
+      "kanji_distractors": [
+        "祈う",
+        "税う"
+      ]
+    },
+    {
+      "id": "n4v429",
+      "word": "済む",
+      "reading": "すむ",
+      "meaning": "to be finished",
+      "pos": "verb",
+      "example": "この 仕事は 一時間で 済む と 思います。",
+      "kanji_distractors": [
+        "住む",
+        "斉む"
+      ]
+    },
+    {
+      "id": "n4v430",
+      "word": "間違える",
+      "reading": "まちがえる",
+      "meaning": "to make a mistake",
+      "pos": "verb",
+      "example": "名前を 間違える のは 失礼です。",
+      "kanji_distractors": [
+        "問違える",
+        "間違る"
+      ]
+    },
+    {
+      "id": "n4v431",
+      "word": "足す",
+      "reading": "たす",
+      "meaning": "to add",
+      "pos": "verb",
+      "example": "スープに 塩を 少し 足す と、おいしく なります。",
+      "kanji_distractors": [
+        "是す",
+        "促す"
+      ]
+    },
+    {
+      "id": "n4v432",
+      "word": "建てる",
+      "reading": "たてる",
+      "meaning": "to build",
+      "pos": "verb",
+      "example": "いつか 田舎に 家を 建てる のが 夢です。",
+      "kanji_distractors": [
+        "健てる",
+        "律てる"
+      ]
+    },
+    {
+      "id": "n4v433",
+      "word": "割る",
+      "reading": "わる",
+      "meaning": "to break, to divide",
+      "pos": "verb",
+      "example": "卵を 割る のが 上手に なりました。",
+      "kanji_distractors": [
+        "害る",
+        "剖る"
+      ]
+    },
+    {
+      "id": "n4v434",
+      "word": "計る",
+      "reading": "はかる",
+      "meaning": "to measure",
+      "pos": "verb",
+      "example": "毎朝 体重を 計る ように して います。",
+      "kanji_distractors": [
+        "訃る",
+        "討る"
+      ]
+    },
+    {
+      "id": "n4v435",
+      "word": "申し込む",
+      "reading": "もうしこむ",
+      "meaning": "to apply",
+      "pos": "verb",
+      "example": "インターネットで 試験に 申し込む ことが できます。",
+      "kanji_distractors": [
+        "甲し込む",
+        "申し入む"
+      ]
+    },
+    {
+      "id": "n4v436",
+      "word": "取り替える",
+      "reading": "とりかえる",
+      "meaning": "to exchange, to replace",
+      "pos": "verb",
+      "example": "サイズが 合わないので、取り替える ことに しました。",
+      "kanji_distractors": [
+        "取り換る",
+        "耳り替える"
+      ]
+    },
+    {
+      "id": "n4v437",
+      "word": "吹く",
+      "reading": "ふく",
+      "meaning": "to blow",
+      "pos": "verb",
+      "example": "あしたは 強い 風が 吹く でしょう。",
+      "kanji_distractors": [
+        "欠く",
+        "吸く"
+      ]
+    },
+    {
+      "id": "n4v438",
+      "word": "光る",
+      "reading": "ひかる",
+      "meaning": "to shine",
+      "pos": "verb",
+      "example": "夜に なると、星が きれいに 光る。",
+      "kanji_distractors": [
+        "光く",
+        "先る"
+      ]
+    },
+    {
+      "id": "n4v439",
+      "word": "晴れる",
+      "reading": "はれる",
+      "meaning": "to clear up",
+      "pos": "verb",
+      "example": "あしたは 晴れる と いいですね。",
+      "kanji_distractors": [
+        "晴る",
+        "清れる"
+      ]
+    },
+    {
+      "id": "n4v440",
+      "word": "曇る",
+      "reading": "くもる",
+      "meaning": "to become cloudy",
+      "pos": "verb",
+      "example": "午後から 曇る そうです。",
+      "kanji_distractors": [
+        "雲る",
+        "曇くる"
+      ]
+    },
+    {
+      "id": "n4v441",
+      "word": "揺れる",
+      "reading": "ゆれる",
+      "meaning": "to shake, to sway",
+      "pos": "verb",
+      "example": "地震で 家が 揺れる のは こわいです。",
+      "kanji_distractors": [
+        "搖る",
+        "揺る"
+      ]
+    },
+    {
+      "id": "n4v442",
+      "word": "滑る",
+      "reading": "すべる",
+      "meaning": "to slip",
+      "pos": "verb",
+      "example": "雪の 日は 道が 滑る ので、気を つけて ください。",
+      "kanji_distractors": [
+        "骨る",
+        "渦る"
+      ]
+    },
+    {
+      "id": "n4v443",
+      "word": "折る",
+      "reading": "おる",
+      "meaning": "to break; to fold",
+      "pos": "verb",
+      "example": "紙を 半分に 折る。",
+      "kanji_distractors": [
+        "祈る",
+        "析る"
+      ]
+    },
+    {
+      "id": "n4v444",
+      "word": "折れる",
+      "reading": "おれる",
+      "meaning": "to be broken, to snap",
+      "pos": "verb",
+      "example": "この 枝は 細いので、すぐ 折れる でしょう。",
+      "kanji_distractors": [
+        "祈れる",
+        "析れる"
+      ]
+    },
+    {
+      "id": "n4v445",
+      "word": "曲がる",
+      "reading": "まがる",
+      "meaning": "to turn, to bend",
+      "pos": "verb",
+      "example": "次の 角を 右に 曲がる と、郵便局が あります。",
+      "kanji_distractors": [
+        "典がる",
+        "由がる"
+      ]
+    },
+    {
+      "id": "n4v446",
+      "word": "見える",
+      "reading": "みえる",
+      "meaning": "to be visible",
+      "pos": "verb",
+      "example": "晴れた 日には、ここから 富士山が 見える。",
+      "kanji_distractors": [
+        "貝える",
+        "見る"
+      ]
+    },
+    {
+      "id": "n4v447",
+      "word": "聞こえる",
+      "reading": "きこえる",
+      "meaning": "to be audible",
+      "pos": "verb",
+      "example": "隣の 部屋から 音楽が 聞こえる。",
+      "kanji_distractors": [
+        "間こえる",
+        "聞える"
+      ]
+    },
+    {
+      "id": "n4v448",
+      "word": "消える",
+      "reading": "きえる",
+      "meaning": "to disappear, to go out",
+      "pos": "verb",
+      "example": "風で ろうそくの 火が 消える かもしれません。",
+      "kanji_distractors": [
+        "清える",
+        "消る"
+      ]
+    },
+    {
+      "id": "n4v449",
+      "word": "付ける",
+      "reading": "つける",
+      "meaning": "to attach; to turn on",
+      "pos": "verb",
+      "example": "暗いので、電気を 付ける ことに しました。",
+      "kanji_distractors": [
+        "附ける",
+        "村ける"
+      ]
+    },
+    {
+      "id": "n4v450",
+      "word": "捕まえる",
+      "reading": "つかまえる",
+      "meaning": "to catch",
+      "pos": "verb",
+      "example": "子どもたちは 虫を 捕まえる のが 好きです。",
+      "kanji_distractors": [
+        "捕える",
+        "補まえる"
+      ]
+    },
+    {
+      "id": "n4v451",
+      "word": "逃げる",
+      "reading": "にげる",
+      "meaning": "to run away",
+      "pos": "verb",
+      "example": "火事の ときは、階段を 使って 逃げる ように して ください。",
+      "kanji_distractors": [
+        "逸げる",
+        "兆げる"
+      ]
+    },
+    {
+      "id": "n4v452",
+      "word": "隠す",
+      "reading": "かくす",
+      "meaning": "to hide",
+      "pos": "verb",
+      "example": "弟は テストを 母に 隠す つもりでした。",
+      "kanji_distractors": [
+        "穏す",
+        "隠る"
+      ]
+    },
+    {
+      "id": "n4v453",
+      "word": "貼る",
+      "reading": "はる",
+      "meaning": "to stick, to paste",
+      "pos": "verb",
+      "example": "封筒に 切手を 貼る のを 忘れました。",
+      "kanji_distractors": [
+        "帖る",
+        "粘る"
+      ]
+    },
+    {
+      "id": "n4v454",
+      "word": "塗る",
+      "reading": "ぬる",
+      "meaning": "to paint, to apply",
+      "pos": "verb",
+      "example": "パンに バターを 塗る。",
+      "kanji_distractors": [
+        "途る",
+        "除る"
+      ]
+    },
+    {
+      "id": "n4v455",
+      "word": "いらっしゃる",
+      "reading": "いらっしゃる",
+      "meaning": "to be, to come, to go (honorific)",
+      "pos": "verb",
+      "example": "先生は 今 研究室に いらっしゃる と 思います。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v456",
+      "word": "おっしゃる",
+      "reading": "おっしゃる",
+      "meaning": "to say (honorific)",
+      "pos": "verb",
+      "example": "社長が おっしゃる とおりです。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v457",
+      "word": "いただく",
+      "reading": "いただく",
+      "meaning": "to receive (humble); to eat",
+      "pos": "verb",
+      "example": "先生に 辞書を いただく ことに なりました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v458",
+      "word": "くださる",
+      "reading": "くださる",
+      "meaning": "to give (honorific)",
+      "pos": "verb",
+      "example": "先生は いつも 丁寧に 教えて くださる。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v459",
+      "word": "くれる",
+      "reading": "くれる",
+      "meaning": "to give (to me)",
+      "pos": "verb",
+      "example": "父は 誕生日に いつも 本を くれる。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v460",
+      "word": "差し上げる",
+      "reading": "さしあげる",
+      "meaning": "to give (humble)",
+      "pos": "verb",
+      "example": "お客様に お茶を 差し上げる ように 言われました。",
+      "kanji_distractors": [
+        "差し止げる",
+        "着し上げる"
+      ]
+    },
+    {
+      "id": "n4v461",
+      "word": "ご覧になる",
+      "reading": "ごらんになる",
+      "meaning": "to see (honorific)",
+      "pos": "verb",
+      "example": "社長は もう この 書類を ご覧になる でしょうか。",
+      "kanji_distractors": [
+        "ご見になる",
+        "ご賢になる"
+      ]
+    },
+    {
+      "id": "n4v462",
+      "word": "拝見する",
+      "reading": "はいけんする",
+      "meaning": "to see (humble)",
+      "pos": "verb",
+      "example": "お手紙を 拝見する のを 楽しみに して います。",
+      "kanji_distractors": [
+        "拝貝する",
+        "拝見る"
+      ]
+    },
+    {
+      "id": "n4v463",
+      "word": "参る",
+      "reading": "まいる",
+      "meaning": "to go, to come (humble)",
+      "pos": "verb",
+      "example": "あした こちらから そちらへ 参る 予定です。",
+      "kanji_distractors": [
+        "参いる",
+        "惨る"
+      ]
+    },
+    {
+      "id": "n4v464",
+      "word": "申す",
+      "reading": "もうす",
+      "meaning": "to say (humble)",
+      "pos": "verb",
+      "example": "わたしは 田中と 申す 者です。",
+      "kanji_distractors": [
+        "甲す",
+        "由す"
+      ]
+    },
+    {
+      "id": "n4v465",
+      "word": "深い",
+      "reading": "ふかい",
+      "meaning": "deep",
+      "pos": "i-adj",
+      "example": "この 池は 深いので、入らないで ください。",
+      "kanji_distractors": [
+        "探い",
+        "深かい"
+      ]
+    },
+    {
+      "id": "n4v466",
+      "word": "固い",
+      "reading": "かたい",
+      "meaning": "hard, firm",
+      "pos": "i-adj",
+      "example": "この パンは 固いです。",
+      "kanji_distractors": [
+        "個い",
+        "周い"
+      ]
+    },
+    {
+      "id": "n4v467",
+      "word": "柔らかい",
+      "reading": "やわらかい",
+      "meaning": "soft",
+      "pos": "i-adj",
+      "example": "この 布団は とても 柔らかいです。",
+      "kanji_distractors": [
+        "柔かい",
+        "桑らかい"
+      ]
+    },
+    {
+      "id": "n4v468",
+      "word": "寂しい",
+      "reading": "さびしい",
+      "meaning": "lonely",
+      "pos": "i-adj",
+      "example": "一人で 住むのは 少し 寂しいです。",
+      "kanji_distractors": [
+        "叔しい",
+        "寂い"
+      ]
+    },
+    {
+      "id": "n4v469",
+      "word": "嬉しい",
+      "reading": "うれしい",
+      "meaning": "happy, glad",
+      "pos": "i-adj",
+      "example": "試験に 合格して、とても 嬉しいです。",
+      "kanji_distractors": [
+        "嬉い",
+        "喜しい"
+      ]
+    },
+    {
+      "id": "n4v470",
+      "word": "悲しい",
+      "reading": "かなしい",
+      "meaning": "sad",
+      "pos": "i-adj",
+      "example": "この 映画は とても 悲しいです。",
+      "kanji_distractors": [
+        "悲い",
+        "非しい"
+      ]
+    },
+    {
+      "id": "n4v471",
+      "word": "怖い",
+      "reading": "こわい",
+      "meaning": "scary",
+      "pos": "i-adj",
+      "example": "夜の 道は 少し 怖いです。",
+      "kanji_distractors": [
+        "布い",
+        "佈い"
+      ]
+    },
+    {
+      "id": "n4v472",
+      "word": "優しい",
+      "reading": "やさしい",
+      "meaning": "kind, gentle",
+      "pos": "i-adj",
+      "example": "山田さんは だれにでも 優しいです。",
+      "kanji_distractors": [
+        "憂しい",
+        "優い"
+      ]
+    },
+    {
+      "id": "n4v473",
+      "word": "眠い",
+      "reading": "ねむい",
+      "meaning": "sleepy",
+      "pos": "i-adj",
+      "example": "きのう 遅く 寝たので、とても 眠いです。",
+      "kanji_distractors": [
+        "眼い",
+        "民い"
+      ]
+    },
+    {
+      "id": "n4v474",
+      "word": "美しい",
+      "reading": "うつくしい",
+      "meaning": "beautiful",
+      "pos": "i-adj",
+      "example": "この 町の 夜景は 美しいです。",
+      "kanji_distractors": [
+        "美い",
+        "羙しい"
+      ]
+    },
+    {
+      "id": "n4v475",
+      "word": "苦しい",
+      "reading": "くるしい",
+      "meaning": "painful, hard",
+      "pos": "i-adj",
+      "example": "走った あとで、息が 苦しいです。",
+      "kanji_distractors": [
+        "苦い",
+        "若しい"
+      ]
+    },
+    {
+      "id": "n4v476",
+      "word": "辛い",
+      "reading": "からい",
+      "meaning": "spicy",
+      "pos": "i-adj",
+      "example": "この カレーは とても 辛いです。",
+      "kanji_distractors": [
+        "幸い",
+        "辛かい"
+      ]
+    },
+    {
+      "id": "n4v477",
+      "word": "素晴らしい",
+      "reading": "すばらしい",
+      "meaning": "wonderful",
+      "pos": "i-adj",
+      "example": "山から 見た 景色は 素晴らしいです。",
+      "kanji_distractors": [
+        "素晴しい",
+        "素睛らしい"
+      ]
+    },
+    {
+      "id": "n4v478",
+      "word": "ひどい",
+      "reading": "ひどい",
+      "meaning": "terrible, cruel",
+      "pos": "i-adj",
+      "example": "きのうは 雨も 風も ひどい 一日でした。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v479",
+      "word": "すごい",
+      "reading": "すごい",
+      "meaning": "amazing",
+      "pos": "i-adj",
+      "example": "彼は 三か国語が 話せるなんて、すごいですね。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v480",
+      "word": "偉い",
+      "reading": "えらい",
+      "meaning": "great, admirable",
+      "pos": "i-adj",
+      "example": "毎日 勉強して いるなんて、偉いですね。",
+      "kanji_distractors": [
+        "衛い",
+        "緯い"
+      ]
+    },
+    {
+      "id": "n4v481",
+      "word": "おかしい",
+      "reading": "おかしい",
+      "meaning": "funny; strange",
+      "pos": "i-adj",
+      "example": "この 機械は 音が おかしいです。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v482",
+      "word": "簡単",
+      "reading": "かんたん",
+      "meaning": "simple, easy",
+      "pos": "na-adj",
+      "example": "この 料理は 簡単ですから、すぐ 作れます。",
+      "kanji_distractors": [
+        "間単",
+        "簡短"
+      ]
+    },
+    {
+      "id": "n4v483",
+      "word": "不便",
+      "reading": "ふべん",
+      "meaning": "inconvenient",
+      "pos": "na-adj",
+      "example": "駅から 遠くて、不便です。",
+      "kanji_distractors": [
+        "不使",
+        "否便"
+      ]
+    },
+    {
+      "id": "n4v484",
+      "word": "無理",
+      "reading": "むり",
+      "meaning": "impossible, unreasonable",
+      "pos": "na-adj",
+      "example": "一日で この 仕事を 終わらせるのは 無理です。",
+      "kanji_distractors": [
+        "舞理",
+        "無埋"
+      ]
+    },
+    {
+      "id": "n4v485",
+      "word": "残念",
+      "reading": "ざんねん",
+      "meaning": "regrettable",
+      "pos": "na-adj",
+      "example": "パーティーに 行けなくて 残念です。",
+      "kanji_distractors": [
+        "残今",
+        "浅念"
+      ]
+    },
+    {
+      "id": "n4v486",
+      "word": "大変",
+      "reading": "たいへん",
+      "meaning": "hard, terrible",
+      "pos": "na-adj",
+      "example": "毎日 アルバイトを するのは 大変です。",
+      "kanji_distractors": [
+        "大恋",
+        "太変"
+      ]
+    },
+    {
+      "id": "n4v487",
+      "word": "必要",
+      "reading": "ひつよう",
+      "meaning": "necessary",
+      "pos": "na-adj",
+      "example": "この 仕事には 運転免許が 必要です。",
+      "kanji_distractors": [
+        "必用",
+        "心要"
+      ]
+    },
+    {
+      "id": "n4v488",
+      "word": "安全",
+      "reading": "あんぜん",
+      "meaning": "safe",
+      "pos": "na-adj",
+      "example": "この 町は 夜でも 安全です。",
+      "kanji_distractors": [
+        "案全",
+        "安金"
+      ]
+    },
+    {
+      "id": "n4v489",
+      "word": "危険",
+      "reading": "きけん",
+      "meaning": "dangerous",
+      "pos": "na-adj",
+      "example": "この 川で 泳ぐのは 危険です。",
+      "kanji_distractors": [
+        "危検",
+        "危験"
+      ]
+    },
+    {
+      "id": "n4v490",
+      "word": "盛ん",
+      "reading": "さかん",
+      "meaning": "thriving, popular",
+      "pos": "na-adj",
+      "example": "この 町は 野球が 盛んです。",
+      "kanji_distractors": [
+        "成ん",
+        "盛かん"
+      ]
+    },
+    {
+      "id": "n4v491",
+      "word": "十分",
+      "reading": "じゅうぶん",
+      "meaning": "enough",
+      "pos": "na-adj",
+      "example": "時間は 十分です。",
+      "kanji_distractors": [
+        "十份",
+        "什分"
+      ]
+    },
+    {
+      "id": "n4v492",
+      "word": "真面目",
+      "reading": "まじめ",
+      "meaning": "serious, diligent",
+      "pos": "na-adj",
+      "example": "弟は とても 真面目です。",
+      "kanji_distractors": [
+        "真面自",
+        "直面目"
+      ]
+    },
+    {
+      "id": "n4v493",
+      "word": "正直",
+      "reading": "しょうじき",
+      "meaning": "honest",
+      "pos": "na-adj",
+      "example": "彼は 正直な 人です。",
+      "kanji_distractors": [
+        "正値",
+        "正真"
+      ]
+    },
+    {
+      "id": "n4v494",
+      "word": "親切",
+      "reading": "しんせつ",
+      "meaning": "kind",
+      "pos": "na-adj",
+      "example": "駅員は とても 親切でした。",
+      "kanji_distractors": [
+        "新切",
+        "親功"
+      ]
+    },
+    {
+      "id": "n4v495",
+      "word": "得意",
+      "reading": "とくい",
+      "meaning": "good at",
+      "pos": "na-adj",
+      "example": "姉は 料理が 得意です。",
+      "kanji_distractors": [
+        "特意",
+        "得音"
+      ]
+    },
+    {
+      "id": "n4v496",
+      "word": "苦手",
+      "reading": "にがて",
+      "meaning": "weak at, dislike",
+      "pos": "na-adj",
+      "example": "わたしは 数学が 苦手です。",
+      "kanji_distractors": [
+        "若手",
+        "苦乎"
+      ]
+    },
+    {
+      "id": "n4v497",
+      "word": "素敵",
+      "reading": "すてき",
+      "meaning": "lovely",
+      "pos": "na-adj",
+      "example": "素敵な 服ですね。",
+      "kanji_distractors": [
+        "素適",
+        "素滴"
+      ]
+    },
+    {
+      "id": "n4v498",
+      "word": "立派",
+      "reading": "りっぱ",
+      "meaning": "splendid",
+      "pos": "na-adj",
+      "example": "お寺の 前に 立派な 門が あります。",
+      "kanji_distractors": [
+        "立波",
+        "位派"
+      ]
+    },
+    {
+      "id": "n4v499",
+      "word": "変",
+      "reading": "へん",
+      "meaning": "strange",
+      "pos": "na-adj",
+      "example": "この 牛乳は 変な においが します。",
+      "kanji_distractors": [
+        "恋",
+        "亦"
+      ]
+    },
+    {
+      "id": "n4v500",
+      "word": "楽",
+      "reading": "らく",
+      "meaning": "easy, comfortable",
+      "pos": "na-adj",
+      "example": "新しい 仕事は 前より 楽です。",
+      "kanji_distractors": [
+        "薬",
+        "栄"
+      ]
+    },
+    {
+      "id": "n4v501",
+      "word": "急",
+      "reading": "きゅう",
+      "meaning": "sudden",
+      "pos": "na-adj",
+      "example": "急な 用事が できて、行けなく なりました。",
+      "kanji_distractors": [
+        "忌",
+        "怠"
+      ]
+    },
+    {
+      "id": "n4v502",
+      "word": "大事",
+      "reading": "だいじ",
+      "meaning": "important",
+      "pos": "na-adj",
+      "example": "これは 大事な 書類ですから、なくさないで ください。",
+      "kanji_distractors": [
+        "大字",
+        "太事"
+      ]
+    },
+    {
+      "id": "n4v503",
+      "word": "決して",
+      "reading": "けっして",
+      "meaning": "never (with negative)",
+      "pos": "adverb",
+      "example": "この ことは 決して だれにも 言わないで ください。",
+      "kanji_distractors": [
+        "快して",
+        "決て"
+      ]
+    },
+    {
+      "id": "n4v504",
+      "word": "実は",
+      "reading": "じつは",
+      "meaning": "actually, to tell the truth",
+      "pos": "adverb",
+      "example": "実は、来月 国へ 帰る ことに なりました。",
+      "kanji_distractors": [
+        "美は",
+        "実わ"
+      ]
+    },
+    {
+      "id": "n4v505",
+      "word": "例えば",
+      "reading": "たとえば",
+      "meaning": "for example",
+      "pos": "adverb",
+      "example": "例えば、すしや てんぷらが 好きです。",
+      "kanji_distractors": [
+        "列えば",
+        "例ば"
+      ]
+    },
+    {
+      "id": "n4v506",
+      "word": "非常に",
+      "reading": "ひじょうに",
+      "meaning": "extremely",
+      "pos": "adverb",
+      "example": "きょうは 非常に 寒いです。",
+      "kanji_distractors": [
+        "悲常に",
+        "非當に"
+      ]
+    },
+    {
+      "id": "n4v507",
+      "word": "別に",
+      "reading": "べつに",
+      "meaning": "not particularly",
+      "pos": "adverb",
+      "example": "別に 何も 問題は ありません。",
+      "kanji_distractors": [
+        "別て",
+        "列に"
+      ]
+    },
+    {
+      "id": "n4v508",
+      "word": "久しぶり",
+      "reading": "ひさしぶり",
+      "meaning": "after a long time",
+      "pos": "adverb",
+      "example": "久しぶりに 高校の 友達に 会いました。",
+      "kanji_distractors": [
+        "久しふり",
+        "欠しぶり"
+      ]
+    },
+    {
+      "id": "n4v509",
+      "word": "確か",
+      "reading": "たしか",
+      "meaning": "if I remember correctly",
+      "pos": "adverb",
+      "example": "会議は 確か 三時からです。",
+      "kanji_distractors": [
+        "碓か",
+        "硬か"
+      ]
+    },
+    {
+      "id": "n4v510",
+      "word": "なかなか",
+      "reading": "なかなか",
+      "meaning": "quite; (not) easily",
+      "pos": "adverb",
+      "example": "この 本は なかなか おもしろいです。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v511",
+      "word": "ずいぶん",
+      "reading": "ずいぶん",
+      "meaning": "very, considerably",
+      "pos": "adverb",
+      "example": "しばらく 会わない うちに、ずいぶん 大きく なりましたね。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v512",
+      "word": "ちっとも",
+      "reading": "ちっとも",
+      "meaning": "not at all",
+      "pos": "adverb",
+      "example": "この 映画は ちっとも おもしろく なかった。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v513",
+      "word": "きっと",
+      "reading": "きっと",
+      "meaning": "surely",
+      "pos": "adverb",
+      "example": "彼は きっと 来ると 思います。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v514",
+      "word": "ぜひ",
+      "reading": "ぜひ",
+      "meaning": "by all means",
+      "pos": "adverb",
+      "example": "今度 ぜひ わたしの 家に 来て ください。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v515",
+      "word": "もちろん",
+      "reading": "もちろん",
+      "meaning": "of course",
+      "pos": "adverb",
+      "example": "もちろん、わたしも パーティーに 行きます。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v516",
+      "word": "やっと",
+      "reading": "やっと",
+      "meaning": "at last",
+      "pos": "adverb",
+      "example": "一時間 待って、やっと バスが 来ました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v517",
+      "word": "とうとう",
+      "reading": "とうとう",
+      "meaning": "finally, in the end",
+      "pos": "adverb",
+      "example": "とうとう 彼は 来ませんでした。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v518",
+      "word": "だんだん",
+      "reading": "だんだん",
+      "meaning": "gradually",
+      "pos": "adverb",
+      "example": "だんだん 暖かく なって きました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v519",
+      "word": "しばらく",
+      "reading": "しばらく",
+      "meaning": "for a while",
+      "pos": "adverb",
+      "example": "しばらく ここで 待って いて ください。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v520",
+      "word": "ほとんど",
+      "reading": "ほとんど",
+      "meaning": "almost, hardly",
+      "pos": "adverb",
+      "example": "宿題は ほとんど 終わりました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v521",
+      "word": "なるべく",
+      "reading": "なるべく",
+      "meaning": "as much as possible",
+      "pos": "adverb",
+      "example": "なるべく 早く 来て ください。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v522",
+      "word": "はっきり",
+      "reading": "はっきり",
+      "meaning": "clearly",
+      "pos": "adverb",
+      "example": "もう 少し はっきり 話して ください。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v523",
+      "word": "びっくり",
+      "reading": "びっくり",
+      "meaning": "surprised",
+      "pos": "adverb",
+      "example": "大きな 音が して、びっくり しました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v524",
+      "word": "すっかり",
+      "reading": "すっかり",
+      "meaning": "completely",
+      "pos": "adverb",
+      "example": "約束を すっかり 忘れて いました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v525",
+      "word": "そろそろ",
+      "reading": "そろそろ",
+      "meaning": "it's about time",
+      "pos": "adverb",
+      "example": "もう 遅いので、そろそろ 帰ります。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v526",
+      "word": "たまに",
+      "reading": "たまに",
+      "meaning": "occasionally",
+      "pos": "adverb",
+      "example": "たまに 家族と 外で 食事を します。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v527",
+      "word": "たいてい",
+      "reading": "たいてい",
+      "meaning": "usually",
+      "pos": "adverb",
+      "example": "日曜日は たいてい 家に います。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v528",
+      "word": "もうすぐ",
+      "reading": "もうすぐ",
+      "meaning": "soon",
+      "pos": "adverb",
+      "example": "もうすぐ 夏休みです。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v529",
+      "word": "そんなに",
+      "reading": "そんなに",
+      "meaning": "so, that much",
+      "pos": "adverb",
+      "example": "この 映画は そんなに 長くないです。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v530",
+      "word": "アルバイト",
+      "reading": "アルバイト",
+      "meaning": "part-time job",
+      "pos": "noun",
+      "example": "大学生の とき、コンビニで アルバイトを して いました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v531",
+      "word": "アクセサリー",
+      "reading": "アクセサリー",
+      "meaning": "accessories",
+      "pos": "noun",
+      "example": "姉は アクセサリーを 集めるのが 好きです。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v532",
+      "word": "アナウンス",
+      "reading": "アナウンス",
+      "meaning": "announcement",
+      "pos": "noun",
+      "example": "駅の アナウンスが よく 聞こえませんでした。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v533",
+      "word": "エスカレーター",
+      "reading": "エスカレーター",
+      "meaning": "escalator",
+      "pos": "noun",
+      "example": "エスカレーターで 三階へ 行きました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v534",
+      "word": "オートバイ",
+      "reading": "オートバイ",
+      "meaning": "motorcycle",
+      "pos": "noun",
+      "example": "兄は オートバイで 会社へ 行きます。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v535",
+      "word": "カーテン",
+      "reading": "カーテン",
+      "meaning": "curtain",
+      "pos": "noun",
+      "example": "朝に なったら、カーテンを 開けて ください。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v536",
+      "word": "ガソリン",
+      "reading": "ガソリン",
+      "meaning": "petrol",
+      "pos": "noun",
+      "example": "ガソリンが 少ないので、入れて いきましょう。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v537",
+      "word": "ガラス",
+      "reading": "ガラス",
+      "meaning": "glass",
+      "pos": "noun",
+      "example": "ボールで 窓の ガラスを 割って しまいました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v538",
+      "word": "コンピューター",
+      "reading": "コンピューター",
+      "meaning": "computer",
+      "pos": "noun",
+      "example": "コンピューターの 使い方を 習って います。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v539",
+      "word": "サンダル",
+      "reading": "サンダル",
+      "meaning": "sandals",
+      "pos": "noun",
+      "example": "夏は いつも サンダルを はきます。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v540",
+      "word": "スーツ",
+      "reading": "スーツ",
+      "meaning": "suit",
+      "pos": "noun",
+      "example": "面接には スーツを 着て 行きます。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v541",
+      "word": "テキスト",
+      "reading": "テキスト",
+      "meaning": "textbook",
+      "pos": "noun",
+      "example": "あしたの 授業に テキストを 持って 来て ください。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v542",
+      "word": "パソコン",
+      "reading": "パソコン",
+      "meaning": "personal computer",
+      "pos": "noun",
+      "example": "新しい パソコンを 買いました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v543",
+      "word": "プレゼント",
+      "reading": "プレゼント",
+      "meaning": "present",
+      "pos": "noun",
+      "example": "母の 日に 花を プレゼントしました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v544",
+      "word": "レジ",
+      "reading": "レジ",
+      "meaning": "cash register",
+      "pos": "noun",
+      "example": "レジで お金を 払って ください。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v545",
+      "word": "ソフト",
+      "reading": "ソフト",
+      "meaning": "software",
+      "pos": "noun",
+      "example": "パソコンに 新しい ソフトを 入れました。",
+      "kanji_distractors": []
+    },
+    {
+      "id": "n4v546",
+      "word": "故障",
+      "reading": "こしょう",
+      "meaning": "breakdown, malfunction",
+      "pos": "noun",
+      "example": "エレベーターが 故障して、階段を 使いました。",
+      "kanji_distractors": [
+        "古障",
+        "故彰"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "vq01",
+      "type": "paraphrase",
+      "word": "留守",
+      "prompt": "きのう 田中さんの 家に 行きましたが、[[留守でした]]。",
+      "options": [
+        "田中さんは 家に いませんでした。",
+        "田中さんは 家で 寝て いました。",
+        "田中さんは 家に 一人で いました。",
+        "田中さんは 家で 待って いました。"
+      ],
+      "answer": 0,
+      "note": "留守 = being away from home.",
+      "word_id": "n4v172"
+    },
+    {
+      "id": "vq02",
+      "type": "paraphrase",
+      "word": "遅刻",
+      "prompt": "けさ、会社に [[遅刻しました]]。",
+      "options": [
+        "けさ、会社に 遅れました。",
+        "けさ、会社を 休みました。",
+        "けさ、会社に 早く 着きました。",
+        "けさ、会社を やめました。"
+      ],
+      "answer": 0,
+      "note": "遅刻する = 遅れる (to be late).",
+      "word_id": "n4v316"
+    },
+    {
+      "id": "vq03",
+      "type": "paraphrase",
+      "word": "片付ける",
+      "prompt": "部屋を [[片付けて]] ください。",
+      "options": [
+        "部屋を きれいに して ください。",
+        "部屋を 出て ください。",
+        "部屋を 探して ください。",
+        "部屋を 借りて ください。"
+      ],
+      "answer": 0,
+      "note": "片付ける = to tidy up.",
+      "word_id": "n4v402"
+    },
+    {
+      "id": "vq04",
+      "type": "paraphrase",
+      "word": "びっくり",
+      "prompt": "その ニュースを 聞いて、[[びっくりしました]]。",
+      "options": [
+        "その ニュースを 聞いて、驚きました。",
+        "その ニュースを 聞いて、笑いました。",
+        "その ニュースを 聞いて、怒りました。",
+        "その ニュースを 聞いて、泣きました。"
+      ],
+      "answer": 0,
+      "note": "びっくりする = 驚く.",
+      "word_id": "n4v523"
+    },
+    {
+      "id": "vq05",
+      "type": "paraphrase",
+      "word": "苦手",
+      "prompt": "わたしは 数学が [[苦手です]]。",
+      "options": [
+        "わたしは 数学が 上手では ありません。",
+        "わたしは 数学が 大好きです。",
+        "わたしは 数学を 勉強して います。",
+        "わたしは 数学の 先生です。"
+      ],
+      "answer": 0,
+      "note": "苦手 = not good at.",
+      "word_id": "n4v496"
+    },
+    {
+      "id": "vq06",
+      "type": "paraphrase",
+      "word": "得意",
+      "prompt": "姉は 料理が [[得意です]]。",
+      "options": [
+        "姉は 料理が 上手です。",
+        "姉は 料理が きらいです。",
+        "姉は 料理を 習って います。",
+        "姉は 料理を あまり しません。"
+      ],
+      "answer": 0,
+      "note": "得意 = good at.",
+      "word_id": "n4v495"
+    },
+    {
+      "id": "vq07",
+      "type": "paraphrase",
+      "word": "ほとんど",
+      "prompt": "宿題は [[ほとんど]] 終わりました。",
+      "options": [
+        "宿題は だいたい 終わりました。",
+        "宿題は ぜんぜん 終わって いません。",
+        "宿題は すこしだけ 終わりました。",
+        "宿題は きのう 終わりました。"
+      ],
+      "answer": 0,
+      "note": "ほとんど = almost all.",
+      "word_id": "n4v520"
+    },
+    {
+      "id": "vq08",
+      "type": "paraphrase",
+      "word": "間違い",
+      "prompt": "この 作文には [[間違い]]が 多いです。",
+      "options": [
+        "この 作文は 正しくない ところが 多いです。",
+        "この 作文は とても 長いです。",
+        "この 作文は 漢字が 多いです。",
+        "この 作文は おもしろい ところが 多いです。"
+      ],
+      "answer": 0,
+      "note": "間違い = mistake, something not correct.",
+      "word_id": "n4v264"
+    },
+    {
+      "id": "vq09",
+      "type": "paraphrase",
+      "word": "返事",
+      "prompt": "友達に [[返事を しました]]。",
+      "options": [
+        "友達に 答えました。",
+        "友達に 質問しました。",
+        "友達に 会いました。",
+        "友達に お礼を あげました。"
+      ],
+      "answer": 0,
+      "note": "返事 = reply.",
+      "word_id": "n4v100"
+    },
+    {
+      "id": "vq10",
+      "type": "paraphrase",
+      "word": "久しぶり",
+      "prompt": "[[久しぶりに]] 高校の 友達に 会いました。",
+      "options": [
+        "長い 間 会って いなかった 高校の 友達に 会いました。",
+        "はじめて 高校の 友達に 会いました。",
+        "毎日 高校の 友達に 会います。",
+        "きのうも 高校の 友達に 会いました。"
+      ],
+      "answer": 0,
+      "note": "久しぶり = for the first time in a long while.",
+      "word_id": "n4v508"
+    },
+    {
+      "id": "vq11",
+      "type": "paraphrase",
+      "word": "そろそろ",
+      "prompt": "[[そろそろ]] 帰りましょう。",
+      "options": [
+        "もう すぐ 帰りましょう。",
+        "ゆっくり 帰りましょう。",
+        "いっしょに 帰りましょう。",
+        "あした 帰りましょう。"
+      ],
+      "answer": 0,
+      "note": "そろそろ = it's nearly time.",
+      "word_id": "n4v525"
+    },
+    {
+      "id": "vq12",
+      "type": "paraphrase",
+      "word": "ぜひ",
+      "prompt": "今度 [[ぜひ]] 遊びに 来て ください。",
+      "options": [
+        "今度 かならず 遊びに 来て ください。",
+        "今度 ときどき 遊びに 来て ください。",
+        "今度 少しだけ 遊びに 来て ください。",
+        "今度 一人で 遊びに 来て ください。"
+      ],
+      "answer": 0,
+      "note": "ぜひ = by all means.",
+      "word_id": "n4v514"
+    },
+    {
+      "id": "vq13",
+      "type": "paraphrase",
+      "word": "なるべく",
+      "prompt": "[[なるべく]] 早く 来て ください。",
+      "options": [
+        "できるだけ 早く 来て ください。",
+        "少し 早く 来て ください。",
+        "いつも 早く 来て ください。",
+        "たまに 早く 来て ください。"
+      ],
+      "answer": 0,
+      "note": "なるべく = as ... as possible (できるだけ).",
+      "word_id": "n4v521"
+    },
+    {
+      "id": "vq14",
+      "type": "paraphrase",
+      "word": "たいてい",
+      "prompt": "日曜日は [[たいてい]] 家に います。",
+      "options": [
+        "日曜日は いつもは 家に います。",
+        "日曜日は ぜんぜん 家に いません。",
+        "日曜日は たまに 家に います。",
+        "日曜日は ときどき 家に います。"
+      ],
+      "answer": 0,
+      "note": "たいてい = usually.",
+      "word_id": "n4v527"
+    },
+    {
+      "id": "vq15",
+      "type": "paraphrase",
+      "word": "しばらく",
+      "prompt": "[[しばらく]] お待ち ください。",
+      "options": [
+        "少し 待って ください。",
+        "ずっと 待って ください。",
+        "もう 待たないで ください。",
+        "あした 待って ください。"
+      ],
+      "answer": 0,
+      "note": "しばらく = for a little while.",
+      "word_id": "n4v519"
+    },
+    {
+      "id": "vq16",
+      "type": "paraphrase",
+      "word": "故障",
+      "prompt": "この コピー機は [[故障して います]]。",
+      "options": [
+        "この コピー機は 壊れて います。",
+        "この コピー機は 新しいです。",
+        "この コピー機は 使いやすいです。",
+        "この コピー機は 止まって いません。"
+      ],
+      "answer": 0,
+      "note": "故障 = broken down (壊れる).",
+      "word_id": "n4v546"
+    },
+    {
+      "id": "vq17",
+      "type": "paraphrase",
+      "word": "無理",
+      "prompt": "この 荷物を 一人で 運ぶのは [[無理です]]。",
+      "options": [
+        "この 荷物を 一人で 運ぶ ことは できません。",
+        "この 荷物を 一人で 運ぶのは 簡単です。",
+        "この 荷物を 一人で 運ぶのは 楽しいです。",
+        "この 荷物を 一人で 運んでも いいです。"
+      ],
+      "answer": 0,
+      "note": "無理 = impossible.",
+      "word_id": "n4v484"
+    },
+    {
+      "id": "vq18",
+      "type": "paraphrase",
+      "word": "十分",
+      "prompt": "時間は [[十分 あります]]。",
+      "options": [
+        "時間は 足ります。",
+        "時間は 足りません。",
+        "時間は 少しも ありません。",
+        "時間は もう ありません。"
+      ],
+      "answer": 0,
+      "note": "十分 = enough (足りる).",
+      "word_id": "n4v491"
+    },
+    {
+      "id": "vq19",
+      "type": "paraphrase",
+      "word": "太る",
+      "prompt": "最近、[[太りました]]。",
+      "options": [
+        "最近、体重が 増えました。",
+        "最近、体重が 減りました。",
+        "最近、背が 高く なりました。",
+        "最近、元気に なりました。"
+      ],
+      "answer": 0,
+      "note": "太る = to gain weight.",
+      "word_id": "n4v413"
+    },
+    {
+      "id": "vq20",
+      "type": "paraphrase",
+      "word": "痩せる",
+      "prompt": "兄は 少し [[痩せました]]。",
+      "options": [
+        "兄は 少し 体重が 減りました。",
+        "兄は 少し 体重が 増えました。",
+        "兄は 少し 背が 伸びました。",
+        "兄は 少し 元気に なりました。"
+      ],
+      "answer": 0,
+      "note": "痩せる = to lose weight.",
+      "word_id": "n4v414"
+    },
+    {
+      "id": "vq21",
+      "type": "paraphrase",
+      "word": "知らせる",
+      "prompt": "試験の 結果を 先生に [[知らせました]]。",
+      "options": [
+        "試験の 結果を 先生に 伝えました。",
+        "試験の 結果を 先生に 聞きました。",
+        "試験の 結果を 先生に 隠しました。",
+        "試験の 結果を 先生と 調べました。"
+      ],
+      "answer": 0,
+      "note": "知らせる = 伝える (to let someone know).",
+      "word_id": "n4v367"
+    },
+    {
+      "id": "vq22",
+      "type": "paraphrase",
+      "word": "伺う",
+      "prompt": "あした お宅に [[伺います]]。",
+      "options": [
+        "あした お宅に 行きます。",
+        "あした お宅に 電話します。",
+        "あした お宅で 待ちます。",
+        "あした お宅を 出ます。"
+      ],
+      "answer": 0,
+      "note": "伺う = humble 行く/訪ねる.",
+      "word_id": "n4v384"
+    },
+    {
+      "id": "vq23",
+      "type": "paraphrase",
+      "word": "召し上がる",
+      "prompt": "どうぞ [[召し上がって]] ください。",
+      "options": [
+        "どうぞ 食べて ください。",
+        "どうぞ 座って ください。",
+        "どうぞ 見て ください。",
+        "どうぞ 入って ください。"
+      ],
+      "answer": 0,
+      "note": "召し上がる = honorific 食べる/飲む.",
+      "word_id": "n4v385"
+    },
+    {
+      "id": "vq24",
+      "type": "paraphrase",
+      "word": "拝見する",
+      "prompt": "お手紙を [[拝見しました]]。",
+      "options": [
+        "お手紙を 読みました。",
+        "お手紙を 書きました。",
+        "お手紙を 送りました。",
+        "お手紙を もらいました。"
+      ],
+      "answer": 0,
+      "note": "拝見する = humble 見る/読む.",
+      "word_id": "n4v462"
+    },
+    {
+      "id": "vq25",
+      "type": "paraphrase",
+      "word": "申し込む",
+      "prompt": "コンテストに [[申し込みました]]。",
+      "options": [
+        "コンテストに 出たいと 言いました。",
+        "コンテストを 見に 行きました。",
+        "コンテストで 優勝しました。",
+        "コンテストを やめました。"
+      ],
+      "answer": 0,
+      "note": "申し込む = to apply / sign up.",
+      "word_id": "n4v435"
+    },
+    {
+      "id": "vq26",
+      "type": "paraphrase",
+      "word": "騒ぐ",
+      "prompt": "子どもたちが [[騒いで います]]。",
+      "options": [
+        "子どもたちが うるさく して います。",
+        "子どもたちが 静かに して います。",
+        "子どもたちが 寝て います。",
+        "子どもたちが 勉強して います。"
+      ],
+      "answer": 0,
+      "note": "騒ぐ = to make noise.",
+      "word_id": "n4v426"
+    },
+    {
+      "id": "vq27",
+      "type": "paraphrase",
+      "word": "眠い",
+      "prompt": "けさは とても [[眠かった]]です。",
+      "options": [
+        "けさは とても 寝たかったです。",
+        "けさは とても 元気でした。",
+        "けさは とても 寒かったです。",
+        "けさは とても 忙しかったです。"
+      ],
+      "answer": 0,
+      "note": "眠い = sleepy.",
+      "word_id": "n4v473"
+    },
+    {
+      "id": "vq28",
+      "type": "paraphrase",
+      "word": "嬉しい",
+      "prompt": "試験に 合格して、とても [[嬉しい]]です。",
+      "options": [
+        "試験に 合格して、とても 喜んで います。",
+        "試験に 合格して、とても 疲れて います。",
+        "試験に 合格して、とても 驚いて います。",
+        "試験に 合格して、とても 困って います。"
+      ],
+      "answer": 0,
+      "note": "嬉しい = glad (喜ぶ).",
+      "word_id": "n4v469"
+    },
+    {
+      "id": "vq29",
+      "type": "paraphrase",
+      "word": "寂しい",
+      "prompt": "一人で 住むのは [[寂しい]]です。",
+      "options": [
+        "一人で 住むのは 楽しく ないです。",
+        "一人で 住むのは 便利です。",
+        "一人で 住むのは 安いです。",
+        "一人で 住むのは 簡単です。"
+      ],
+      "answer": 0,
+      "note": "寂しい = lonely.",
+      "word_id": "n4v468"
+    },
+    {
+      "id": "vq30",
+      "type": "paraphrase",
+      "word": "昔",
+      "prompt": "この あたりは [[昔]]、海でした。",
+      "options": [
+        "この あたりは ずっと 前、海でした。",
+        "この あたりは 去年、海でした。",
+        "この あたりは 最近、海に なりました。",
+        "この あたりは 今も 海です。"
+      ],
+      "answer": 0,
+      "note": "昔 = long ago.",
+      "word_id": "n4v282"
+    },
+    {
+      "id": "vq31",
+      "type": "paraphrase",
+      "word": "近所",
+      "prompt": "[[近所]]に 新しい 店が できました。",
+      "options": [
+        "家の 近くに 新しい 店が できました。",
+        "駅の 中に 新しい 店が できました。",
+        "会社の 中に 新しい 店が できました。",
+        "遠い 町に 新しい 店が できました。"
+      ],
+      "answer": 0,
+      "note": "近所 = neighbourhood, near one's home.",
+      "word_id": "n4v141"
+    },
+    {
+      "id": "vq32",
+      "type": "paraphrase",
+      "word": "乗り換える",
+      "prompt": "新宿で 電車を [[乗り換えました]]。",
+      "options": [
+        "新宿で ほかの 電車に 乗りました。",
+        "新宿で 電車を 降りました。",
+        "新宿まで 電車で 行きました。",
+        "新宿で 電車を 待ちました。"
+      ],
+      "answer": 0,
+      "note": "乗り換える = to change to another train.",
+      "word_id": "n4v394"
+    },
+    {
+      "id": "vq33",
+      "type": "paraphrase",
+      "word": "注意",
+      "prompt": "車に [[注意して]] ください。",
+      "options": [
+        "車に 気を つけて ください。",
+        "車に 乗って ください。",
+        "車を 止めて ください。",
+        "車を 洗って ください。"
+      ],
+      "answer": 0,
+      "note": "注意する = 気をつける.",
+      "word_id": "n4v280"
+    },
+    {
+      "id": "vq34",
+      "type": "paraphrase",
+      "word": "用事",
+      "prompt": "きょうは [[用事が あるので]]、早く 帰ります。",
+      "options": [
+        "きょうは しなければ ならない ことが あるので、早く 帰ります。",
+        "きょうは 体の 具合が 悪いので、早く 帰ります。",
+        "きょうは 暇なので、早く 帰ります。",
+        "きょうは 雨なので、早く 帰ります。"
+      ],
+      "answer": 0,
+      "note": "用事 = something you have to do.",
+      "word_id": "n4v147"
+    },
+    {
+      "id": "vq35",
+      "type": "paraphrase",
+      "word": "貸す",
+      "prompt": "友達に 辞書を [[貸しました]]。",
+      "options": [
+        "友達は わたしの 辞書を 借りました。",
+        "友達に 辞書を 借りました。",
+        "友達に 辞書を 返しました。",
+        "友達に 辞書を あげました。"
+      ],
+      "answer": 0,
+      "note": "AがBに貸す = Bが(Aに)借りる."
+    },
+    {
+      "id": "vq36",
+      "type": "paraphrase",
+      "word": "教える",
+      "prompt": "田中さんが わたしに 英語を [[教えて くれました]]。",
+      "options": [
+        "わたしは 田中さんに 英語を 教えて もらいました。",
+        "わたしは 田中さんに 英語を 教えて あげました。",
+        "田中さんは わたしに 英語を 習いました。",
+        "わたしは 田中さんと 英語を 勉強しました。"
+      ],
+      "answer": 0,
+      "note": "〜てくれる ⇔ 〜てもらう from the receiver's side."
+    },
+    {
+      "id": "vq37",
+      "type": "paraphrase",
+      "word": "すっかり",
+      "prompt": "約束を [[すっかり]] 忘れて いました。",
+      "options": [
+        "約束を 全部 忘れて いました。",
+        "約束を 少し 忘れて いました。",
+        "約束を ときどき 忘れて いました。",
+        "約束を 忘れて いませんでした。"
+      ],
+      "answer": 0,
+      "note": "すっかり = completely.",
+      "word_id": "n4v524"
+    },
+    {
+      "id": "vq38",
+      "type": "paraphrase",
+      "word": "はっきり",
+      "prompt": "もう 少し [[はっきり]] 話して ください。",
+      "options": [
+        "もう 少し よく わかるように 話して ください。",
+        "もう 少し 小さい 声で 話して ください。",
+        "もう 少し 速く 話して ください。",
+        "もう 少し 長く 話して ください。"
+      ],
+      "answer": 0,
+      "note": "はっきり = clearly.",
+      "word_id": "n4v522"
+    },
+    {
+      "id": "vq39",
+      "type": "paraphrase",
+      "word": "だんだん",
+      "prompt": "[[だんだん]] 寒く なって きました。",
+      "options": [
+        "少しずつ 寒く なって きました。",
+        "急に 寒く なって きました。",
+        "とても 寒く なって きました。",
+        "また 寒く なって きました。"
+      ],
+      "answer": 0,
+      "note": "だんだん = gradually (少しずつ).",
+      "word_id": "n4v518"
+    },
+    {
+      "id": "vq40",
+      "type": "paraphrase",
+      "word": "とうとう",
+      "prompt": "[[とうとう]] 彼は 来ませんでした。",
+      "options": [
+        "最後まで 彼は 来ませんでした。",
+        "すぐに 彼は 来ませんでした。",
+        "はじめは 彼は 来ませんでした。",
+        "ときどき 彼は 来ませんでした。"
+      ],
+      "answer": 0,
+      "note": "とうとう〜なかった = in the end, never.",
+      "word_id": "n4v517"
+    },
+    {
+      "id": "vq41",
+      "type": "usage",
+      "word": "遠慮",
+      "prompt": "遠慮",
+      "options": [
+        "たばこは 遠慮して いただけますか。",
+        "たくさん 食べたので、遠慮に なりました。",
+        "駅まで 遠慮が 遠いです。",
+        "遠慮な 人に 道を 聞きました。"
+      ],
+      "answer": 0,
+      "note": "遠慮する = to refrain from; often in polite requests.",
+      "word_id": "n4v158"
+    },
+    {
+      "id": "vq42",
+      "type": "usage",
+      "word": "都合",
+      "prompt": "都合",
+      "options": [
+        "あしたの ご都合は いかがですか。",
+        "この かばんは 都合が 重いです。",
+        "毎朝 都合を 食べます。",
+        "彼は 都合な 人です。"
+      ],
+      "answer": 0,
+      "note": "都合 = (one's) convenience / schedule.",
+      "word_id": "n4v090"
+    },
+    {
+      "id": "vq43",
+      "type": "usage",
+      "word": "支度",
+      "prompt": "支度",
+      "options": [
+        "旅行の 支度は もう できましたか。",
+        "支度が 高くて 買えません。",
+        "支度で 駅へ 行きます。",
+        "支度な 天気ですね。"
+      ],
+      "answer": 0,
+      "note": "支度 = preparations.",
+      "word_id": "n4v156"
+    },
+    {
+      "id": "vq44",
+      "type": "usage",
+      "word": "世話",
+      "prompt": "世話",
+      "options": [
+        "毎朝 犬の 世話を します。",
+        "世話が 降って きました。",
+        "この 世話は とても 甘いです。",
+        "世話な 部屋に 住んで います。"
+      ],
+      "answer": 0,
+      "note": "世話をする = to take care of.",
+      "word_id": "n4v279"
+    },
+    {
+      "id": "vq45",
+      "type": "usage",
+      "word": "具合",
+      "prompt": "具合",
+      "options": [
+        "体の 具合は いかがですか。",
+        "具合を 二枚 買いました。",
+        "この 具合は 長いです。",
+        "具合で 会社へ 行きます。"
+      ],
+      "answer": 0,
+      "note": "具合 = condition (of health, things).",
+      "word_id": "n4v240"
+    },
+    {
+      "id": "vq46",
+      "type": "usage",
+      "word": "間に合う",
+      "prompt": "間に合う",
+      "options": [
+        "急げば、九時の 電車に 間に合います。",
+        "この 料理は 塩が 間に合います。",
+        "毎日 友達と 間に合います。",
+        "この 服は わたしに 間に合います。"
+      ],
+      "answer": 0,
+      "note": "間に合う = to be in time.",
+      "word_id": "n4v050"
+    },
+    {
+      "id": "vq47",
+      "type": "usage",
+      "word": "似る",
+      "prompt": "似る",
+      "options": [
+        "娘は 母親に よく 似て います。",
+        "この 料理は 塩に 似て います。",
+        "駅で 友達に 似ました。",
+        "あしたは 雨に 似るでしょう。"
+      ],
+      "answer": 0,
+      "note": "〜に似ている = to look like.",
+      "word_id": "n4v408"
+    },
+    {
+      "id": "vq48",
+      "type": "usage",
+      "word": "盛ん",
+      "prompt": "盛ん",
+      "options": [
+        "この 町は サッカーが 盛んです。",
+        "盛んな コーヒーを 飲みました。",
+        "彼は 盛んに 寝て います。",
+        "この かばんは 盛んです。"
+      ],
+      "answer": 0,
+      "note": "盛ん = thriving, popular.",
+      "word_id": "n4v490"
+    },
+    {
+      "id": "vq49",
+      "type": "usage",
+      "word": "残念",
+      "prompt": "残念",
+      "options": [
+        "パーティーに 行けなくて 残念です。",
+        "残念な 料理を 食べました。",
+        "彼は とても 残念に 走ります。",
+        "部屋が 残念に なりました。"
+      ],
+      "answer": 0,
+      "note": "残念 = regrettable, a pity.",
+      "word_id": "n4v485"
+    },
+    {
+      "id": "vq50",
+      "type": "usage",
+      "word": "故障",
+      "prompt": "故障",
+      "options": [
+        "エレベーターが 故障して います。",
+        "かぜで 故障して しまいました。",
+        "友達と 故障を しました。",
+        "この 料理は 故障です。"
+      ],
+      "answer": 0,
+      "note": "故障 = breakdown (of machines).",
+      "word_id": "n4v546"
+    },
+    {
+      "id": "vq51",
+      "type": "usage",
+      "word": "翻訳",
+      "prompt": "翻訳",
+      "options": [
+        "この 小説は 十か国語に 翻訳されて います。",
+        "駅まで 翻訳して 行きました。",
+        "毎朝 翻訳を 食べます。",
+        "部屋を 翻訳しました。"
+      ],
+      "answer": 0,
+      "note": "翻訳 = translation (of written text).",
+      "word_id": "n4v323"
+    },
+    {
+      "id": "vq52",
+      "type": "usage",
+      "word": "決して",
+      "prompt": "けっして",
+      "options": [
+        "この ことは けっして 忘れません。",
+        "けっして 毎日 走ります。",
+        "けっして 雨が 降って います。",
+        "けっして 早く 来て ください。"
+      ],
+      "answer": 0,
+      "note": "決して is used with a negative.",
+      "word_id": "n4v503"
+    },
+    {
+      "id": "vq53",
+      "type": "usage",
+      "word": "ちっとも",
+      "prompt": "ちっとも",
+      "options": [
+        "この 本は ちっとも おもしろく ありません。",
+        "ちっとも 食べました。",
+        "ちっとも 大きい 家です。",
+        "ちっとも 雨が 降って います。"
+      ],
+      "answer": 0,
+      "note": "ちっとも is used with a negative.",
+      "word_id": "n4v512"
+    },
+    {
+      "id": "vq54",
+      "type": "usage",
+      "word": "なかなか",
+      "prompt": "なかなか",
+      "options": [
+        "バスが なかなか 来ません。",
+        "なかなか 寝て ください。",
+        "なかなか 駅へ 行きました。",
+        "なかなか きのう 雨でした。"
+      ],
+      "answer": 0,
+      "note": "なかなか + negative = not easily.",
+      "word_id": "n4v510"
+    },
+    {
+      "id": "vq55",
+      "type": "usage",
+      "word": "拾う",
+      "prompt": "拾う",
+      "options": [
+        "道で 財布を 拾いました。",
+        "かぜを 拾いました。",
+        "毎朝 シャワーを 拾います。",
+        "電車を 拾って 会社へ 行きます。"
+      ],
+      "answer": 0,
+      "note": "拾う = to pick up (from the ground).",
+      "word_id": "n4v361"
+    },
+    {
+      "id": "vq56",
+      "type": "usage",
+      "word": "育てる",
+      "prompt": "育てる",
+      "options": [
+        "庭で トマトを 育てて います。",
+        "毎朝 コーヒーを 育てます。",
+        "駅で 友達を 育てました。",
+        "宿題を 育てました。"
+      ],
+      "answer": 0,
+      "note": "育てる = to raise, to grow.",
+      "word_id": "n4v360"
+    },
+    {
+      "id": "vq57",
+      "type": "usage",
+      "word": "叱る",
+      "prompt": "叱る",
+      "options": [
+        "母は 遅く 帰った 弟を 叱りました。",
+        "雨が 叱って います。",
+        "この 料理は 叱って います。",
+        "わたしは 新しい 服を 叱りました。"
+      ],
+      "answer": 0,
+      "note": "叱る = to scold (someone).",
+      "word_id": "n4v371"
+    },
+    {
+      "id": "vq58",
+      "type": "usage",
+      "word": "片付ける",
+      "prompt": "片付ける",
+      "options": [
+        "食事の あとで、テーブルを 片付けました。",
+        "毎朝 シャワーを 片付けます。",
+        "病気が 片付けました。",
+        "友達に 片付けて 会いました。"
+      ],
+      "answer": 0,
+      "note": "片付ける = to put in order.",
+      "word_id": "n4v402"
+    }
+  ]
+}

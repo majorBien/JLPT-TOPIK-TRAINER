@@ -1,0 +1,20 @@
+{
+  "default_level": "N4",
+  "session_size": 5,
+  "srs_new_per_session": 5,
+  "srs_max_reviews": 20,
+  "deepseek": {
+    "key_file": "~/Documents/deepseek",
+    "model": "deepseek-chat",
+    "explanation_language": "Polish",
+    "timeout_seconds": 60
+  },
+  "tts": {
+    "open_jtalk_bin": "",
+    "dictionary": "",
+    "voice_male": "",
+    "voice_female": "",
+    "speed": 0.95,
+    "player": ""
+  }
+}
