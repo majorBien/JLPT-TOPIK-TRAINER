@@ -62,6 +62,7 @@ std::string ListeningItem::transcript(const LanguageProfile& lang) const {
     if (!situation.empty()) out += who("N") + situation + "\n";
     for (const auto& l : lines) out += who(l.speaker) + l.text + "\n";
     if (spokenOptions()) {
+        if (!question.empty()) out += who("N") + question + "\n";
         for (std::size_t i = 0; i < options.size(); ++i)
             out += who(optionSpeaker) + std::to_string(i + 1) + ". " + options[i] + "\n";
     } else if (!question.empty() && lang.speakListeningQuestion) {
@@ -80,7 +81,8 @@ Question ListeningItem::toQuestion(const LanguageProfile& lang) const {
     q.instruction = it != lang.listeningInstructions.end() ? it->second : lang.listeningInstruction;
     q.instructionEn = "Listen and choose the best answer. (" + lang.listeningTypeLabel(type) + ")";
     q.passage = transcript(lang);
-    q.prompt = question.empty() ? lang.listeningPrompt : question;
+    // 概要理解: the question is only heard (it is in the transcript shown after answering).
+    q.prompt = question.empty() || type == "summary" ? lang.listeningPrompt : question;
     q.options = options;
     q.answer = answer;
     q.note = note;

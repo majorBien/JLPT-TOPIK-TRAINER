@@ -50,7 +50,7 @@ std::string completedSentence(const Question& q) {
 }
 
 bool isSpokenOptionType(const Question& q) {
-    return q.section == "listening" && (q.type == "utterance" || q.type == "response");
+    return q.section == "listening" && (q.type == "summary" || q.type == "utterance" || q.type == "response");
 }
 
 }  // namespace

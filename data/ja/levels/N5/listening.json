@@ -401,6 +401,1957 @@
       "answer": 2,
       "option_speaker": "F",
       "note": "どちらがいいですか → choose one: コーヒーをお願いします."
+    },
+    {
+      "id": "l17",
+      "type": "task",
+      "situation": "店で 女の人と 男の人が 話して います。女の人は 何を 買いますか。",
+      "question": "女の人は 何を 買いますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "すみません、りんごは いくらですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "一つ 百円です。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃ、三つ ください。それから、みかんも 五つ。"
+        },
+        {
+          "speaker": "M",
+          "text": "はい。全部で 五百円です。"
+        }
+      ],
+      "options": [
+        "みかん 五つだけ",
+        "りんご 五つと みかん 三つ",
+        "りんご 三つだけ",
+        "りんご 三つと みかん 五つ"
+      ],
+      "answer": 3,
+      "note": "りんご三つ + みかん五つ."
+    },
+    {
+      "id": "l18",
+      "type": "task",
+      "situation": "学校で 先生が 話して います。学生は あした 何時に 学校へ 来ますか。",
+      "question": "学生は あした 何時に 学校へ 来ますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "あしたは テストですから、いつもより 早く 来て ください。九時に 始めますから、八時半までに 来て ください。"
+        }
+      ],
+      "options": [
+        "九時",
+        "八時半",
+        "九時半",
+        "八時"
+      ],
+      "answer": 1,
+      "note": "八時半までに 来て ください."
+    },
+    {
+      "id": "l19",
+      "type": "task",
+      "situation": "家で 母と 男の子が 話して います。男の子は 今から 何を しますか。",
+      "question": "男の子は 今から 何を しますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "たろう、宿題は？"
+        },
+        {
+          "speaker": "M",
+          "text": "もう しました。テレビを 見ても いい？"
+        },
+        {
+          "speaker": "F",
+          "text": "その 前に、部屋の 掃除を してね。"
+        },
+        {
+          "speaker": "M",
+          "text": "はーい。"
+        }
+      ],
+      "options": [
+        "テレビを 見ます",
+        "ご飯を 食べます",
+        "宿題を します",
+        "部屋の 掃除を します"
+      ],
+      "answer": 3,
+      "note": "その 前に、部屋の 掃除を してね."
+    },
+    {
+      "id": "l20",
+      "type": "task",
+      "situation": "男の人と 女の人が 話して います。二人は 何時に 会いますか。",
+      "question": "二人は 何時に 会いますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "あした、映画を 見ませんか。"
+        },
+        {
+          "speaker": "F",
+          "text": "いいですね。何時の 映画ですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "二時と 四時が あります。"
+        },
+        {
+          "speaker": "F",
+          "text": "午前中は 忙しいですから、四時のに しましょう。三時半に 駅で 会いませんか。"
+        },
+        {
+          "speaker": "M",
+          "text": "はい。"
+        }
+      ],
+      "options": [
+        "二時",
+        "一時半",
+        "四時",
+        "三時半"
+      ],
+      "answer": 3,
+      "note": "三時半に 駅で 会いませんか."
+    },
+    {
+      "id": "l21",
+      "type": "task",
+      "situation": "教室で 先生が 話して います。学生は 何ページを 読みますか。",
+      "question": "学生は うちで 何ページを 読みますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "今日は 二十ページまで 勉強しました。うちで 二十一ページから 二十三ページまで 読んで きて ください。二十四ページは 来週 します。"
+        }
+      ],
+      "options": [
+        "二十ページまで",
+        "二十四ページ",
+        "二十一ページだけ",
+        "二十一ページから 二十三ページ"
+      ],
+      "answer": 3,
+      "note": "21〜23 pages."
+    },
+    {
+      "id": "l22",
+      "type": "task",
+      "situation": "女の人と 男の人が 話して います。男の人は どこへ 行きますか。",
+      "question": "男の人は どこへ 行きますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "田中さん、どこへ 行きますか。"
+        },
+        {
+          "speaker": "M",
+          "text": "郵便局へ 行きます。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃ、この 手紙も お願いします。それから、帰りに パンを 買って きて ください。"
+        },
+        {
+          "speaker": "M",
+          "text": "はい、わかりました。"
+        }
+      ],
+      "options": [
+        "パン屋だけ",
+        "銀行と パン屋",
+        "郵便局だけ",
+        "郵便局と パン屋"
+      ],
+      "answer": 3,
+      "note": "郵便局 + パンを 買って くる."
+    },
+    {
+      "id": "l23",
+      "type": "task",
+      "situation": "駅で 男の人と 女の人が 話して います。女の人は 何番の バスに 乗りますか。",
+      "question": "女の人は 何番の バスに 乗りますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "すみません、大学へ 行きたいです。何番の バスですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "三番と 五番が 行きますよ。"
+        },
+        {
+          "speaker": "F",
+          "text": "どちらが 速いですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "五番の ほうが 速いです。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃ、五番に 乗ります。"
+        }
+      ],
+      "options": [
+        "八番",
+        "三番",
+        "一番",
+        "五番"
+      ],
+      "answer": 3,
+      "note": "五番に 乗ります."
+    },
+    {
+      "id": "l24",
+      "type": "task",
+      "situation": "レストランで 女の人と 男の人が 話して います。男の人は 何を 注文しますか。",
+      "question": "男の人は 何を 注文しますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "何に しますか。"
+        },
+        {
+          "speaker": "M",
+          "text": "カレーと コーヒーを お願いします。"
+        },
+        {
+          "speaker": "F",
+          "text": "すみません、カレーは もう ありません。"
+        },
+        {
+          "speaker": "M",
+          "text": "そうですか。じゃ、ラーメンを ください。コーヒーも。"
+        }
+      ],
+      "options": [
+        "ラーメンだけ",
+        "ラーメンと コーヒー",
+        "カレーと ラーメン",
+        "カレーと コーヒー"
+      ],
+      "answer": 1,
+      "note": "カレーは ない → ラーメンと コーヒー."
+    },
+    {
+      "id": "l25",
+      "type": "task",
+      "situation": "男の学生と 女の学生が 話して います。女の学生は 何を 持って いきますか。",
+      "question": "女の学生は パーティーに 何を 持って いきますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "あしたの パーティー、飲み物は ぼくが 買います。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃ、わたしは ケーキを 買いましょうか。"
+        },
+        {
+          "speaker": "M",
+          "text": "ケーキは 山田さんが 作ります。果物を お願いします。"
+        },
+        {
+          "speaker": "F",
+          "text": "わかりました。"
+        }
+      ],
+      "options": [
+        "ケーキ",
+        "飲み物",
+        "果物",
+        "お弁当"
+      ],
+      "answer": 2,
+      "note": "果物を お願いします."
+    },
+    {
+      "id": "l26",
+      "type": "task",
+      "situation": "家で 男の人と 女の人が 話して います。男の人は はじめに 何を しますか。",
+      "question": "男の人は はじめに 何を しますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "晩ご飯を 作りますから、手伝って ください。"
+        },
+        {
+          "speaker": "M",
+          "text": "何を しますか。"
+        },
+        {
+          "speaker": "F",
+          "text": "まず 野菜を 洗って ください。それから、肉を 切って ください。"
+        },
+        {
+          "speaker": "M",
+          "text": "はい。"
+        }
+      ],
+      "options": [
+        "皿を 並べます",
+        "ご飯を 作ります",
+        "野菜を 洗います",
+        "肉を 切ります"
+      ],
+      "answer": 2,
+      "note": "まず 野菜を 洗って."
+    },
+    {
+      "id": "l27",
+      "type": "task",
+      "situation": "会社で 女の人と 男の人が 話して います。男の人は 何枚 コピーしますか。",
+      "question": "男の人は 何枚 コピーしますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "この 紙を コピーして ください。"
+        },
+        {
+          "speaker": "M",
+          "text": "何枚ですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "会議に 八人 来ます。わたしの は いりません。"
+        },
+        {
+          "speaker": "M",
+          "text": "じゃ、八枚ですね。"
+        }
+      ],
+      "options": [
+        "八枚",
+        "九枚",
+        "十枚",
+        "七枚"
+      ],
+      "answer": 0,
+      "note": "八人分 = 八枚."
+    },
+    {
+      "id": "l28",
+      "type": "task",
+      "situation": "店で 男の人と 店の人が 話して います。男の人は どの かさを 買いますか。",
+      "question": "男の人は どの かさを 買いますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "かさが ほしいです。"
+        },
+        {
+          "speaker": "F",
+          "text": "黒いのと 青いのが あります。黒いのは 二千円、青いのは 千五百円です。"
+        },
+        {
+          "speaker": "M",
+          "text": "黒いのは ちょっと 高いですね。安いのを ください。"
+        }
+      ],
+      "options": [
+        "白い かさ",
+        "赤い かさ",
+        "青い かさ",
+        "黒い かさ"
+      ],
+      "answer": 2,
+      "note": "安いの = 青い かさ."
+    },
+    {
+      "id": "l29",
+      "type": "task",
+      "situation": "学校で 女の学生と 男の学生が 話して います。二人は どこで 勉強しますか。",
+      "question": "二人は どこで 勉強しますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "いっしょに 勉強しませんか。図書館は どうですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "図書館は 今日 休みですよ。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃ、教室で しましょう。"
+        },
+        {
+          "speaker": "M",
+          "text": "いいですね。"
+        }
+      ],
+      "options": [
+        "教室",
+        "女の学生の 家",
+        "食堂",
+        "図書館"
+      ],
+      "answer": 0,
+      "note": "教室で しましょう."
+    },
+    {
+      "id": "l30",
+      "type": "task",
+      "situation": "電話で 女の人と 男の人が 話して います。女の人は 何時に 店へ 行きますか。",
+      "question": "女の人は 何時に 店へ 行きますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "もしもし、今日 何時まで やって いますか。"
+        },
+        {
+          "speaker": "M",
+          "text": "八時までです。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃ、七時ごろ 行きます。"
+        },
+        {
+          "speaker": "M",
+          "text": "はい、お待ちして います。"
+        }
+      ],
+      "options": [
+        "七時ごろ",
+        "八時",
+        "六時",
+        "九時"
+      ],
+      "answer": 0,
+      "note": "七時ごろ 行きます."
+    },
+    {
+      "id": "l31",
+      "type": "task",
+      "situation": "先生が 話して います。学生は 何を 持って 来なければ なりませんか。",
+      "question": "学生は あした 何を 持って 来ますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "あしたは 山へ 行きます。お弁当と 水を 持って 来て ください。かさは いりません。天気が いいですから。"
+        }
+      ],
+      "options": [
+        "お弁当と 水",
+        "お弁当だけ",
+        "お弁当と かさ",
+        "水と かさ"
+      ],
+      "answer": 0,
+      "note": "お弁当と 水; かさは いらない."
+    },
+    {
+      "id": "l32",
+      "type": "task",
+      "situation": "男の人と 女の人が 話して います。女の人は あした 何で 会社へ 行きますか。",
+      "question": "女の人は あした 何で 会社へ 行きますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "いつも 自転車で 会社へ 来ますか。"
+        },
+        {
+          "speaker": "F",
+          "text": "はい。でも、あしたは 雨ですから、バスで 来ます。"
+        },
+        {
+          "speaker": "M",
+          "text": "そうですか。"
+        }
+      ],
+      "options": [
+        "歩いて",
+        "電車",
+        "自転車",
+        "バス"
+      ],
+      "answer": 3,
+      "note": "あしたは 雨 → バス."
+    },
+    {
+      "id": "l33",
+      "type": "task",
+      "situation": "女の人が 話して います。この 人は 毎朝 はじめに 何を しますか。",
+      "question": "この 人は 毎朝 はじめに 何を しますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "わたしは 毎朝 六時に 起きます。起きてから すぐ 犬と 散歩します。それから シャワーを 浴びて、朝ご飯を 食べます。"
+        }
+      ],
+      "options": [
+        "シャワーを 浴びます",
+        "朝ご飯を 食べます",
+        "犬と 散歩します",
+        "新聞を 読みます"
+      ],
+      "answer": 2,
+      "note": "起きてから すぐ 散歩."
+    },
+    {
+      "id": "l34",
+      "type": "task",
+      "situation": "店で 女の人と 店の人が 話して います。女の人は いくら 払いますか。",
+      "question": "女の人は いくら 払いますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "この ノートは いくらですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "一冊 百五十円です。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃ、二冊 ください。"
+        },
+        {
+          "speaker": "M",
+          "text": "三百円です。"
+        }
+      ],
+      "options": [
+        "三百円",
+        "二百円",
+        "百五十円",
+        "四百五十円"
+      ],
+      "answer": 0,
+      "note": "150 × 2 = 300."
+    },
+    {
+      "id": "l35",
+      "type": "task",
+      "situation": "男の学生と 女の学生が 話して います。男の学生は 今晩 何を しますか。",
+      "question": "男の学生は 今晩 何を しますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "今晩 カラオケに 行きませんか。"
+        },
+        {
+          "speaker": "M",
+          "text": "すみません。あした テストが ありますから、うちで 勉強します。"
+        },
+        {
+          "speaker": "F",
+          "text": "そうですか。がんばって ください。"
+        }
+      ],
+      "options": [
+        "友達と 会います",
+        "カラオケに 行きます",
+        "うちで 勉強します",
+        "テストを します"
+      ],
+      "answer": 2,
+      "note": "うちで 勉強します."
+    },
+    {
+      "id": "l36",
+      "type": "task",
+      "situation": "駅で 女の人と 男の人が 話して います。二人は 何に 乗りますか。",
+      "question": "二人は 何に 乗りますか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "タクシーで 行きましょうか。"
+        },
+        {
+          "speaker": "M",
+          "text": "タクシーは 高いですよ。電車で 行きましょう。"
+        },
+        {
+          "speaker": "F",
+          "text": "電車は 時間が かかりますよ。"
+        },
+        {
+          "speaker": "M",
+          "text": "じゃ、バスに しましょう。安くて 速いですから。"
+        }
+      ],
+      "options": [
+        "電車",
+        "タクシー",
+        "バス",
+        "自転車"
+      ],
+      "answer": 2,
+      "note": "じゃ、バスに しましょう."
+    },
+    {
+      "id": "l37",
+      "type": "task",
+      "situation": "家で 男の子と お母さんが 話して います。男の子は 何を 着ますか。",
+      "question": "男の子は 何を 着ますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "今日 寒い？"
+        },
+        {
+          "speaker": "F",
+          "text": "ええ、寒いわよ。セーターを 着なさい。"
+        },
+        {
+          "speaker": "M",
+          "text": "コートは？"
+        },
+        {
+          "speaker": "F",
+          "text": "コートは いらないわ。午後は 暖かく なるから。"
+        }
+      ],
+      "options": [
+        "セーターと コート",
+        "シャツだけ",
+        "コート",
+        "セーター"
+      ],
+      "answer": 3,
+      "note": "セーターを 着なさい; コートは いらない."
+    },
+    {
+      "id": "l38",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。女の人の 誕生日は いつですか。",
+      "question": "女の人の 誕生日は いつですか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "誕生日は いつですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "六月 九日です。"
+        },
+        {
+          "speaker": "M",
+          "text": "え、来週ですね。"
+        },
+        {
+          "speaker": "F",
+          "text": "はい。"
+        }
+      ],
+      "options": [
+        "六月 四日",
+        "九月 六日",
+        "六月 九日",
+        "四月 九日"
+      ],
+      "answer": 2,
+      "note": "六月九日."
+    },
+    {
+      "id": "l39",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。男の人の 家族は 何人ですか。",
+      "question": "男の人の 家族は 何人ですか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "ご家族は 何人ですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "父と 母と 姉と わたしです。"
+        },
+        {
+          "speaker": "F",
+          "text": "四人ですね。"
+        },
+        {
+          "speaker": "M",
+          "text": "いいえ、弟も います。"
+        }
+      ],
+      "options": [
+        "五人",
+        "三人",
+        "六人",
+        "四人"
+      ],
+      "answer": 0,
+      "note": "父・母・姉・弟・わたし = 5."
+    },
+    {
+      "id": "l40",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。男の人は きのう どこへ 行きましたか。",
+      "question": "男の人は きのう どこへ 行きましたか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "きのう 何を しましたか。"
+        },
+        {
+          "speaker": "M",
+          "text": "デパートへ 行く つもりでしたが、雨でしたから、うちで テレビを 見ました。"
+        },
+        {
+          "speaker": "F",
+          "text": "そうですか。"
+        }
+      ],
+      "options": [
+        "映画館へ 行きました",
+        "どこへも 行きませんでした",
+        "デパートへ 行きました",
+        "友達の うちへ 行きました"
+      ],
+      "answer": 1,
+      "note": "雨 → うちで テレビ."
+    },
+    {
+      "id": "l41",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。女の人は どんな 部屋に 住んで いますか。",
+      "question": "女の人は どんな 部屋に 住んで いますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "新しい 部屋は どうですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "駅から 近くて 便利です。でも、ちょっと 狭いです。"
+        },
+        {
+          "speaker": "M",
+          "text": "明るいですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "はい、まどが 大きいですから、明るいです。"
+        }
+      ],
+      "options": [
+        "狭くて 暗い 部屋",
+        "駅から 近くて 明るい 部屋",
+        "駅から 遠くて 暗い 部屋",
+        "広くて 静かな 部屋"
+      ],
+      "answer": 1,
+      "note": "近い・狭い・明るい."
+    },
+    {
+      "id": "l42",
+      "type": "point",
+      "situation": "先生と 学生が 話して います。学生は どうして 遅れましたか。",
+      "question": "学生は どうして 遅れましたか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "どうして 遅れましたか。"
+        },
+        {
+          "speaker": "M",
+          "text": "すみません。電車が 遅れました。"
+        },
+        {
+          "speaker": "F",
+          "text": "朝ねぼうでは ありませんか。"
+        },
+        {
+          "speaker": "M",
+          "text": "いいえ、七時に 起きました。"
+        }
+      ],
+      "options": [
+        "朝ねぼうしたから",
+        "病気だったから",
+        "バスが 来なかったから",
+        "電車が 遅れたから"
+      ],
+      "answer": 3,
+      "note": "電車が 遅れました."
+    },
+    {
+      "id": "l43",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。男の人は 何が 好きですか。",
+      "question": "男の人は 何が 好きですか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "スポーツは 何が 好きですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "サッカーを 見るのは 好きですが、するのは テニスが 好きです。"
+        },
+        {
+          "speaker": "F",
+          "text": "そうですか。わたしも テニスが 好きです。"
+        }
+      ],
+      "options": [
+        "テニスを 見ること",
+        "野球を すること",
+        "テニスを すること",
+        "サッカーを すること"
+      ],
+      "answer": 2,
+      "note": "するのは テニスが 好き."
+    },
+    {
+      "id": "l44",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。女の人は 毎日 何時間 勉強しますか。",
+      "question": "女の人は 毎日 何時間 勉強しますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "毎日 日本語を 勉強しますか。"
+        },
+        {
+          "speaker": "F",
+          "text": "はい。朝 一時間、夜 二時間 勉強します。"
+        },
+        {
+          "speaker": "M",
+          "text": "たくさん 勉強しますね。"
+        }
+      ],
+      "options": [
+        "三時間",
+        "一時間",
+        "四時間",
+        "二時間"
+      ],
+      "answer": 0,
+      "note": "1 + 2 = 3 hours."
+    },
+    {
+      "id": "l45",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。女の人の かばんは どれですか。",
+      "question": "女の人の かばんは どれですか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "あなたの かばんは どれですか。この 黒いのですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "いいえ、わたしのは 白くて 小さい かばんです。"
+        },
+        {
+          "speaker": "M",
+          "text": "これですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "はい、それです。"
+        }
+      ],
+      "options": [
+        "白くて 大きい かばん",
+        "黒くて 小さい かばん",
+        "白くて 小さい かばん",
+        "黒くて 大きい かばん"
+      ],
+      "answer": 2,
+      "note": "白くて 小さい."
+    },
+    {
+      "id": "l46",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。男の人は 何で 来ましたか。",
+      "question": "男の人は 今日 何で 来ましたか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "いつも 電車で 来ますか。"
+        },
+        {
+          "speaker": "M",
+          "text": "はい。でも、今日は 電車が 止まって いましたから、タクシーで 来ました。"
+        }
+      ],
+      "options": [
+        "電車",
+        "タクシー",
+        "自転車",
+        "バス"
+      ],
+      "answer": 1,
+      "note": "今日は タクシーで."
+    },
+    {
+      "id": "l47",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。パーティーは 何曜日ですか。",
+      "question": "パーティーは 何曜日ですか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "パーティーは 土曜日ですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "土曜日の つもりでしたが、日曜日に なりました。"
+        },
+        {
+          "speaker": "F",
+          "text": "日曜日の 何時ですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "六時からです。"
+        }
+      ],
+      "options": [
+        "月曜日",
+        "金曜日",
+        "日曜日",
+        "土曜日"
+      ],
+      "answer": 2,
+      "note": "日曜日に なりました."
+    },
+    {
+      "id": "l48",
+      "type": "point",
+      "situation": "男の学生と 女の学生が 話して います。女の学生は 夏休みに 何を しますか。",
+      "question": "女の学生は 夏休みに 何を しますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "夏休みに 国へ 帰りますか。"
+        },
+        {
+          "speaker": "F",
+          "text": "いいえ。アルバイトを します。それから、友達と 海へ 行きます。"
+        }
+      ],
+      "options": [
+        "友達と 山へ 行くこと",
+        "アルバイトと 海へ 行くこと",
+        "アルバイトだけ",
+        "国へ 帰ること"
+      ],
+      "answer": 1,
+      "note": "アルバイト + 海."
+    },
+    {
+      "id": "l49",
+      "type": "point",
+      "situation": "店で 男の人と 店の人が 話して います。男の人は どうして この シャツを 買いませんか。",
+      "question": "男の人は どうして この シャツを 買いませんか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "この シャツは どうですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "いい 色ですね。でも、ちょっと 大きいです。"
+        },
+        {
+          "speaker": "F",
+          "text": "小さいのは ありません。"
+        },
+        {
+          "speaker": "M",
+          "text": "そうですか。じゃ、また 来ます。"
+        }
+      ],
+      "options": [
+        "小さいから",
+        "大きいから",
+        "高いから",
+        "色が きらいだから"
+      ],
+      "answer": 1,
+      "note": "ちょっと 大きい; no smaller size."
+    },
+    {
+      "id": "l50",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。男の人は 何歳ですか。",
+      "question": "男の人は 何歳ですか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "弟さんは 何歳ですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "十八歳です。わたしより 五歳 下です。"
+        }
+      ],
+      "options": [
+        "十八歳",
+        "二十三歳",
+        "十三歳",
+        "二十八歳"
+      ],
+      "answer": 1,
+      "note": "18 + 5 = 23."
+    },
+    {
+      "id": "l51",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。女の人は どこに 住んで いますか。",
+      "question": "女の人は どこに 住んで いますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "どこに 住んで いますか。"
+        },
+        {
+          "speaker": "F",
+          "text": "前は 大阪に 住んで いましたが、今は 京都に 住んで います。"
+        },
+        {
+          "speaker": "M",
+          "text": "京都は いい 所ですね。"
+        }
+      ],
+      "options": [
+        "京都",
+        "東京",
+        "奈良",
+        "大阪"
+      ],
+      "answer": 0,
+      "note": "今は 京都."
+    },
+    {
+      "id": "l52",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。男の人は 朝ご飯に 何を 食べましたか。",
+      "question": "男の人は 今朝 何を 食べましたか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "朝ご飯を 食べましたか。"
+        },
+        {
+          "speaker": "M",
+          "text": "はい。いつもは パンですが、今日は ご飯と みそしるを 食べました。"
+        }
+      ],
+      "options": [
+        "パン",
+        "何も 食べませんでした",
+        "ご飯と みそしる",
+        "パンと 卵"
+      ],
+      "answer": 2,
+      "note": "今日は ご飯と みそしる."
+    },
+    {
+      "id": "l53",
+      "type": "point",
+      "situation": "先生が 話して います。テストは いつですか。",
+      "question": "テストは いつですか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "テストは 来週の 月曜日では ありません。水曜日です。月曜日は 休みですから。"
+        }
+      ],
+      "options": [
+        "来週の 金曜日",
+        "今週の 水曜日",
+        "来週の 月曜日",
+        "来週の 水曜日"
+      ],
+      "answer": 3,
+      "note": "水曜日です."
+    },
+    {
+      "id": "l54",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。女の人は 週末 何を しましたか。",
+      "question": "女の人は 週末 何を しましたか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "週末は 何を しましたか。"
+        },
+        {
+          "speaker": "F",
+          "text": "土曜日は 友達と 買い物を しました。日曜日は どこへも 行きませんでした。"
+        },
+        {
+          "speaker": "M",
+          "text": "そうですか。"
+        }
+      ],
+      "options": [
+        "土曜日に うちに いました",
+        "日曜日に 友達と 出かけました",
+        "日曜日に 買い物を しました",
+        "土曜日に 買い物を しました"
+      ],
+      "answer": 3,
+      "note": "土曜日 = 買い物."
+    },
+    {
+      "id": "l55",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。男の人の 部屋は 何階ですか。",
+      "question": "男の人の 部屋は 何階ですか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "アパートの 何階に 住んで いますか。"
+        },
+        {
+          "speaker": "M",
+          "text": "三階です。前は 一階でしたが、うるさかったです。"
+        }
+      ],
+      "options": [
+        "一階",
+        "三階",
+        "四階",
+        "二階"
+      ],
+      "answer": 1,
+      "note": "三階です."
+    },
+    {
+      "id": "l56",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。女の人は どうして 朝ご飯を 食べませんでしたか。",
+      "question": "女の人は どうして 朝ご飯を 食べませんでしたか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "朝ご飯を 食べませんでしたか。"
+        },
+        {
+          "speaker": "F",
+          "text": "はい。おなかが 痛かったです。"
+        },
+        {
+          "speaker": "M",
+          "text": "だいじょうぶですか。"
+        },
+        {
+          "speaker": "F",
+          "text": "もう だいじょうぶです。"
+        }
+      ],
+      "options": [
+        "朝ねぼうしたから",
+        "おなかが すいて いなかったから",
+        "時間が なかったから",
+        "おなかが 痛かったから"
+      ],
+      "answer": 3,
+      "note": "おなかが 痛かった."
+    },
+    {
+      "id": "l57",
+      "type": "point",
+      "situation": "女の人と 男の人が 話して います。男の人の 好きな 季節は いつですか。",
+      "question": "男の人の 好きな 季節は いつですか。",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "どの 季節が 好きですか。夏ですか。"
+        },
+        {
+          "speaker": "M",
+          "text": "夏は 暑いですから あまり 好きじゃ ありません。秋が 一番 好きです。"
+        }
+      ],
+      "options": [
+        "秋",
+        "春",
+        "冬",
+        "夏"
+      ],
+      "answer": 0,
+      "note": "秋が 一番 好き."
+    },
+    {
+      "id": "l58",
+      "type": "point",
+      "situation": "男の人と 女の人が 話して います。本は どこに ありますか。",
+      "question": "本は どこに ありますか。",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "わたしの 本、知りませんか。"
+        },
+        {
+          "speaker": "F",
+          "text": "つくえの 上に ありませんか。"
+        },
+        {
+          "speaker": "M",
+          "text": "ありません。"
+        },
+        {
+          "speaker": "F",
+          "text": "じゃ、かばんの 中は？"
+        },
+        {
+          "speaker": "M",
+          "text": "あ、ありました。"
+        }
+      ],
+      "options": [
+        "いすの 上",
+        "つくえの 下",
+        "かばんの 中",
+        "つくえの 上"
+      ],
+      "answer": 2,
+      "note": "かばんの 中に ありました."
+    },
+    {
+      "id": "l59",
+      "type": "utterance",
+      "situation": "友達に ペンを 借りたいです。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "ペンを 借りて ください。",
+        "ペンを どうぞ。",
+        "ペンを 貸して ください。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "Asking to borrow: 貸して ください."
+    },
+    {
+      "id": "l60",
+      "type": "utterance",
+      "situation": "朝、家を 出ます。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "行って きます。",
+        "ただいま。",
+        "おかえりなさい。"
+      ],
+      "answer": 0,
+      "option_speaker": "F",
+      "note": "Leaving home: 行って きます."
+    },
+    {
+      "id": "l61",
+      "type": "utterance",
+      "situation": "家に 帰りました。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "ただいま。",
+        "いただきます。",
+        "行って きます。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Coming home: ただいま."
+    },
+    {
+      "id": "l62",
+      "type": "utterance",
+      "situation": "店に 入りました。店の 人は 何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "いただきます。",
+        "おやすみなさい。",
+        "いらっしゃいませ。"
+      ],
+      "answer": 2,
+      "option_speaker": "F",
+      "note": "Shop staff: いらっしゃいませ."
+    },
+    {
+      "id": "l63",
+      "type": "utterance",
+      "situation": "友達が 「ありがとう」と 言いました。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "どういたしまして。",
+        "ごめんなさい。",
+        "いただきます。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Reply to thanks."
+    },
+    {
+      "id": "l64",
+      "type": "utterance",
+      "situation": "夜、寝ます。家族に 何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "こんばんは。",
+        "おやすみなさい。",
+        "おはようございます。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Before sleeping: おやすみなさい."
+    },
+    {
+      "id": "l65",
+      "type": "utterance",
+      "situation": "友達の 誕生日です。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "おめでとう。",
+        "ごめんね。",
+        "ありがとう。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Birthday: おめでとう."
+    },
+    {
+      "id": "l66",
+      "type": "utterance",
+      "situation": "ご飯を 食べました。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "ごちそうさまでした。",
+        "いってらっしゃい。",
+        "いただきます。"
+      ],
+      "answer": 0,
+      "option_speaker": "F",
+      "note": "After eating: ごちそうさまでした."
+    },
+    {
+      "id": "l67",
+      "type": "utterance",
+      "situation": "先生の 部屋に 入ります。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "失礼します。",
+        "ただいま。",
+        "いってきます。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Entering: 失礼します."
+    },
+    {
+      "id": "l68",
+      "type": "utterance",
+      "situation": "店で お水が ほしいです。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "すみません、お水を どうぞ。",
+        "すみません、お水を あげます。",
+        "すみません、お水を ください。"
+      ],
+      "answer": 2,
+      "option_speaker": "F",
+      "note": "〜を ください."
+    },
+    {
+      "id": "l69",
+      "type": "utterance",
+      "situation": "友達を 映画に さそいます。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "いっしょに 映画を 見て いますか。",
+        "いっしょに 映画を 見ましたか。",
+        "いっしょに 映画を 見ませんか。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "Invitation: 〜ませんか."
+    },
+    {
+      "id": "l70",
+      "type": "utterance",
+      "situation": "電車で おばあさんに 席を ゆずります。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "どうぞ、すわって ください。",
+        "すわりましたか。",
+        "すわっても いいですか。"
+      ],
+      "answer": 0,
+      "option_speaker": "F",
+      "note": "Offering a seat."
+    },
+    {
+      "id": "l71",
+      "type": "utterance",
+      "situation": "友達の 家に 入ります。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "おじゃまします。",
+        "おかえりなさい。",
+        "いらっしゃい。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Entering someone's home."
+    },
+    {
+      "id": "l72",
+      "type": "utterance",
+      "situation": "先生の 話が わかりませんでした。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "どうぞ よろしく。",
+        "もう 一度 お願いします。",
+        "おかげさまで。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Asking to repeat."
+    },
+    {
+      "id": "l73",
+      "type": "utterance",
+      "situation": "道が わかりません。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "すみません、駅は どこですか。",
+        "すみません、駅に いますか。",
+        "すみません、駅へ 行きましょう。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Asking the way."
+    },
+    {
+      "id": "l74",
+      "type": "utterance",
+      "situation": "友達が かぜを ひきました。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "いただきます。",
+        "おめでとう。",
+        "だいじょうぶ？ お大事に。"
+      ],
+      "answer": 2,
+      "option_speaker": "F",
+      "note": "Sick friend: お大事に."
+    },
+    {
+      "id": "l75",
+      "type": "utterance",
+      "situation": "初めて 会った 人に 何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "はじめまして。どうぞ よろしく。",
+        "おかえりなさい。",
+        "おひさしぶりです。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "First meeting."
+    },
+    {
+      "id": "l76",
+      "type": "utterance",
+      "situation": "会社を 先に 帰ります。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "いらっしゃいませ。",
+        "お先に 失礼します。",
+        "おじゃまします。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Leaving before others."
+    },
+    {
+      "id": "l77",
+      "type": "utterance",
+      "situation": "友達に 本を 見せたいです。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "この 本、見せて ください。",
+        "この 本、見て ください。",
+        "この 本、見ましたか。"
+      ],
+      "answer": 1,
+      "option_speaker": "M",
+      "note": "Showing something: 見て ください."
+    },
+    {
+      "id": "l78",
+      "type": "utterance",
+      "situation": "店の 人に 値段を 聞きます。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "これは どこですか。",
+        "これは いくらですか。",
+        "これは いくつですか。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Price: いくら."
+    },
+    {
+      "id": "l79",
+      "type": "utterance",
+      "situation": "友達が 待って いました。何と 言いますか。",
+      "question": "",
+      "lines": [],
+      "options": [
+        "待って くれて おめでとう。",
+        "待って いますか。",
+        "待たせて ごめんね。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "Apologising for making someone wait."
+    },
+    {
+      "id": "l80",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "おはようございます。"
+        }
+      ],
+      "options": [
+        "こんばんは。",
+        "おはようございます。",
+        "おやすみなさい。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Same greeting back."
+    },
+    {
+      "id": "l81",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "いって きます。"
+        }
+      ],
+      "options": [
+        "ただいま。",
+        "いって らっしゃい。",
+        "いただきます。"
+      ],
+      "answer": 1,
+      "option_speaker": "M",
+      "note": "Reply: いって らっしゃい."
+    },
+    {
+      "id": "l82",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "これ、どうぞ。"
+        }
+      ],
+      "options": [
+        "どういたしまして。",
+        "ありがとうございます。",
+        "おかえりなさい。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Receiving something."
+    },
+    {
+      "id": "l83",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "お元気ですか。"
+        }
+      ],
+      "options": [
+        "はい、そうです。",
+        "はい、元気です。",
+        "はい、どうぞ。"
+      ],
+      "answer": 1,
+      "option_speaker": "M",
+      "note": "お元気ですか → 元気です."
+    },
+    {
+      "id": "l84",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "この かばん、だれのですか。"
+        }
+      ],
+      "options": [
+        "どこですか。",
+        "かばんです。",
+        "わたしのです。"
+      ],
+      "answer": 2,
+      "option_speaker": "F",
+      "note": "Whose → owner."
+    },
+    {
+      "id": "l85",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "何時に 起きましたか。"
+        }
+      ],
+      "options": [
+        "七時に 寝ます。",
+        "七時に 起きました。",
+        "七時間 寝ました。"
+      ],
+      "answer": 1,
+      "option_speaker": "M",
+      "note": "What time → time."
+    },
+    {
+      "id": "l86",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "いっしょに 帰りませんか。"
+        }
+      ],
+      "options": [
+        "ええ、帰りました。",
+        "いいえ、帰りません でした。",
+        "ええ、帰りましょう。"
+      ],
+      "answer": 2,
+      "option_speaker": "F",
+      "note": "Invitation → 〜ましょう."
+    },
+    {
+      "id": "l87",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "きのう、どこへ 行きましたか。"
+        }
+      ],
+      "options": [
+        "デパートへ 行きました。",
+        "デパートへ 行きます。",
+        "デパートが 好きです。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "Past question → past answer."
+    },
+    {
+      "id": "l88",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "日本語は むずかしいですか。"
+        }
+      ],
+      "options": [
+        "いいえ、わかりました。",
+        "はい、少し むずかしいです。",
+        "はい、日本語です。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Adjective question."
+    },
+    {
+      "id": "l89",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "コーヒーと 紅茶と どちらが 好きですか。"
+        }
+      ],
+      "options": [
+        "どちらも あります。",
+        "はい、好きです。",
+        "コーヒーの ほうが 好きです。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "どちら → choose one."
+    },
+    {
+      "id": "l90",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "この 本、借りても いいですか。"
+        }
+      ],
+      "options": [
+        "いいえ、借りて ください。",
+        "ええ、借りました。",
+        "ええ、どうぞ。"
+      ],
+      "answer": 2,
+      "option_speaker": "F",
+      "note": "Permission → どうぞ."
+    },
+    {
+      "id": "l91",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "すみません、今 何時ですか。"
+        }
+      ],
+      "options": [
+        "三時間です。",
+        "三時 半です。",
+        "三日です。"
+      ],
+      "answer": 1,
+      "option_speaker": "M",
+      "note": "Time."
+    },
+    {
+      "id": "l92",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "ごめんなさい、遅れました。"
+        }
+      ],
+      "options": [
+        "どういたしまして。",
+        "いいえ、だいじょうぶですよ。",
+        "おめでとうございます。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Apology → reassure."
+    },
+    {
+      "id": "l93",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "お誕生日は いつですか。"
+        }
+      ],
+      "options": [
+        "日曜日に しました。",
+        "二十歳です。",
+        "五月 三日です。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "When → date."
+    },
+    {
+      "id": "l94",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "この 漢字、読めますか。"
+        }
+      ],
+      "options": [
+        "はい、書きます。",
+        "いいえ、読みません でした。",
+        "いいえ、読めません。"
+      ],
+      "answer": 2,
+      "option_speaker": "F",
+      "note": "Can you read it?"
+    },
+    {
+      "id": "l95",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "お兄さんは 何を して いますか。"
+        }
+      ],
+      "options": [
+        "銀行で 働いて います。",
+        "はい、して います。",
+        "兄は 二人 います。"
+      ],
+      "answer": 0,
+      "option_speaker": "M",
+      "note": "What does he do → job."
+    },
+    {
+      "id": "l96",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "あした、ひまですか。"
+        }
+      ],
+      "options": [
+        "いいえ、ひまでした。",
+        "はい、何も ありません。",
+        "はい、あしたです。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "Free tomorrow?"
+    },
+    {
+      "id": "l97",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "どうして 食べないんですか。"
+        }
+      ],
+      "options": [
+        "パンを 食べます。",
+        "はい、食べません。",
+        "おなかが いっぱいなんです。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "Why → reason."
+    },
+    {
+      "id": "l98",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "駅まで どのぐらい かかりますか。"
+        }
+      ],
+      "options": [
+        "駅の 前です。",
+        "歩いて 十分ぐらいです。",
+        "電車で 行きます。"
+      ],
+      "answer": 1,
+      "option_speaker": "F",
+      "note": "How long → duration."
+    },
+    {
+      "id": "l99",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "この 席、あいて いますか。"
+        }
+      ],
+      "options": [
+        "はい、すわりました。",
+        "いいえ、どうぞ。",
+        "はい、どうぞ。"
+      ],
+      "answer": 2,
+      "option_speaker": "M",
+      "note": "Seat free → どうぞ."
+    },
+    {
+      "id": "l100",
+      "type": "response",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "ジュースと お茶、どれに しますか。"
+        }
+      ],
+      "options": [
+        "お茶が あります。",
+        "はい、します。",
+        "お茶を ください。"
+      ],
+      "answer": 2,
+      "option_speaker": "F",
+      "note": "Choosing a drink."
     }
   ]
 }

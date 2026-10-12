@@ -27,6 +27,7 @@ std::vector<Segment> buildScript(const LanguageProfile& lang, const ListeningIte
     for (std::size_t i = 0; i < item.lines.size(); ++i)
         s.push_back({item.lines[i].speaker, item.lines[i].text, i + 1 == item.lines.size() ? 1200 : 600});
     if (item.spokenOptions()) {
+        if (!item.question.empty()) s.push_back({"N", item.question, 900});  // 概要理解 asks after the talk
         for (std::size_t i = 0; i < item.options.size(); ++i) {
             if (i < lang.spokenNumbers.size()) s.push_back({"N", lang.spokenNumbers[i], 350});
             s.push_back({item.optionSpeaker, item.options[i], 900});

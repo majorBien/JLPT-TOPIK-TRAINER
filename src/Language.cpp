@@ -61,12 +61,12 @@ LanguageProfile makeJapanese() {
     };
     p.defaultInstruction = {"つぎの 文の （　　）に 何を 入れますか。", "Choose the best option for the blank."};
 
-    p.listeningOrder = {"task", "point", "utterance", "response"};
-    p.listeningTypes = {{"task", "課題理解 (Task)"}, {"point", "ポイント理解 (Key point)"},
+    p.listeningOrder = {"task", "point", "summary", "utterance", "response"};
+    p.listeningTypes = {{"task", "課題理解 (Task)"}, {"point", "ポイント理解 (Key point)"}, {"summary", "概要理解 (Summary)"},
                         {"utterance", "発話表現 (Utterance)"}, {"response", "即時応答 (Quick response)"}};
     p.listeningInstruction = "もんだいを きいて、いちばん いい ものを えらんで ください。";
     p.listeningPrompt = "いちばん いい ものは どれですか。";
-    p.listeningHint = "In 発話表現/即時応答 the answer choices are only spoken — listen carefully!";
+    p.listeningHint = "In 概要理解/発話表現/即時応答 the answer choices are only spoken — listen carefully!";
     p.speakers = {{"M", "男"}, {"F", "女"}, {"N", "ナレーター"}};
     p.speakerSeparator = "：";
     p.spokenNumbers = {"いち", "に", "さん", "よん", "ご"};

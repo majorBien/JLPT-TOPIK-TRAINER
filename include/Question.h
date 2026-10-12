@@ -61,9 +61,9 @@ struct ScriptLine {
 };
 
 // A listening item. Types follow the exam parts:
-//   JLPT:  task (課題理解), point (ポイント理解), utterance (発話表現), response (即時応答)
+//   JLPT:  task (課題理解), point (ポイント理解), summary (概要理解, N3+), utterance (発話表現), response (即時応答)
 //   TOPIK: answer, next, place, topic, match, main_idea, detail (듣기 1–30)
-// For JLPT utterance/response the options are *spoken* (as in the real exam) and
+// For JLPT summary/utterance/response the options are *spoken* (as in the real exam) and
 // only revealed in text after answering; TOPIK prints all options.
 struct ListeningItem {
     std::string id;
@@ -76,7 +76,7 @@ struct ListeningItem {
     std::string optionSpeaker = "M";  // voice used for spoken options
     std::string note;
 
-    bool spokenOptions() const { return type == "utterance" || type == "response"; }
+    bool spokenOptions() const { return type == "summary" || type == "utterance" || type == "response"; }
     std::string transcript(const LanguageProfile& lang) const;  // 女：… / 여자: …
     Question toQuestion(const LanguageProfile& lang) const;     // snapshot for mistakes / DeepSeek
     static ListeningItem fromJson(const json::Value& v);
