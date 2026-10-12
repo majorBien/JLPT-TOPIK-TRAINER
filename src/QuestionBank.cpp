@@ -125,7 +125,7 @@ bool sharesCharacter(const std::string& a, const std::string& b) {
     });
 }
 
-Question baseGrammarQuestion(const json::Value& v) {
+Question baseGrammarQuestion(const json::Value& v, const LanguageProfile& lang) {
     Question q;
     q.id = v.getString("id");
     q.type = v.getString("type", "grammar_fill");
@@ -151,9 +151,10 @@ Question baseGrammarQuestion(const json::Value& v) {
         q.instruction = "つぎの 文章を 読んで、質問に 答えて ください。";
         q.instructionEn = "Read the passage and answer the question.";
     } else {
-        q.instruction = "つぎの 文の （　　）に 何を 入れますか。";
-        q.instructionEn = "Choose the best option for the blank.";
+        q.instruction = lang.defaultInstruction.first;
+        q.instructionEn = lang.defaultInstruction.second;
     }
+    q.section = v.getString("section", q.section);
     q.instruction = v.getString("instruction", q.instruction);
     q.instructionEn = v.getString("instruction_en", q.instructionEn);
 
@@ -173,9 +174,10 @@ Question baseGrammarQuestion(const json::Value& v) {
 
 }  // namespace
 
-QuestionBank QuestionBank::load(const std::string& levelDir, const std::string& level) {
+QuestionBank QuestionBank::load(const std::string& levelDir, const std::string& level, const LanguageProfile& lang) {
     QuestionBank bank;
     bank.level_ = level;
+    bank.lang_ = &lang;
 
     const fs::path dir(levelDir);
     const fs::path vocabPath = dir / "vocabulary.json";
@@ -186,10 +188,10 @@ QuestionBank QuestionBank::load(const std::string& levelDir, const std::string& 
         const json::Value root = json::parseFile(vocabPath.string());
         for (const auto& item : root["entries"].asArray()) {
             VocabEntry e = VocabEntry::fromJson(item);
-            if (!e.id.empty() && !e.word.empty() && !e.reading.empty()) bank.vocab_.push_back(std::move(e));
+            if (!e.id.empty() && !e.word.empty()) bank.vocab_.push_back(std::move(e));
         }
         for (const auto& item : root["questions"].asArray()) {
-            Question q = baseGrammarQuestion(item);
+            Question q = baseGrammarQuestion(item, lang);
             if (q.options.size() >= 2 && q.answer >= 0 && q.answer < static_cast<int>(q.options.size()))
                 bank.vocabQuestions_.push_back(std::move(q));
         }
@@ -197,7 +199,7 @@ QuestionBank QuestionBank::load(const std::string& levelDir, const std::string& 
     if (fs::exists(grammarPath)) {
         const json::Value root = json::parseFile(grammarPath.string());
         for (const auto& item : root["questions"].asArray()) {
-            Question q = baseGrammarQuestion(item);
+            Question q = baseGrammarQuestion(item, lang);
             if (q.options.size() >= 2 && q.answer >= 0 && q.answer < static_cast<int>(q.options.size()))
                 bank.grammar_.push_back(std::move(q));
         }
@@ -234,6 +236,7 @@ std::vector<std::string> QuestionBank::pickDistractors(const VocabEntry& entry, 
         switch (type) {
             case VocabQuestionType::KanjiReading: return e.reading;
             case VocabQuestionType::Meaning: return e.meaning;
+            case VocabQuestionType::Context: return e.form;  // same grammatical form as the blank
             default: return e.word;
         }
     };
@@ -289,41 +292,45 @@ Question QuestionBank::makeVocabQuestion(const VocabEntry& entry, VocabQuestionT
     q.trackKey = vocabTrackKey(entry);
     q.trackLabel = entry.word;
     q.trackGroup = group::Kanji;
-    q.note = entry.word + "（" + entry.reading + "） — " + entry.meaning;
-    if (!entry.example.empty()) q.note += "\n例: " + entry.example;
+    const LanguageProfile& lang = *lang_;
+    q.note = entry.word + (entry.reading.empty() || entry.reading == entry.word ? "" : "（" + entry.reading + "）") +
+             " — " + entry.meaning;
+    if (!entry.example.empty()) q.note += "\n" + lang.exampleLabel + ": " + entry.example;
+    const auto& instr = lang.vocabInstructions;
+    auto setInstruction = [&](const char* key) {
+        if (const auto it = instr.find(key); it != instr.end()) {
+            q.instruction = it->second.first;
+            q.instructionEn = it->second.second;
+        }
+    };
 
     const std::string underlined =
-        entry.exampleContainsWord() ? util::replaceAll(entry.example, entry.word, "[[" + entry.word + "]]")
+        entry.exampleContainsWord() ? util::replaceAll(entry.example, entry.form, "[[" + entry.form + "]]")
                                     : "[[" + entry.word + "]]";
     std::string correct;
     switch (type) {
         case VocabQuestionType::KanjiReading:
-            q.instruction = "＿＿＿の ことばは ひらがなで どう かきますか。";
-            q.instructionEn = "How is the underlined word read?";
+            setInstruction("kanji_reading");
             q.prompt = underlined;
             correct = entry.reading;
             break;
         case VocabQuestionType::Orthography:
-            q.instruction = "＿＿＿の ことばは どう かきますか。";
-            q.instructionEn = "How is the underlined word written?";
+            setInstruction("orthography");
             q.prompt = util::replaceAll(entry.example, entry.word, "[[" + entry.reading + "]]");
             correct = entry.word;
             break;
         case VocabQuestionType::Context:
-            q.instruction = "（　　）に なにを いれますか。いちばん いい ものを えらんで ください。";
-            q.instructionEn = "Which word best fills the blank?";
-            q.prompt = util::replaceAll(entry.example, entry.word, "（　　　）");
-            correct = entry.word;
+            setInstruction("context");
+            q.prompt = util::replaceAll(entry.example, entry.form, lang.blank);
+            correct = entry.form;
             break;
         case VocabQuestionType::Meaning:
-            q.instruction = "＿＿＿の ことばの いみは なんですか。";
-            q.instructionEn = "What does the underlined word mean?";
+            setInstruction("meaning");
             q.prompt = underlined;
             correct = entry.meaning;
             break;
         case VocabQuestionType::ReverseMeaning:
-            q.instruction = "つぎの いみの ことばは どれですか。";
-            q.instructionEn = "Which word has this meaning?";
+            setInstruction("reverse_meaning");
             q.prompt = "“" + entry.meaning + "”";
             correct = entry.word;
             break;

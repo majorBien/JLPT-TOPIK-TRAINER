@@ -1,23 +1,25 @@
-// Loads one JLPT level's data files and turns vocabulary entries into
-// JLPT-format multiple-choice questions (with plausible distractors).
+// Loads one level's data files and turns vocabulary entries into exam-style
+// multiple-choice questions (with plausible distractors).
 //
 // Level directory layout (add a new level by dropping in another folder):
-//   data/levels/<LEVEL>/vocabulary.json   { "entries":   [VocabEntry...],
-//                                           "questions": [Question...] }   (optional 言い換え / 用法 items)
-//   data/levels/<LEVEL>/grammar.json      { "questions": [Question...]   }
-//   data/levels/<LEVEL>/listening.json    { "items":     [ListeningItem...] }
+//   data/<lang>/levels/<LEVEL>/vocabulary.json   { "entries":   [VocabEntry...],
+//                                                  "questions": [Question...] }  (optional hand-written items)
+//   data/<lang>/levels/<LEVEL>/grammar.json      { "questions": [Question...]   }
+//   data/<lang>/levels/<LEVEL>/listening.json    { "items":     [ListeningItem...] }
+// Static questions may carry their own "section", "instruction" and "instruction_en".
 #pragma once
 
 #include <random>
 #include <string>
 #include <vector>
 
+#include "Language.h"
 #include "Question.h"
 
 enum class VocabQuestionType {
-    KanjiReading,    // 漢字読み — how is the underlined word read?
-    Orthography,     // 表記     — how is the underlined (kana) word written?
-    Context,         // 文脈規定 — which word fits the blank?
+    KanjiReading,    // 漢字読み — how is the underlined word read? (Japanese only)
+    Orthography,     // 表記     — how is the underlined (kana) word written? (Japanese only)
+    Context,         // 文脈規定 / 빈칸 — which word fits the blank?
     Meaning,         // word → English meaning (trainer style)
     ReverseMeaning,  // English meaning → word (trainer style)
 };
@@ -26,11 +28,12 @@ const char* toString(VocabQuestionType t);
 
 class QuestionBank {
 public:
-    static QuestionBank load(const std::string& levelDir, const std::string& level);  // throws
+    static QuestionBank load(const std::string& levelDir, const std::string& level,
+                             const LanguageProfile& lang);  // throws
 
     const std::string& level() const { return level_; }
     const std::vector<VocabEntry>& vocabulary() const { return vocab_; }
-    // Hand-written vocabulary items: paraphrase (言い換え類義) and usage (用法).
+    // Hand-written vocabulary items, e.g. JLPT 言い換え／用法 or TOPIK 화제 (31–33).
     const std::vector<Question>& vocabQuestions() const { return vocabQuestions_; }
     const std::vector<Question>& grammarQuestions() const { return grammar_; }
     const std::vector<ListeningItem>& listeningItems() const { return listening_; }
@@ -49,6 +52,7 @@ private:
                                              std::mt19937& rng) const;
 
     std::string level_;
+    const LanguageProfile* lang_ = nullptr;
     std::vector<VocabEntry> vocab_;
     std::vector<Question> vocabQuestions_;
     std::vector<Question> grammar_;

@@ -1,5 +1,7 @@
 #include "Question.h"
 
+#include "Language.h"
+
 json::Value Question::toJson() const {
     json::Value v = json::Value::object();
     v.set("id", id);
@@ -46,51 +48,44 @@ VocabEntry VocabEntry::fromJson(const json::Value& v) {
     e.meaning = v.getString("meaning");
     e.pos = v.getString("pos");
     e.example = v.getString("example");
+    e.form = v.getString("form", e.word);
     e.kanjiDistractors = v.getStringArray("kanji_distractors");
     return e;
 }
 
-std::string ListeningItem::typeLabel() const {
-    if (type == "task") return "課題理解 (Task)";
-    if (type == "point") return "ポイント理解 (Key point)";
-    if (type == "utterance") return "発話表現 (Utterance)";
-    if (type == "response") return "即時応答 (Quick response)";
-    return type;
-}
-
-std::string ListeningItem::transcript() const {
-    auto who = [](const std::string& s) {
-        if (s == "M") return "男";
-        if (s == "F") return "女";
-        return "ナレーター";
+std::string ListeningItem::transcript(const LanguageProfile& lang) const {
+    auto who = [&](const std::string& s) {
+        const auto it = lang.speakers.find(s);
+        return (it != lang.speakers.end() ? it->second : s) + lang.speakerSeparator;
     };
     std::string out;
-    if (!situation.empty()) out += "ナレーター：" + situation + "\n";
-    for (const auto& l : lines) out += std::string(who(l.speaker)) + "：" + l.text + "\n";
+    if (!situation.empty()) out += who("N") + situation + "\n";
+    for (const auto& l : lines) out += who(l.speaker) + l.text + "\n";
     if (spokenOptions()) {
         for (std::size_t i = 0; i < options.size(); ++i)
-            out += std::string(who(optionSpeaker)) + "：" + std::to_string(i + 1) + ". " + options[i] + "\n";
-    } else if (!question.empty()) {
-        out += "ナレーター：" + question + "\n";
+            out += who(optionSpeaker) + std::to_string(i + 1) + ". " + options[i] + "\n";
+    } else if (!question.empty() && lang.speakListeningQuestion) {
+        out += who("N") + question + "\n";
     }
     if (!out.empty()) out.pop_back();
     return out;
 }
 
-Question ListeningItem::toQuestion() const {
+Question ListeningItem::toQuestion(const LanguageProfile& lang) const {
     Question q;
     q.id = "listening:" + id;
     q.section = "listening";
     q.type = type;
-    q.instruction = "もんだいを きいて、いちばん いい ものを えらんで ください。";
-    q.instructionEn = "Listen and choose the best answer. (" + typeLabel() + ")";
-    q.passage = transcript();
-    q.prompt = question.empty() ? "いちばん いい ものは どれですか。" : question;
+    const auto it = lang.listeningInstructions.find(type);
+    q.instruction = it != lang.listeningInstructions.end() ? it->second : lang.listeningInstruction;
+    q.instructionEn = "Listen and choose the best answer. (" + lang.listeningTypeLabel(type) + ")";
+    q.passage = transcript(lang);
+    q.prompt = question.empty() ? lang.listeningPrompt : question;
     q.options = options;
     q.answer = answer;
     q.note = note;
     q.trackKey = "listening:" + type;
-    q.trackLabel = typeLabel();
+    q.trackLabel = lang.listeningTypeLabel(type);
     q.trackGroup = group::Listening;
     return q;
 }

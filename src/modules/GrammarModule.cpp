@@ -12,8 +12,9 @@ std::vector<Question> GrammarModule::buildSession(AppContext& ctx) const {
     for (const auto& q : ctx.bank.grammarQuestions()) (q.section == "reading" ? reading : grammar).push_back(&q);
 
     const auto size = static_cast<std::size_t>(ctx.config.sessionSize);
-    // Like the exam: grammar items first, then (usually) one short reading text.
-    const std::size_t readingCount = std::min<std::size_t>(reading.empty() || size < 3 ? 0 : 1, reading.size());
+    // Like the exam: grammar items first, then reading texts (JLPT: one, TOPIK: two).
+    const std::size_t wantReading = static_cast<std::size_t>(ctx.lang.readingPerSession);
+    const std::size_t readingCount = std::min<std::size_t>(reading.empty() || size < 3 ? 0 : wantReading, reading.size());
     const std::size_t grammarCount = std::min(size - readingCount, grammar.size());
 
     auto sample = [&](const std::vector<const Question*>& pool, std::size_t k) {
@@ -41,13 +42,13 @@ std::vector<Question> GrammarModule::buildSession(AppContext& ctx) const {
 
 void GrammarModule::run(AppContext& ctx) {
     if (ctx.bank.grammarQuestions().empty()) {
-        ui::printHeader("文法・読解", title());
+        ui::printHeader(nativeTitle(ctx), title(ctx));
         ui::warn("This level has no grammar data yet.");
         ui::waitForEnter();
         return;
     }
     quiz::SessionOptions opt;
-    opt.title = "文法・読解  Grammar & Reading " + ctx.level;
+    opt.title = nativeTitle(ctx) + "  " + ctx.level;
     opt.moduleName = "Grammar";
     opt.mistakeSource = "Grammar";
 

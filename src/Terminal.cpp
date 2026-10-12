@@ -306,7 +306,9 @@ void printBox(const std::vector<std::string>& lines, std::string_view title, con
 
     const std::size_t textWidth = inner - 2;
     for (const auto& raw : lines) {
-        for (const auto& line : wrap(raw, textWidth)) {
+        // Lines that already fit are printed as-is: wrapping would collapse runs of spaces (ASCII art, tables).
+        const bool fits = displayWidth(raw) <= textWidth && raw.find('\n') == std::string::npos;
+        for (const auto& line : fits ? std::vector<std::string>{raw} : wrap(raw, textWidth)) {
             std::cout << ' ' << paint(v, borderStyle) << ' ' << padRight(line, textWidth) << ' '
                       << paint(v, borderStyle) << '\n';
         }

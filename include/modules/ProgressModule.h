@@ -6,8 +6,7 @@
 
 class ProgressModule : public Module {
 public:
-    std::string japaneseTitle() const override { return "進歩"; }
-    std::string title() const override { return "Progress"; }
+    std::string key() const override { return "progress"; }
     void run(AppContext& ctx) override;
 
 private:

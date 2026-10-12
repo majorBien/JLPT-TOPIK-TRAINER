@@ -8,6 +8,8 @@
 
 #include "Json.h"
 
+struct LanguageProfile;
+
 // Progress groups shown in the Progress screen.
 namespace group {
 inline constexpr const char* Kanji = "kanji";
@@ -19,7 +21,7 @@ struct Question {
     std::string id;           // stable id, e.g. "vocab:n4v001:reading" or "g012"
     std::string section;      // "vocabulary" | "grammar" | "reading"
     std::string type;         // kanji_reading, orthography, meaning, context, grammar_fill, ...
-    std::string instruction;  // JLPT-style instruction line (Japanese)
+    std::string instruction;  // exam-style instruction line in the study language
     std::string instructionEn;
     std::string passage;      // optional reading passage
     std::string prompt;       // may contain [[underlined]] markup
@@ -40,14 +42,15 @@ struct Question {
 
 struct VocabEntry {
     std::string id;
-    std::string word;     // written form (kanji)
-    std::string reading;  // hiragana
+    std::string word;     // dictionary form (kanji for Japanese, Hangul for Korean)
+    std::string reading;  // hiragana (Japanese only)
+    std::string form;     // the form used in `example` (Korean 해요-form, e.g. 가다 → 가요); defaults to word
     std::string meaning;  // English gloss
     std::string pos;      // noun, verb, i-adj, na-adj, adverb
     std::string example;  // example sentence containing `word` verbatim
     std::vector<std::string> kanjiDistractors;  // optional hand-made look-alikes
 
-    bool exampleContainsWord() const { return !example.empty() && example.find(word) != std::string::npos; }
+    bool exampleContainsWord() const { return !example.empty() && example.find(form) != std::string::npos; }
     static VocabEntry fromJson(const json::Value& v);
 };
 
@@ -57,10 +60,11 @@ struct ScriptLine {
     std::string text;
 };
 
-// A JLPT listening item (聴解). Types follow the N4 exam parts:
-//   task (課題理解), point (ポイント理解), utterance (発話表現), response (即時応答).
-// For utterance/response the options are *spoken* (as in the real exam) and
-// only revealed in text after answering.
+// A listening item. Types follow the exam parts:
+//   JLPT:  task (課題理解), point (ポイント理解), utterance (発話表現), response (即時応答)
+//   TOPIK: answer, next, place, topic, match, main_idea, detail (듣기 1–30)
+// For JLPT utterance/response the options are *spoken* (as in the real exam) and
+// only revealed in text after answering; TOPIK prints all options.
 struct ListeningItem {
     std::string id;
     std::string type;
@@ -73,8 +77,7 @@ struct ListeningItem {
     std::string note;
 
     bool spokenOptions() const { return type == "utterance" || type == "response"; }
-    std::string typeLabel() const;    // "課題理解 (Task)", ...
-    std::string transcript() const;   // human readable script (女：… / 男：…)
-    Question toQuestion() const;      // snapshot for mistakes / DeepSeek
+    std::string transcript(const LanguageProfile& lang) const;  // 女：… / 여자: …
+    Question toQuestion(const LanguageProfile& lang) const;     // snapshot for mistakes / DeepSeek
     static ListeningItem fromJson(const json::Value& v);
 };

@@ -163,14 +163,13 @@ ApiResult DeepSeekClient::explain(const ExplainRequest& req) const {
         correct ? "### 1. Why this answer is correct\n### 2. Why the other options are wrong\n### 3. Memory tip / example\n"
                 : "### 1. Why your answer is wrong\n### 2. The correct answer and why\n### 3. Memory tip / example\n";
     const std::string system =
-        "You are an experienced, friendly Japanese teacher preparing a student for the JLPT " + req.level +
-        " exam. Always answer in " + settings_.language +
-        " (Japanese examples in Japanese with readings in parentheses where helpful). "
+        "You are an experienced, friendly " + req.studyLanguage + " teacher preparing a student for the " + req.level +
+        " exam. Always answer in " + settings_.language + " (" + req.exampleStyle + "). "
         "Be precise and concise (max ~220 words). Use this structure with '### ' headings:\n" + structure +
         "Translate the headings into the answer language. Use **bold** for key words and '- ' bullets. "
         "No tables, no code blocks.";
 
-    std::string user = "JLPT " + req.level + " — section: " + req.section + "\n";
+    std::string user = req.level + " — section: " + req.section + "\n";
     if (!req.instruction.empty()) user += "Instruction: " + req.instruction + "\n";
     if (!req.passage.empty()) {
         user += (req.section == "listening" ? "Audio transcript:\n" : "Passage:\n") + req.passage + "\n";
@@ -192,12 +191,12 @@ ApiResult DeepSeekClient::explain(const ExplainRequest& req) const {
 
 ApiResult DeepSeekClient::translate(const TranslateRequest& req) const {
     const std::string system =
-        "You are a Japanese teacher helping a student preparing for the JLPT " + req.level +
-        " exam. Translate Japanese text into " + settings_.language +
+        "You are a " + req.studyLanguage + " teacher helping a student preparing for the " + req.level +
+        " exam. Translate " + req.studyLanguage + " text into " + settings_.language +
         ". Give a natural translation, then a short literal gloss of key words if helpful. "
         "Be concise (max ~120 words). Use **bold** for key words and '- ' bullets. No tables, no code blocks.";
 
-    std::string user = "JLPT " + req.level + " — section: " + req.section + "\n";
+    std::string user = req.level + " — section: " + req.section + "\n";
     if (!req.passage.empty()) {
         user += (req.section == "listening" ? "Audio transcript:\n" : "Passage:\n") + req.passage + "\n";
     }

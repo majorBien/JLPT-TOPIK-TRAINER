@@ -13,7 +13,7 @@ std::vector<Question> VocabularyModule::buildSession(AppContext& ctx) const {
     for (const auto& e : vocab) weights.push_back(ctx.progress.weightFor(QuestionBank::vocabTrackKey(e)));
     const auto picked = util::weightedSample(weights, static_cast<std::size_t>(ctx.config.sessionSize), ctx.rng);
 
-    // Mix the four JLPT 文字・語彙 question types within a session.
+    // Mix the question types within a session (kanji-only types fall back for Korean / kana words).
     std::vector<VocabQuestionType> types = {VocabQuestionType::KanjiReading, VocabQuestionType::Orthography,
                                             VocabQuestionType::Context, VocabQuestionType::Meaning};
     std::shuffle(types.begin(), types.end(), ctx.rng);
@@ -22,7 +22,7 @@ std::vector<Question> VocabularyModule::buildSession(AppContext& ctx) const {
     for (std::size_t i = 0; i < picked.size(); ++i)
         questions.push_back(ctx.bank.makeVocabQuestion(vocab[picked[i]], types[i % types.size()], ctx.rng));
 
-    // One hand-written 言い換え／用法 item per session (replacing a generated one), weighted like the words.
+    // One hand-written item (言い換え／用法, 화제) per session, replacing a generated one; weighted like the words.
     const auto& extra = ctx.bank.vocabQuestions();
     if (!extra.empty() && questions.size() >= 4) {
         std::vector<double> extraWeights;
@@ -40,13 +40,13 @@ std::vector<Question> VocabularyModule::buildSession(AppContext& ctx) const {
 
 void VocabularyModule::run(AppContext& ctx) {
     if (ctx.bank.vocabulary().size() < 4) {
-        ui::printHeader("文字・語彙", title());
+        ui::printHeader(nativeTitle(ctx), title(ctx));
         ui::warn("This level has no vocabulary data yet (need at least 4 entries).");
         ui::waitForEnter();
         return;
     }
     quiz::SessionOptions opt;
-    opt.title = "文字・語彙  Vocabulary " + ctx.level;
+    opt.title = nativeTitle(ctx) + "  Vocabulary " + ctx.level;
     opt.moduleName = "Vocabulary";
     opt.mistakeSource = "Vocabulary";
 

@@ -29,7 +29,7 @@ std::string SRSModule::badge(const AppContext& ctx) const {
 void SRSModule::showDeckStatus(AppContext& ctx) const {
     const auto now = util::nowSeconds();
     const auto s = ctx.srs.stats(ctx.vocabDeck(), now);
-    ui::printHeader("復習  SRS Vocabulary Trainer", "Spaced repetition · SM-2 · JLPT " + ctx.level);
+    ui::printHeader(nativeTitle(ctx) + "  SRS Vocabulary Trainer", "Spaced repetition · SM-2 · " + ctx.levelName());
     std::cout << '\n';
 
     const int seen = s.total - s.unseen;
@@ -60,7 +60,7 @@ void SRSModule::showDeckStatus(AppContext& ctx) const {
 
 void SRSModule::run(AppContext& ctx) {
     if (ctx.bank.vocabulary().size() < 4) {
-        ui::printHeader("復習 SRS", title());
+        ui::printHeader(nativeTitle(ctx), title(ctx));
         ui::warn("Not enough vocabulary in this level for ABCD reviews.");
         ui::waitForEnter();
         return;
@@ -83,7 +83,7 @@ void SRSModule::runReviews(AppContext& ctx) const {
     for (const auto& id : ctx.srs.newCards(deck, static_cast<std::size_t>(ctx.config.srsNewPerSession))) queue.push_back(id);
 
     if (queue.empty()) {
-        ui::info("Nothing to review right now — お疲れさま！ Come back later.");
+        ui::info("Nothing to review right now — " + ctx.lang.wellDone + " Come back later.");
         ui::waitForEnter();
         return;
     }
@@ -108,19 +108,19 @@ void SRSModule::runReviews(AppContext& ctx) const {
 
         std::vector<int> headerMarks = marks;
         headerMarks.push_back(-1);
-        quiz::renderHeader("復習 SRS " + ctx.level, marks.size(), marks.size() + queue.size() + 1, headerMarks);
+        quiz::renderHeader(ctx, nativeTitle(ctx) + " " + ctx.level, marks.size(), marks.size() + queue.size() + 1, headerMarks);
         const std::string state = card.isNew() ? ui::paint("NEW", {ui::style::Bold, ui::style::BrightBlue})
                                                : ui::paint("interval " + std::to_string(card.intervalDays) + "d · ease " +
                                                                std::to_string(card.ease).substr(0, 4) + " · lapses " +
                                                                std::to_string(card.lapses), ui::style::Gray);
         std::cout << "  " << state << "\n\n";
-        quiz::renderQuestion(q, false, false);
+        quiz::renderQuestion(ctx, q, false, false);
 
         const auto ans = quiz::askChoice(q.options.size(), false);
         if (ans.kind == quiz::InputKind::Quit) break;
 
         const bool correct = ans.index == q.answer;
-        quiz::showVerdict(q, ans.index);
+        quiz::showVerdict(ctx, q, ans.index);
 
         Grade grade = SRSManager::gradeFromAnswer(correct, ans.seconds);
         const auto at = util::nowSeconds();
@@ -139,7 +139,7 @@ void SRSModule::runReviews(AppContext& ctx) const {
             for (;;) {
                 const auto in = ui::readLine(ui::paint(std::string("[Enter] accept ") + toString(grade) +
                                                            " · [h]ard [g]ood [e]asy · ", ui::style::Gray) +
-                                             quiz::studyHint() + ui::paint(" · [q] quit ", ui::style::Gray));
+                                             quiz::studyHint(ctx) + ui::paint(" · [q] quit ", ui::style::Gray));
                 if (!in) { quit = true; break; }
                 const std::string c = util::toLower(*in);
                 if (c.empty()) break;
@@ -154,7 +154,7 @@ void SRSModule::runReviews(AppContext& ctx) const {
             }
         } else {
             for (;;) {
-                const auto in = ui::readLine(ui::paint("[Enter] continue · ", ui::style::Gray) + quiz::studyHint() +
+                const auto in = ui::readLine(ui::paint("[Enter] continue · ", ui::style::Gray) + quiz::studyHint(ctx) +
                                              ui::paint(" · [q] quit ", ui::style::Gray));
                 if (in && quiz::handleStudyCommand(ctx, q, ans.index, util::toLower(*in))) continue;
                 quit = !in || util::toLower(*in) == "q";
@@ -177,7 +177,7 @@ void SRSModule::runReviews(AppContext& ctx) const {
 
     if (reviewed == 0) return;
     ctx.progress.recordSession("SRS", correctCount, reviewed);
-    ui::printHeader("復習 完了  Review finished", "JLPT " + ctx.level);
+    ui::printHeader(ctx.lang.reviewDone, ctx.levelName());
     std::cout << '\n';
     log.print();
     const double ratio = static_cast<double>(correctCount) / reviewed;

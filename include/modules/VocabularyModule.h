@@ -5,8 +5,7 @@
 
 class VocabularyModule : public Module {
 public:
-    std::string japaneseTitle() const override { return "文字・語彙"; }
-    std::string title() const override { return "Language Knowledge (Vocabulary)"; }
+    std::string key() const override { return "vocabulary"; }
     void run(AppContext& ctx) override;
 
 private:

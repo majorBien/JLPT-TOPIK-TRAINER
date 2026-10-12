@@ -5,8 +5,7 @@
 
 class MistakesModule : public Module {
 public:
-    std::string japaneseTitle() const override { return "間違い"; }
-    std::string title() const override { return "My Mistakes"; }
+    std::string key() const override { return "mistakes"; }
     std::string badge(const AppContext& ctx) const override;
     void run(AppContext& ctx) override;
 

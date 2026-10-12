@@ -32,13 +32,19 @@ std::map<std::string, std::vector<std::string>>& furiganaCache() {
 }
 
 // The prompt as a plain sentence: the blank filled with the correct answer, underline markup removed.
+// Blanks are "（　　）" (Japanese) or "(　　)" (Korean): a bracket around ideographic spaces.
 std::string completedSentence(const Question& q) {
     std::string s = q.prompt;
-    if (const auto open = s.find("（"); open != std::string::npos) {
-        std::size_t end = open + std::string("（").size();
-        while (s.compare(end, std::string("　").size(), "　") == 0) end += std::string("　").size();
-        if (end > open + std::string("（").size() && s.compare(end, std::string("）").size(), "）") == 0)
-            s.replace(open, end + std::string("）").size() - open, q.correctOption());
+    const std::string space = "　";
+    for (const auto& [open, close] : {std::pair<std::string, std::string>{"（", "）"}, {"(", ")"}}) {
+        const auto start = s.find(open + space);
+        if (start == std::string::npos) continue;
+        std::size_t end = start + open.size();
+        while (s.compare(end, space.size(), space) == 0) end += space.size();
+        if (s.compare(end, close.size(), close) == 0) {
+            s.replace(start, end + close.size() - start, q.correctOption());
+            break;
+        }
     }
     return util::replaceAll(util::replaceAll(s, "[[", ""), "]]", "");
 }
@@ -53,7 +59,8 @@ bool isSpokenOptionType(const Question& q) {
 
 std::string optionLabel(std::size_t i) { return std::string(1, static_cast<char>('A' + i)); }
 
-void renderHeader(const std::string& title, std::size_t index, std::size_t total, const std::vector<int>& results) {
+void renderHeader(const AppContext& ctx, const std::string& title, std::size_t index, std::size_t total,
+                  const std::vector<int>& results) {
     ui::clearScreen();
     std::string dots;
     for (int r : results) {
@@ -63,17 +70,17 @@ void renderHeader(const std::string& title, std::size_t index, std::size_t total
         dots += ' ';
     }
     const std::string left = ui::paint(title, {ui::style::Bold, ui::style::BrightYellow});
-    const std::string right = ui::paint("問 " + std::to_string(index + 1) + "/" + std::to_string(total), ui::style::BrightWhite) + "  " + dots;
+    const std::string right = ui::paint(ctx.lang.questionNo + " " + std::to_string(index + 1) + "/" + std::to_string(total), ui::style::BrightWhite) + "  " + dots;
     const std::size_t w = ui::contentWidth();
     const std::size_t used = ui::displayWidth(left) + ui::displayWidth(right);
     ui::printBox({left + std::string(used < w ? w - used : 1, ' ') + right}, {}, ui::style::Magenta, true);
     std::cout << '\n';
 }
 
-void renderQuestion(const Question& q, bool showPassage, bool hideOptionText) {
+void renderQuestion(const AppContext& ctx, const Question& q, bool showPassage, bool hideOptionText) {
     if (showPassage && !q.passage.empty()) {
         const bool listening = q.section == "listening";
-        ui::printBox(ui::wrap(q.passage, ui::contentWidth()), listening ? "スクリプト Transcript" : "読解 Reading passage",
+        ui::printBox(ui::wrap(q.passage, ui::contentWidth()), listening ? ctx.lang.transcriptTitle : ctx.lang.passageTitle,
                      ui::style::Blue);
         std::cout << '\n';
     }
@@ -86,7 +93,7 @@ void renderQuestion(const Question& q, bool showPassage, bool hideOptionText) {
 
     for (std::size_t i = 0; i < q.options.size(); ++i) {
         const std::string label = ui::paint(" " + optionLabel(i) + " ", {ui::style::Bold, ui::style::BrightMagenta});
-        const std::string text = hideOptionText ? ui::paint("（音声を聞いて ‧ listen to the audio）", ui::style::Gray) : q.options[i];
+        const std::string text = hideOptionText ? ui::paint(ctx.lang.listenToAudio, ui::style::Gray) : q.options[i];
         std::cout << "   " << label << " " << text << '\n';
     }
     std::cout << '\n';
@@ -114,13 +121,13 @@ Answer askChoice(std::size_t optionCount, bool allowReplay) {
     }
 }
 
-void showVerdict(const Question& q, int chosen) {
+void showVerdict(const AppContext& ctx, const Question& q, int chosen) {
     const bool correct = chosen == q.answer;
     if (correct) {
-        std::cout << "  " << ui::paint(" ✔ 正解！ Correct ", {ui::style::Bold, ui::style::BrightGreen}) << "  "
+        std::cout << "  " << ui::paint(ctx.lang.correct, {ui::style::Bold, ui::style::BrightGreen}) << "  "
                   << ui::paint(optionLabel(static_cast<std::size_t>(q.answer)) + ") " + q.correctOption(), ui::style::Green) << '\n';
     } else {
-        std::cout << "  " << ui::paint(" ✘ 不正解 Incorrect ", {ui::style::Bold, ui::style::BrightRed}) << '\n';
+        std::cout << "  " << ui::paint(ctx.lang.incorrect, {ui::style::Bold, ui::style::BrightRed}) << '\n';
         std::cout << "    Your answer:    "
                   << ui::paint(optionLabel(static_cast<std::size_t>(chosen)) + ") " + q.options[static_cast<std::size_t>(chosen)], ui::style::Red) << '\n';
         std::cout << "    Correct answer: "
@@ -151,7 +158,9 @@ void explainWithDeepSeek(AppContext& ctx, const Question& q, int chosen) {
             return;
         }
         ExplainRequest req;
-        req.level = ctx.level;
+        req.level = ctx.levelName();
+        req.studyLanguage = ctx.lang.name;
+        req.exampleStyle = ctx.lang.exampleStyle;
         req.section = q.section;
         req.instruction = q.instruction;
         req.passage = q.passage;
@@ -160,7 +169,7 @@ void explainWithDeepSeek(AppContext& ctx, const Question& q, int chosen) {
         req.userAnswer = chosenText;
         req.correctAnswer = q.correctOption();
 
-        const ApiResult res = ui::withSpinner("DeepSeek に聞いています… asking DeepSeek", [&] { return ctx.deepseek.explain(req); });
+        const ApiResult res = ui::withSpinner("Asking DeepSeek…", [&] { return ctx.deepseek.explain(req); });
         if (!res.ok) {
             ui::error("DeepSeek request failed: " + res.error);
             return;
@@ -171,7 +180,7 @@ void explainWithDeepSeek(AppContext& ctx, const Question& q, int chosen) {
     }
 
     std::cout << '\n';
-    ui::printBox(ui::renderMarkdown(text, ui::contentWidth()), "なぜ？ Why · DeepSeek", ui::style::BrightMagenta);
+    ui::printBox(ui::renderMarkdown(text, ui::contentWidth()), ctx.lang.whyTitle, ui::style::BrightMagenta);
     std::cout << '\n';
 }
 
@@ -187,13 +196,14 @@ void translateWithDeepSeek(AppContext& ctx, const Question& q) {
             return;
         }
         TranslateRequest req;
-        req.level = ctx.level;
+        req.level = ctx.levelName();
+        req.studyLanguage = ctx.lang.name;
         req.section = q.section;
         req.passage = q.passage;
         req.question = ui::plainMarkup(q.prompt);
         req.correctAnswer = q.correctOption();
 
-        const ApiResult res = ui::withSpinner("DeepSeek が翻訳しています… translating", [&] { return ctx.deepseek.translate(req); });
+        const ApiResult res = ui::withSpinner("DeepSeek is translating…", [&] { return ctx.deepseek.translate(req); });
         if (!res.ok) {
             ui::error("DeepSeek request failed: " + res.error);
             return;
@@ -203,20 +213,23 @@ void translateWithDeepSeek(AppContext& ctx, const Question& q) {
     }
 
     std::cout << '\n';
-    ui::printBox(ui::renderMarkdown(text, ui::contentWidth()), "翻訳 Translation · DeepSeek", ui::style::BrightCyan);
+    ui::printBox(ui::renderMarkdown(text, ui::contentWidth()), ctx.lang.translationTitle, ui::style::BrightCyan);
     std::cout << '\n';
 }
 
-std::string studyHint() {
-    return ui::paint("[w]", {ui::style::Bold, ui::style::BrightMagenta}) + ui::paint(" why · ", ui::style::Gray) +
-           ui::paint("[t]", {ui::style::Bold, ui::style::BrightCyan}) + ui::paint(" translate · ", ui::style::Gray) +
-           ui::paint("[f]", {ui::style::Bold, ui::style::BrightCyan}) + ui::paint(" furigana", ui::style::Gray);
+std::string studyHint(const AppContext& ctx) {
+    std::string hint = ui::paint("[w]", {ui::style::Bold, ui::style::BrightMagenta}) + ui::paint(" why · ", ui::style::Gray) +
+                       ui::paint("[t]", {ui::style::Bold, ui::style::BrightCyan}) + ui::paint(" translate", ui::style::Gray);
+    if (ctx.lang.furigana)
+        hint += ui::paint(" · ", ui::style::Gray) + ui::paint("[f]", {ui::style::Bold, ui::style::BrightCyan}) +
+                ui::paint(" furigana", ui::style::Gray);
+    return hint;
 }
 
 bool handleStudyCommand(AppContext& ctx, const Question& q, int chosen, const std::string& input) {
     if (input == "w" || input == "why" || input == "?") explainWithDeepSeek(ctx, q, chosen);
     else if (input == "t" || input == "translate") translateWithDeepSeek(ctx, q);
-    else if (input == "f" || input == "furigana") showFurigana(ctx, q);
+    else if (ctx.lang.furigana && (input == "f" || input == "furigana")) showFurigana(ctx, q);
     else return false;
     return true;
 }
@@ -298,8 +311,8 @@ SessionResult QuizSession::run(const std::vector<Question>& questions) {
         const Question& q = questions[i];
         const bool hideOptions = opt_.listeningMode && isSpokenOptionType(q);
 
-        renderHeader(opt_.title, i, questions.size(), marks);
-        renderQuestion(q, !opt_.listeningMode, hideOptions);
+        renderHeader(ctx_, opt_.title, i, questions.size(), marks);
+        renderQuestion(ctx_, q, !opt_.listeningMode, hideOptions);
         if (opt_.present) opt_.present(i);
 
         Answer ans;
@@ -325,12 +338,12 @@ SessionResult QuizSession::run(const std::vector<Question>& questions) {
 
         if (opt_.listeningMode) {
             // Reveal the transcript and the spoken options now.
-            renderHeader(opt_.title, i, questions.size(), marks);
-            renderQuestion(q, true, false);
+            renderHeader(ctx_, opt_.title, i, questions.size(), marks);
+            renderQuestion(ctx_, q, true, false);
         } else {
             std::cout << '\n';
         }
-        showVerdict(q, ans.index);
+        showVerdict(ctx_, q, ans.index);
         if (!postAnswerLoop(q, ans.index, correct, i)) {
             result.aborted = true;
             break;
@@ -348,7 +361,7 @@ bool QuizSession::postAnswerLoop(const Question& q, int chosen, bool /*correct*/
     const bool canReplay = opt_.listeningMode && opt_.present;
     for (;;) {
         std::string hint = ui::paint("[Enter] next · ", ui::style::Gray);
-        if (opt_.allowWhy) hint += studyHint();
+        if (opt_.allowWhy) hint += studyHint(ctx_);
         if (canReplay) hint += ui::paint(" · [r] replay", ui::style::Gray);
         hint += ui::paint(" · [q] quit", ui::style::Gray);
 
@@ -369,7 +382,7 @@ bool QuizSession::postAnswerLoop(const Question& q, int chosen, bool /*correct*/
 void QuizSession::showSummary(const std::vector<Question>& questions, const std::vector<int>& chosen,
                               const SessionResult& result) const {
     ui::clearScreen();
-    ui::printHeader("結果  Session results", opt_.title);
+    ui::printHeader(ctx_.lang.resultsTitle, opt_.title);
     std::cout << '\n';
 
     ui::Table table({"#", "Item", "Your answer", "Correct", ""});
@@ -389,7 +402,7 @@ void QuizSession::showSummary(const std::vector<Question>& questions, const std:
     const char* color = ratio >= 0.8 ? ui::style::BrightGreen : ratio >= 0.6 ? ui::style::BrightYellow : ui::style::BrightRed;
     std::cout << "\n  Score: " << ui::paint(std::to_string(result.correct) + "/" + std::to_string(result.answered), {ui::style::Bold, color})
               << "  " << ui::progressBar(ratio, 30, color) << ' ' << util::formatPercent(ratio) << '\n';
-    const char* cheer = ratio >= 0.999 ? "素晴らしい！ Perfect!" : ratio >= 0.6 ? "いいですね！ Nice work!" : "頑張りましょう！ Keep going!";
+    const std::string& cheer = ratio >= 0.999 ? ctx_.lang.cheerPerfect : ratio >= 0.6 ? ctx_.lang.cheerGood : ctx_.lang.cheerKeepGoing;
     std::cout << "  " << ui::paint(cheer, {ui::style::Bold, ui::style::BrightYellow}) << "\n";
     if (result.answered > result.correct)
         std::cout << "  " << ui::paint("Wrong answers were saved to 「My Mistakes」.", ui::style::Gray) << '\n';

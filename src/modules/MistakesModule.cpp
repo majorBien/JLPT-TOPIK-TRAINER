@@ -8,12 +8,12 @@
 #include "Util.h"
 
 namespace {
-std::string sectionTag(const std::string& section) {
-    if (section == "vocabulary") return ui::paint("語彙", ui::style::BrightYellow);
-    if (section == "grammar") return ui::paint("文法", ui::style::BrightCyan);
-    if (section == "reading") return ui::paint("読解", ui::style::BrightBlue);
-    if (section == "listening") return ui::paint("聴解", ui::style::BrightMagenta);
-    return section;
+std::string sectionTag(const LanguageProfile& lang, const std::string& section) {
+    const char* color = section == "vocabulary" ? ui::style::BrightYellow
+                        : section == "grammar"  ? ui::style::BrightCyan
+                        : section == "reading"  ? ui::style::BrightBlue
+                                                : ui::style::BrightMagenta;
+    return ui::paint(lang.section(section), color);
 }
 }  // namespace
 
@@ -23,34 +23,38 @@ std::string MistakesModule::badge(const AppContext& ctx) const {
 
 void MistakesModule::run(AppContext& ctx) {
     for (;;) {
-        ui::printHeader("間違い  My Mistakes", "JLPT " + ctx.level + " · answer correctly to clear an item");
+        ui::printHeader(nativeTitle(ctx) + "  My Mistakes", ctx.levelName() + " · answer correctly to clear an item");
         std::cout << '\n';
         const auto& all = ctx.mistakes.all();
         if (all.empty()) {
-            ui::info("No mistakes saved — 完璧！ (or you haven't started yet)");
+            ui::info("No mistakes saved — " + ctx.lang.perfectNoMistakes + " (or you haven't started yet)");
             std::cout << '\n';
             ui::waitForEnter();
             return;
         }
 
-        ui::Table table({"#", "Sec", "Question", "Your answer", "Correct", "×", "Last"});
+        ui::Table table({"#", "Sec", "Question", "Yours", "Correct", "Errors", "DeepSeek", "Last"});
         table.setAlign(0, ui::Table::Align::Right);
         table.setAlign(5, ui::Table::Align::Right);
+        table.setMaxWidth(3, 12);
+        table.setMaxWidth(4, 12);
         table.setMaxWidth(2, 26);
-        table.setMaxWidth(3, 14);
-        table.setMaxWidth(4, 14);
         const std::size_t shown = std::min<std::size_t>(all.size(), 15);
         for (std::size_t i = 0; i < shown; ++i) {
             const auto& r = all[i];
             const std::string prompt = util::replaceAll(util::replaceAll(r.question.prompt, "[[", ""), "]]", "");
-            table.addRow({std::to_string(i + 1), sectionTag(r.question.section), prompt,
+            table.addRow({std::to_string(i + 1), sectionTag(ctx.lang, r.question.section), prompt,
                           ui::paint(r.userAnswer, ui::style::Red), ui::paint(r.question.correctOption(), ui::style::Green),
-                          std::to_string(r.count) + (r.explanation.empty() ? "" : ui::paint("✎", ui::style::BrightMagenta)),
+                          std::to_string(r.count),
+                          r.explanation.empty() ? ui::paint("—", ui::style::Gray) : ui::paint("saved", ui::style::BrightMagenta),
                           util::formatDate(r.lastSeen).substr(5, 5)});
         }
         table.print();
         if (all.size() > shown) std::cout << "  " << ui::paint("… and " + std::to_string(all.size() - shown) + " more", ui::style::Gray) << '\n';
-        std::cout << "  " << ui::paint("✎ = saved DeepSeek explanation", ui::style::Gray) << "\n\n";
+        std::cout << "  " << ui::paint("Errors: how many times you answered it wrong (cleared after a correct answer in practice).\n"
+                                       "  DeepSeek: \"saved\" = the [w] explanation is stored and opens instantly.",
+                                       ui::style::Gray)
+                  << "\n\n";
 
         std::cout << "   " << ui::paint("[p]", ui::style::BrightMagenta) << " practice " << ctx.config.sessionSize << "   "
                   << ui::paint("[1-" + std::to_string(shown) + "]", ui::style::BrightMagenta) << " view / explain   "
@@ -92,7 +96,7 @@ void MistakesModule::practice(AppContext& ctx) const {
     }
 
     quiz::SessionOptions opt;
-    opt.title = "間違い  Mistakes review " + ctx.level;
+    opt.title = nativeTitle(ctx) + "  Mistakes review " + ctx.level;
     opt.moduleName = "Mistakes";
     opt.mistakeSource = "Mistakes";
     opt.resolveMistakesOnCorrect = true;
@@ -103,16 +107,16 @@ void MistakesModule::practice(AppContext& ctx) const {
 void MistakesModule::viewOne(AppContext& ctx, std::size_t index) const {
     const MistakeRecord record = ctx.mistakes.all().at(index);  // copy: the log may change below
     const Question& q = record.question;
-    ui::printHeader("間違い #" + std::to_string(index + 1), "from " + record.source + " · wrong " + std::to_string(record.count) + "×");
+    ui::printHeader(ctx.lang.moduleNative("mistakes") + " #" + std::to_string(index + 1), "from " + record.source + " · wrong " + std::to_string(record.count) + "×");
     std::cout << '\n';
-    quiz::renderQuestion(q, true, false);
+    quiz::renderQuestion(ctx, q, true, false);
 
     const auto chosen = std::find(q.options.begin(), q.options.end(), record.userAnswer);
     const int chosenIdx = chosen == q.options.end() ? -1 : static_cast<int>(chosen - q.options.begin());
-    if (chosenIdx >= 0) quiz::showVerdict(q, chosenIdx);
+    if (chosenIdx >= 0) quiz::showVerdict(ctx, q, chosenIdx);
 
     if (!record.explanation.empty()) {
-        ui::printBox(ui::renderMarkdown(record.explanation, ui::contentWidth()), "なぜ？ Why · DeepSeek (saved)", ui::style::BrightMagenta);
+        ui::printBox(ui::renderMarkdown(record.explanation, ui::contentWidth()), ctx.lang.whyTitle + " (saved)", ui::style::BrightMagenta);
         std::cout << '\n';
         ui::waitForEnter();
         return;

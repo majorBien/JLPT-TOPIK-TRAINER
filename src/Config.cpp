@@ -19,7 +19,20 @@ namespace {
 
 bool looksLikeRoot(const fs::path& p) {
     std::error_code ec;
-    return fs::is_directory(p / "data" / "levels", ec);
+    return fs::is_directory(p / "data" / "ja" / "levels", ec) || fs::is_directory(p / "data" / "ko" / "levels", ec);
+}
+
+// Rewrites settings.json with one change applied; never overwrites a file it could not read.
+bool updateSettings(const std::string& rootDir, const std::function<void(json::Value&)>& change) {
+    const fs::path settingsPath = fs::path(rootDir) / "settings.json";
+    json::Value s = json::Value::object();
+    try {
+        if (fs::exists(settingsPath)) s = json::parseFile(settingsPath.string());
+    } catch (const std::exception&) {
+        return false;
+    }
+    change(s);
+    return json::writeFileAtomic(settingsPath.string(), s.dump(2) + "\n");
 }
 
 std::string findRoot() {
@@ -41,7 +54,9 @@ Config Config::load() {
 
     try {
         const json::Value s = json::parseFile(settingsPath.string());
+        cfg.language = s.getString("language", cfg.language) == "ko" ? "ko" : "ja";
         cfg.defaultLevel = s.getString("default_level", cfg.defaultLevel);
+        cfg.defaultLevelKo = s.getString("default_level_ko", cfg.defaultLevelKo);
         cfg.sessionSize = static_cast<int>(std::clamp<std::int64_t>(s.getInt("session_size", cfg.sessionSize), 1, 50));
         cfg.srsNewPerSession = static_cast<int>(s.getInt("srs_new_per_session", cfg.srsNewPerSession));
         cfg.srsMaxReviews = static_cast<int>(s.getInt("srs_max_reviews", cfg.srsMaxReviews));
@@ -57,6 +72,12 @@ Config Config::load() {
         cfg.ttsVoiceFemale = util::expandHome(tts.getString("voice_female"));
         cfg.ttsSpeed = std::clamp(tts.getNumber("speed", cfg.ttsSpeed), 0.5, 2.0);
         cfg.audioPlayer = tts.getString("player");
+        const json::Value& ko = s["tts_ko"];
+        cfg.koEdgeTts = util::expandHome(ko.getString("edge_tts_bin"));
+        cfg.koVoiceFemale = ko.getString("voice_female", cfg.koVoiceFemale);
+        cfg.koVoiceMale = ko.getString("voice_male", cfg.koVoiceMale);
+        cfg.koVoiceNarrator = ko.getString("voice_narrator", cfg.koVoiceNarrator);
+        cfg.koRate = ko.getString("rate", cfg.koRate);
     } catch (const std::exception& e) {
         std::cerr << "Warning: could not read settings.json (" << e.what() << "), using defaults.\n";
     }
@@ -64,22 +85,25 @@ Config Config::load() {
     return cfg;
 }
 
-bool Config::saveExplanationLanguage(const std::string& language) {
-    explanationLanguage = language;
-    const fs::path settingsPath = fs::path(rootDir) / "settings.json";
-    json::Value s = json::Value::object();
-    try {
-        if (fs::exists(settingsPath)) s = json::parseFile(settingsPath.string());
-    } catch (const std::exception&) {
-        return false;  // never overwrite a settings file we could not read
-    }
-    json::Value ds = s["deepseek"].isObject() ? s["deepseek"] : json::Value::object();
-    ds.set("explanation_language", language);
-    s.set("deepseek", std::move(ds));
-    return json::writeFileAtomic(settingsPath.string(), s.dump(2) + "\n");
+bool Config::saveExplanationLanguage(const std::string& lang) {
+    explanationLanguage = lang;
+    return updateSettings(rootDir, [&](json::Value& s) {
+        json::Value ds = s["deepseek"].isObject() ? s["deepseek"] : json::Value::object();
+        ds.set("explanation_language", lang);
+        s.set("deepseek", std::move(ds));
+    });
 }
 
-std::string Config::levelsDir() const { return (fs::path(rootDir) / "data" / "levels").string(); }
+bool Config::saveStudyLanguage(const std::string& lang) {
+    language = lang;
+    return updateSettings(rootDir, [&](json::Value& s) { s.set("language", lang); });
+}
+
+const std::string& Config::defaultLevelFor(const std::string& lang) const {
+    return lang == "ko" ? defaultLevelKo : defaultLevel;
+}
+
+std::string Config::levelsDir() const { return (fs::path(rootDir) / "data" / language / "levels").string(); }
 
 std::string Config::levelDataDir(const std::string& level) const {
     return (fs::path(levelsDir()) / level).string();
@@ -97,7 +121,8 @@ std::vector<std::string> Config::availableLevels() const {
     std::error_code ec;
     for (const auto& entry : fs::directory_iterator(levelsDir(), ec))
         if (entry.is_directory()) levels.push_back(entry.path().filename().string());
-    // "N5" < "N4" < ... : easiest level first.
-    std::sort(levels.begin(), levels.end(), std::greater<>());
+    // Easiest first: JLPT counts down (N5 … N1), TOPIK up (A1, A2).
+    if (language == "ja") std::sort(levels.begin(), levels.end(), std::greater<>());
+    else std::sort(levels.begin(), levels.end());
     return levels;
 }

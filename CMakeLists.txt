@@ -19,6 +19,7 @@ add_executable(jlpt-trainer
   src/DeepSeekClient.cpp
   src/Furigana.cpp
   src/Json.cpp
+  src/Language.cpp
   src/MistakeTracker.cpp
   src/ProgressTracker.cpp
   src/Question.cpp

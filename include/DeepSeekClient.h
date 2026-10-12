@@ -23,7 +23,9 @@ struct DeepSeekSettings {
 };
 
 struct ExplainRequest {
-    std::string level;          // "N4"
+    std::string level;          // "JLPT N4" / "TOPIK I · 1급 (A1)"
+    std::string studyLanguage = "Japanese";
+    std::string exampleStyle;   // how to write examples in the study language
     std::string section;        // vocabulary | grammar | reading | listening
     std::string instruction;
     std::string passage;        // reading passage or listening transcript
@@ -35,6 +37,7 @@ struct ExplainRequest {
 
 struct TranslateRequest {
     std::string level;
+    std::string studyLanguage = "Japanese";
     std::string section;
     std::string passage;        // reading passage or listening transcript
     std::string question;       // sentence with a blank or 【】 markup

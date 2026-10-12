@@ -1,4 +1,4 @@
-// JLPT Trainer — terminal app for JLPT practice (N4 data included).
+// JLPT / TOPIK Trainer — terminal app for Japanese (JLPT) and Korean (TOPIK I) exam practice.
 #include <clocale>
 #include <cstring>
 #include <iostream>
@@ -14,14 +14,18 @@ int main(int argc, char** argv) {
     std::ios::sync_with_stdio(true);
 
     Config config = Config::load();
+    const char* level = nullptr;
     for (int i = 1; i < argc; ++i) {
         if ((std::strcmp(argv[i], "--level") == 0 || std::strcmp(argv[i], "-l") == 0) && i + 1 < argc) {
-            config.defaultLevel = argv[++i];
+            level = argv[++i];
+        } else if (std::strcmp(argv[i], "--lang") == 0 && i + 1 < argc) {
+            config.language = std::strcmp(argv[++i], "ko") == 0 ? "ko" : "ja";
         } else if (std::strcmp(argv[i], "--help") == 0 || std::strcmp(argv[i], "-h") == 0) {
-            std::cout << "Usage: jlpt-trainer [--level N4]\n"
+            std::cout << "Usage: jlpt-trainer [--lang ja|ko] [--level N4|A1|A2…]\n"
                          "Env: JLPT_HOME (project root), DEEPSEEK_API_KEY, NO_COLOR\n";
             return 0;
         }
     }
+    if (level) (config.language == "ko" ? config.defaultLevelKo : config.defaultLevel) = level;
     return App(std::move(config)).run();
 }

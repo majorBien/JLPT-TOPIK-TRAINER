@@ -5,8 +5,7 @@
 
 class SRSModule : public Module {
 public:
-    std::string japaneseTitle() const override { return "復習 SRS"; }
-    std::string title() const override { return "SRS Vocabulary Trainer"; }
+    std::string key() const override { return "srs"; }
     std::string badge(const AppContext& ctx) const override;
     void run(AppContext& ctx) override;
 

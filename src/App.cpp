@@ -1,5 +1,6 @@
 #include "App.h"
 
+#include <algorithm>
 #include <iostream>
 
 #include "Terminal.h"
@@ -10,22 +11,6 @@
 #include "modules/ProgressModule.h"
 #include "modules/SRSModule.h"
 #include "modules/VocabularyModule.h"
-
-namespace {
-
-const std::vector<std::string>& bannerLines() {
-    static const std::vector<std::string> lines = {
-        "     ██╗██╗     ██████╗ ████████╗",
-        "     ██║██║     ██╔══██╗╚══██╔══╝",
-        "     ██║██║     ██████╔╝   ██║   ",
-        "██   ██║██║     ██╔═══╝    ██║   ",
-        "╚█████╔╝███████╗██║        ██║   ",
-        " ╚════╝ ╚══════╝╚═╝        ╚═╝   ",
-    };
-    return lines;
-}
-
-}  // namespace
 
 App::App(Config config) : config_(std::move(config)) {
     // Menu order = registration order. Add new modules here.
@@ -48,11 +33,13 @@ void App::drawMainMenu() const {
                                      ui::style::BrightMagenta, ui::style::Magenta, ui::style::Magenta};
     std::vector<std::string> banner;
     banner.emplace_back();
-    for (std::size_t i = 0; i < bannerLines().size(); ++i)
-        banner.push_back(ui::center(ui::paint(bannerLines()[i], {ui::style::Bold, gradient[i]}), w));
+    const LanguageProfile& lang = ctx_->lang;
+    for (std::size_t i = 0; i < lang.banner.size() && i < 6; ++i)
+        banner.push_back(ui::center(ui::paint(lang.banner[i], {ui::style::Bold, gradient[i]}), w));
     banner.emplace_back();
-    banner.push_back(ui::center(ui::paint("日本語能力試験  ·  " + ctx_->level + " トレーナー", {ui::style::Bold, ui::style::BrightYellow}), w));
-    banner.push_back(ui::center(ui::paint("Japanese-Language Proficiency Test trainer  ·  がんばって！", ui::style::Gray), w));
+    const std::string tagline = util::replaceAll(lang.tagline, "{level}", lang.levelLabel(ctx_->level));
+    banner.push_back(ui::center(ui::paint(tagline, {ui::style::Bold, ui::style::BrightYellow}), w));
+    banner.push_back(ui::center(ui::paint(lang.subtitle, ui::style::Gray), w));
     ui::printBox(banner, {}, ui::style::Magenta, true);
     std::cout << '\n';
 
@@ -61,21 +48,21 @@ void App::drawMainMenu() const {
         const auto& m = *modules_[i];
         const std::string key = ui::paint("[" + std::to_string(i + 1) + "]", {ui::style::Bold, ui::style::BrightMagenta});
         const std::string badge = m.badge(*ctx_);
-        std::string line = key + "  " + ui::padRight(ui::paint(m.japaneseTitle(), ui::style::BrightYellow), 12) + m.title();
+        std::string line = key + "  " + ui::padRight(ui::paint(m.nativeTitle(*ctx_), ui::style::BrightYellow), 12) + m.title(*ctx_);
         if (!badge.empty()) line = ui::padRight(line, w - ui::displayWidth(badge) - 2) + ui::paint("‹" + badge + "›", ui::style::BrightCyan);
         menu.push_back(line);
     }
     menu.emplace_back();
     const auto levels = config_.availableLevels();
-    menu.push_back(ui::paint("[L]", {ui::style::Bold, ui::style::BrightMagenta}) + "  " +
-                   ui::padRight(ui::paint("レベル", ui::style::BrightYellow), 12) + "Change level " +
-                   ui::paint("(" + ctx_->level + "; available: " + std::to_string(levels.size()) + ")", ui::style::Gray));
-    menu.push_back(ui::paint("[S]", {ui::style::Bold, ui::style::BrightMagenta}) + "  " +
-                   ui::padRight(ui::paint("設定", ui::style::BrightYellow), 12) + "Settings " +
-                   ui::paint("(explanations: " + ctx_->deepseek.language() + ")", ui::style::Gray));
     menu.push_back(ui::paint("[" + std::to_string(modules_.size() + 1) + "]", {ui::style::Bold, ui::style::BrightMagenta}) + "  " +
-                   ui::padRight(ui::paint("終了", ui::style::BrightYellow), 12) + "Exit");
-    ui::printBox(menu, "メニュー Menu", ui::style::Cyan);
+                   ui::padRight(ui::paint(lang.levelTitle, ui::style::BrightYellow), 12) + "Change level " +
+                   ui::paint("(" + lang.levelLabel(ctx_->level) + "; available: " + std::to_string(levels.size()) + ")", ui::style::Gray));
+    menu.push_back(ui::paint("[" + std::to_string(modules_.size() + 2) + "]", {ui::style::Bold, ui::style::BrightMagenta}) + "  " +
+                   ui::padRight(ui::paint(lang.settingsTitle, ui::style::BrightYellow), 12) + "Settings " +
+                   ui::paint("(" + lang.nativeName + " · " + lang.exam + "; explanations: " + ctx_->deepseek.language() + ")", ui::style::Gray));
+    menu.push_back(ui::paint("[" + std::to_string(modules_.size() + 3) + "]", {ui::style::Bold, ui::style::BrightMagenta}) + "  " +
+                   ui::padRight(ui::paint(lang.exitTitle, ui::style::BrightYellow), 12) + "Exit");
+    ui::printBox(menu, lang.menuTitle, ui::style::Cyan);
 
     const bool ds = ctx_->deepseek.isConfigured();
     const bool tts = ctx_->tts->available() && ctx_->player.available();
@@ -87,10 +74,10 @@ void App::drawMainMenu() const {
 
 void App::chooseLevel() {
     const auto levels = config_.availableLevels();
-    ui::printHeader("レベル  Choose level", "Data folders found in data/levels/");
+    ui::printHeader(ctx_->lang.levelTitle + "  Choose level", "Data folders found in data/" + config_.language + "/levels/");
     std::cout << '\n';
     for (std::size_t i = 0; i < levels.size(); ++i)
-        std::cout << "   " << ui::paint("[" + std::to_string(i + 1) + "]", ui::style::BrightMagenta) << ' ' << levels[i]
+        std::cout << "   " << ui::paint("[" + std::to_string(i + 1) + "]", ui::style::BrightMagenta) << ' ' << ctx_->lang.levelLabel(levels[i])
                   << (levels[i] == ctx_->level ? ui::paint("  ← current", ui::style::Gray) : "") << '\n';
     std::cout << '\n';
     const auto in = ui::readLine("Level number (Enter = cancel): ");
@@ -117,18 +104,65 @@ void App::settingsMenu() {
         ui::clearScreen();
         ui::printHeader("設定  Settings", "Saved to settings.json");
         std::cout << '\n';
-        std::cout << "   " << ui::paint("[1]", ui::style::BrightMagenta) << " Explanation language (DeepSeek \"why\"): "
+        std::cout << "   " << ui::paint("[1]", ui::style::BrightMagenta) << " Study language / exam:            "
+                  << ui::paint(ctx_->lang.nativeName + " · " + ctx_->lang.exam, {ui::style::Bold, ui::style::BrightGreen}) << '\n';
+        std::cout << "   " << ui::paint("[2]", ui::style::BrightMagenta) << " Explanation language (DeepSeek):  "
                   << ui::paint(ctx_->deepseek.language(), {ui::style::Bold, ui::style::BrightGreen}) << "\n\n";
         const auto in = ui::readLine("Setting number (Enter = back): ");
         if (!in || in->empty() || util::toLower(*in) == "b" || util::toLower(*in) == "q") return;
-        if (*in == "1") chooseExplanationLanguage();
+        if (*in == "1") chooseStudyLanguage();
+        if (*in == "2") chooseExplanationLanguage();
     }
+}
+
+void App::chooseStudyLanguage() {
+    ui::clearScreen();
+    ui::printHeader("Study language", "Switches the whole trainer: data, exam format, voices");
+    std::cout << '\n';
+    const auto& ids = languageIds();
+    for (std::size_t i = 0; i < ids.size(); ++i) {
+        const LanguageProfile& p = languageProfile(ids[i]);
+        std::cout << "   " << ui::paint("[" + std::to_string(i + 1) + "]", ui::style::BrightMagenta) << ' '
+                  << ui::padRight(p.nativeName, 8) << ui::padRight(p.name, 10) << ui::paint(p.exam, ui::style::Gray)
+                  << (p.id == ctx_->lang.id ? ui::paint("  ← current", ui::style::BrightGreen) : "") << '\n';
+    }
+    std::cout << '\n';
+    const auto in = ui::readLine("Language number (Enter = cancel): ");
+    if (!in || in->empty()) return;
+    std::size_t n = 0;
+    try {
+        n = std::stoul(*in);
+    } catch (const std::exception&) {
+    }
+    if (n < 1 || n > ids.size()) {
+        ui::warn("Invalid choice.");
+        ui::waitForEnter();
+        return;
+    }
+    const std::string previous = config_.language;
+    const std::string chosen = ids[n - 1];
+    if (chosen == previous) return;
+
+    config_.language = chosen;
+    std::string level = config_.defaultLevelFor(chosen);
+    const auto levels = config_.availableLevels();
+    if (std::find(levels.begin(), levels.end(), level) == levels.end() && !levels.empty()) level = levels.front();
+    try {
+        loadLevel(level);
+    } catch (const std::exception& e) {
+        ui::error(std::string("Cannot load ") + languageProfile(chosen).name + " data: " + e.what());
+        config_.language = previous;
+        loadLevel(config_.defaultLevelFor(previous));
+        ui::waitForEnter();
+        return;
+    }
+    if (!config_.saveStudyLanguage(chosen)) ui::warn("Switched for now, but settings.json could not be saved.");
 }
 
 void App::chooseExplanationLanguage() {
     // The name is passed to DeepSeek as-is ("Always answer in <language>"), so any language works.
     static const std::vector<std::pair<std::string, std::string>> languages = {
-        {"Polish", "polski"},   {"English", "English"},   {"Japanese", "日本語"},   {"German", "Deutsch"},
+        {"Polish", "polski"},   {"English", "English"},   {"Japanese", "日本語"},   {"Korean", "한국어"},   {"German", "Deutsch"},
         {"Spanish", "español"}, {"French", "français"},   {"Ukrainian", "українська"}, {"Italian", "italiano"},
     };
     ui::clearScreen();
@@ -171,9 +205,9 @@ void App::chooseExplanationLanguage() {
 
 int App::run() {
     try {
-        loadLevel(config_.defaultLevel);
+        loadLevel(config_.defaultLevelFor(config_.language));
     } catch (const std::exception& e) {
-        ui::error(std::string("Failed to load level ") + config_.defaultLevel + ": " + e.what());
+        ui::error(std::string("Failed to load level ") + config_.defaultLevelFor(config_.language) + ": " + e.what());
         ui::info("Data directory: " + config_.levelsDir() + "  (set JLPT_HOME to the project root)");
         return 1;
     }
@@ -183,10 +217,13 @@ int App::run() {
         const auto in = ui::readLine("Choose an option: ");
         if (!in) break;
         const std::string cmd = util::toLower(*in);
-        const std::string exitKey = std::to_string(modules_.size() + 1);
+        // Modules 1…n, then level, settings, exit — numbers only.
+        const std::string levelKey = std::to_string(modules_.size() + 1);
+        const std::string settingsKey = std::to_string(modules_.size() + 2);
+        const std::string exitKey = std::to_string(modules_.size() + 3);
         if (cmd == exitKey || cmd == "q" || cmd == "0" || cmd == "exit") break;
-        if (cmd == "l") { chooseLevel(); continue; }
-        if (cmd == "s") { settingsMenu(); continue; }
+        if (cmd == levelKey) { chooseLevel(); continue; }
+        if (cmd == settingsKey) { settingsMenu(); continue; }
         try {
             const std::size_t n = std::stoul(cmd);
             if (n >= 1 && n <= modules_.size()) modules_[n - 1]->run(*ctx_);
@@ -196,6 +233,6 @@ int App::run() {
         }
     }
     ui::clearScreen();
-    std::cout << "\n  " << ui::paint("おつかれさまでした！ またね 👋", {ui::style::Bold, ui::style::BrightYellow}) << "\n\n";
+    std::cout << "\n  " << ui::paint(ctx_->lang.goodbye, {ui::style::Bold, ui::style::BrightYellow}) << "\n\n";
     return 0;
 }

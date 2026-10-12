@@ -85,18 +85,18 @@ std::string srsCell(const SrsCard* c) {
 void ProgressModule::run(AppContext& ctx) {
     for (;;) {
         showOverview(ctx);
-        std::cout << "   " << ui::paint("[k]", ui::style::BrightMagenta) << " all kanji/vocab   "
+        std::cout << "   " << ui::paint("[k]", ui::style::BrightMagenta) << " all vocabulary   "
                   << ui::paint("[g]", ui::style::BrightMagenta) << " all grammar   "
                   << ui::paint("[b]", ui::style::BrightMagenta) << " back\n\n";
         const auto in = ui::readLine("");
         if (!in) return;
         const std::string cmd = util::toLower(*in);
         if (cmd == "k") {
-            ui::printHeader("漢字・語彙  Kanji & Vocabulary", "JLPT " + ctx.level);
+            ui::printHeader(ctx.lang.moduleNative("vocabulary") + "  Vocabulary", ctx.levelName());
             showKanji(ctx, true);
             ui::waitForEnter();
         } else if (cmd == "g") {
-            ui::printHeader("文法  Grammar", "JLPT " + ctx.level);
+            ui::printHeader(ctx.lang.moduleNative("grammar") + "  Grammar & Reading", ctx.levelName());
             showGrammar(ctx, true);
             ui::waitForEnter();
         } else {
@@ -106,7 +106,7 @@ void ProgressModule::run(AppContext& ctx) {
 }
 
 void ProgressModule::showOverview(AppContext& ctx) const {
-    ui::printHeader("進歩  Progress", "JLPT " + ctx.level + " · statistics");
+    ui::printHeader(nativeTitle(ctx) + "  Progress", ctx.levelName() + " · statistics");
     std::cout << '\n';
 
     int answers = 0, correct = 0;
@@ -125,7 +125,7 @@ void ProgressModule::showOverview(AppContext& ctx) const {
         "SRS: " + std::to_string(srs.total - srs.unseen) + "/" + std::to_string(srs.total) + " studied · " +
             std::to_string(srs.mature) + " mature · " + std::to_string(srs.dueNow) + " due now" +
             (sessions.empty() ? "" : "   ·   last session " + util::formatDate(sessions.back().timestamp)),
-    }, "総合 Overview", ui::style::Magenta);
+    }, "Overview", ui::style::Magenta);
     std::cout << '\n';
 
     showKanji(ctx, false);
@@ -133,7 +133,7 @@ void ProgressModule::showOverview(AppContext& ctx) const {
     showListening(ctx);
 
     if (!sessions.empty()) {
-        ui::printRule("最近 Recent sessions");
+        ui::printRule("Recent sessions");
         ui::Table t({"Date", "Module", "Score", ""});
         for (std::size_t i = sessions.size(); i > 0 && i + 5 > sessions.size(); --i) {
             const auto& s = sessions[i - 1];
@@ -148,7 +148,7 @@ void ProgressModule::showOverview(AppContext& ctx) const {
 
 void ProgressModule::showKanji(AppContext& ctx, bool full) const {
     const auto rows = kanjiRows(ctx);
-    printSplitBar("漢字・語彙 Kanji", rows);
+    printSplitBar(ctx.lang.moduleNative("vocabulary") + " Vocabulary", rows);
 
     std::vector<const Row*> review, mastered;
     for (const auto& r : rows) {
@@ -178,7 +178,7 @@ void ProgressModule::showKanji(AppContext& ctx, bool full) const {
 
 void ProgressModule::showGrammar(AppContext& ctx, bool full) const {
     const auto rows = grammarRows(ctx);
-    printSplitBar("文法 Grammar", rows);
+    printSplitBar(ctx.lang.moduleNative("grammar") + " Grammar", rows);
 
     std::vector<const Row*> review, mastered;
     for (const auto& r : rows) {
@@ -213,7 +213,7 @@ void ProgressModule::showListening(AppContext& ctx) const {
         if (s.group == group::Listening) stats.push_back(&s);
     if (stats.empty()) return;
 
-    ui::Table t({"聴解 Listening part", "Accuracy", "Status"});
+    ui::Table t({ctx.lang.moduleNative("listening") + " Listening part", "Accuracy", "Status"});
     for (const auto* s : stats) {
         const Mastery m = ProgressTracker::mastery(s);
         t.addRow({s->label, accuracyCell(s),

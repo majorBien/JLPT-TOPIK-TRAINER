@@ -19,6 +19,7 @@ private:
     void drawMainMenu() const;
     void chooseLevel();
     void settingsMenu();
+    void chooseStudyLanguage();
     void chooseExplanationLanguage();
 
     Config config_;

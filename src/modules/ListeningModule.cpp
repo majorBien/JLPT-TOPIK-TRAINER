@@ -20,23 +20,18 @@ struct Segment {
     int pauseMs;
 };
 
-const char* spokenNumber(std::size_t i) {
-    static const char* numbers[] = {"いち", "に", "さん", "よん", "ご"};
-    return i < 5 ? numbers[i] : "";
-}
-
 // Lays out the audio like the real exam for each question type.
-std::vector<Segment> buildScript(const ListeningItem& item) {
+std::vector<Segment> buildScript(const LanguageProfile& lang, const ListeningItem& item) {
     std::vector<Segment> s;
     if (!item.situation.empty()) s.push_back({"N", item.situation, item.spokenOptions() ? 1500 : 1200});
     for (std::size_t i = 0; i < item.lines.size(); ++i)
         s.push_back({item.lines[i].speaker, item.lines[i].text, i + 1 == item.lines.size() ? 1200 : 600});
     if (item.spokenOptions()) {
         for (std::size_t i = 0; i < item.options.size(); ++i) {
-            s.push_back({"N", spokenNumber(i), 350});
+            if (i < lang.spokenNumbers.size()) s.push_back({"N", lang.spokenNumbers[i], 350});
             s.push_back({item.optionSpeaker, item.options[i], 900});
         }
-    } else if (!item.question.empty()) {
+    } else if (!item.question.empty() && lang.speakListeningQuestion) {
         s.push_back({"N", item.question, 300});
     }
     return s;
@@ -58,7 +53,7 @@ std::string ListeningModule::badge(const AppContext& ctx) const {
 std::string ListeningModule::audioFor(AppContext& ctx, const ListeningItem& item) const {
     if (!ctx.tts->available() || !ctx.player.available()) return {};
 
-    const auto script = buildScript(item);
+    const auto script = buildScript(ctx.lang, item);
     std::string signature = ctx.tts->voiceSignature();
     for (const auto& seg : script) signature += "|" + seg.speaker + ":" + seg.text + ":" + std::to_string(seg.pauseMs);
 
@@ -98,9 +93,9 @@ void ListeningModule::runSession(AppContext& ctx) const {
         for (const auto& item : items) weights.push_back(ctx.progress.weightFor("listening:" + item.type));
         auto picked = util::weightedSample(weights, static_cast<std::size_t>(ctx.config.sessionSize), ctx.rng);
 
-        // Exam order: 課題理解 → ポイント理解 → 発話表現 → 即時応答.
+        // Exam order, e.g. 課題理解 → ポイント理解 → 発話表現 → 即時応答.
         auto rank = [&](std::size_t idx) {
-            static const std::vector<std::string> order = {"task", "point", "utterance", "response"};
+            const auto& order = ctx.lang.listeningOrder;
             return std::find(order.begin(), order.end(), items[idx].type) - order.begin();
         };
         std::stable_sort(picked.begin(), picked.end(), [&](auto a, auto b) { return rank(a) < rank(b); });
@@ -109,26 +104,26 @@ void ListeningModule::runSession(AppContext& ctx) const {
         std::vector<std::string> audioFiles;
         for (std::size_t i = 0; i < picked.size(); ++i) {
             const ListeningItem& item = items[picked[i]];
-            questions.push_back(item.toQuestion());
-            const std::string msg = "音声を準備中… preparing audio " + std::to_string(i + 1) + "/" + std::to_string(picked.size());
+            questions.push_back(item.toQuestion(ctx.lang));
+            const std::string msg = ctx.lang.preparingAudio + " " + std::to_string(i + 1) + "/" + std::to_string(picked.size());
             audioFiles.push_back(ui::withSpinner(msg, [&] { return audioFor(ctx, item); }));
         }
 
         quiz::SessionOptions opt;
-        opt.title = "聴解  Listening " + ctx.level;
+        opt.title = nativeTitle(ctx) + "  Listening " + ctx.level;
         opt.moduleName = "Listening";
         opt.mistakeSource = "Listening";
         opt.listeningMode = true;
         opt.present = [&](std::size_t i) {
             if (audioFiles[i].empty()) {
                 ui::warn("No audio available (" + ctx.tts->status() + ") — showing the transcript instead.");
-                ui::printBox(ui::wrap(questions[i].passage, ui::contentWidth()), "スクリプト Transcript", ui::style::Blue);
+                ui::printBox(ui::wrap(questions[i].passage, ui::contentWidth()), ctx.lang.transcriptTitle, ui::style::Blue);
                 return;
             }
-            std::cout << "  " << ui::paint("♪ 再生中… playing", {ui::style::Bold, ui::style::BrightCyan})
+            std::cout << "  " << ui::paint(ctx.lang.playing, {ui::style::Bold, ui::style::BrightCyan})
                       << ui::paint("  (Ctrl+C stops playback)", ui::style::Gray) << std::flush;
             ctx.player.play(audioFiles[i]);
-            std::cout << "\r\033[2K  " << ui::paint("♪ 再生終了 finished", ui::style::Cyan) << '\n';
+            std::cout << "\r\033[2K  " << ui::paint(ctx.lang.finished, ui::style::Cyan) << '\n';
         };
 
         quiz::QuizSession session(ctx, opt);
@@ -141,11 +136,11 @@ void ListeningModule::runSession(AppContext& ctx) const {
 
 void ListeningModule::run(AppContext& ctx) {
     for (;;) {
-        ui::printHeader("聴解  Listening", "JLPT " + ctx.level + " · sessions of " + std::to_string(ctx.config.sessionSize) + " items");
+        ui::printHeader(nativeTitle(ctx) + "  Listening", ctx.levelName() + " · sessions of " + std::to_string(ctx.config.sessionSize) + " items");
         std::cout << '\n';
         const auto& items = ctx.bank.listeningItems();
         if (items.empty()) {
-            ui::warn("This level has no listening data (data/levels/" + ctx.level + "/listening.json).");
+            ui::warn("This level has no listening data (" + ctx.config.levelDataDir(ctx.level) + "/listening.json).");
             ui::waitForEnter();
             return;
         }
@@ -157,9 +152,11 @@ void ListeningModule::run(AppContext& ctx) {
             "TTS engine:     " + (ttsOk ? ui::paint(ctx.tts->status(), ui::style::Green) : ui::paint(ctx.tts->status(), ui::style::Yellow)),
             "Audio player:   " + (playerOk ? ui::paint(ctx.player.command(), ui::style::Green) : ui::paint("none found (install pipewire/pulseaudio/alsa-utils)", ui::style::Yellow)),
             "",
-            ui::paint("Each item plays like the real exam: situation → dialogue → question.", ui::style::Gray),
-            ui::paint("In 発話表現/即時応答 the answer choices are only spoken — listen carefully!", ui::style::Gray),
-        }, "聴解", ui::style::Cyan);
+            ui::paint(ctx.lang.speakListeningQuestion ? "Each item plays like the real exam: situation → dialogue → question."
+                                                      : "Each item plays like the real exam; [r] replays it (TOPIK plays it twice).",
+                      ui::style::Gray),
+            ui::paint(ctx.lang.listeningHint, ui::style::Gray),
+        }, nativeTitle(ctx), ui::style::Cyan);
         std::cout << '\n';
         std::cout << "   " << ui::paint("[Enter]", ui::style::BrightMagenta) << " start session   "
                   << ui::paint("[g]", ui::style::BrightMagenta) << " pre-generate all audio   "

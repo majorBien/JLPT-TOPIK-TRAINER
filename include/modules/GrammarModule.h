@@ -5,8 +5,7 @@
 
 class GrammarModule : public Module {
 public:
-    std::string japaneseTitle() const override { return "文法・読解"; }
-    std::string title() const override { return "Language Knowledge (Grammar) & Reading"; }
+    std::string key() const override { return "grammar"; }
     void run(AppContext& ctx) override;
 
 private:

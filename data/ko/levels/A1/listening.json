@@ -1,0 +1,2502 @@
+{
+  "level": "A1",
+  "source": "Original scripts written for this app in TOPIK I format (not copied from official tests).",
+  "items": [
+    {
+      "id": "l001",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "공책이에요?"
+        }
+      ],
+      "options": [
+        "네, 공책이에요.",
+        "아니요, 공책이 싫어요.",
+        "네, 공책이 없어요.",
+        "아니요, 공책이 커요."
+      ],
+      "answer": 0,
+      "note": "공책이에요? → 네, 공책이에요."
+    },
+    {
+      "id": "l002",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "동생이 있어요?"
+        }
+      ],
+      "options": [
+        "아니요, 동생이에요.",
+        "아니요, 동생이 없어요.",
+        "네, 동생이 아니에요.",
+        "네, 동생을 좋아해요."
+      ],
+      "answer": 1,
+      "note": "있어요? → 있어요 / 없어요."
+    },
+    {
+      "id": "l003",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "사과가 맛있어요?"
+        }
+      ],
+      "options": [
+        "네, 맛있어요.",
+        "네, 사과가 아니에요.",
+        "아니요, 사과가 있어요.",
+        "아니요, 사과를 사요."
+      ],
+      "answer": 0,
+      "note": "맛있어요? → 네, 맛있어요."
+    },
+    {
+      "id": "l004",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "학교가 멀어요?"
+        }
+      ],
+      "options": [
+        "아니요, 학교가 커요.",
+        "아니요, 가까워요.",
+        "네, 학교가 아니에요.",
+        "네, 학교에 가요."
+      ],
+      "answer": 1,
+      "note": "멀어요? → 아니요, 가까워요."
+    },
+    {
+      "id": "l005",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "어디에 가요?"
+        }
+      ],
+      "options": [
+        "시장에 가요.",
+        "친구하고 가요.",
+        "어제 갔어요.",
+        "버스로 가요."
+      ],
+      "answer": 0,
+      "note": "어디 (where) → a place."
+    },
+    {
+      "id": "l006",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "누구를 만나요?"
+        }
+      ],
+      "options": [
+        "친구를 만나요.",
+        "학교에서 만나요.",
+        "자주 만나요.",
+        "세 시에 만나요."
+      ],
+      "answer": 0,
+      "note": "누구 (who) → a person."
+    },
+    {
+      "id": "l007",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "언제 한국에 왔어요?"
+        }
+      ],
+      "options": [
+        "비행기로 왔어요.",
+        "작년에 왔어요.",
+        "혼자 왔어요.",
+        "부산에 왔어요."
+      ],
+      "answer": 1,
+      "note": "언제 (when) → a time."
+    },
+    {
+      "id": "l008",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "주말에 뭐 했어요?"
+        }
+      ],
+      "options": [
+        "토요일이에요.",
+        "친구가 있어요.",
+        "영화를 봤어요.",
+        "주말에 할 거예요."
+      ],
+      "answer": 2,
+      "note": "뭐 했어요? → an activity in the past."
+    },
+    {
+      "id": "l009",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "커피를 좋아해요?"
+        }
+      ],
+      "options": [
+        "아니요, 마셔요.",
+        "네, 좋아해요.",
+        "아니요, 커피가 있어요.",
+        "네, 커피예요."
+      ],
+      "answer": 1,
+      "note": "좋아해요? → 네, 좋아해요."
+    },
+    {
+      "id": "l010",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "이 가방은 얼마예요?"
+        }
+      ],
+      "options": [
+        "삼만 원이에요.",
+        "백화점에서 샀어요.",
+        "제 가방이에요.",
+        "가방이 커요."
+      ],
+      "answer": 0,
+      "note": "얼마 (how much) → a price."
+    },
+    {
+      "id": "l011",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "지금 몇 시예요?"
+        }
+      ],
+      "options": [
+        "두 시 반이에요.",
+        "둘이에요.",
+        "두 시간이에요.",
+        "두 번 갔어요."
+      ],
+      "answer": 0,
+      "note": "몇 시 → a clock time."
+    },
+    {
+      "id": "l012",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "한국어를 어디에서 배웠어요?"
+        }
+      ],
+      "options": [
+        "재미있게 배웠어요.",
+        "일 년 동안 배웠어요.",
+        "선생님한테 배웠어요.",
+        "대학교에서 배웠어요."
+      ],
+      "answer": 3,
+      "note": "어디에서 → place."
+    },
+    {
+      "id": "l013",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "시험이 어려웠어요?"
+        }
+      ],
+      "options": [
+        "아니요, 시험을 봐요.",
+        "아니요, 쉬웠어요.",
+        "네, 시험이 없어요.",
+        "네, 시험이에요."
+      ],
+      "answer": 1,
+      "note": "어려웠어요? → 쉬웠어요 / 어려웠어요."
+    },
+    {
+      "id": "l014",
+      "type": "answer",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "점심 먹었어요?"
+        }
+      ],
+      "options": [
+        "아니요, 점심을 좋아해요.",
+        "아니요, 아직 안 먹었어요.",
+        "네, 점심이에요.",
+        "네, 먹을 거예요."
+      ],
+      "answer": 1,
+      "note": "먹었어요? → past answer."
+    },
+    {
+      "id": "l015",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "생일 축하해요."
+        }
+      ],
+      "options": [
+        "죄송해요.",
+        "괜찮아요.",
+        "고마워요.",
+        "안녕히 가세요."
+      ],
+      "answer": 2,
+      "note": "Reply to congratulations: 고마워요."
+    },
+    {
+      "id": "l016",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "늦어서 미안해요."
+        }
+      ],
+      "options": [
+        "어서 오세요.",
+        "축하해요.",
+        "잘 먹겠습니다.",
+        "괜찮아요."
+      ],
+      "answer": 3,
+      "note": "Reply to an apology: 괜찮아요."
+    },
+    {
+      "id": "l017",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "안녕히 계세요."
+        }
+      ],
+      "options": [
+        "어서 오세요.",
+        "안녕히 계세요.",
+        "처음 뵙겠습니다.",
+        "안녕히 가세요."
+      ],
+      "answer": 3,
+      "note": "The one leaving says 계세요, the one staying replies 가세요."
+    },
+    {
+      "id": "l018",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "처음 뵙겠습니다."
+        }
+      ],
+      "options": [
+        "반갑습니다.",
+        "축하합니다.",
+        "잘 먹었습니다.",
+        "실례합니다."
+      ],
+      "answer": 0,
+      "note": "First meeting → 반갑습니다."
+    },
+    {
+      "id": "l019",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "맛있게 드세요."
+        }
+      ],
+      "options": [
+        "잘 먹었습니다.",
+        "축하합니다.",
+        "잘 먹겠습니다.",
+        "반갑습니다."
+      ],
+      "answer": 2,
+      "note": "Before eating → 잘 먹겠습니다."
+    },
+    {
+      "id": "l020",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "여보세요, 거기 김민수 씨 댁이지요?"
+        }
+      ],
+      "options": [
+        "네, 들어오세요.",
+        "네, 그런데요.",
+        "네, 잘 지내요.",
+        "아니요, 괜찮아요."
+      ],
+      "answer": 1,
+      "note": "Answering the phone: 네, 그런데요."
+    },
+    {
+      "id": "l021",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "어서 오세요. 뭘 드릴까요?"
+        }
+      ],
+      "options": [
+        "커피 한 잔 주세요.",
+        "잘 먹었습니다.",
+        "안녕히 가세요.",
+        "네, 반갑습니다."
+      ],
+      "answer": 0,
+      "note": "In a shop/café: order something."
+    },
+    {
+      "id": "l022",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "도와줘서 고마워요."
+        }
+      ],
+      "options": [
+        "미안해요.",
+        "실례합니다.",
+        "축하해요.",
+        "아니에요."
+      ],
+      "answer": 3,
+      "note": "Reply to thanks: 아니에요 (it's nothing)."
+    },
+    {
+      "id": "l023",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "실례지만, 화장실이 어디예요?"
+        }
+      ],
+      "options": [
+        "고마워요.",
+        "네, 맞아요.",
+        "저쪽에 있어요.",
+        "다녀오세요."
+      ],
+      "answer": 2,
+      "note": "Directions in reply."
+    },
+    {
+      "id": "l024",
+      "type": "next",
+      "situation": "",
+      "question": "",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "주말 잘 보내세요."
+        }
+      ],
+      "options": [
+        "네, 잘 먹었어요.",
+        "네, 처음 뵙겠습니다.",
+        "아니요, 괜찮아요.",
+        "네, 민수 씨도요."
+      ],
+      "answer": 3,
+      "note": "Return the wish: ○○ 씨도요."
+    },
+    {
+      "id": "l025",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "어떻게 오셨어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "이 소포를 미국에 보내고 싶어요."
+        }
+      ],
+      "options": [
+        "서점",
+        "은행",
+        "약국",
+        "우체국"
+      ],
+      "answer": 3,
+      "note": "Sending a parcel → post office."
+    },
+    {
+      "id": "l026",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "이 바지 입어 봐도 돼요?"
+        },
+        {
+          "speaker": "F",
+          "text": "네, 저쪽에서 입어 보세요."
+        }
+      ],
+      "options": [
+        "옷 가게",
+        "도서관",
+        "병원",
+        "식당"
+      ],
+      "answer": 0,
+      "note": "Trying on trousers → clothes shop."
+    },
+    {
+      "id": "l027",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "어디가 아프세요?"
+        },
+        {
+          "speaker": "M",
+          "text": "어제부터 배가 아파요."
+        }
+      ],
+      "options": [
+        "시장",
+        "병원",
+        "학교",
+        "공항"
+      ],
+      "answer": 1,
+      "note": "Asking where it hurts → hospital."
+    },
+    {
+      "id": "l028",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "이 책 빌리고 싶어요."
+        },
+        {
+          "speaker": "F",
+          "text": "학생증을 보여 주세요."
+        }
+      ],
+      "options": [
+        "우체국",
+        "은행",
+        "도서관",
+        "서점"
+      ],
+      "answer": 2,
+      "note": "Borrowing books with a student ID → library."
+    },
+    {
+      "id": "l029",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "손님, 머리를 어떻게 해 드릴까요?"
+        },
+        {
+          "speaker": "M",
+          "text": "짧게 잘라 주세요."
+        }
+      ],
+      "options": [
+        "약국",
+        "옷 가게",
+        "미용실",
+        "꽃집"
+      ],
+      "answer": 2,
+      "note": "Haircut → hair salon."
+    },
+    {
+      "id": "l030",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "감기약 있어요?"
+        },
+        {
+          "speaker": "F",
+          "text": "네, 하루에 세 번 드세요."
+        }
+      ],
+      "options": [
+        "빵집",
+        "서점",
+        "약국",
+        "식당"
+      ],
+      "answer": 2,
+      "note": "Buying cold medicine → pharmacy."
+    },
+    {
+      "id": "l031",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "여권과 표를 보여 주세요."
+        },
+        {
+          "speaker": "M",
+          "text": "여기 있습니다. 창가 자리로 주세요."
+        }
+      ],
+      "options": [
+        "극장",
+        "도서관",
+        "공항",
+        "학교"
+      ],
+      "answer": 2,
+      "note": "Passport + window seat → airport check-in."
+    },
+    {
+      "id": "l032",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "돈을 좀 찾고 싶은데요."
+        },
+        {
+          "speaker": "F",
+          "text": "이 종이에 이름과 금액을 쓰세요."
+        }
+      ],
+      "options": [
+        "우체국",
+        "시장",
+        "은행",
+        "편의점"
+      ],
+      "answer": 2,
+      "note": "Withdrawing money → bank."
+    },
+    {
+      "id": "l033",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "사과 한 개에 얼마예요?"
+        },
+        {
+          "speaker": "M",
+          "text": "천 원이에요. 다섯 개 사시면 사천 원이에요."
+        }
+      ],
+      "options": [
+        "도서관",
+        "식당",
+        "병원",
+        "시장"
+      ],
+      "answer": 3,
+      "note": "Buying apples, bargaining → market."
+    },
+    {
+      "id": "l034",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "두 명이에요. 자리 있어요?"
+        },
+        {
+          "speaker": "F",
+          "text": "네, 이쪽으로 앉으세요. 메뉴 여기 있습니다."
+        }
+      ],
+      "options": [
+        "미용실",
+        "식당",
+        "약국",
+        "은행"
+      ],
+      "answer": 1,
+      "note": "Table for two + menu → restaurant."
+    },
+    {
+      "id": "l035",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "이 꽃은 얼마예요?"
+        },
+        {
+          "speaker": "M",
+          "text": "장미는 한 송이에 삼천 원이에요."
+        }
+      ],
+      "options": [
+        "빵집",
+        "서점",
+        "편의점",
+        "꽃집"
+      ],
+      "answer": 3,
+      "note": "Roses → flower shop."
+    },
+    {
+      "id": "l036",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "어른 두 장 주세요. 일곱 시 영화요."
+        },
+        {
+          "speaker": "F",
+          "text": "네, 자리는 어디로 드릴까요?"
+        }
+      ],
+      "options": [
+        "영화관",
+        "우체국",
+        "공항",
+        "기차역"
+      ],
+      "answer": 0,
+      "note": "Movie tickets → cinema."
+    },
+    {
+      "id": "l037",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "이 기차가 부산에 가요?"
+        },
+        {
+          "speaker": "M",
+          "text": "아니요, 부산 가는 기차는 3번 타는 곳에서 타세요."
+        }
+      ],
+      "options": [
+        "주차장",
+        "버스 정류장",
+        "공항",
+        "기차역"
+      ],
+      "answer": 3,
+      "note": "Train platforms → train station."
+    },
+    {
+      "id": "l038",
+      "type": "place",
+      "situation": "",
+      "question": "여기는 어디입니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "한국어 책은 어디에 있어요?"
+        },
+        {
+          "speaker": "F",
+          "text": "이 층 오른쪽에 있어요. 사전도 거기에 있어요."
+        }
+      ],
+      "options": [
+        "식당",
+        "서점",
+        "은행",
+        "병원"
+      ],
+      "answer": 1,
+      "note": "Looking for books and dictionaries to buy → bookstore."
+    },
+    {
+      "id": "l039",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "저는 수영을 좋아해요. 지수 씨는요?"
+        },
+        {
+          "speaker": "F",
+          "text": "저는 테니스를 좋아해요."
+        }
+      ],
+      "options": [
+        "음식",
+        "날씨",
+        "운동",
+        "가족"
+      ],
+      "answer": 2,
+      "note": "Swimming, tennis → sport."
+    },
+    {
+      "id": "l040",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "오늘 정말 덥지요?"
+        },
+        {
+          "speaker": "M",
+          "text": "네, 내일은 비가 온대요."
+        }
+      ],
+      "options": [
+        "여행",
+        "날씨",
+        "계절",
+        "주말"
+      ],
+      "answer": 1,
+      "note": "Hot, rain tomorrow → weather."
+    },
+    {
+      "id": "l041",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "형제가 어떻게 돼요?"
+        },
+        {
+          "speaker": "F",
+          "text": "언니 한 명하고 남동생 한 명이 있어요."
+        }
+      ],
+      "options": [
+        "직업",
+        "나이",
+        "가족",
+        "친구"
+      ],
+      "answer": 2,
+      "note": "Siblings → family."
+    },
+    {
+      "id": "l042",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "무슨 일을 하세요?"
+        },
+        {
+          "speaker": "M",
+          "text": "저는 고등학교에서 영어를 가르쳐요."
+        }
+      ],
+      "options": [
+        "직업",
+        "주소",
+        "취미",
+        "학교"
+      ],
+      "answer": 0,
+      "note": "What do you do → job."
+    },
+    {
+      "id": "l043",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "이 티셔츠 얼마예요?"
+        },
+        {
+          "speaker": "F",
+          "text": "만오천 원이에요."
+        }
+      ],
+      "options": [
+        "가격",
+        "장소",
+        "시간",
+        "날짜"
+      ],
+      "answer": 0,
+      "note": "How much → price."
+    },
+    {
+      "id": "l044",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "어느 나라에서 왔어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "베트남에서 왔어요."
+        }
+      ],
+      "options": [
+        "고향",
+        "나라",
+        "여행",
+        "가족"
+      ],
+      "answer": 1,
+      "note": "Which country → country."
+    },
+    {
+      "id": "l045",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "생일이 언제예요?"
+        },
+        {
+          "speaker": "F",
+          "text": "십이월 이십오일이에요."
+        }
+      ],
+      "options": [
+        "요일",
+        "시간",
+        "날짜",
+        "계절"
+      ],
+      "answer": 2,
+      "note": "Birthday date → date."
+    },
+    {
+      "id": "l046",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "집이 어디예요?"
+        },
+        {
+          "speaker": "M",
+          "text": "학교 근처 아파트에 살아요."
+        }
+      ],
+      "options": [
+        "회사",
+        "집",
+        "학교",
+        "고향"
+      ],
+      "answer": 1,
+      "note": "Where do you live → home."
+    },
+    {
+      "id": "l047",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "보통 몇 시에 일어나요?"
+        },
+        {
+          "speaker": "F",
+          "text": "일곱 시에 일어나요."
+        }
+      ],
+      "options": [
+        "시간",
+        "날씨",
+        "날짜",
+        "요일"
+      ],
+      "answer": 0,
+      "note": "What time → time."
+    },
+    {
+      "id": "l048",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "무슨 음식을 좋아해요?"
+        },
+        {
+          "speaker": "M",
+          "text": "저는 불고기를 제일 좋아해요."
+        }
+      ],
+      "options": [
+        "계절",
+        "쇼핑",
+        "운동",
+        "음식"
+      ],
+      "answer": 3,
+      "note": "Favourite food → food."
+    },
+    {
+      "id": "l049",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "방학에 어디에 갈 거예요?"
+        },
+        {
+          "speaker": "F",
+          "text": "제주도에 가서 바다를 볼 거예요."
+        }
+      ],
+      "options": [
+        "공부",
+        "운동",
+        "여행",
+        "약속"
+      ],
+      "answer": 2,
+      "note": "Vacation trip plans → travel."
+    },
+    {
+      "id": "l050",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "시간 있을 때 뭐 해요?"
+        },
+        {
+          "speaker": "M",
+          "text": "저는 사진을 찍으러 다녀요."
+        }
+      ],
+      "options": [
+        "취미",
+        "직업",
+        "가족",
+        "교통"
+      ],
+      "answer": 0,
+      "note": "Free time → hobby."
+    },
+    {
+      "id": "l051",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "어느 계절을 좋아해요?"
+        },
+        {
+          "speaker": "F",
+          "text": "저는 눈이 와서 겨울을 좋아해요."
+        }
+      ],
+      "options": [
+        "음식",
+        "나라",
+        "날짜",
+        "계절"
+      ],
+      "answer": 3,
+      "note": "Which season → season."
+    },
+    {
+      "id": "l052",
+      "type": "topic",
+      "situation": "",
+      "question": "무엇에 대해 말하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "학교에 뭐 타고 와요?"
+        },
+        {
+          "speaker": "M",
+          "text": "지하철을 타고 와요. 버스보다 빨라요."
+        }
+      ],
+      "options": [
+        "학교",
+        "교통",
+        "운동",
+        "날씨"
+      ],
+      "answer": 1,
+      "note": "Subway vs bus → transport."
+    },
+    {
+      "id": "l053",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "지수 씨, 내일 시간 있어요?"
+        },
+        {
+          "speaker": "F",
+          "text": "내일은 아르바이트가 있어요. 왜요?"
+        },
+        {
+          "speaker": "M",
+          "text": "같이 영화 보러 가고 싶어서요."
+        },
+        {
+          "speaker": "F",
+          "text": "그럼 모레 어때요? 모레는 시간이 있어요."
+        }
+      ],
+      "options": [
+        "남자는 영화를 좋아하지 않습니다.",
+        "여자는 모레 아르바이트를 합니다.",
+        "여자는 내일 아르바이트를 합니다.",
+        "두 사람은 내일 영화를 봅니다."
+      ],
+      "answer": 2,
+      "note": "내일은 아르바이트가 있어요."
+    },
+    {
+      "id": "l054",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "민수 씨, 어디 가요?"
+        },
+        {
+          "speaker": "M",
+          "text": "우체국에 가요. 고향에 소포를 보내려고요."
+        },
+        {
+          "speaker": "F",
+          "text": "그럼 이 편지도 같이 보내 줄 수 있어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "네, 주세요."
+        }
+      ],
+      "options": [
+        "남자는 편지를 받았습니다.",
+        "여자는 우체국에 갑니다.",
+        "남자는 우체국에 갑니다.",
+        "여자는 소포를 보냅니다."
+      ],
+      "answer": 2,
+      "note": "우체국에 가요."
+    },
+    {
+      "id": "l055",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "이 식당은 처음이에요?"
+        },
+        {
+          "speaker": "F",
+          "text": "네, 처음이에요. 뭐가 맛있어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "여기는 비빔밥이 유명해요."
+        },
+        {
+          "speaker": "F",
+          "text": "그럼 저도 비빔밥을 먹을게요."
+        }
+      ],
+      "options": [
+        "여자는 이 식당에 처음 왔습니다.",
+        "여자는 불고기를 주문합니다.",
+        "이 식당은 냉면이 유명합니다.",
+        "남자는 이 식당에 처음 왔습니다."
+      ],
+      "answer": 0,
+      "note": "네, 처음이에요."
+    },
+    {
+      "id": "l056",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "주말에 뭐 했어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "친구하고 산에 갔어요. 날씨가 좋아서 사람이 많았어요."
+        },
+        {
+          "speaker": "F",
+          "text": "저도 다음 주에 가고 싶어요."
+        },
+        {
+          "speaker": "M",
+          "text": "그럼 같이 가요."
+        }
+      ],
+      "options": [
+        "여자는 지난주에 산에 갔습니다.",
+        "남자는 주말에 산에 갔습니다.",
+        "남자는 혼자 산에 갔습니다.",
+        "주말에 날씨가 나빴습니다."
+      ],
+      "answer": 1,
+      "note": "친구하고 산에 갔어요."
+    },
+    {
+      "id": "l057",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "어서 오세요."
+        },
+        {
+          "speaker": "F",
+          "text": "이 운동화 이백오십 있어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "죄송합니다. 이백사십만 있어요."
+        },
+        {
+          "speaker": "F",
+          "text": "그럼 다음에 올게요."
+        }
+      ],
+      "options": [
+        "가게에 이백오십이 있습니다.",
+        "남자는 운동화를 사러 왔습니다.",
+        "여자는 운동화를 샀습니다.",
+        "여자는 운동화를 사지 않았습니다."
+      ],
+      "answer": 3,
+      "note": "그럼 다음에 올게요 → she didn't buy."
+    },
+    {
+      "id": "l058",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "어제 왜 수업에 안 왔어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "감기에 걸려서 병원에 갔어요."
+        },
+        {
+          "speaker": "F",
+          "text": "지금은 괜찮아요?"
+        },
+        {
+          "speaker": "M",
+          "text": "네, 약을 먹고 많이 좋아졌어요."
+        }
+      ],
+      "options": [
+        "남자는 어제 병원에 갔습니다.",
+        "남자는 지금도 많이 아픕니다.",
+        "남자는 어제 수업에 왔습니다.",
+        "여자는 감기에 걸렸습니다."
+      ],
+      "answer": 0,
+      "note": "감기에 걸려서 병원에 갔어요."
+    },
+    {
+      "id": "l059",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "지수 씨는 고향이 어디예요?"
+        },
+        {
+          "speaker": "F",
+          "text": "부산이에요. 바다가 아주 예뻐요."
+        },
+        {
+          "speaker": "M",
+          "text": "저는 아직 부산에 못 가 봤어요."
+        },
+        {
+          "speaker": "F",
+          "text": "그럼 방학에 같이 가요. 제가 안내할게요."
+        }
+      ],
+      "options": [
+        "여자는 바다를 싫어합니다.",
+        "남자는 부산에 가 본 적이 없습니다.",
+        "여자의 고향은 서울입니다.",
+        "남자는 부산에 자주 갑니다."
+      ],
+      "answer": 1,
+      "note": "아직 부산에 못 가 봤어요."
+    },
+    {
+      "id": "l060",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "이 버스 시청에 가요?"
+        },
+        {
+          "speaker": "M",
+          "text": "아니요, 시청에 가려면 이 번 버스를 타세요."
+        },
+        {
+          "speaker": "F",
+          "text": "이 번 버스는 어디에서 타요?"
+        },
+        {
+          "speaker": "M",
+          "text": "길 건너편에서 타면 돼요."
+        }
+      ],
+      "options": [
+        "여자는 이 번 버스를 탔습니다.",
+        "남자는 시청에서 일합니다.",
+        "여자는 시청에 가려고 합니다.",
+        "이 버스는 시청에 갑니다."
+      ],
+      "answer": 2,
+      "note": "이 버스 시청에 가요? → she wants to go to City Hall."
+    },
+    {
+      "id": "l061",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "저 다음 주에 이사해요."
+        },
+        {
+          "speaker": "F",
+          "text": "어디로요?"
+        },
+        {
+          "speaker": "M",
+          "text": "회사 근처로요. 지금 집은 회사에서 너무 멀어요."
+        },
+        {
+          "speaker": "F",
+          "text": "이사하는 날 제가 도와줄게요."
+        }
+      ],
+      "options": [
+        "남자는 이번 주에 이사합니다.",
+        "여자는 이사를 도와줄 수 없습니다.",
+        "남자의 지금 집은 회사에서 가깝습니다.",
+        "남자는 회사 근처로 이사합니다."
+      ],
+      "answer": 3,
+      "note": "회사 근처로요."
+    },
+    {
+      "id": "l062",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "민수 씨, 커피 마실래요?"
+        },
+        {
+          "speaker": "M",
+          "text": "고맙지만 저는 오늘 벌써 세 잔 마셨어요."
+        },
+        {
+          "speaker": "F",
+          "text": "그럼 녹차는 어때요?"
+        },
+        {
+          "speaker": "M",
+          "text": "좋아요. 녹차 마실게요."
+        }
+      ],
+      "options": [
+        "여자는 녹차를 싫어합니다.",
+        "남자는 오늘 커피를 안 마셨습니다.",
+        "남자는 녹차를 마실 겁니다.",
+        "남자는 커피를 마실 겁니다."
+      ],
+      "answer": 2,
+      "note": "녹차 마실게요."
+    },
+    {
+      "id": "l063",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "이 옷 어때요? 동생 생일 선물이에요."
+        },
+        {
+          "speaker": "F",
+          "text": "예쁘네요. 그런데 동생이 몇 살이에요?"
+        },
+        {
+          "speaker": "M",
+          "text": "열 살이에요."
+        },
+        {
+          "speaker": "F",
+          "text": "그럼 조금 큰 것 같아요. 작은 것으로 바꾸세요."
+        }
+      ],
+      "options": [
+        "남자는 동생 선물을 샀습니다.",
+        "남자의 동생은 스무 살입니다.",
+        "여자는 옷이 작다고 합니다.",
+        "여자는 옷이 예쁘지 않다고 합니다."
+      ],
+      "answer": 0,
+      "note": "동생 생일 선물이에요."
+    },
+    {
+      "id": "l064",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "여기에서 사진 찍어도 돼요?"
+        },
+        {
+          "speaker": "M",
+          "text": "네, 괜찮아요. 그런데 그림 앞에서는 찍으면 안 돼요."
+        },
+        {
+          "speaker": "F",
+          "text": "아, 그래요? 알겠어요."
+        },
+        {
+          "speaker": "M",
+          "text": "밖에 있는 정원에서는 찍어도 됩니다."
+        }
+      ],
+      "options": [
+        "정원에서는 사진을 찍을 수 없습니다.",
+        "그림 앞에서는 사진을 찍을 수 없습니다.",
+        "남자는 사진을 찍고 싶어 합니다.",
+        "어디에서나 사진을 찍을 수 있습니다."
+      ],
+      "answer": 1,
+      "note": "그림 앞에서는 찍으면 안 돼요."
+    },
+    {
+      "id": "l065",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "지수 씨, 한국어 공부는 어떻게 해요?"
+        },
+        {
+          "speaker": "F",
+          "text": "저는 매일 한국 드라마를 봐요."
+        },
+        {
+          "speaker": "M",
+          "text": "드라마가 어렵지 않아요?"
+        },
+        {
+          "speaker": "F",
+          "text": "처음에는 어려웠는데 지금은 재미있어요."
+        }
+      ],
+      "options": [
+        "여자는 드라마로 한국어를 공부합니다.",
+        "여자는 지금도 드라마가 어렵습니다.",
+        "남자는 매일 드라마를 봅니다.",
+        "여자는 드라마를 가끔 봅니다."
+      ],
+      "answer": 0,
+      "note": "매일 한국 드라마를 봐요."
+    },
+    {
+      "id": "l066",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "손님, 주문하시겠어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "김치찌개 하나하고 물 좀 주세요."
+        },
+        {
+          "speaker": "F",
+          "text": "김치찌개는 조금 매운데 괜찮으세요?"
+        },
+        {
+          "speaker": "M",
+          "text": "네, 저는 매운 음식을 좋아해요."
+        }
+      ],
+      "options": [
+        "남자는 물을 주문하지 않았습니다.",
+        "남자는 매운 음식을 좋아합니다.",
+        "남자는 김밥을 주문했습니다.",
+        "김치찌개는 맵지 않습니다."
+      ],
+      "answer": 1,
+      "note": "저는 매운 음식을 좋아해요."
+    },
+    {
+      "id": "l067",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "다음 주 금요일이 어머니 생신이에요."
+        },
+        {
+          "speaker": "F",
+          "text": "선물은 샀어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "아직이요. 뭐가 좋을까요?"
+        },
+        {
+          "speaker": "F",
+          "text": "어머님이 꽃을 좋아하시면 꽃이 어때요?"
+        }
+      ],
+      "options": [
+        "어머니 생신은 이번 주 금요일입니다.",
+        "남자는 아직 선물을 사지 않았습니다.",
+        "여자는 꽃을 좋아하지 않습니다.",
+        "남자는 꽃을 샀습니다."
+      ],
+      "answer": 1,
+      "note": "아직이요 → not bought yet."
+    },
+    {
+      "id": "l068",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "민수 씨는 매일 운동해요?"
+        },
+        {
+          "speaker": "M",
+          "text": "네, 아침마다 학교 운동장에서 달려요."
+        },
+        {
+          "speaker": "F",
+          "text": "와, 정말 부지런하네요."
+        },
+        {
+          "speaker": "M",
+          "text": "같이 해요. 아침 여섯 시에 나와요."
+        }
+      ],
+      "options": [
+        "남자는 공원에서 달립니다.",
+        "여자는 매일 운동합니다.",
+        "남자는 아침마다 달립니다.",
+        "남자는 저녁에 운동합니다."
+      ],
+      "answer": 2,
+      "note": "아침마다 … 달려요."
+    },
+    {
+      "id": "l069",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "실례합니다. 이 근처에 은행이 있어요?"
+        },
+        {
+          "speaker": "F",
+          "text": "네, 저기 편의점 옆에 있어요."
+        },
+        {
+          "speaker": "M",
+          "text": "지금 문을 열었을까요?"
+        },
+        {
+          "speaker": "F",
+          "text": "네, 네 시까지 해요."
+        }
+      ],
+      "options": [
+        "여자는 은행에서 일합니다.",
+        "은행은 편의점 옆에 있습니다.",
+        "은행은 지금 문을 닫았습니다.",
+        "은행은 여섯 시까지 합니다."
+      ],
+      "answer": 1,
+      "note": "편의점 옆에 있어요."
+    },
+    {
+      "id": "l070",
+      "type": "match",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "이번 주말에 우리 집에서 파티를 해요. 올 수 있어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "토요일이에요?"
+        },
+        {
+          "speaker": "F",
+          "text": "아니요, 일요일 저녁이에요."
+        },
+        {
+          "speaker": "M",
+          "text": "그럼 갈 수 있어요. 뭐 가져갈까요?"
+        }
+      ],
+      "options": [
+        "파티는 남자 집에서 합니다.",
+        "파티는 토요일에 합니다.",
+        "남자는 파티에 갈 수 없습니다.",
+        "파티는 일요일 저녁에 합니다."
+      ],
+      "answer": 3,
+      "note": "일요일 저녁이에요."
+    },
+    {
+      "id": "l071",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "지수 씨, 매일 택시를 타요?"
+        },
+        {
+          "speaker": "F",
+          "text": "네, 편해서요."
+        },
+        {
+          "speaker": "M",
+          "text": "택시는 너무 비싸지 않아요?"
+        },
+        {
+          "speaker": "F",
+          "text": "그래도 저는 편한 게 제일 좋아요. 버스는 사람이 많아서 힘들어요."
+        }
+      ],
+      "options": [
+        "택시보다 지하철이 빠릅니다.",
+        "택시는 너무 비쌉니다.",
+        "버스를 타는 것이 좋습니다.",
+        "여자는 편한 택시가 좋습니다."
+      ],
+      "answer": 3,
+      "note": "그래도 저는 편한 게 제일 좋아요."
+    },
+    {
+      "id": "l072",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "민수 씨, 아침 먹었어요?"
+        },
+        {
+          "speaker": "M",
+          "text": "아니요, 저는 아침을 안 먹어요."
+        },
+        {
+          "speaker": "F",
+          "text": "아침을 먹어야 공부도 잘할 수 있어요. 바나나라도 하나 드세요."
+        }
+      ],
+      "options": [
+        "아침을 꼭 먹어야 합니다.",
+        "바나나는 맛있습니다.",
+        "공부를 열심히 해야 합니다.",
+        "아침에는 시간이 없습니다."
+      ],
+      "answer": 0,
+      "note": "아침을 먹어야 공부도 잘할 수 있어요."
+    },
+    {
+      "id": "l073",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "우리 동네에 큰 마트가 생겨서 좋아요."
+        },
+        {
+          "speaker": "F",
+          "text": "저는 시장이 더 좋아요. 시장 사람들은 친절하고 물건도 싸요."
+        },
+        {
+          "speaker": "M",
+          "text": "그래도 마트는 깨끗하잖아요."
+        }
+      ],
+      "options": [
+        "시장이 마트보다 좋습니다.",
+        "마트가 시장보다 깨끗합니다.",
+        "동네에 마트가 생겨서 좋습니다.",
+        "시장 물건은 비쌉니다."
+      ],
+      "answer": 0,
+      "note": "저는 시장이 더 좋아요."
+    },
+    {
+      "id": "l074",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "한국어를 잘하려면 한국 친구를 사귀는 게 좋아요."
+        },
+        {
+          "speaker": "M",
+          "text": "저는 책으로 공부하는 게 더 좋은데요."
+        },
+        {
+          "speaker": "F",
+          "text": "책도 좋지만 친구와 이야기하면 말하기가 빨리 늘어요."
+        }
+      ],
+      "options": [
+        "한국어는 너무 어렵습니다.",
+        "책으로 공부하는 것이 좋습니다.",
+        "한국 친구와 이야기하는 것이 좋습니다.",
+        "친구를 많이 사귀기 어렵습니다."
+      ],
+      "answer": 2,
+      "note": "친구와 이야기하면 말하기가 빨리 늘어요."
+    },
+    {
+      "id": "l075",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "요즘 너무 피곤해요."
+        },
+        {
+          "speaker": "F",
+          "text": "밤에 몇 시에 자요?"
+        },
+        {
+          "speaker": "M",
+          "text": "보통 새벽 두 시쯤 자요."
+        },
+        {
+          "speaker": "F",
+          "text": "일찍 자야 피곤하지 않아요. 오늘부터는 열두 시 전에 자 보세요."
+        }
+      ],
+      "options": [
+        "피곤할 때는 운동을 해야 합니다.",
+        "피곤하지 않으려면 일찍 자야 합니다.",
+        "새벽에 공부하는 것이 좋습니다.",
+        "열두 시에 일어나야 합니다."
+      ],
+      "answer": 1,
+      "note": "일찍 자야 피곤하지 않아요."
+    },
+    {
+      "id": "l076",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "이 가방 정말 예쁘죠? 어제 샀어요."
+        },
+        {
+          "speaker": "M",
+          "text": "비싸지 않았어요?"
+        },
+        {
+          "speaker": "F",
+          "text": "좀 비쌌어요. 그래도 오래 쓸 거니까 좋은 걸 사고 싶었어요."
+        }
+      ],
+      "options": [
+        "예쁜 가방은 비쌉니다.",
+        "가방은 많이 있으면 좋습니다.",
+        "오래 쓸 물건은 좋은 것을 사야 합니다.",
+        "비싼 물건은 사면 안 됩니다."
+      ],
+      "answer": 2,
+      "note": "오래 쓸 거니까 좋은 걸 사고 싶었어요."
+    },
+    {
+      "id": "l077",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "주말에 집에서 쉬고 싶어요."
+        },
+        {
+          "speaker": "F",
+          "text": "날씨가 좋으니까 밖에 나가요. 공원을 걸으면 기분도 좋아져요."
+        },
+        {
+          "speaker": "M",
+          "text": "그럴까요?"
+        }
+      ],
+      "options": [
+        "공원에는 사람이 너무 많습니다.",
+        "주말에는 집에서 쉬어야 합니다.",
+        "날씨가 좋을 때는 밖에 나가는 것이 좋습니다.",
+        "운동은 아침에 해야 합니다."
+      ],
+      "answer": 2,
+      "note": "밖에 나가요 … 기분도 좋아져요."
+    },
+    {
+      "id": "l078",
+      "type": "main_idea",
+      "situation": "",
+      "question": "남자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "민수 씨는 왜 자전거를 타고 다녀요?"
+        },
+        {
+          "speaker": "M",
+          "text": "자전거를 타면 운동도 되고 돈도 안 들어요. 그리고 환경에도 좋아요."
+        }
+      ],
+      "options": [
+        "버스를 타는 것이 편합니다.",
+        "자전거는 비쌉니다.",
+        "자전거는 위험합니다.",
+        "자전거를 타면 좋은 점이 많습니다."
+      ],
+      "answer": 3,
+      "note": "운동도 되고 돈도 안 들고 환경에도 좋아요."
+    },
+    {
+      "id": "l079",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "선생님, 숙제를 내일 내도 돼요?"
+        },
+        {
+          "speaker": "F",
+          "text": "숙제는 오늘까지예요. 약속은 지켜야 해요."
+        },
+        {
+          "speaker": "M",
+          "text": "네, 알겠습니다."
+        }
+      ],
+      "options": [
+        "숙제가 너무 많습니다.",
+        "숙제는 쉬워야 합니다.",
+        "숙제는 내일 내도 됩니다.",
+        "약속한 날까지 숙제를 내야 합니다."
+      ],
+      "answer": 3,
+      "note": "약속은 지켜야 해요."
+    },
+    {
+      "id": "l080",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "저는 여행 갈 때 계획을 꼼꼼하게 세워요."
+        },
+        {
+          "speaker": "M",
+          "text": "저는 계획 없이 가는 것도 재미있던데요."
+        },
+        {
+          "speaker": "F",
+          "text": "계획이 없으면 시간도 돈도 낭비하게 돼요."
+        }
+      ],
+      "options": [
+        "계획 없이 여행하는 것이 재미있습니다.",
+        "여행은 혼자 가는 것이 좋습니다.",
+        "여행을 가기 전에 계획을 세워야 합니다.",
+        "여행은 돈이 많이 듭니다."
+      ],
+      "answer": 2,
+      "note": "계획이 없으면 시간도 돈도 낭비하게 돼요."
+    },
+    {
+      "id": "l081",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "지수 씨는 휴대폰을 정말 오래 쓰네요."
+        },
+        {
+          "speaker": "F",
+          "text": "네, 오 년 됐어요. 아직 잘 되니까 바꿀 필요가 없어요."
+        }
+      ],
+      "options": [
+        "물건은 고장 나기 전까지 쓰는 것이 좋습니다.",
+        "휴대폰은 자주 바꿔야 합니다.",
+        "휴대폰을 너무 많이 쓰면 안 됩니다.",
+        "새 휴대폰은 비쌉니다."
+      ],
+      "answer": 0,
+      "note": "아직 잘 되니까 바꿀 필요가 없어요."
+    },
+    {
+      "id": "l082",
+      "type": "main_idea",
+      "situation": "",
+      "question": "여자의 중심 생각을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "시험 공부는 혼자 하는 게 좋아요."
+        },
+        {
+          "speaker": "M",
+          "text": "친구들하고 같이 하면 모르는 것을 물어볼 수 있잖아요."
+        },
+        {
+          "speaker": "F",
+          "text": "같이 하면 이야기만 많이 하게 돼요. 혼자 해야 집중할 수 있어요."
+        }
+      ],
+      "options": [
+        "친구들과 같이 공부하는 것이 좋습니다.",
+        "시험 공부는 어렵습니다.",
+        "모르는 것은 친구에게 물어봐야 합니다.",
+        "혼자 공부해야 집중할 수 있습니다."
+      ],
+      "answer": 3,
+      "note": "혼자 해야 집중할 수 있어요."
+    },
+    {
+      "id": "l083",
+      "type": "detail",
+      "situation": "",
+      "question": "여자는 왜 이 이야기를 하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "안내 말씀 드리겠습니다. 오늘 오후 세 시부터 다섯 시까지 엘리베이터 점검이 있습니다. 이 시간에는 계단을 이용해 주시기 바랍니다. 감사합니다."
+        }
+      ],
+      "options": [
+        "계단 청소를 알리려고",
+        "새 엘리베이터를 소개하려고",
+        "엘리베이터 점검을 알리려고",
+        "회의 시간을 알리려고"
+      ],
+      "answer": 2,
+      "note": "Announcing an elevator inspection."
+    },
+    {
+      "id": "l084",
+      "type": "detail",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "안내 말씀 드리겠습니다. 오늘 오후 세 시부터 다섯 시까지 엘리베이터 점검이 있습니다. 이 시간에는 계단을 이용해 주시기 바랍니다. 감사합니다."
+        }
+      ],
+      "options": [
+        "네 시에는 엘리베이터를 탈 수 없습니다.",
+        "점검은 오전에 합니다.",
+        "점검은 두 시에 끝납니다.",
+        "점검 시간에도 엘리베이터를 탈 수 있습니다."
+      ],
+      "answer": 0,
+      "note": "3–5 p.m. → at 4 you cannot use it."
+    },
+    {
+      "id": "l085",
+      "type": "detail",
+      "situation": "",
+      "question": "남자는 왜 이 이야기를 하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "여러분, 안녕하세요. 저는 이번 학기에 새로 온 마이클입니다. 미국에서 왔고, 한국에 온 지 석 달 됐습니다. 한국 음식을 아주 좋아해서 요즘 요리를 배우고 있습니다. 잘 부탁드립니다."
+        }
+      ],
+      "options": [
+        "자기를 소개하려고",
+        "친구를 찾으려고",
+        "미국을 소개하려고",
+        "요리를 가르치려고"
+      ],
+      "answer": 0,
+      "note": "Self-introduction."
+    },
+    {
+      "id": "l086",
+      "type": "detail",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "여러분, 안녕하세요. 저는 이번 학기에 새로 온 마이클입니다. 미국에서 왔고, 한국에 온 지 석 달 됐습니다. 한국 음식을 아주 좋아해서 요즘 요리를 배우고 있습니다. 잘 부탁드립니다."
+        }
+      ],
+      "options": [
+        "남자는 요즘 요리를 배웁니다.",
+        "남자는 한국 음식을 싫어합니다.",
+        "남자는 영국에서 왔습니다.",
+        "남자는 한국에 온 지 삼 년 됐습니다."
+      ],
+      "answer": 0,
+      "note": "요즘 요리를 배우고 있습니다."
+    },
+    {
+      "id": "l087",
+      "type": "detail",
+      "situation": "",
+      "question": "남자는 내일 무엇을 가져갑니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "민수 씨, 내일 등산 가는 거 알지요?"
+        },
+        {
+          "speaker": "M",
+          "text": "네, 몇 시에 만나요?"
+        },
+        {
+          "speaker": "F",
+          "text": "아침 여덟 시에 학교 정문 앞에서 만나요. 점심은 제가 김밥을 준비할게요."
+        },
+        {
+          "speaker": "M",
+          "text": "그럼 저는 물하고 과일을 가져갈게요."
+        }
+      ],
+      "options": [
+        "김밥",
+        "김밥과 물",
+        "물과 과일",
+        "과일과 김밥"
+      ],
+      "answer": 2,
+      "note": "저는 물하고 과일을 가져갈게요."
+    },
+    {
+      "id": "l088",
+      "type": "detail",
+      "situation": "",
+      "question": "두 사람은 어디에서 만납니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "민수 씨, 내일 등산 가는 거 알지요?"
+        },
+        {
+          "speaker": "M",
+          "text": "네, 몇 시에 만나요?"
+        },
+        {
+          "speaker": "F",
+          "text": "아침 여덟 시에 학교 정문 앞에서 만나요. 점심은 제가 김밥을 준비할게요."
+        },
+        {
+          "speaker": "M",
+          "text": "그럼 저는 물하고 과일을 가져갈게요."
+        }
+      ],
+      "options": [
+        "여자의 집",
+        "학교 정문 앞",
+        "지하철역",
+        "산 앞"
+      ],
+      "answer": 1,
+      "note": "학교 정문 앞에서 만나요."
+    },
+    {
+      "id": "l089",
+      "type": "detail",
+      "situation": "",
+      "question": "남자는 왜 이 이야기를 하고 있습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "손님 여러분, 저희 마트를 찾아 주셔서 감사합니다. 오늘 하루 과일 코너의 모든 과일을 이십 퍼센트 싸게 팝니다. 그리고 삼만 원 이상 사시는 분께는 우유를 한 병 드립니다."
+        }
+      ],
+      "options": [
+        "과일 할인을 알리려고",
+        "우유 값을 알리려고",
+        "마트 문 닫는 시간을 알리려고",
+        "새 마트를 소개하려고"
+      ],
+      "answer": 0,
+      "note": "Announcing a fruit discount."
+    },
+    {
+      "id": "l090",
+      "type": "detail",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "손님 여러분, 저희 마트를 찾아 주셔서 감사합니다. 오늘 하루 과일 코너의 모든 과일을 이십 퍼센트 싸게 팝니다. 그리고 삼만 원 이상 사시는 분께는 우유를 한 병 드립니다."
+        }
+      ],
+      "options": [
+        "우유를 이십 퍼센트 싸게 팝니다.",
+        "삼만 원 이상 사면 우유를 줍니다.",
+        "모든 물건을 싸게 팝니다.",
+        "과일 할인은 일주일 동안 합니다."
+      ],
+      "answer": 1,
+      "note": "삼만 원 이상 사시는 분께는 우유를 한 병 드립니다."
+    },
+    {
+      "id": "l091",
+      "type": "detail",
+      "situation": "",
+      "question": "여자는 왜 전화를 했습니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "여보세요, 거기 한국 식당이지요? 이번 주 토요일 저녁 일곱 시에 예약하고 싶은데요."
+        },
+        {
+          "speaker": "M",
+          "text": "몇 분이세요?"
+        },
+        {
+          "speaker": "F",
+          "text": "여섯 명이에요. 조용한 방으로 주세요."
+        },
+        {
+          "speaker": "M",
+          "text": "네, 방으로 예약해 드리겠습니다. 성함이 어떻게 되세요?"
+        }
+      ],
+      "options": [
+        "예약을 취소하려고",
+        "음식을 주문하려고",
+        "식당을 예약하려고",
+        "식당 위치를 물어보려고"
+      ],
+      "answer": 2,
+      "note": "예약하고 싶은데요."
+    },
+    {
+      "id": "l092",
+      "type": "detail",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "여보세요, 거기 한국 식당이지요? 이번 주 토요일 저녁 일곱 시에 예약하고 싶은데요."
+        },
+        {
+          "speaker": "M",
+          "text": "몇 분이세요?"
+        },
+        {
+          "speaker": "F",
+          "text": "여섯 명이에요. 조용한 방으로 주세요."
+        },
+        {
+          "speaker": "M",
+          "text": "네, 방으로 예약해 드리겠습니다. 성함이 어떻게 되세요?"
+        }
+      ],
+      "options": [
+        "여자는 여섯 명 자리를 예약합니다.",
+        "식당에 방이 없습니다.",
+        "여자는 창가 자리를 원합니다.",
+        "예약은 일요일 저녁입니다."
+      ],
+      "answer": 0,
+      "note": "여섯 명이에요."
+    },
+    {
+      "id": "l093",
+      "type": "detail",
+      "situation": "",
+      "question": "여자는 방학에 무엇을 합니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "지수 씨, 이번 방학에 뭐 할 거예요?"
+        },
+        {
+          "speaker": "F",
+          "text": "저는 고향에 가서 부모님을 도와드릴 거예요. 부모님이 과일 가게를 하시거든요."
+        },
+        {
+          "speaker": "M",
+          "text": "그럼 방학 내내 고향에 있어요?"
+        },
+        {
+          "speaker": "F",
+          "text": "아니요, 마지막 주에는 서울에 와서 시험 준비를 할 거예요."
+        }
+      ],
+      "options": [
+        "부모님과 여행을 갑니다.",
+        "방학 내내 서울에 있습니다.",
+        "과일 가게에서 아르바이트를 찾습니다.",
+        "부모님 가게를 돕습니다."
+      ],
+      "answer": 3,
+      "note": "고향에 가서 부모님을 도와드릴 거예요."
+    },
+    {
+      "id": "l094",
+      "type": "detail",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "지수 씨, 이번 방학에 뭐 할 거예요?"
+        },
+        {
+          "speaker": "F",
+          "text": "저는 고향에 가서 부모님을 도와드릴 거예요. 부모님이 과일 가게를 하시거든요."
+        },
+        {
+          "speaker": "M",
+          "text": "그럼 방학 내내 고향에 있어요?"
+        },
+        {
+          "speaker": "F",
+          "text": "아니요, 마지막 주에는 서울에 와서 시험 준비를 할 거예요."
+        }
+      ],
+      "options": [
+        "여자는 방학 마지막 주에 서울에 옵니다.",
+        "여자는 방학에 시험을 봅니다.",
+        "남자의 부모님은 과일 가게를 합니다.",
+        "여자는 방학 내내 고향에 있습니다."
+      ],
+      "answer": 0,
+      "note": "마지막 주에는 서울에 와서."
+    },
+    {
+      "id": "l095",
+      "type": "detail",
+      "situation": "",
+      "question": "월요일 수업은 언제 합니까?",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "학생 여러분, 다음 주 월요일은 휴일이라서 수업이 없습니다. 월요일 수업은 금요일 오후 두 시에 합니다. 그리고 숙제는 수요일까지 내 주세요."
+        }
+      ],
+      "options": [
+        "월요일 오후",
+        "금요일 오후",
+        "수요일 오전",
+        "화요일 오후"
+      ],
+      "answer": 1,
+      "note": "월요일 수업은 금요일 오후 두 시에 합니다."
+    },
+    {
+      "id": "l096",
+      "type": "detail",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "학생 여러분, 다음 주 월요일은 휴일이라서 수업이 없습니다. 월요일 수업은 금요일 오후 두 시에 합니다. 그리고 숙제는 수요일까지 내 주세요."
+        }
+      ],
+      "options": [
+        "숙제는 금요일까지 냅니다.",
+        "다음 주 월요일에 수업이 있습니다.",
+        "숙제는 수요일까지 내야 합니다.",
+        "금요일 수업은 오전에 합니다."
+      ],
+      "answer": 2,
+      "note": "숙제는 수요일까지."
+    },
+    {
+      "id": "l097",
+      "type": "detail",
+      "situation": "",
+      "question": "남자는 토요일에 무엇을 합니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "저는 매주 토요일에 동네 도서관에서 아이들에게 책을 읽어 줍니다. 처음에는 친구를 따라서 갔는데, 아이들이 좋아해서 지금은 제가 더 즐겁습니다. 다음 달부터는 노래도 가르칠 겁니다."
+        }
+      ],
+      "options": [
+        "도서관에서 공부합니다.",
+        "아이들에게 책을 읽어 줍니다.",
+        "아이들에게 노래를 가르칩니다.",
+        "친구와 책을 삽니다."
+      ],
+      "answer": 1,
+      "note": "아이들에게 책을 읽어 줍니다."
+    },
+    {
+      "id": "l098",
+      "type": "detail",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "저는 매주 토요일에 동네 도서관에서 아이들에게 책을 읽어 줍니다. 처음에는 친구를 따라서 갔는데, 아이들이 좋아해서 지금은 제가 더 즐겁습니다. 다음 달부터는 노래도 가르칠 겁니다."
+        }
+      ],
+      "options": [
+        "남자는 지금 노래를 가르칩니다.",
+        "남자는 매일 도서관에 갑니다.",
+        "아이들은 책 읽기를 싫어합니다.",
+        "남자는 처음에 친구를 따라서 갔습니다."
+      ],
+      "answer": 3,
+      "note": "처음에는 친구를 따라서 갔는데."
+    },
+    {
+      "id": "l099",
+      "type": "detail",
+      "situation": "",
+      "question": "들은 내용과 같은 것을 고르십시오.",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "고객 여러분, 잠시 후 열 시에 백화점 문을 닫습니다. 계산을 하지 않으신 분은 일 층 계산대를 이용해 주십시오. 주차장은 열 시 삼십 분까지 이용하실 수 있습니다."
+        }
+      ],
+      "options": [
+        "주차장은 열 시 반까지 쓸 수 있습니다.",
+        "백화점은 열한 시에 문을 닫습니다.",
+        "주차장은 열 시에 닫습니다.",
+        "계산대는 이 층에 있습니다."
+      ],
+      "answer": 0,
+      "note": "주차장은 열 시 삼십 분까지."
+    },
+    {
+      "id": "l100",
+      "type": "detail",
+      "situation": "",
+      "question": "남자는 왜 전화를 했습니까?",
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "여보세요, 지수 씨? 저 민수예요. 길이 막혀서 약속 시간에 조금 늦을 것 같아요. 먼저 식당에 들어가서 주문하세요. 저는 비빔밥으로 해 주세요."
+        }
+      ],
+      "options": [
+        "길을 물어보려고",
+        "식당을 예약하려고",
+        "늦는다고 말하려고",
+        "약속을 취소하려고"
+      ],
+      "answer": 2,
+      "note": "늦을 것 같아요."
+    }
+  ]
+}

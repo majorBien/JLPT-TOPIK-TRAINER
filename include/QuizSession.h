@@ -15,8 +15,9 @@ namespace quiz {
 // ---- Rendering / input helpers --------------------------------------------
 
 // results: 1 = correct, 0 = wrong, -1 = not answered yet.
-void renderHeader(const std::string& title, std::size_t index, std::size_t total, const std::vector<int>& results);
-void renderQuestion(const Question& q, bool showPassage, bool hideOptionText);
+void renderHeader(const AppContext& ctx, const std::string& title, std::size_t index, std::size_t total,
+                  const std::vector<int>& results);
+void renderQuestion(const AppContext& ctx, const Question& q, bool showPassage, bool hideOptionText);
 std::string optionLabel(std::size_t i);  // "A", "B", ...
 
 enum class InputKind { Choice, Quit, Replay };
@@ -27,7 +28,7 @@ struct Answer {
 };
 Answer askChoice(std::size_t optionCount, bool allowReplay);
 
-void showVerdict(const Question& q, int chosen);
+void showVerdict(const AppContext& ctx, const Question& q, int chosen);
 // Calls DeepSeek (or shows the cached explanation) for a wrong answer.
 void explainWithDeepSeek(AppContext& ctx, const Question& q, int chosen);
 // Asks DeepSeek for a translation of the sentence (with the correct answer filled in).
@@ -35,8 +36,8 @@ void translateWithDeepSeek(AppContext& ctx, const Question& q);
 // Shows the sentence (blank filled in), passage and options with kanji readings.
 void showFurigana(AppContext& ctx, const Question& q);
 
-// Study commands available after any answer: [w]hy, [t]ranslate, [f]urigana.
-std::string studyHint();
+// Study commands available after any answer: [w]hy, [t]ranslate, [f]urigana (Japanese only).
+std::string studyHint(const AppContext& ctx);
 // Runs the command if `input` is one of them; returns false otherwise.
 bool handleStudyCommand(AppContext& ctx, const Question& q, int chosen, const std::string& input);
 

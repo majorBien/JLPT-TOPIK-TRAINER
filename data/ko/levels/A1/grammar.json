@@ -1,0 +1,2644 @@
+{
+  "level": "A1",
+  "questions": [
+    {
+      "id": "g001",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 이/가",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "책상 위에 책(　　) 있습니다.",
+      "options": [
+        "이",
+        "가",
+        "을",
+        "를"
+      ],
+      "answer": 0,
+      "note": "이/가 marks the subject; after a consonant (책) use 이."
+    },
+    {
+      "id": "g002",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 이/가",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "우리 반에 친구(　　) 많습니다.",
+      "options": [
+        "가",
+        "이",
+        "을",
+        "은"
+      ],
+      "answer": 0,
+      "note": "After a vowel (친구) the subject particle is 가."
+    },
+    {
+      "id": "g003",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 은/는",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저(　　) 학생입니다.",
+      "options": [
+        "는",
+        "은",
+        "를",
+        "이"
+      ],
+      "answer": 0,
+      "note": "Topic particle: after a vowel 는 (저는)."
+    },
+    {
+      "id": "g004",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 은/는",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "제 이름(　　) 김민수입니다.",
+      "options": [
+        "은",
+        "는",
+        "을",
+        "가"
+      ],
+      "answer": 0,
+      "note": "After a consonant (이름) the topic particle is 은."
+    },
+    {
+      "id": "g005",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 을/를",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 매일 아침 빵(　　) 먹습니다.",
+      "options": [
+        "을",
+        "를",
+        "이",
+        "은"
+      ],
+      "answer": 0,
+      "note": "Object particle: after a consonant (빵) use 을."
+    },
+    {
+      "id": "g006",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 을/를",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "친구와 같이 영화(　　) 봤습니다.",
+      "options": [
+        "를",
+        "을",
+        "가",
+        "는"
+      ],
+      "answer": 0,
+      "note": "After a vowel (영화) the object particle is 를."
+    },
+    {
+      "id": "g007",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 에 (장소)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "내일 친구와 같이 도서관(　　) 갑니다.",
+      "options": [
+        "에",
+        "에서",
+        "을",
+        "의"
+      ],
+      "answer": 0,
+      "note": "Destination with 가다/오다: 에."
+    },
+    {
+      "id": "g008",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 에 (시간)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 아침 일곱 시(　　) 일어납니다.",
+      "options": [
+        "에",
+        "에서",
+        "을",
+        "도"
+      ],
+      "answer": 0,
+      "note": "Time expressions take 에."
+    },
+    {
+      "id": "g009",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 에서",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 도서관(　　) 공부합니다.",
+      "options": [
+        "에서",
+        "에",
+        "을",
+        "으로"
+      ],
+      "answer": 0,
+      "note": "Place where an action happens: 에서."
+    },
+    {
+      "id": "g010",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 에서",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "친구와 카페(　　) 커피를 마셨습니다.",
+      "options": [
+        "에서",
+        "에",
+        "를",
+        "와"
+      ],
+      "answer": 0,
+      "note": "An action (drinking) at a place → 에서."
+    },
+    {
+      "id": "g011",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 에게",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 동생(　　) 선물을 줬습니다.",
+      "options": [
+        "에게",
+        "에서",
+        "을",
+        "이"
+      ],
+      "answer": 0,
+      "note": "Recipient of giving: 에게 (spoken 한테)."
+    },
+    {
+      "id": "g012",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 한테",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "어제 친구(　　) 전화를 했어요.",
+      "options": [
+        "한테",
+        "에서",
+        "를",
+        "은"
+      ],
+      "answer": 0,
+      "note": "한테 = to (a person), colloquial 에게."
+    },
+    {
+      "id": "g013",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 의",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이것은 제 친구(　　) 가방입니다.",
+      "options": [
+        "의",
+        "를",
+        "에",
+        "과"
+      ],
+      "answer": 0,
+      "note": "Possessive particle: 의."
+    },
+    {
+      "id": "g014",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 도",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 사과를 좋아합니다. 딸기(　　) 좋아합니다.",
+      "options": [
+        "도",
+        "만",
+        "에서",
+        "은"
+      ],
+      "answer": 0,
+      "note": "도 = also, too."
+    },
+    {
+      "id": "g015",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 만",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 커피(　　) 마십니다. 차는 안 마십니다.",
+      "options": [
+        "만",
+        "도",
+        "과",
+        "의"
+      ],
+      "answer": 0,
+      "note": "만 = only."
+    },
+    {
+      "id": "g016",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 하고",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 빵(　　) 우유를 샀습니다.",
+      "options": [
+        "하고",
+        "에서",
+        "에게",
+        "의"
+      ],
+      "answer": 0,
+      "note": "하고 = and (joining nouns)."
+    },
+    {
+      "id": "g017",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 와/과",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "어제 친구(　　) 영화를 봤습니다.",
+      "options": [
+        "와",
+        "과",
+        "를",
+        "에서"
+      ],
+      "answer": 0,
+      "note": "와 after a vowel (친구와) = with / and."
+    },
+    {
+      "id": "g018",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 와/과",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "책상 위에 책(　　) 연필이 있습니다.",
+      "options": [
+        "과",
+        "와",
+        "을",
+        "은"
+      ],
+      "answer": 0,
+      "note": "과 after a consonant (책과)."
+    },
+    {
+      "id": "g019",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 (으)로 (수단)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 학교에 버스(　　) 갑니다.",
+      "options": [
+        "로",
+        "으로",
+        "에서",
+        "를"
+      ],
+      "answer": 0,
+      "note": "Means of transport: (으)로; after a vowel 로."
+    },
+    {
+      "id": "g020",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 (으)로 (수단)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "가위가 없어서 칼(　　) 잘랐습니다.",
+      "options": [
+        "로",
+        "으로",
+        "에",
+        "의"
+      ],
+      "answer": 0,
+      "note": "After ㄹ (칼) use 로, not 으로."
+    },
+    {
+      "id": "g021",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 (으)로 (방향)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이 길로 쭉 가서 오른쪽(　　) 가세요.",
+      "options": [
+        "으로",
+        "로",
+        "에서",
+        "을"
+      ],
+      "answer": 0,
+      "note": "Direction: (으)로; after a consonant 으로."
+    },
+    {
+      "id": "g022",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 부터/까지",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "수업은 아홉 시(　　) 열두 시까지 있습니다.",
+      "options": [
+        "부터",
+        "까지",
+        "마다",
+        "에"
+      ],
+      "answer": 0,
+      "note": "From (time) ~ until: 부터 ~ 까지."
+    },
+    {
+      "id": "g023",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 에서/까지",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "집에서 학교(　　) 이십 분 걸립니다.",
+      "options": [
+        "까지",
+        "부터",
+        "에",
+        "에서"
+      ],
+      "answer": 0,
+      "note": "From (place) ~ to: 에서 ~ 까지."
+    },
+    {
+      "id": "g024",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 보다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "지하철이 버스(　　) 빠릅니다.",
+      "options": [
+        "보다",
+        "처럼",
+        "부터",
+        "하고"
+      ],
+      "answer": 0,
+      "note": "A가 B보다 ~ = A is more ~ than B."
+    },
+    {
+      "id": "g025",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "조사 마다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 주말(　　) 등산을 합니다.",
+      "options": [
+        "마다",
+        "의",
+        "을",
+        "이"
+      ],
+      "answer": 0,
+      "note": "마다 = every."
+    },
+    {
+      "id": "g026",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-았/었어요 (과거)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "어제 친구를 (　　).",
+      "options": [
+        "만났어요",
+        "만나요",
+        "만날 거예요",
+        "만나세요"
+      ],
+      "answer": 0,
+      "note": "어제 (yesterday) needs the past tense."
+    },
+    {
+      "id": "g027",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-았/었어요 (과거)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "지난주에 부산에 (　　).",
+      "options": [
+        "갔어요",
+        "가요",
+        "갈 거예요",
+        "가세요"
+      ],
+      "answer": 0,
+      "note": "지난주 → past tense 갔어요."
+    },
+    {
+      "id": "g028",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-았/었어요 (과거)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "작년에 처음 한국 음식을 (　　).",
+      "options": [
+        "먹었어요",
+        "먹어요",
+        "먹을 거예요",
+        "먹으세요"
+      ],
+      "answer": 0,
+      "note": "작년 (last year) → past."
+    },
+    {
+      "id": "g029",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄹ 거예요 (미래)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "내일은 집에서 (　　).",
+      "options": [
+        "쉴 거예요",
+        "쉬었어요",
+        "쉬고 있었어요",
+        "쉬었습니다"
+      ],
+      "answer": 0,
+      "note": "내일 (tomorrow) → future -(으)ㄹ 거예요."
+    },
+    {
+      "id": "g030",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄹ 거예요 (미래)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "다음 달에 한국어 시험을 (　　).",
+      "options": [
+        "볼 거예요",
+        "봤어요",
+        "봤습니다",
+        "보았어요"
+      ],
+      "answer": 0,
+      "note": "다음 달 → future."
+    },
+    {
+      "id": "g031",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-고 싶다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 날씨가 더워서 시원한 물을 마시(　　).",
+      "options": [
+        "고 싶어요",
+        "고 싶어해요",
+        "지 마세요",
+        "러 해요"
+      ],
+      "answer": 0,
+      "note": "-고 싶다 = want to."
+    },
+    {
+      "id": "g032",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-고 싶다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 방학에 제주도에 가(　　).",
+      "options": [
+        "고 싶어요",
+        "지 마세요",
+        "고 싶어해요",
+        "러 해요"
+      ],
+      "answer": 0,
+      "note": "Wish for the future: -고 싶어요."
+    },
+    {
+      "id": "g033",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)세요 (요청)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "여기에 이름을 (　　). 그리고 저에게 주세요.",
+      "options": [
+        "쓰세요",
+        "썼어요",
+        "쓸 거예요",
+        "쓰고 싶어요"
+      ],
+      "answer": 0,
+      "note": "Polite request: -(으)세요."
+    },
+    {
+      "id": "g034",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)세요 (요청)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "잠깐만 (　　). 곧 가겠습니다.",
+      "options": [
+        "기다리세요",
+        "기다렸어요",
+        "기다리고 싶어요",
+        "기다리지 않아요"
+      ],
+      "answer": 0,
+      "note": "Request to wait: 기다리세요."
+    },
+    {
+      "id": "g035",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-지 마세요",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "도서관에서는 큰 소리로 이야기하(　　).",
+      "options": [
+        "지 마세요",
+        "고 싶어요",
+        "러 가요",
+        "고 있어요"
+      ],
+      "answer": 0,
+      "note": "-지 마세요 = please don't."
+    },
+    {
+      "id": "g036",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-지 마세요",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이 물은 마시(　　). 깨끗하지 않아요.",
+      "options": [
+        "지 마세요",
+        "고 싶어요",
+        "러 가요",
+        "ㄹ 거예요"
+      ],
+      "answer": 0,
+      "note": "Prohibition: -지 마세요."
+    },
+    {
+      "id": "g037",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄹ 수 있다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 한국어로 이야기할 수 (　　).",
+      "options": [
+        "있어요",
+        "해요",
+        "돼요",
+        "싶어요"
+      ],
+      "answer": 0,
+      "note": "-(으)ㄹ 수 있다 = can."
+    },
+    {
+      "id": "g038",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄹ 수 없다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "다리를 다쳐서 오늘은 축구를 할 수 (　　).",
+      "options": [
+        "없어요",
+        "싶어요",
+        "해요",
+        "봐요"
+      ],
+      "answer": 0,
+      "note": "-(으)ㄹ 수 없다 = cannot."
+    },
+    {
+      "id": "g039",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "못 (부정)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 수영을 (　　) 해요. 배운 적이 없어요.",
+      "options": [
+        "못",
+        "안",
+        "잘",
+        "더"
+      ],
+      "answer": 0,
+      "note": "못 = cannot (lack of ability)."
+    },
+    {
+      "id": "g040",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "안 (부정)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 고기를 좋아하지 않아서 (　　) 먹어요.",
+      "options": [
+        "안",
+        "못",
+        "잘",
+        "많이"
+      ],
+      "answer": 0,
+      "note": "안 = not (by choice)."
+    },
+    {
+      "id": "g041",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-지 않다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "오늘은 날씨가 춥(　　).",
+      "options": [
+        "지 않아요",
+        "고 싶어요",
+        "러 가요",
+        "지 마세요"
+      ],
+      "answer": 0,
+      "note": "-지 않다 = not."
+    },
+    {
+      "id": "g042",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아서/어서 (이유)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "배가 아(　　) 병원에 갔어요.",
+      "options": [
+        "파서",
+        "프면",
+        "프러",
+        "플까"
+      ],
+      "answer": 0,
+      "note": "-아서/어서 = because (아프다 → 아파서)."
+    },
+    {
+      "id": "g043",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아서/어서 (이유)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "길이 막혀(　　) 늦었어요.",
+      "options": [
+        "서",
+        "면",
+        "지만",
+        "고"
+      ],
+      "answer": 0,
+      "note": "막히다 → 막혀서 = because it was jammed."
+    },
+    {
+      "id": "g044",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아서/어서 (순서)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "친구를 만나(　　) 같이 밥을 먹었어요.",
+      "options": [
+        "서",
+        "러",
+        "지만",
+        "니까"
+      ],
+      "answer": 0,
+      "note": "-아서 links sequential actions done with the same person/place."
+    },
+    {
+      "id": "g045",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)니까",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "비가 오(　　) 우산을 가져가세요.",
+      "options": [
+        "니까",
+        "아서",
+        "지만",
+        "고"
+      ],
+      "answer": 0,
+      "note": "Reason + command/request → -(으)니까 (not -아서)."
+    },
+    {
+      "id": "g046",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)니까",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "시간이 없으(　　) 택시를 탑시다.",
+      "options": [
+        "니까",
+        "면서",
+        "지만",
+        "고"
+      ],
+      "answer": 0,
+      "note": "-(으)니까 before a suggestion (-(으)ㅂ시다)."
+    },
+    {
+      "id": "g047",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-고 (나열)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이 식당은 싸(　　) 맛있어요.",
+      "options": [
+        "고",
+        "러",
+        "면서요",
+        "ㄹ까"
+      ],
+      "answer": 0,
+      "note": "-고 = and (listing)."
+    },
+    {
+      "id": "g048",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-고 (순서)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 숙제를 하(　　) 잤어요.",
+      "options": [
+        "고",
+        "러",
+        "지만",
+        "면"
+      ],
+      "answer": 0,
+      "note": "-고 = and then."
+    },
+    {
+      "id": "g049",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-지만",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "한국어는 어렵(　　) 재미있어요.",
+      "options": [
+        "지만",
+        "러",
+        "을까",
+        "으세"
+      ],
+      "answer": 0,
+      "note": "-지만 = but."
+    },
+    {
+      "id": "g050",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-지만",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이 옷은 예쁘(　　) 너무 비싸요.",
+      "options": [
+        "지만",
+        "러",
+        "세요",
+        "ㄹ게"
+      ],
+      "answer": 0,
+      "note": "Contrast: -지만."
+    },
+    {
+      "id": "g051",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)면",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "시간이 있으(　　) 같이 영화를 봐요.",
+      "options": [
+        "면",
+        "지만",
+        "러",
+        "고"
+      ],
+      "answer": 0,
+      "note": "-(으)면 = if."
+    },
+    {
+      "id": "g052",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)면",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "봄이 되(　　) 꽃이 피어요.",
+      "options": [
+        "면",
+        "지만",
+        "러",
+        "고"
+      ],
+      "answer": 0,
+      "note": "-(으)면 = when/if (condition)."
+    },
+    {
+      "id": "g053",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)러 가다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 책을 빌리(　　) 도서관에 가요.",
+      "options": [
+        "러",
+        "면",
+        "고",
+        "지만"
+      ],
+      "answer": 0,
+      "note": "-(으)러 가다 = go (somewhere) in order to."
+    },
+    {
+      "id": "g054",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)러 가다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "점심을 먹으(　　) 식당에 갔어요.",
+      "options": [
+        "러",
+        "면",
+        "니까",
+        "지만"
+      ],
+      "answer": 0,
+      "note": "Purpose of going: -(으)러."
+    },
+    {
+      "id": "g055",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)려고 하다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이번 방학에 운전을 배우(　　) 해요.",
+      "options": [
+        "려고",
+        "러",
+        "고",
+        "면"
+      ],
+      "answer": 0,
+      "note": "-(으)려고 하다 = intend to."
+    },
+    {
+      "id": "g056",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-고 있다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "지금 동생은 방에서 자(　　).",
+      "options": [
+        "고 있어요",
+        "고 싶어요",
+        "러 가요",
+        "지 마세요"
+      ],
+      "answer": 0,
+      "note": "-고 있다 = be doing (now)."
+    },
+    {
+      "id": "g057",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-고 있다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "어머니는 지금 부엌에서 요리하(　　).",
+      "options": [
+        "고 계세요",
+        "러 가세요",
+        "고 싶으세요",
+        "지 마세요"
+      ],
+      "answer": 0,
+      "note": "-고 계시다 = honorific of -고 있다."
+    },
+    {
+      "id": "g058",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아/어 주세요",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "창문 좀 열어 (　　).",
+      "options": [
+        "주세요",
+        "있어요",
+        "싶어요",
+        "계세요"
+      ],
+      "answer": 0,
+      "note": "-아/어 주세요 = please do (for me)."
+    },
+    {
+      "id": "g059",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아/어 주세요",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "사진 좀 찍어 (　　).",
+      "options": [
+        "주세요",
+        "싶어요",
+        "있어요",
+        "가요"
+      ],
+      "answer": 0,
+      "note": "Request a favour: -아/어 주세요."
+    },
+    {
+      "id": "g060",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아/어 보다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이 옷을 한번 입어 (　　).",
+      "options": [
+        "보세요",
+        "계세요",
+        "있어요",
+        "싶어요"
+      ],
+      "answer": 0,
+      "note": "-아/어 보다 = try doing."
+    },
+    {
+      "id": "g061",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아/어 보다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "한국 음식을 먹어 (　　)?",
+      "options": [
+        "봤어요",
+        "줬어요",
+        "있었어요",
+        "싶었어요"
+      ],
+      "answer": 0,
+      "note": "-아/어 봤어요? = have you (ever) tried?"
+    },
+    {
+      "id": "g062",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아야/어야 하다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "내일 시험이 있어서 공부해(　　) 해요.",
+      "options": [
+        "야",
+        "서",
+        "도",
+        "고"
+      ],
+      "answer": 0,
+      "note": "-아야/어야 하다 = must."
+    },
+    {
+      "id": "g063",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-아야/어야 하다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "비행기를 타려면 여권이 있어(　　) 해요.",
+      "options": [
+        "야",
+        "서",
+        "도",
+        "면"
+      ],
+      "answer": 0,
+      "note": "Must have: 있어야 해요."
+    },
+    {
+      "id": "g064",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄹ까요?",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "날씨가 좋은데 같이 산책할(　　)?",
+      "options": [
+        "까요",
+        "게요",
+        "네요",
+        "수록"
+      ],
+      "answer": 0,
+      "note": "-(으)ㄹ까요? = shall we?"
+    },
+    {
+      "id": "g065",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㅂ시다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "늦었으니까 빨리 갑(　　).",
+      "options": [
+        "시다",
+        "니까",
+        "지요",
+        "세요"
+      ],
+      "answer": 0,
+      "note": "-(으)ㅂ시다 = let's (formal)."
+    },
+    {
+      "id": "g066",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄹ게요",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "제가 내일 다시 전화할(　　).",
+      "options": [
+        "게요",
+        "네요",
+        "수록",
+        "ㅂ시다"
+      ],
+      "answer": 0,
+      "note": "-(으)ㄹ게요 = I will (promise to the listener)."
+    },
+    {
+      "id": "g067",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄴ (형용사)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 (　　) 옷을 좋아해요.",
+      "options": [
+        "예쁜",
+        "예쁘게",
+        "예뻐서",
+        "예쁘고"
+      ],
+      "answer": 0,
+      "note": "Adjective + -(으)ㄴ before a noun."
+    },
+    {
+      "id": "g068",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄴ (형용사)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "오늘은 (　　) 날씨예요.",
+      "options": [
+        "좋은",
+        "좋게",
+        "좋아서",
+        "좋고"
+      ],
+      "answer": 0,
+      "note": "Noun-modifying form of 좋다: 좋은."
+    },
+    {
+      "id": "g069",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-는 (동사 현재)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저기에서 노래하(　　) 사람이 제 동생이에요.",
+      "options": [
+        "는",
+        "고",
+        "ㄹ까",
+        "면서요"
+      ],
+      "answer": 0,
+      "note": "Verb + -는 before a noun (present)."
+    },
+    {
+      "id": "g070",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄴ (동사 과거)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "어제 (　　) 영화는 정말 재미있었어요.",
+      "options": [
+        "본",
+        "보는",
+        "볼",
+        "보고"
+      ],
+      "answer": 0,
+      "note": "Past action modifying a noun: -(으)ㄴ (본 영화)."
+    },
+    {
+      "id": "g071",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄹ (미래)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "내일 (　　) 음식을 준비했어요.",
+      "options": [
+        "먹을",
+        "먹은",
+        "먹고",
+        "먹어서"
+      ],
+      "answer": 0,
+      "note": "Future/planned: -(으)ㄹ (먹을 음식)."
+    },
+    {
+      "id": "g072",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-기 전에",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "밥을 먹(　　) 손을 씻으세요.",
+      "options": [
+        "기 전에",
+        "고 싶어",
+        "으러",
+        "지만"
+      ],
+      "answer": 0,
+      "note": "-기 전에 = before doing."
+    },
+    {
+      "id": "g073",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄴ 후에",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "수업이 끝난 (　　) 친구를 만나요.",
+      "options": [
+        "후에",
+        "전에",
+        "동안",
+        "때문에"
+      ],
+      "answer": 0,
+      "note": "-(으)ㄴ 후에 = after doing."
+    },
+    {
+      "id": "g074",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㄹ 때",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 시간이 있을 (　　) 책을 읽어요.",
+      "options": [
+        "때",
+        "후",
+        "전",
+        "동안"
+      ],
+      "answer": 0,
+      "note": "-(으)ㄹ 때 = when."
+    },
+    {
+      "id": "g075",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-네요",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "와, 경치가 정말 아름답(　　)!",
+      "options": [
+        "네요",
+        "ㄹ게요",
+        "ㄹ까요",
+        "ㅂ시다"
+      ],
+      "answer": 0,
+      "note": "-네요 expresses surprise/admiration."
+    },
+    {
+      "id": "g076",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-(으)ㅂ니다 (격식)",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 대학생(　　).",
+      "options": [
+        "입니다",
+        "합니다",
+        "있습니다",
+        "갑니다"
+      ],
+      "answer": 0,
+      "note": "Formal copula: 입니다."
+    },
+    {
+      "id": "g077",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-예요/이에요",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이것은 제 가방(　　).",
+      "options": [
+        "이에요",
+        "예요",
+        "이에요?",
+        "이었어요"
+      ],
+      "answer": 0,
+      "note": "After a consonant (가방) use 이에요."
+    },
+    {
+      "id": "g078",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-예요/이에요",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "제 친구는 의사(　　).",
+      "options": [
+        "예요",
+        "이에요",
+        "입니까",
+        "이었습니까"
+      ],
+      "answer": 0,
+      "note": "After a vowel (의사) use 예요."
+    },
+    {
+      "id": "g079",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "-이/가 아니다",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 일본 사람이 (　　). 한국 사람이에요.",
+      "options": [
+        "아니에요",
+        "없어요",
+        "않아요",
+        "못해요"
+      ],
+      "answer": 0,
+      "note": "Negative copula: 이/가 아니에요."
+    },
+    {
+      "id": "g080",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "숫자·단위",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "사과 세 (　　) 주세요.",
+      "options": [
+        "개",
+        "명",
+        "권",
+        "마리"
+      ],
+      "answer": 0,
+      "note": "개 counts things (apples)."
+    },
+    {
+      "id": "g081",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "숫자·단위",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "우리 반에는 학생이 열 (　　) 있어요.",
+      "options": [
+        "명",
+        "개",
+        "장",
+        "병"
+      ],
+      "answer": 0,
+      "note": "명 counts people."
+    },
+    {
+      "id": "g082",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "숫자·단위",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "도서관에서 책을 두 (　　) 빌렸어요.",
+      "options": [
+        "권",
+        "개",
+        "명",
+        "잔"
+      ],
+      "answer": 0,
+      "note": "권 counts books."
+    },
+    {
+      "id": "g083",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "숫자·단위",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "커피 한 (　　) 주세요.",
+      "options": [
+        "잔",
+        "권",
+        "마리",
+        "장"
+      ],
+      "answer": 0,
+      "note": "잔 counts cups."
+    },
+    {
+      "id": "g084",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "숫자·단위",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "우리 집에는 고양이가 두 (　　) 있어요.",
+      "options": [
+        "마리",
+        "명",
+        "권",
+        "장"
+      ],
+      "answer": 0,
+      "note": "마리 counts animals."
+    },
+    {
+      "id": "g085",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 장소",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "돈을 찾으러 (　　)에 갑니다.",
+      "options": [
+        "은행",
+        "약국",
+        "서점",
+        "공원"
+      ],
+      "answer": 0,
+      "note": "Withdrawing money → bank."
+    },
+    {
+      "id": "g086",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 장소",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "감기약을 사러 (　　)에 갑니다.",
+      "options": [
+        "약국",
+        "은행",
+        "우체국",
+        "빵집"
+      ],
+      "answer": 0,
+      "note": "Buying medicine → pharmacy."
+    },
+    {
+      "id": "g087",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 장소",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "편지를 보내러 (　　)에 갑니다.",
+      "options": [
+        "우체국",
+        "식당",
+        "극장",
+        "도서관"
+      ],
+      "answer": 0,
+      "note": "Sending a letter → post office."
+    },
+    {
+      "id": "g088",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 동사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "목이 말라서 물을 (　　).",
+      "options": [
+        "마셨어요",
+        "씻었어요",
+        "입었어요",
+        "탔어요"
+      ],
+      "answer": 0,
+      "note": "Water is drunk: 마시다."
+    },
+    {
+      "id": "g089",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 동사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "추워서 코트를 (　　).",
+      "options": [
+        "입었어요",
+        "신었어요",
+        "썼어요",
+        "탔어요"
+      ],
+      "answer": 0,
+      "note": "Coats are worn with 입다 (신다 = shoes, 쓰다 = hats)."
+    },
+    {
+      "id": "g090",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 동사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "밖에 비가 와서 우산을 (　　).",
+      "options": [
+        "썼어요",
+        "입었어요",
+        "신었어요",
+        "찼어요"
+      ],
+      "answer": 0,
+      "note": "Umbrella → 쓰다."
+    },
+    {
+      "id": "g091",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 동사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "운동화를 (　　) 공원에서 달렸어요.",
+      "options": [
+        "신고",
+        "입고",
+        "쓰고",
+        "끼고"
+      ],
+      "answer": 0,
+      "note": "Shoes → 신다."
+    },
+    {
+      "id": "g092",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 형용사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "이 가방은 너무 (　　). 좀 싼 것은 없어요?",
+      "options": [
+        "비싸요",
+        "싸요",
+        "작아요",
+        "가벼워요"
+      ],
+      "answer": 0,
+      "note": "Asking for something cheaper → it's expensive."
+    },
+    {
+      "id": "g093",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 형용사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "방에 사람이 없어서 아주 (　　).",
+      "options": [
+        "조용해요",
+        "시끄러워요",
+        "바빠요",
+        "복잡해요"
+      ],
+      "answer": 0,
+      "note": "No people → quiet."
+    },
+    {
+      "id": "g094",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 부사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 수영을 (　　) 못해요. 물이 무서워요.",
+      "options": [
+        "전혀",
+        "자주",
+        "일찍",
+        "벌써"
+      ],
+      "answer": 0,
+      "note": "전혀 + negative = not at all."
+    },
+    {
+      "id": "g095",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 부사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "(　　) 지하철이 왔어요. 빨리 타세요.",
+      "options": [
+        "벌써",
+        "아직",
+        "가끔",
+        "천천히"
+      ],
+      "answer": 0,
+      "note": "벌써 = already."
+    },
+    {
+      "id": "g096",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 부사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "숙제를 (　　) 다 못 했어요. 내일까지 할 거예요.",
+      "options": [
+        "아직",
+        "벌써",
+        "이미",
+        "먼저"
+      ],
+      "answer": 0,
+      "note": "아직 + negative = not yet."
+    },
+    {
+      "id": "g097",
+      "type": "grammar_fill",
+      "section": "grammar",
+      "grammar_point": "어휘: 부사",
+      "instruction": "(　　)에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Choose the best option for the blank.",
+      "prompt": "저는 (　　) 아침에 운동을 해요. 매일 해요.",
+      "options": [
+        "항상",
+        "가끔",
+        "전혀",
+        "별로"
+      ],
+      "answer": 0,
+      "note": "매일 → 항상 (always)."
+    },
+    {
+      "id": "r001",
+      "type": "not_match",
+      "section": "reading",
+      "grammar_point": "읽기: 맞지 않는 것",
+      "instruction": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "instruction_en": "Read and choose the statement that does NOT match.",
+      "passage": "[한국어 교실]\n· 언제: 매주 토요일 오전 10시~12시\n· 어디: 시민회관 3층\n· 돈: 무료",
+      "prompt": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "options": [
+        "한국어 교실은 오후에 합니다.",
+        "한국어 교실은 토요일에 합니다.",
+        "돈을 내지 않아도 됩니다.",
+        "시민회관 3층에서 합니다."
+      ],
+      "answer": 0,
+      "note": "The class is 오전 (morning) 10–12, not in the afternoon."
+    },
+    {
+      "id": "r002",
+      "type": "not_match",
+      "section": "reading",
+      "grammar_point": "읽기: 맞지 않는 것",
+      "instruction": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "instruction_en": "Read and choose the statement that does NOT match.",
+      "passage": "민수 씨, 저 지수예요.\n오늘 수업이 끝나고 도서관 앞에서 만나요.\n다섯 시까지 갈게요.",
+      "prompt": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "options": [
+        "지수 씨는 도서관 안에서 기다립니다.",
+        "지수 씨가 메시지를 보냈습니다.",
+        "두 사람은 오늘 만납니다.",
+        "지수 씨는 다섯 시까지 갑니다."
+      ],
+      "answer": 0,
+      "note": "They meet 도서관 앞 (in front of the library), not inside."
+    },
+    {
+      "id": "r003",
+      "type": "not_match",
+      "section": "reading",
+      "grammar_point": "읽기: 맞지 않는 것",
+      "instruction": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "instruction_en": "Read and choose the statement that does NOT match.",
+      "passage": "[사랑 빵집]\n· 문 여는 시간: 오전 8시\n· 문 닫는 시간: 오후 9시\n· 월요일은 쉽니다.",
+      "prompt": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "options": [
+        "빵집은 매일 문을 엽니다.",
+        "빵집은 아침 여덟 시에 문을 엽니다.",
+        "빵집은 밤 아홉 시에 문을 닫습니다.",
+        "월요일에는 빵을 살 수 없습니다."
+      ],
+      "answer": 0,
+      "note": "월요일은 쉽니다 → it is not open every day."
+    },
+    {
+      "id": "r004",
+      "type": "not_match",
+      "section": "reading",
+      "grammar_point": "읽기: 맞지 않는 것",
+      "instruction": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "instruction_en": "Read and choose the statement that does NOT match.",
+      "passage": "[생일 파티]\n민지의 생일 파티에 오세요!\n· 날짜: 5월 20일 (토요일)\n· 시간: 저녁 6시\n· 장소: 민지 집",
+      "prompt": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "options": [
+        "파티는 식당에서 합니다.",
+        "파티는 토요일입니다.",
+        "민지의 생일 파티입니다.",
+        "파티는 저녁에 시작합니다."
+      ],
+      "answer": 0,
+      "note": "장소: 민지 집 — the party is at Minji's home."
+    },
+    {
+      "id": "r005",
+      "type": "not_match",
+      "section": "reading",
+      "grammar_point": "읽기: 맞지 않는 것",
+      "instruction": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "instruction_en": "Read and choose the statement that does NOT match.",
+      "passage": "[수영장 안내]\n· 이용 시간: 오전 6시~오후 10시\n· 어른: 5,000원\n· 어린이: 3,000원\n· 수영 모자를 꼭 쓰세요.",
+      "prompt": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "options": [
+        "어린이는 오천 원을 냅니다.",
+        "수영장은 아침 여섯 시에 엽니다.",
+        "수영 모자를 써야 합니다.",
+        "어른은 오천 원입니다."
+      ],
+      "answer": 0,
+      "note": "어린이 (children) pay 3,000 won."
+    },
+    {
+      "id": "r006",
+      "type": "not_match",
+      "section": "reading",
+      "grammar_point": "읽기: 맞지 않는 것",
+      "instruction": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "instruction_en": "Read and choose the statement that does NOT match.",
+      "passage": "엄마, 저 지금 학교 앞이에요.\n친구하고 같이 떡볶이를 먹고 집에 갈게요.\n일곱 시쯤 도착할 거예요.",
+      "prompt": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "options": [
+        "이 사람은 지금 집에 있습니다.",
+        "이 사람은 친구와 떡볶이를 먹을 겁니다.",
+        "이 사람은 일곱 시쯤 집에 갑니다.",
+        "엄마에게 보내는 메시지입니다."
+      ],
+      "answer": 0,
+      "note": "지금 학교 앞이에요 → not at home now."
+    },
+    {
+      "id": "r007",
+      "type": "not_match",
+      "section": "reading",
+      "grammar_point": "읽기: 맞지 않는 것",
+      "instruction": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "instruction_en": "Read and choose the statement that does NOT match.",
+      "passage": "[중고 자전거 팝니다]\n· 산 지 1년 되었습니다.\n· 가격: 50,000원\n· 연락: 010-1234-5678 (저녁에만 전화 주세요)",
+      "prompt": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "options": [
+        "아침에 전화해도 됩니다.",
+        "자전거를 팝니다.",
+        "자전거는 오만 원입니다.",
+        "자전거를 산 지 일 년 되었습니다."
+      ],
+      "answer": 0,
+      "note": "저녁에만 전화 주세요 → only in the evening."
+    },
+    {
+      "id": "r008",
+      "type": "not_match",
+      "section": "reading",
+      "grammar_point": "읽기: 맞지 않는 것",
+      "instruction": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "instruction_en": "Read and choose the statement that does NOT match.",
+      "passage": "[도서관 이용 안내]\n· 책은 한 번에 다섯 권까지 빌릴 수 있습니다.\n· 2주 후에 돌려주세요.\n· 도서관 안에서 음식을 먹으면 안 됩니다.",
+      "prompt": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "options": [
+        "책을 열 권 빌릴 수 있습니다.",
+        "책은 두 주 동안 빌릴 수 있습니다.",
+        "도서관에서 음식을 먹을 수 없습니다.",
+        "한 번에 다섯 권까지 빌립니다."
+      ],
+      "answer": 0,
+      "note": "다섯 권까지 → not ten."
+    },
+    {
+      "id": "r009",
+      "type": "match",
+      "section": "reading",
+      "grammar_point": "읽기: 내용 일치",
+      "instruction": "다음의 내용과 같은 것을 고르십시오.",
+      "instruction_en": "Choose the statement that matches the text.",
+      "passage": "저는 매일 아침 공원에서 운동을 합니다. 운동을 한 후에 집에 와서 아침을 먹습니다. 그리고 아홉 시에 회사에 갑니다.",
+      "prompt": "다음의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "저는 운동을 한 후에 아침을 먹습니다.",
+        "저는 저녁에 공원에서 운동을 합니다.",
+        "저는 아침을 먹고 운동을 합니다.",
+        "저는 열 시에 회사에 갑니다."
+      ],
+      "answer": 0,
+      "note": "운동을 한 후에 집에 와서 아침을 먹습니다."
+    },
+    {
+      "id": "r010",
+      "type": "match",
+      "section": "reading",
+      "grammar_point": "읽기: 내용 일치",
+      "instruction": "다음의 내용과 같은 것을 고르십시오.",
+      "instruction_en": "Choose the statement that matches the text.",
+      "passage": "제 동생은 고등학생입니다. 동생은 노래를 아주 좋아합니다. 그래서 주말마다 노래 학원에 다닙니다.",
+      "prompt": "다음의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "동생은 주말에 학원에 갑니다.",
+        "동생은 대학생입니다.",
+        "동생은 노래를 싫어합니다.",
+        "동생은 평일에 노래를 배웁니다."
+      ],
+      "answer": 0,
+      "note": "주말마다 노래 학원에 다닙니다."
+    },
+    {
+      "id": "r011",
+      "type": "match",
+      "section": "reading",
+      "grammar_point": "읽기: 내용 일치",
+      "instruction": "다음의 내용과 같은 것을 고르십시오.",
+      "instruction_en": "Choose the statement that matches the text.",
+      "passage": "어제는 친구의 생일이었습니다. 저는 친구에게 꽃을 선물했습니다. 우리는 같이 식당에서 저녁을 먹었습니다.",
+      "prompt": "다음의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "친구와 같이 저녁을 먹었습니다.",
+        "오늘은 친구의 생일입니다.",
+        "친구에게 책을 선물했습니다.",
+        "친구 집에서 저녁을 먹었습니다."
+      ],
+      "answer": 0,
+      "note": "우리는 같이 식당에서 저녁을 먹었습니다."
+    },
+    {
+      "id": "r012",
+      "type": "match",
+      "section": "reading",
+      "grammar_point": "읽기: 내용 일치",
+      "instruction": "다음의 내용과 같은 것을 고르십시오.",
+      "instruction_en": "Choose the statement that matches the text.",
+      "passage": "저는 한국에 온 지 일 년이 되었습니다. 처음에는 한국어를 잘 못했습니다. 지금은 한국 친구와 한국어로 이야기할 수 있습니다.",
+      "prompt": "다음의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "지금은 한국어로 이야기할 수 있습니다.",
+        "저는 한국에 온 지 이 년이 되었습니다.",
+        "처음부터 한국어를 잘했습니다.",
+        "저는 한국 친구가 없습니다."
+      ],
+      "answer": 0,
+      "note": "지금은 한국 친구와 한국어로 이야기할 수 있습니다."
+    },
+    {
+      "id": "r013",
+      "type": "match",
+      "section": "reading",
+      "grammar_point": "읽기: 내용 일치",
+      "instruction": "다음의 내용과 같은 것을 고르십시오.",
+      "instruction_en": "Choose the statement that matches the text.",
+      "passage": "우리 집 근처에 큰 시장이 있습니다. 시장은 물건이 싸고 많습니다. 그래서 저는 주말에 어머니와 같이 시장에 갑니다.",
+      "prompt": "다음의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "시장은 물건 값이 쌉니다.",
+        "시장은 우리 집에서 멉니다.",
+        "저는 혼자 시장에 갑니다.",
+        "시장은 물건이 비쌉니다."
+      ],
+      "answer": 0,
+      "note": "시장은 물건이 싸고 많습니다."
+    },
+    {
+      "id": "r014",
+      "type": "match",
+      "section": "reading",
+      "grammar_point": "읽기: 내용 일치",
+      "instruction": "다음의 내용과 같은 것을 고르십시오.",
+      "instruction_en": "Choose the statement that matches the text.",
+      "passage": "저는 내일 부산에 갑니다. 부산에는 할머니가 사십니다. 기차를 타고 가면 세 시간쯤 걸립니다.",
+      "prompt": "다음의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "할머니는 부산에 사십니다.",
+        "저는 오늘 부산에 갔습니다.",
+        "버스로 부산에 갑니다.",
+        "부산까지 한 시간 걸립니다."
+      ],
+      "answer": 0,
+      "note": "부산에는 할머니가 사십니다."
+    },
+    {
+      "id": "r015",
+      "type": "match",
+      "section": "reading",
+      "grammar_point": "읽기: 내용 일치",
+      "instruction": "다음의 내용과 같은 것을 고르십시오.",
+      "instruction_en": "Choose the statement that matches the text.",
+      "passage": "제 방은 작지만 깨끗합니다. 방에는 침대와 책상이 있습니다. 창문이 커서 방이 밝습니다.",
+      "prompt": "다음의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "방에 책상이 있습니다.",
+        "제 방은 아주 큽니다.",
+        "창문이 작습니다.",
+        "방이 어둡습니다."
+      ],
+      "answer": 0,
+      "note": "방에는 침대와 책상이 있습니다."
+    },
+    {
+      "id": "r016",
+      "type": "match",
+      "section": "reading",
+      "grammar_point": "읽기: 내용 일치",
+      "instruction": "다음의 내용과 같은 것을 고르십시오.",
+      "instruction_en": "Choose the statement that matches the text.",
+      "passage": "저는 커피를 좋아합니다. 하지만 밤에 커피를 마시면 잠을 잘 수 없습니다. 그래서 저녁에는 녹차를 마십니다.",
+      "prompt": "다음의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "저녁에는 커피를 마시지 않습니다.",
+        "밤에 커피를 마셔도 잘 잡니다.",
+        "저는 녹차를 좋아하지 않습니다.",
+        "저는 아침에 녹차만 마십니다."
+      ],
+      "answer": 0,
+      "note": "저녁에는 녹차를 마십니다 → no coffee in the evening."
+    },
+    {
+      "id": "r017",
+      "type": "main_idea",
+      "section": "reading",
+      "grammar_point": "읽기: 중심 내용",
+      "instruction": "다음을 읽고 중심 내용을 고르십시오.",
+      "instruction_en": "Choose the main idea of the text.",
+      "passage": "저는 요리를 좋아합니다. 주말마다 새로운 음식을 만듭니다. 음식을 만들어서 친구들에게 주면 기분이 좋습니다.",
+      "prompt": "다음을 읽고 중심 내용을 고르십시오.",
+      "options": [
+        "저는 요리하는 것을 좋아합니다.",
+        "저는 친구들을 만나고 싶습니다.",
+        "저는 음식을 사 먹습니다.",
+        "저는 주말에 쉬고 싶습니다."
+      ],
+      "answer": 0,
+      "note": "Main idea: the writer enjoys cooking."
+    },
+    {
+      "id": "r018",
+      "type": "main_idea",
+      "section": "reading",
+      "grammar_point": "읽기: 중심 내용",
+      "instruction": "다음을 읽고 중심 내용을 고르십시오.",
+      "instruction_en": "Choose the main idea of the text.",
+      "passage": "우리 동네에는 공원이 없습니다. 아이들이 놀 곳이 없어서 길에서 놉니다. 동네에 공원이 생기면 좋겠습니다.",
+      "prompt": "다음을 읽고 중심 내용을 고르십시오.",
+      "options": [
+        "동네에 공원이 있으면 좋겠습니다.",
+        "아이들이 길에서 노는 것이 좋습니다.",
+        "우리 동네는 아주 조용합니다.",
+        "공원에서 운동을 하고 싶습니다."
+      ],
+      "answer": 0,
+      "note": "좋겠습니다 → the writer wishes there were a park."
+    },
+    {
+      "id": "r019",
+      "type": "main_idea",
+      "section": "reading",
+      "grammar_point": "읽기: 중심 내용",
+      "instruction": "다음을 읽고 중심 내용을 고르십시오.",
+      "instruction_en": "Choose the main idea of the text.",
+      "passage": "저는 한국 드라마를 자주 봅니다. 드라마를 보면 한국어 공부가 됩니다. 그리고 한국 문화도 알 수 있습니다.",
+      "prompt": "다음을 읽고 중심 내용을 고르십시오.",
+      "options": [
+        "한국 드라마를 보면 도움이 많이 됩니다.",
+        "한국 드라마는 너무 깁니다.",
+        "저는 한국 문화를 잘 모릅니다.",
+        "한국어 공부는 어렵습니다."
+      ],
+      "answer": 0,
+      "note": "Dramas help with language and culture."
+    },
+    {
+      "id": "r020",
+      "type": "main_idea",
+      "section": "reading",
+      "grammar_point": "읽기: 중심 내용",
+      "instruction": "다음을 읽고 중심 내용을 고르십시오.",
+      "instruction_en": "Choose the main idea of the text.",
+      "passage": "아침을 먹지 않는 사람이 많습니다. 그런데 아침을 먹지 않으면 점심을 많이 먹게 됩니다. 건강을 위해서 아침을 꼭 먹어야 합니다.",
+      "prompt": "다음을 읽고 중심 내용을 고르십시오.",
+      "options": [
+        "건강을 위해서 아침을 먹어야 합니다.",
+        "점심을 많이 먹는 것이 좋습니다.",
+        "아침을 먹는 사람이 많습니다.",
+        "아침에는 빵을 먹는 것이 좋습니다."
+      ],
+      "answer": 0,
+      "note": "-아야 합니다 states the main point."
+    },
+    {
+      "id": "r021",
+      "type": "main_idea",
+      "section": "reading",
+      "grammar_point": "읽기: 중심 내용",
+      "instruction": "다음을 읽고 중심 내용을 고르십시오.",
+      "instruction_en": "Choose the main idea of the text.",
+      "passage": "저는 지하철을 자주 탑니다. 지하철은 빠르고 시간이 정확합니다. 그래서 약속에 늦지 않습니다.",
+      "prompt": "다음을 읽고 중심 내용을 고르십시오.",
+      "options": [
+        "지하철은 빠르고 시간이 정확해서 좋습니다.",
+        "지하철에는 사람이 너무 많습니다.",
+        "저는 약속에 자주 늦습니다.",
+        "버스가 지하철보다 빠릅니다."
+      ],
+      "answer": 0,
+      "note": "The writer likes the subway because it is fast and punctual."
+    },
+    {
+      "id": "r022",
+      "type": "reading_fill",
+      "section": "reading",
+      "grammar_point": "읽기: 빈칸",
+      "instruction": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "instruction_en": "Read and choose what fits the blank.",
+      "passage": "저는 매일 한국어 단어를 열 개씩 외웁니다. 처음에는 힘들었지만 지금은 재미있습니다. 단어를 많이 알면 한국 사람과 (　　) 수 있습니다.",
+      "prompt": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "이야기할",
+        "잠을 잘",
+        "운동할",
+        "쉬실"
+      ],
+      "answer": 0,
+      "note": "Knowing many words lets you talk with Korean people."
+    },
+    {
+      "id": "r023",
+      "type": "reading_fill",
+      "section": "reading",
+      "grammar_point": "읽기: 빈칸",
+      "instruction": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "instruction_en": "Read and choose what fits the blank.",
+      "passage": "오늘은 비가 많이 옵니다. 그래서 (　　) 가지고 나갔습니다. 하지만 바람이 많이 불어서 옷이 다 젖었습니다.",
+      "prompt": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "우산을",
+        "선글라스를",
+        "수영복을",
+        "모자를"
+      ],
+      "answer": 0,
+      "note": "It rains → took an umbrella."
+    },
+    {
+      "id": "r024",
+      "type": "reading_fill",
+      "section": "reading",
+      "grammar_point": "읽기: 빈칸",
+      "instruction": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "instruction_en": "Read and choose what fits the blank.",
+      "passage": "저는 주말에 보통 집에서 쉽니다. 그런데 이번 주말에는 친구 결혼식이 있어서 (　　). 그래서 쉴 수 없습니다.",
+      "prompt": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "바쁩니다",
+        "심심합니다",
+        "조용합니다",
+        "한가합니다"
+      ],
+      "answer": 0,
+      "note": "A wedding this weekend → busy, can't rest."
+    },
+    {
+      "id": "r025",
+      "type": "reading_fill",
+      "section": "reading",
+      "grammar_point": "읽기: 빈칸",
+      "instruction": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "instruction_en": "Read and choose what fits the blank.",
+      "passage": "제 친구는 다음 달에 고향으로 돌아갑니다. 그래서 저는 친구에게 줄 (　　) 샀습니다. 친구가 좋아하면 좋겠습니다.",
+      "prompt": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "선물을",
+        "약을",
+        "표를",
+        "지도를"
+      ],
+      "answer": 0,
+      "note": "Something to give a friend who is leaving → a present."
+    },
+    {
+      "id": "r026",
+      "type": "reading_fill",
+      "section": "reading",
+      "grammar_point": "읽기: 빈칸",
+      "instruction": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "instruction_en": "Read and choose what fits the blank.",
+      "passage": "우리 학교 식당은 음식이 싸고 맛있습니다. 그래서 점심시간에는 학생들이 (　　). 일찍 가지 않으면 오래 기다려야 합니다.",
+      "prompt": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "많습니다",
+        "적습니다",
+        "없습니다",
+        "조용합니다"
+      ],
+      "answer": 0,
+      "note": "Cheap and tasty → many students; you have to wait."
+    },
+    {
+      "id": "r027",
+      "type": "reading_fill",
+      "section": "reading",
+      "grammar_point": "읽기: 빈칸",
+      "instruction": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "instruction_en": "Read and choose what fits the blank.",
+      "passage": "저는 내일 아침 일찍 공항에 가야 합니다. 그래서 오늘 밤에는 (　　) 잘 겁니다.",
+      "prompt": "다음을 읽고 (　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "일찍",
+        "늦게",
+        "천천히",
+        "자주"
+      ],
+      "answer": 0,
+      "note": "Leaving early tomorrow → go to bed early tonight."
+    },
+    {
+      "id": "r028",
+      "type": "sequence",
+      "section": "reading",
+      "grammar_point": "읽기: 순서",
+      "instruction": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
+      "instruction_en": "Choose the correct order of the sentences.",
+      "passage": "(가) 그래서 오늘 병원에 갔습니다.\n(나) 어제부터 머리가 아팠습니다.\n(다) 의사 선생님이 약을 주셨습니다.\n(라) 약을 먹고 푹 잤습니다.",
+      "prompt": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
+      "options": [
+        "(나)-(가)-(다)-(라)",
+        "(가)-(나)-(라)-(다)",
+        "(나)-(다)-(가)-(라)",
+        "(가)-(다)-(나)-(라)"
+      ],
+      "answer": 0,
+      "note": "Headache since yesterday → so went to hospital → got medicine → slept."
+    },
+    {
+      "id": "r029",
+      "type": "sequence",
+      "section": "reading",
+      "grammar_point": "읽기: 순서",
+      "instruction": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
+      "instruction_en": "Choose the correct order of the sentences.",
+      "passage": "(가) 그 가게에는 예쁜 옷이 많았습니다.\n(나) 저는 어제 백화점에 갔습니다.\n(다) 그래서 치마를 하나 샀습니다.\n(라) 백화점 이 층에 새 옷 가게가 있었습니다.",
+      "prompt": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
+      "options": [
+        "(나)-(라)-(가)-(다)",
+        "(나)-(가)-(라)-(다)",
+        "(라)-(나)-(다)-(가)",
+        "(가)-(나)-(다)-(라)"
+      ],
+      "answer": 0,
+      "note": "Went to the store → found a new shop → many pretty clothes → bought a skirt."
+    },
+    {
+      "id": "r030",
+      "type": "sequence",
+      "section": "reading",
+      "grammar_point": "읽기: 순서",
+      "instruction": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
+      "instruction_en": "Choose the correct order of the sentences.",
+      "passage": "(가) 그런데 버스가 오지 않았습니다.\n(나) 아침에 버스 정류장에서 버스를 기다렸습니다.\n(다) 그래서 택시를 탔습니다.\n(라) 택시 덕분에 늦지 않았습니다.",
+      "prompt": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
+      "options": [
+        "(나)-(가)-(다)-(라)",
+        "(가)-(나)-(다)-(라)",
+        "(나)-(다)-(가)-(라)",
+        "(다)-(나)-(가)-(라)"
+      ],
+      "answer": 0,
+      "note": "Waited for the bus → it didn't come → took a taxi → wasn't late."
+    },
+    {
+      "id": "r031",
+      "type": "sequence",
+      "section": "reading",
+      "grammar_point": "읽기: 순서",
+      "instruction": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
+      "instruction_en": "Choose the correct order of the sentences.",
+      "passage": "(가) 다 만든 후에 가족들과 같이 먹었습니다.\n(나) 어제 처음으로 김밥을 만들었습니다.\n(다) 먼저 시장에서 재료를 샀습니다.\n(라) 그리고 집에 와서 김밥을 만들었습니다.",
+      "prompt": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
+      "options": [
+        "(나)-(다)-(라)-(가)",
+        "(다)-(나)-(라)-(가)",
+        "(나)-(라)-(다)-(가)",
+        "(나)-(가)-(다)-(라)"
+      ],
+      "answer": 0,
+      "note": "Topic sentence → bought ingredients → made it → ate together."
+    },
+    {
+      "id": "r032",
+      "type": "insert",
+      "section": "reading",
+      "grammar_point": "읽기: 문장 넣기",
+      "instruction": "다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Where does the given sentence fit best?",
+      "passage": "저는 매주 일요일에 할머니 댁에 갑니다. (㉠) 할머니 댁은 시골에 있습니다. (㉡) 할머니는 저를 보면 항상 맛있는 음식을 만들어 주십니다. (㉢) 저는 할머니의 음식을 제일 좋아합니다. (㉣)\n\n<보기> 그래서 기차를 타고 두 시간 동안 가야 합니다.",
+      "prompt": "다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "㉡",
+        "㉠",
+        "㉢",
+        "㉣"
+      ],
+      "answer": 0,
+      "note": "'So I have to take the train for two hours' follows 'Grandma lives in the countryside'."
+    },
+    {
+      "id": "r033",
+      "type": "insert",
+      "section": "reading",
+      "grammar_point": "읽기: 문장 넣기",
+      "instruction": "다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Where does the given sentence fit best?",
+      "passage": "저는 작년에 강아지를 한 마리 샀습니다. (㉠) 강아지 이름은 '콩이'입니다. (㉡) 콩이는 아주 작고 귀엽습니다. (㉢) 매일 저녁 콩이와 같이 산책을 합니다. (㉣)\n\n<보기> 산책을 하고 오면 콩이는 기분이 좋아서 꼬리를 흔듭니다.",
+      "prompt": "다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "㉣",
+        "㉠",
+        "㉡",
+        "㉢"
+      ],
+      "answer": 0,
+      "note": "Comes after the walk is mentioned → last position."
+    },
+    {
+      "id": "r034",
+      "type": "insert",
+      "section": "reading",
+      "grammar_point": "읽기: 문장 넣기",
+      "instruction": "다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+      "instruction_en": "Where does the given sentence fit best?",
+      "passage": "우리 반에는 학생이 열 명 있습니다. (㉠) 학생들은 여러 나라에서 왔습니다. (㉡) 그래서 우리는 수업 시간에 한국어로만 이야기합니다. (㉢) 수업이 끝나면 같이 점심을 먹습니다. (㉣)\n\n<보기> 그런데 서로의 나라 말을 모릅니다.",
+      "prompt": "다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "㉡",
+        "㉠",
+        "㉢",
+        "㉣"
+      ],
+      "answer": 0,
+      "note": "Different countries → but they don't know each other's languages → so they speak only Korean."
+    },
+    {
+      "id": "r035",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "저는 지난주에 이사를 했습니다. 새 집은 회사에서 가깝습니다. 그래서 아침에 늦게 일어나도 됩니다. 그런데 집 근처에 마트가 없어서 (　　).",
+      "prompt": "(　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "조금 불편합니다",
+        "아주 편합니다",
+        "회사에 늦습니다",
+        "일찍 일어납니다"
+      ],
+      "answer": 0,
+      "note": "No supermarket nearby → a bit inconvenient."
+    },
+    {
+      "id": "r036",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "저는 지난주에 이사를 했습니다. 새 집은 회사에서 가깝습니다. 그래서 아침에 늦게 일어나도 됩니다. 그런데 집 근처에 마트가 없어서 (　　).",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "새 집은 회사에서 가깝습니다.",
+        "새 집 근처에 마트가 있습니다.",
+        "저는 다음 주에 이사를 합니다.",
+        "저는 아침에 일찍 일어나야 합니다."
+      ],
+      "answer": 0,
+      "note": "새 집은 회사에서 가깝습니다."
+    },
+    {
+      "id": "r037",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "오늘은 동생과 같이 놀이공원에 갔습니다. 놀이공원에는 사람이 많아서 (　　) 기다려야 했습니다. 하지만 동생이 아주 즐거워해서 저도 기뻤습니다.",
+      "prompt": "(　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "오래",
+        "빨리",
+        "조금만",
+        "혼자"
+      ],
+      "answer": 0,
+      "note": "Many people → had to wait a long time."
+    },
+    {
+      "id": "r038",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "오늘은 동생과 같이 놀이공원에 갔습니다. 놀이공원에는 사람이 많아서 (　　) 기다려야 했습니다. 하지만 동생이 아주 즐거워해서 저도 기뻤습니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "동생은 놀이공원에서 즐거웠습니다.",
+        "놀이공원에 사람이 없었습니다.",
+        "저는 혼자 놀이공원에 갔습니다.",
+        "저는 기분이 나빴습니다."
+      ],
+      "answer": 0,
+      "note": "동생이 아주 즐거워해서."
+    },
+    {
+      "id": "r039",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "다음 주 금요일은 어머니의 생신입니다. 저는 어머니께 무엇을 드릴지 고민했습니다. 어머니는 꽃을 좋아하십니다. 그래서 저는 꽃집에서 (　　) 사기로 했습니다.",
+      "prompt": "(　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "꽃을",
+        "책을",
+        "옷을",
+        "케이크를"
+      ],
+      "answer": 0,
+      "note": "Mother likes flowers → buy flowers at the flower shop."
+    },
+    {
+      "id": "r040",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "다음 주 금요일은 어머니의 생신입니다. 저는 어머니께 무엇을 드릴지 고민했습니다. 어머니는 꽃을 좋아하십니다. 그래서 저는 꽃집에서 (　　) 사기로 했습니다.",
+      "prompt": "이 사람은 왜 꽃집에 갑니까?",
+      "options": [
+        "어머니께 드릴 선물을 사려고",
+        "어머니의 생신 파티를 하려고",
+        "꽃집에서 일하려고",
+        "어머니와 같이 쇼핑하려고"
+      ],
+      "answer": 0,
+      "note": "The writer is choosing a present for mother."
+    },
+    {
+      "id": "r041",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "저는 대학교에서 경제를 공부합니다. 수업이 없는 날에는 카페에서 아르바이트를 합니다. 아르바이트를 해서 번 돈으로 여행을 가고 싶습니다.",
+      "prompt": "이 사람은 왜 아르바이트를 합니까?",
+      "options": [
+        "여행을 가려고",
+        "학비를 내려고",
+        "카페를 만들려고",
+        "경제를 공부하려고"
+      ],
+      "answer": 0,
+      "note": "번 돈으로 여행을 가고 싶습니다."
+    },
+    {
+      "id": "r042",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "저는 대학교에서 경제를 공부합니다. 수업이 없는 날에는 카페에서 아르바이트를 합니다. 아르바이트를 해서 번 돈으로 여행을 가고 싶습니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "수업이 없는 날에 일을 합니다.",
+        "카페에서 경제를 공부합니다.",
+        "매일 아르바이트를 합니다.",
+        "지금 여행을 하고 있습니다."
+      ],
+      "answer": 0,
+      "note": "수업이 없는 날에는 카페에서 아르바이트를 합니다."
+    },
+    {
+      "id": "r043",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "[알림] 이번 주 토요일에 아파트 엘리베이터를 고칩니다. 오전 9시부터 오후 3시까지 엘리베이터를 탈 수 없습니다. 계단을 이용해 주십시오.",
+      "prompt": "이 글을 쓴 이유를 고르십시오.",
+      "options": [
+        "엘리베이터를 고치는 것을 알리려고",
+        "계단을 청소하는 것을 알리려고",
+        "아파트를 파는 것을 알리려고",
+        "토요일 모임을 알리려고"
+      ],
+      "answer": 0,
+      "note": "The notice announces elevator repairs."
+    },
+    {
+      "id": "r044",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "[알림] 이번 주 토요일에 아파트 엘리베이터를 고칩니다. 오전 9시부터 오후 3시까지 엘리베이터를 탈 수 없습니다. 계단을 이용해 주십시오.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "토요일 오후 네 시에는 엘리베이터를 탈 수 있습니다.",
+        "토요일에는 하루 종일 엘리베이터를 탈 수 없습니다.",
+        "일요일에 엘리베이터를 고칩니다.",
+        "계단을 이용할 수 없습니다."
+      ],
+      "answer": 0,
+      "note": "Repairs end at 3 p.m., so at 4 p.m. the elevator works."
+    },
+    {
+      "id": "r045",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "저는 회사에 다닙니다. 회사 일이 많아서 요즘 운동을 못 했습니다. 그래서 다음 달부터 회사 근처 수영장에 다니기로 했습니다. 아침에 수영을 하고 회사에 갈 겁니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "요즘 운동을 할 시간이 없었습니다.",
+        "저는 매일 수영을 하고 있습니다.",
+        "수영장은 집 근처에 있습니다.",
+        "저는 저녁에 수영을 할 겁니다."
+      ],
+      "answer": 0,
+      "note": "회사 일이 많아서 요즘 운동을 못 했습니다."
+    },
+    {
+      "id": "r046",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "어제 지하철에서 지갑을 잃어버렸습니다. 지갑 안에는 돈과 학생증이 있었습니다. 저는 바로 역 사무실에 갔습니다. 다행히 어떤 사람이 지갑을 찾아서 사무실에 주었습니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "지갑을 다시 찾았습니다.",
+        "지갑을 찾지 못했습니다.",
+        "지갑을 버스에서 잃어버렸습니다.",
+        "지갑 안에 돈이 없었습니다."
+      ],
+      "answer": 0,
+      "note": "어떤 사람이 지갑을 찾아서 사무실에 주었습니다."
+    },
+    {
+      "id": "r047",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "우리 회사는 매년 봄에 등산을 갑니다. 올해는 4월 셋째 주 토요일에 갑니다. 아침 8시에 회사 앞에서 버스를 탑니다. 점심은 회사에서 준비합니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "점심을 가져가지 않아도 됩니다.",
+        "등산은 가을에 갑니다.",
+        "아침 여덟 시에 산 앞에서 만납니다.",
+        "등산은 일요일에 갑니다."
+      ],
+      "answer": 0,
+      "note": "점심은 회사에서 준비합니다."
+    },
+    {
+      "id": "r048",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "제 취미는 사진을 찍는 것입니다. 주말마다 카메라를 가지고 여러 곳에 갑니다. 특히 봄에는 꽃이 많아서 (　　) 장소가 많습니다.",
+      "prompt": "(　　)에 들어갈 알맞은 것을 고르십시오.",
+      "options": [
+        "사진을 찍을",
+        "공부를 할",
+        "잠을 잘",
+        "음식을 살"
+      ],
+      "answer": 0,
+      "note": "Spring flowers → many places to take photos."
+    },
+    {
+      "id": "r049",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "어제는 날씨가 좋아서 친구와 한강 공원에 갔습니다. 우리는 자전거를 빌려서 탔습니다. 그리고 공원에서 치킨을 시켜 먹었습니다. 오랜만에 정말 즐거운 하루였습니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "친구와 공원에서 자전거를 탔습니다.",
+        "날씨가 나빠서 집에 있었습니다.",
+        "자전거를 새로 샀습니다.",
+        "치킨을 집에서 먹었습니다."
+      ],
+      "answer": 0,
+      "note": "자전거를 빌려서 탔습니다."
+    },
+    {
+      "id": "r050",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "저는 아침에 일찍 일어나는 것이 힘듭니다. 그래서 휴대폰 알람을 세 개 맞춥니다. 그래도 가끔 늦게 일어나서 학교에 지각합니다.",
+      "prompt": "이 사람은 왜 알람을 세 개 맞춥니까?",
+      "options": [
+        "아침에 일찍 일어나기 힘들어서",
+        "학교가 너무 멀어서",
+        "휴대폰이 고장 나서",
+        "잠을 자기 싫어서"
+      ],
+      "answer": 0,
+      "note": "The writer sets three alarms because waking up early is hard."
+    },
+    {
+      "id": "r051",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "한국에서는 생일에 미역국을 먹습니다. 미역국은 몸에 좋은 음식입니다. 저도 생일에 한국 친구가 끓여 준 미역국을 먹었습니다. 맛이 아주 좋았습니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "한국 사람들은 생일에 미역국을 먹습니다.",
+        "미역국은 몸에 좋지 않습니다.",
+        "저는 생일에 미역국을 끓였습니다.",
+        "미역국은 맛이 없었습니다."
+      ],
+      "answer": 0,
+      "note": "한국에서는 생일에 미역국을 먹습니다."
+    },
+    {
+      "id": "r052",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "저는 다음 달에 한국어 시험을 봅니다. 그래서 요즘 매일 도서관에서 공부합니다. 도서관은 조용하고 책도 많아서 공부하기 좋습니다.",
+      "prompt": "이 사람이 도서관에서 공부하는 이유는 무엇입니까?",
+      "options": [
+        "도서관이 조용하고 책이 많아서",
+        "집에 책상이 없어서",
+        "친구를 만나려고",
+        "도서관에서 일하고 싶어서"
+      ],
+      "answer": 0,
+      "note": "도서관은 조용하고 책도 많아서 공부하기 좋습니다."
+    },
+    {
+      "id": "r053",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "우리 동네에는 오래된 시장이 있습니다. 시장 사람들은 모두 친절합니다. 물건을 사면 가끔 조금 더 주기도 합니다. 그래서 저는 마트보다 시장을 더 좋아합니다.",
+      "prompt": "이 사람이 시장을 더 좋아하는 이유는 무엇입니까?",
+      "options": [
+        "시장 사람들이 친절해서",
+        "시장이 집에서 가까워서",
+        "시장에 물건이 적어서",
+        "마트가 문을 닫아서"
+      ],
+      "answer": 0,
+      "note": "시장 사람들은 모두 친절합니다 … 조금 더 주기도 합니다."
+    },
+    {
+      "id": "r054",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "저는 고등학교 때부터 일기를 썼습니다. 매일 밤 자기 전에 그날 있었던 일을 씁니다. 가끔 옛날 일기를 읽으면 재미있습니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "매일 밤 일기를 씁니다.",
+        "대학교 때부터 일기를 썼습니다.",
+        "아침에 일기를 씁니다.",
+        "옛날 일기는 읽지 않습니다."
+      ],
+      "answer": 0,
+      "note": "매일 밤 자기 전에 그날 있었던 일을 씁니다."
+    },
+    {
+      "id": "r055",
+      "type": "question",
+      "section": "reading",
+      "grammar_point": "읽기: 물음에 답하기",
+      "instruction": "다음을 읽고 물음에 답하십시오.",
+      "instruction_en": "Read and answer the question.",
+      "passage": "이번 주말에 우리 반 친구들과 같이 소풍을 갑니다. 저는 김밥을 준비하고, 마리아 씨는 과일을 가져올 겁니다. 그리고 선생님께서 음료수를 사 주신다고 하셨습니다.",
+      "prompt": "이 글의 내용과 같은 것을 고르십시오.",
+      "options": [
+        "선생님이 음료수를 사 주실 겁니다.",
+        "마리아 씨가 김밥을 준비합니다.",
+        "저는 과일을 가져갑니다.",
+        "소풍은 다음 주에 갑니다."
+      ],
+      "answer": 0,
+      "note": "선생님께서 음료수를 사 주신다고 하셨습니다."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
-// Text-to-speech abstraction. The default implementation drives Open JTalk
-// (open-source HMM-based Japanese TTS, BSD license) through its CLI.
+// Text-to-speech abstraction.
+//   Japanese: Open JTalk (open-source HMM-based TTS, BSD license) through its CLI.
+//   Korean:   edge-tts (Microsoft neural voices, needs internet; audio is cached by the
+//             listening module) with espeak-ng as an offline fallback.
 // Another engine (VOICEVOX, Piper, ...) can be added by implementing TtsEngine.
 #pragma once
 
@@ -51,4 +53,27 @@ private:
     std::string status_;
 };
 
-std::unique_ptr<TtsEngine> makeTtsEngine(const Config& cfg);
+class KoreanTtsEngine : public TtsEngine {
+public:
+    explicit KoreanTtsEngine(const Config& cfg);
+
+    std::string name() const override { return edgeTts_.empty() ? "espeak-ng" : "edge-tts"; }
+    bool available() const override { return !edgeTts_.empty() || !espeak_.empty(); }
+    std::string status() const override { return status_; }
+    bool synthesize(const std::string& text, const std::string& speaker, const std::string& outWav) const override;
+    std::string voiceSignature() const override;
+
+private:
+    bool viaEdgeTts(const std::string& textFile, const std::string& speaker, const std::string& outWav) const;
+    bool viaEspeak(const std::string& textFile, const std::string& speaker, const std::string& outWav) const;
+
+    std::string edgeTts_;      // edge-tts executable (venv in third_party/edge-tts or $PATH)
+    std::string espeak_;       // espeak-ng executable
+    std::string espeakLibDir_; // LD_LIBRARY_PATH for a bundled espeak-ng
+    std::string espeakData_;   // ESPEAK_DATA_PATH for a bundled espeak-ng
+    std::string voiceFemale_, voiceMale_, voiceNarrator_;
+    std::string rate_;         // edge-tts rate, e.g. "-5%"
+    std::string status_;
+};
+
+std::unique_ptr<TtsEngine> makeTtsEngine(const Config& cfg);  // picks the engine for cfg.language

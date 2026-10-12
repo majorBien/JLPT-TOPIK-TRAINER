@@ -1,0 +1,4960 @@
+{
+  "level": "A2",
+  "entries": [
+    {
+      "id": "a2v001",
+      "word": "직업",
+      "form": "직업",
+      "meaning": "occupation",
+      "pos": "noun",
+      "example": "지원서에 이름과 직업을 쓰세요."
+    },
+    {
+      "id": "a2v002",
+      "word": "회의",
+      "form": "회의",
+      "meaning": "meeting",
+      "pos": "noun",
+      "example": "오후 두 시에 회의가 있어요."
+    },
+    {
+      "id": "a2v003",
+      "word": "출장",
+      "form": "출장",
+      "meaning": "business trip",
+      "pos": "noun",
+      "example": "부장님은 다음 주에 출장을 가세요."
+    },
+    {
+      "id": "a2v004",
+      "word": "출근",
+      "form": "출근",
+      "meaning": "going to work",
+      "pos": "noun",
+      "example": "출근 시간에는 지하철이 복잡해요."
+    },
+    {
+      "id": "a2v005",
+      "word": "퇴근",
+      "form": "퇴근",
+      "meaning": "leaving work",
+      "pos": "noun",
+      "example": "퇴근 후에 친구를 만나기로 했어요."
+    },
+    {
+      "id": "a2v006",
+      "word": "월급",
+      "form": "월급",
+      "meaning": "monthly salary",
+      "pos": "noun",
+      "example": "이번 달 월급을 받아서 부모님께 선물을 드렸어요."
+    },
+    {
+      "id": "a2v007",
+      "word": "동료",
+      "form": "동료",
+      "meaning": "colleague",
+      "pos": "noun",
+      "example": "회사 동료들과 점심을 같이 먹어요."
+    },
+    {
+      "id": "a2v008",
+      "word": "면접",
+      "form": "면접",
+      "meaning": "job interview",
+      "pos": "noun",
+      "example": "내일 회사 면접이 있어서 긴장돼요."
+    },
+    {
+      "id": "a2v009",
+      "word": "이력서",
+      "form": "이력서",
+      "meaning": "résumé",
+      "pos": "noun",
+      "example": "이력서에 사진을 붙여야 해요."
+    },
+    {
+      "id": "a2v010",
+      "word": "경험",
+      "form": "경험",
+      "meaning": "experience",
+      "pos": "noun",
+      "example": "외국에서 일한 경험이 있어요?"
+    },
+    {
+      "id": "a2v011",
+      "word": "계획",
+      "form": "계획",
+      "meaning": "plan",
+      "pos": "noun",
+      "example": "이번 방학 계획을 세웠어요."
+    },
+    {
+      "id": "a2v012",
+      "word": "일정",
+      "form": "일정",
+      "meaning": "schedule",
+      "pos": "noun",
+      "example": "여행 일정이 바뀌었어요."
+    },
+    {
+      "id": "a2v013",
+      "word": "서류",
+      "form": "서류",
+      "meaning": "documents",
+      "pos": "noun",
+      "example": "필요한 서류를 이메일로 보내 주세요."
+    },
+    {
+      "id": "a2v014",
+      "word": "보고서",
+      "form": "보고서",
+      "meaning": "report",
+      "pos": "noun",
+      "example": "금요일까지 보고서를 써야 해요."
+    },
+    {
+      "id": "a2v015",
+      "word": "야근",
+      "form": "야근",
+      "meaning": "overtime at night",
+      "pos": "noun",
+      "example": "요즘 일이 많아서 매일 야근을 해요."
+    },
+    {
+      "id": "a2v016",
+      "word": "사장님",
+      "form": "사장님",
+      "meaning": "company president, owner",
+      "pos": "noun",
+      "example": "사장님께서 새 직원을 소개하셨어요."
+    },
+    {
+      "id": "a2v017",
+      "word": "건강",
+      "form": "건강",
+      "meaning": "health",
+      "pos": "noun",
+      "example": "건강을 위해서 담배를 끊었어요."
+    },
+    {
+      "id": "a2v018",
+      "word": "열",
+      "form": "열",
+      "meaning": "fever",
+      "pos": "noun",
+      "example": "열이 나서 학교에 못 갔어요."
+    },
+    {
+      "id": "a2v019",
+      "word": "기침",
+      "form": "기침",
+      "meaning": "cough",
+      "pos": "noun",
+      "example": "감기 때문에 기침이 계속 나요."
+    },
+    {
+      "id": "a2v020",
+      "word": "콧물",
+      "form": "콧물",
+      "meaning": "runny nose",
+      "pos": "noun",
+      "example": "감기에 걸려서 콧물이 나요."
+    },
+    {
+      "id": "a2v021",
+      "word": "두통",
+      "form": "두통",
+      "meaning": "headache",
+      "pos": "noun",
+      "example": "두통이 심해서 약을 먹었어요."
+    },
+    {
+      "id": "a2v022",
+      "word": "치과",
+      "form": "치과",
+      "meaning": "dentist's office",
+      "pos": "noun",
+      "example": "이가 아파서 치과에 갔어요."
+    },
+    {
+      "id": "a2v023",
+      "word": "입원",
+      "form": "입원",
+      "meaning": "hospitalization",
+      "pos": "noun",
+      "example": "할아버지는 일주일 동안 입원을 하셨어요."
+    },
+    {
+      "id": "a2v024",
+      "word": "수술",
+      "form": "수술",
+      "meaning": "surgery",
+      "pos": "noun",
+      "example": "다리 수술은 잘 끝났어요."
+    },
+    {
+      "id": "a2v025",
+      "word": "주사",
+      "form": "주사",
+      "meaning": "injection",
+      "pos": "noun",
+      "example": "병원에서 주사를 맞았어요."
+    },
+    {
+      "id": "a2v026",
+      "word": "처방전",
+      "form": "처방전",
+      "meaning": "prescription",
+      "pos": "noun",
+      "example": "약국에 처방전을 가져가세요."
+    },
+    {
+      "id": "a2v027",
+      "word": "증상",
+      "form": "증상",
+      "meaning": "symptom",
+      "pos": "noun",
+      "example": "어떤 증상이 있으세요?"
+    },
+    {
+      "id": "a2v028",
+      "word": "상처",
+      "form": "상처",
+      "meaning": "wound",
+      "pos": "noun",
+      "example": "넘어져서 무릎에 상처가 났어요."
+    },
+    {
+      "id": "a2v029",
+      "word": "다이어트",
+      "form": "다이어트",
+      "meaning": "diet",
+      "pos": "noun",
+      "example": "여름이 오기 전에 다이어트를 시작했어요."
+    },
+    {
+      "id": "a2v030",
+      "word": "기분",
+      "form": "기분",
+      "meaning": "mood, feeling",
+      "pos": "noun",
+      "example": "오늘은 기분이 아주 좋아요."
+    },
+    {
+      "id": "a2v031",
+      "word": "마음",
+      "form": "마음",
+      "meaning": "heart, mind",
+      "pos": "noun",
+      "example": "친구의 마음을 잘 모르겠어요."
+    },
+    {
+      "id": "a2v032",
+      "word": "걱정",
+      "form": "걱정",
+      "meaning": "worry",
+      "pos": "noun",
+      "example": "시험 때문에 걱정이 많아요."
+    },
+    {
+      "id": "a2v033",
+      "word": "스트레스",
+      "form": "스트레스",
+      "meaning": "stress",
+      "pos": "noun",
+      "example": "운동을 하면 스트레스가 풀려요."
+    },
+    {
+      "id": "a2v034",
+      "word": "고민",
+      "form": "고민",
+      "meaning": "worry, concern",
+      "pos": "noun",
+      "example": "요즘 진로 때문에 고민이 있어요."
+    },
+    {
+      "id": "a2v035",
+      "word": "화",
+      "form": "화",
+      "meaning": "anger",
+      "pos": "noun",
+      "example": "동생이 약속을 안 지켜서 화가 났어요."
+    },
+    {
+      "id": "a2v036",
+      "word": "관광",
+      "form": "관광",
+      "meaning": "sightseeing",
+      "pos": "noun",
+      "example": "서울에서 관광을 하고 싶어요."
+    },
+    {
+      "id": "a2v037",
+      "word": "관광지",
+      "form": "관광지",
+      "meaning": "tourist spot",
+      "pos": "noun",
+      "example": "경주는 유명한 관광지예요."
+    },
+    {
+      "id": "a2v038",
+      "word": "여행사",
+      "form": "여행사",
+      "meaning": "travel agency",
+      "pos": "noun",
+      "example": "여행사에서 비행기 표를 샀어요."
+    },
+    {
+      "id": "a2v039",
+      "word": "숙소",
+      "form": "숙소",
+      "meaning": "accommodation",
+      "pos": "noun",
+      "example": "숙소는 바닷가 근처에 있어요."
+    },
+    {
+      "id": "a2v040",
+      "word": "예약",
+      "form": "예약",
+      "meaning": "reservation",
+      "pos": "noun",
+      "example": "식당 예약을 일곱 시로 했어요."
+    },
+    {
+      "id": "a2v041",
+      "word": "비자",
+      "form": "비자",
+      "meaning": "visa",
+      "pos": "noun",
+      "example": "비자를 받으려면 대사관에 가야 해요."
+    },
+    {
+      "id": "a2v042",
+      "word": "짐",
+      "form": "짐",
+      "meaning": "luggage",
+      "pos": "noun",
+      "example": "여행 짐을 미리 싸 두었어요."
+    },
+    {
+      "id": "a2v043",
+      "word": "기념품",
+      "form": "기념품",
+      "meaning": "souvenir",
+      "pos": "noun",
+      "example": "친구들에게 줄 기념품을 샀어요."
+    },
+    {
+      "id": "a2v044",
+      "word": "경치",
+      "form": "경치",
+      "meaning": "scenery",
+      "pos": "noun",
+      "example": "산 위에서 보는 경치가 정말 아름다워요."
+    },
+    {
+      "id": "a2v045",
+      "word": "안내",
+      "form": "안내",
+      "meaning": "guidance, information",
+      "pos": "noun",
+      "example": "안내 방송을 잘 들으세요."
+    },
+    {
+      "id": "a2v046",
+      "word": "도착",
+      "form": "도착",
+      "meaning": "arrival",
+      "pos": "noun",
+      "example": "도착 시간이 한 시간 늦어졌어요."
+    },
+    {
+      "id": "a2v047",
+      "word": "왕복",
+      "form": "왕복",
+      "meaning": "round trip",
+      "pos": "noun",
+      "example": "부산까지 왕복 표를 샀어요."
+    },
+    {
+      "id": "a2v048",
+      "word": "편도",
+      "form": "편도",
+      "meaning": "one way",
+      "pos": "noun",
+      "example": "편도로 사면 조금 비싸요."
+    },
+    {
+      "id": "a2v049",
+      "word": "환전",
+      "form": "환전",
+      "meaning": "currency exchange",
+      "pos": "noun",
+      "example": "공항에서 환전을 했어요."
+    },
+    {
+      "id": "a2v050",
+      "word": "이사",
+      "form": "이사",
+      "meaning": "moving (house)",
+      "pos": "noun",
+      "example": "이사 준비 때문에 바빠요."
+    },
+    {
+      "id": "a2v051",
+      "word": "월세",
+      "form": "월세",
+      "meaning": "monthly rent",
+      "pos": "noun",
+      "example": "이 원룸은 월세가 오십만 원이에요."
+    },
+    {
+      "id": "a2v052",
+      "word": "원룸",
+      "form": "원룸",
+      "meaning": "studio apartment",
+      "pos": "noun",
+      "example": "학교 근처 원룸에서 혼자 살아요."
+    },
+    {
+      "id": "a2v053",
+      "word": "주인",
+      "form": "주인",
+      "meaning": "owner, landlord",
+      "pos": "noun",
+      "example": "집 주인에게 월세를 보냈어요."
+    },
+    {
+      "id": "a2v054",
+      "word": "이웃",
+      "form": "이웃",
+      "meaning": "neighbour",
+      "pos": "noun",
+      "example": "이웃 사람들이 모두 친절해요."
+    },
+    {
+      "id": "a2v055",
+      "word": "관리실",
+      "form": "관리실",
+      "meaning": "management office",
+      "pos": "noun",
+      "example": "택배는 관리실에 맡겨 주세요."
+    },
+    {
+      "id": "a2v056",
+      "word": "가격",
+      "form": "가격",
+      "meaning": "price",
+      "pos": "noun",
+      "example": "이 가게는 가격이 싸요."
+    },
+    {
+      "id": "a2v057",
+      "word": "할인",
+      "form": "할인",
+      "meaning": "discount",
+      "pos": "noun",
+      "example": "학생은 할인을 받을 수 있어요."
+    },
+    {
+      "id": "a2v058",
+      "word": "세일",
+      "form": "세일",
+      "meaning": "sale",
+      "pos": "noun",
+      "example": "백화점이 다음 주부터 세일을 해요."
+    },
+    {
+      "id": "a2v059",
+      "word": "영수증",
+      "form": "영수증",
+      "meaning": "receipt",
+      "pos": "noun",
+      "example": "교환하실 때 영수증을 가져오세요."
+    },
+    {
+      "id": "a2v060",
+      "word": "교환",
+      "form": "교환",
+      "meaning": "exchange",
+      "pos": "noun",
+      "example": "사이즈가 안 맞아서 교환을 했어요."
+    },
+    {
+      "id": "a2v061",
+      "word": "환불",
+      "form": "환불",
+      "meaning": "refund",
+      "pos": "noun",
+      "example": "산 지 일주일이 지나서 환불이 안 돼요."
+    },
+    {
+      "id": "a2v062",
+      "word": "사이즈",
+      "form": "사이즈",
+      "meaning": "size",
+      "pos": "noun",
+      "example": "이 신발은 사이즈가 작아요."
+    },
+    {
+      "id": "a2v063",
+      "word": "현금",
+      "form": "현금",
+      "meaning": "cash",
+      "pos": "noun",
+      "example": "이 가게는 현금만 받아요."
+    },
+    {
+      "id": "a2v064",
+      "word": "신용카드",
+      "form": "신용카드",
+      "meaning": "credit card",
+      "pos": "noun",
+      "example": "신용카드로 계산할게요."
+    },
+    {
+      "id": "a2v065",
+      "word": "택배",
+      "form": "택배",
+      "meaning": "parcel delivery",
+      "pos": "noun",
+      "example": "어제 주문한 택배가 왔어요."
+    },
+    {
+      "id": "a2v066",
+      "word": "문화",
+      "form": "문화",
+      "meaning": "culture",
+      "pos": "noun",
+      "example": "한국 문화에 관심이 많아요."
+    },
+    {
+      "id": "a2v067",
+      "word": "전통",
+      "form": "전통",
+      "meaning": "tradition",
+      "pos": "noun",
+      "example": "한복은 한국의 전통 옷이에요."
+    },
+    {
+      "id": "a2v068",
+      "word": "명절",
+      "form": "명절",
+      "meaning": "traditional holiday",
+      "pos": "noun",
+      "example": "명절에는 가족들이 모두 모여요."
+    },
+    {
+      "id": "a2v069",
+      "word": "설날",
+      "form": "설날",
+      "meaning": "Lunar New Year",
+      "pos": "noun",
+      "example": "설날에 떡국을 먹어요."
+    },
+    {
+      "id": "a2v070",
+      "word": "추석",
+      "form": "추석",
+      "meaning": "Chuseok (harvest festival)",
+      "pos": "noun",
+      "example": "추석에는 송편을 만들어요."
+    },
+    {
+      "id": "a2v071",
+      "word": "한복",
+      "form": "한복",
+      "meaning": "hanbok",
+      "pos": "noun",
+      "example": "설날에 한복을 입고 세배를 했어요."
+    },
+    {
+      "id": "a2v072",
+      "word": "떡국",
+      "form": "떡국",
+      "meaning": "rice cake soup",
+      "pos": "noun",
+      "example": "떡국을 먹으면 한 살을 더 먹어요."
+    },
+    {
+      "id": "a2v073",
+      "word": "송편",
+      "form": "송편",
+      "meaning": "songpyeon (rice cake)",
+      "pos": "noun",
+      "example": "가족들과 같이 송편을 빚었어요."
+    },
+    {
+      "id": "a2v074",
+      "word": "세배",
+      "form": "세배",
+      "meaning": "New Year's bow",
+      "pos": "noun",
+      "example": "할아버지께 세배를 드렸어요."
+    },
+    {
+      "id": "a2v075",
+      "word": "예절",
+      "form": "예절",
+      "meaning": "manners, etiquette",
+      "pos": "noun",
+      "example": "식사 예절을 잘 지켜야 해요."
+    },
+    {
+      "id": "a2v076",
+      "word": "존댓말",
+      "form": "존댓말",
+      "meaning": "polite speech",
+      "pos": "noun",
+      "example": "어른에게는 존댓말을 써야 해요."
+    },
+    {
+      "id": "a2v077",
+      "word": "반말",
+      "form": "반말",
+      "meaning": "casual speech",
+      "pos": "noun",
+      "example": "친한 친구에게는 반말을 해요."
+    },
+    {
+      "id": "a2v078",
+      "word": "기온",
+      "form": "기온",
+      "meaning": "temperature (air)",
+      "pos": "noun",
+      "example": "오늘 기온이 영하로 떨어졌어요."
+    },
+    {
+      "id": "a2v079",
+      "word": "온도",
+      "form": "온도",
+      "meaning": "temperature",
+      "pos": "noun",
+      "example": "방 온도가 너무 높아요."
+    },
+    {
+      "id": "a2v080",
+      "word": "장마",
+      "form": "장마",
+      "meaning": "rainy season",
+      "pos": "noun",
+      "example": "칠월에는 장마가 시작돼요."
+    },
+    {
+      "id": "a2v081",
+      "word": "태풍",
+      "form": "태풍",
+      "meaning": "typhoon",
+      "pos": "noun",
+      "example": "태풍 때문에 비행기가 취소됐어요."
+    },
+    {
+      "id": "a2v082",
+      "word": "소나기",
+      "form": "소나기",
+      "meaning": "sudden shower",
+      "pos": "noun",
+      "example": "갑자기 소나기가 내려서 옷이 젖었어요."
+    },
+    {
+      "id": "a2v083",
+      "word": "안개",
+      "form": "안개",
+      "meaning": "fog",
+      "pos": "noun",
+      "example": "안개가 많이 껴서 앞이 잘 안 보여요."
+    },
+    {
+      "id": "a2v084",
+      "word": "자연",
+      "form": "자연",
+      "meaning": "nature",
+      "pos": "noun",
+      "example": "시골에서 자연을 느낄 수 있어요."
+    },
+    {
+      "id": "a2v085",
+      "word": "환경",
+      "form": "환경",
+      "meaning": "environment",
+      "pos": "noun",
+      "example": "환경을 위해서 일회용품을 줄여요."
+    },
+    {
+      "id": "a2v086",
+      "word": "공기",
+      "form": "공기",
+      "meaning": "air",
+      "pos": "noun",
+      "example": "산에 오니까 공기가 맑아요."
+    },
+    {
+      "id": "a2v087",
+      "word": "나무",
+      "form": "나무",
+      "meaning": "tree",
+      "pos": "noun",
+      "example": "공원에 나무가 많아요."
+    },
+    {
+      "id": "a2v088",
+      "word": "숲",
+      "form": "숲",
+      "meaning": "forest",
+      "pos": "noun",
+      "example": "숲 속을 걸으면 마음이 편해져요."
+    },
+    {
+      "id": "a2v089",
+      "word": "호수",
+      "form": "호수",
+      "meaning": "lake",
+      "pos": "noun",
+      "example": "호수 위에 오리들이 떠 있어요."
+    },
+    {
+      "id": "a2v090",
+      "word": "섬",
+      "form": "섬",
+      "meaning": "island",
+      "pos": "noun",
+      "example": "제주도는 한국에서 가장 큰 섬이에요."
+    },
+    {
+      "id": "a2v091",
+      "word": "전공",
+      "form": "전공",
+      "meaning": "major (study)",
+      "pos": "noun",
+      "example": "제 전공은 경영학이에요."
+    },
+    {
+      "id": "a2v092",
+      "word": "학기",
+      "form": "학기",
+      "meaning": "semester",
+      "pos": "noun",
+      "example": "다음 학기에는 수업을 더 들을 거예요."
+    },
+    {
+      "id": "a2v093",
+      "word": "장학금",
+      "form": "장학금",
+      "meaning": "scholarship",
+      "pos": "noun",
+      "example": "성적이 좋아서 장학금을 받았어요."
+    },
+    {
+      "id": "a2v094",
+      "word": "졸업",
+      "form": "졸업",
+      "meaning": "graduation",
+      "pos": "noun",
+      "example": "졸업 후에 한국 회사에서 일하고 싶어요."
+    },
+    {
+      "id": "a2v095",
+      "word": "입학",
+      "form": "입학",
+      "meaning": "admission to school",
+      "pos": "noun",
+      "example": "동생은 올해 대학교 입학 시험을 봐요."
+    },
+    {
+      "id": "a2v096",
+      "word": "성적",
+      "form": "성적",
+      "meaning": "grades",
+      "pos": "noun",
+      "example": "이번 학기 성적이 많이 올랐어요."
+    },
+    {
+      "id": "a2v097",
+      "word": "강의",
+      "form": "강의",
+      "meaning": "lecture",
+      "pos": "noun",
+      "example": "오늘 강의는 아주 재미있었어요."
+    },
+    {
+      "id": "a2v098",
+      "word": "과제",
+      "form": "과제",
+      "meaning": "assignment",
+      "pos": "noun",
+      "example": "과제를 다음 주까지 내야 해요."
+    },
+    {
+      "id": "a2v099",
+      "word": "발표",
+      "form": "발표",
+      "meaning": "presentation",
+      "pos": "noun",
+      "example": "내일 수업 시간에 발표가 있어요."
+    },
+    {
+      "id": "a2v100",
+      "word": "토론",
+      "form": "토론",
+      "meaning": "debate, discussion",
+      "pos": "noun",
+      "example": "환경 문제에 대해서 토론을 했어요."
+    },
+    {
+      "id": "a2v101",
+      "word": "동아리",
+      "form": "동아리",
+      "meaning": "club (university)",
+      "pos": "noun",
+      "example": "사진 동아리에 가입했어요."
+    },
+    {
+      "id": "a2v102",
+      "word": "선배",
+      "form": "선배",
+      "meaning": "senior (at school/work)",
+      "pos": "noun",
+      "example": "선배가 공부하는 방법을 알려 줬어요."
+    },
+    {
+      "id": "a2v103",
+      "word": "후배",
+      "form": "후배",
+      "meaning": "junior",
+      "pos": "noun",
+      "example": "후배에게 점심을 사 줬어요."
+    },
+    {
+      "id": "a2v104",
+      "word": "유학",
+      "form": "유학",
+      "meaning": "studying abroad",
+      "pos": "noun",
+      "example": "형은 미국으로 유학을 갔어요."
+    },
+    {
+      "id": "a2v105",
+      "word": "뉴스",
+      "form": "뉴스",
+      "meaning": "news",
+      "pos": "noun",
+      "example": "아침마다 텔레비전으로 뉴스를 봐요."
+    },
+    {
+      "id": "a2v106",
+      "word": "신문",
+      "form": "신문",
+      "meaning": "newspaper",
+      "pos": "noun",
+      "example": "아버지는 신문을 읽으세요."
+    },
+    {
+      "id": "a2v107",
+      "word": "광고",
+      "form": "광고",
+      "meaning": "advertisement",
+      "pos": "noun",
+      "example": "텔레비전 광고를 보고 그 물건을 샀어요."
+    },
+    {
+      "id": "a2v108",
+      "word": "정보",
+      "form": "정보",
+      "meaning": "information",
+      "pos": "noun",
+      "example": "인터넷에서 여행 정보를 찾았어요."
+    },
+    {
+      "id": "a2v109",
+      "word": "소식",
+      "form": "소식",
+      "meaning": "news (personal)",
+      "pos": "noun",
+      "example": "친구의 결혼 소식을 들었어요."
+    },
+    {
+      "id": "a2v110",
+      "word": "경제",
+      "form": "경제",
+      "meaning": "economy",
+      "pos": "noun",
+      "example": "요즘 경제가 어려워요."
+    },
+    {
+      "id": "a2v111",
+      "word": "사고",
+      "form": "사고",
+      "meaning": "accident",
+      "pos": "noun",
+      "example": "길이 미끄러워서 사고가 났어요."
+    },
+    {
+      "id": "a2v112",
+      "word": "교통사고",
+      "form": "교통사고",
+      "meaning": "traffic accident",
+      "pos": "noun",
+      "example": "교통사고 때문에 길이 막혀요."
+    },
+    {
+      "id": "a2v113",
+      "word": "습관",
+      "form": "습관",
+      "meaning": "habit",
+      "pos": "noun",
+      "example": "일찍 일어나는 습관을 들이고 싶어요."
+    },
+    {
+      "id": "a2v114",
+      "word": "모임",
+      "form": "모임",
+      "meaning": "gathering",
+      "pos": "noun",
+      "example": "매달 고등학교 친구들 모임이 있어요."
+    },
+    {
+      "id": "a2v115",
+      "word": "행사",
+      "form": "행사",
+      "meaning": "event",
+      "pos": "noun",
+      "example": "학교에서 큰 행사가 열려요."
+    },
+    {
+      "id": "a2v116",
+      "word": "축제",
+      "form": "축제",
+      "meaning": "festival",
+      "pos": "noun",
+      "example": "가을에 대학교 축제가 있어요."
+    },
+    {
+      "id": "a2v117",
+      "word": "대회",
+      "form": "대회",
+      "meaning": "contest, competition",
+      "pos": "noun",
+      "example": "말하기 대회에서 일등을 했어요."
+    },
+    {
+      "id": "a2v118",
+      "word": "공연",
+      "form": "공연",
+      "meaning": "performance",
+      "pos": "noun",
+      "example": "어제 본 공연이 정말 멋있었어요."
+    },
+    {
+      "id": "a2v119",
+      "word": "전시회",
+      "form": "전시회",
+      "meaning": "exhibition",
+      "pos": "noun",
+      "example": "미술관에서 사진 전시회를 해요."
+    },
+    {
+      "id": "a2v120",
+      "word": "이유",
+      "form": "이유",
+      "meaning": "reason",
+      "pos": "noun",
+      "example": "늦은 이유를 말해 주세요."
+    },
+    {
+      "id": "a2v121",
+      "word": "방법",
+      "form": "방법",
+      "meaning": "method, way",
+      "pos": "noun",
+      "example": "한국어를 잘하는 방법을 알려 주세요."
+    },
+    {
+      "id": "a2v122",
+      "word": "결과",
+      "form": "결과",
+      "meaning": "result",
+      "pos": "noun",
+      "example": "시험 결과가 내일 나와요."
+    },
+    {
+      "id": "a2v123",
+      "word": "차이",
+      "form": "차이",
+      "meaning": "difference",
+      "pos": "noun",
+      "example": "두 단어의 차이를 모르겠어요."
+    },
+    {
+      "id": "a2v124",
+      "word": "의미",
+      "form": "의미",
+      "meaning": "meaning",
+      "pos": "noun",
+      "example": "이 문장의 의미를 설명해 주세요."
+    },
+    {
+      "id": "a2v125",
+      "word": "내용",
+      "form": "내용",
+      "meaning": "content",
+      "pos": "noun",
+      "example": "책 내용이 조금 어려워요."
+    },
+    {
+      "id": "a2v126",
+      "word": "생활",
+      "form": "생활",
+      "meaning": "life, daily living",
+      "pos": "noun",
+      "example": "한국 생활에 많이 익숙해졌어요."
+    },
+    {
+      "id": "a2v127",
+      "word": "준비",
+      "form": "준비",
+      "meaning": "preparation",
+      "pos": "noun",
+      "example": "시험 준비를 열심히 하고 있어요."
+    },
+    {
+      "id": "a2v128",
+      "word": "연락",
+      "form": "연락",
+      "meaning": "contact",
+      "pos": "noun",
+      "example": "도착하면 연락 주세요."
+    },
+    {
+      "id": "a2v129",
+      "word": "소개",
+      "form": "소개",
+      "meaning": "introduction",
+      "pos": "noun",
+      "example": "친구 소개로 지금 회사에 들어왔어요."
+    },
+    {
+      "id": "a2v130",
+      "word": "부탁",
+      "form": "부탁",
+      "meaning": "request, favour",
+      "pos": "noun",
+      "example": "부탁이 하나 있는데 들어줄 수 있어요?"
+    },
+    {
+      "id": "a2v131",
+      "word": "실수",
+      "form": "실수",
+      "meaning": "mistake",
+      "pos": "noun",
+      "example": "시험에서 작은 실수를 했어요."
+    },
+    {
+      "id": "a2v132",
+      "word": "도움",
+      "form": "도움",
+      "meaning": "help",
+      "pos": "noun",
+      "example": "친구의 도움을 받아서 이사를 끝냈어요."
+    },
+    {
+      "id": "a2v133",
+      "word": "사실",
+      "form": "사실",
+      "meaning": "fact, truth",
+      "pos": "noun",
+      "example": "그 이야기는 사실이 아니에요."
+    },
+    {
+      "id": "a2v134",
+      "word": "기억",
+      "form": "기억",
+      "meaning": "memory",
+      "pos": "noun",
+      "example": "어렸을 때의 기억이 별로 없어요."
+    },
+    {
+      "id": "a2v135",
+      "word": "경우",
+      "form": "경우",
+      "meaning": "case, situation",
+      "pos": "noun",
+      "example": "비가 오는 경우에는 행사를 취소합니다."
+    },
+    {
+      "id": "a2v136",
+      "word": "시청",
+      "form": "시청",
+      "meaning": "city hall",
+      "pos": "noun",
+      "example": "시청 앞 광장에서 공연이 있어요."
+    },
+    {
+      "id": "a2v137",
+      "word": "대사관",
+      "form": "대사관",
+      "meaning": "embassy",
+      "pos": "noun",
+      "example": "비자를 받으러 대사관에 갔어요."
+    },
+    {
+      "id": "a2v138",
+      "word": "세탁소",
+      "form": "세탁소",
+      "meaning": "dry cleaner's",
+      "pos": "noun",
+      "example": "양복을 세탁소에 맡겼어요."
+    },
+    {
+      "id": "a2v139",
+      "word": "사진관",
+      "form": "사진관",
+      "meaning": "photo studio",
+      "pos": "noun",
+      "example": "사진관에서 여권 사진을 찍었어요."
+    },
+    {
+      "id": "a2v140",
+      "word": "문구점",
+      "form": "문구점",
+      "meaning": "stationery store",
+      "pos": "noun",
+      "example": "문구점에서 공책과 볼펜을 샀어요."
+    },
+    {
+      "id": "a2v141",
+      "word": "안경점",
+      "form": "안경점",
+      "meaning": "optician's",
+      "pos": "noun",
+      "example": "안경점에서 새 안경을 맞췄어요."
+    },
+    {
+      "id": "a2v142",
+      "word": "매표소",
+      "form": "매표소",
+      "meaning": "ticket office",
+      "pos": "noun",
+      "example": "매표소에서 입장권을 사세요."
+    },
+    {
+      "id": "a2v143",
+      "word": "터미널",
+      "form": "터미널",
+      "meaning": "(bus) terminal",
+      "pos": "noun",
+      "example": "고속버스 터미널에서 친구를 만났어요."
+    },
+    {
+      "id": "a2v144",
+      "word": "고속버스",
+      "form": "고속버스",
+      "meaning": "express bus",
+      "pos": "noun",
+      "example": "부산까지 고속버스로 네 시간 걸려요."
+    },
+    {
+      "id": "a2v145",
+      "word": "휴게소",
+      "form": "휴게소",
+      "meaning": "rest area",
+      "pos": "noun",
+      "example": "휴게소에서 잠깐 쉬었다가 가요."
+    },
+    {
+      "id": "a2v146",
+      "word": "재료",
+      "form": "재료",
+      "meaning": "ingredient",
+      "pos": "noun",
+      "example": "김밥 재료를 시장에서 샀어요."
+    },
+    {
+      "id": "a2v147",
+      "word": "국수",
+      "form": "국수",
+      "meaning": "noodles",
+      "pos": "noun",
+      "example": "점심에 따뜻한 국수를 먹었어요."
+    },
+    {
+      "id": "a2v148",
+      "word": "만두",
+      "form": "만두",
+      "meaning": "dumplings",
+      "pos": "noun",
+      "example": "설날에 가족들과 만두를 만들었어요."
+    },
+    {
+      "id": "a2v149",
+      "word": "갈비",
+      "form": "갈비",
+      "meaning": "ribs",
+      "pos": "noun",
+      "example": "생일에 가족과 갈비를 먹으러 갔어요."
+    },
+    {
+      "id": "a2v150",
+      "word": "두부",
+      "form": "두부",
+      "meaning": "tofu",
+      "pos": "noun",
+      "example": "된장찌개에 두부를 넣으세요."
+    },
+    {
+      "id": "a2v151",
+      "word": "고추",
+      "form": "고추",
+      "meaning": "chili pepper",
+      "pos": "noun",
+      "example": "고추가 너무 매워서 물을 마셨어요."
+    },
+    {
+      "id": "a2v152",
+      "word": "마늘",
+      "form": "마늘",
+      "meaning": "garlic",
+      "pos": "noun",
+      "example": "한국 음식에는 마늘이 많이 들어가요."
+    },
+    {
+      "id": "a2v153",
+      "word": "양파",
+      "form": "양파",
+      "meaning": "onion",
+      "pos": "noun",
+      "example": "양파를 썰면 눈물이 나요."
+    },
+    {
+      "id": "a2v154",
+      "word": "배추",
+      "form": "배추",
+      "meaning": "napa cabbage",
+      "pos": "noun",
+      "example": "김치를 만들려고 배추를 샀어요."
+    },
+    {
+      "id": "a2v155",
+      "word": "이불",
+      "form": "이불",
+      "meaning": "blanket, duvet",
+      "pos": "noun",
+      "example": "추워서 두꺼운 이불을 덮었어요."
+    },
+    {
+      "id": "a2v156",
+      "word": "베개",
+      "form": "베개",
+      "meaning": "pillow",
+      "pos": "noun",
+      "example": "베개가 너무 높아서 잠을 못 잤어요."
+    },
+    {
+      "id": "a2v157",
+      "word": "수건",
+      "form": "수건",
+      "meaning": "towel",
+      "pos": "noun",
+      "example": "샤워하고 수건으로 몸을 닦아요."
+    },
+    {
+      "id": "a2v158",
+      "word": "비누",
+      "form": "비누",
+      "meaning": "soap",
+      "pos": "noun",
+      "example": "비누로 손을 깨끗이 씻으세요."
+    },
+    {
+      "id": "a2v159",
+      "word": "칫솔",
+      "form": "칫솔",
+      "meaning": "toothbrush",
+      "pos": "noun",
+      "example": "여행 갈 때 칫솔을 챙기세요."
+    },
+    {
+      "id": "a2v160",
+      "word": "치약",
+      "form": "치약",
+      "meaning": "toothpaste",
+      "pos": "noun",
+      "example": "치약이 다 떨어져서 새로 샀어요."
+    },
+    {
+      "id": "a2v161",
+      "word": "휴지",
+      "form": "휴지",
+      "meaning": "tissue, toilet paper",
+      "pos": "noun",
+      "example": "휴지 좀 주세요."
+    },
+    {
+      "id": "a2v162",
+      "word": "가구",
+      "form": "가구",
+      "meaning": "furniture",
+      "pos": "noun",
+      "example": "새 집에 가구를 들여놓았어요."
+    },
+    {
+      "id": "a2v163",
+      "word": "청소기",
+      "form": "청소기",
+      "meaning": "vacuum cleaner",
+      "pos": "noun",
+      "example": "청소기로 방을 청소해요."
+    },
+    {
+      "id": "a2v164",
+      "word": "전자레인지",
+      "form": "전자레인지",
+      "meaning": "microwave",
+      "pos": "noun",
+      "example": "전자레인지에 밥을 데웠어요."
+    },
+    {
+      "id": "a2v165",
+      "word": "새벽",
+      "form": "새벽",
+      "meaning": "dawn, early morning",
+      "pos": "noun",
+      "example": "새벽 다섯 시에 일어나서 운동해요."
+    },
+    {
+      "id": "a2v166",
+      "word": "연휴",
+      "form": "연휴",
+      "meaning": "long weekend, consecutive holidays",
+      "pos": "noun",
+      "example": "이번 연휴에 고향에 내려가요."
+    },
+    {
+      "id": "a2v167",
+      "word": "평생",
+      "form": "평생",
+      "meaning": "whole life",
+      "pos": "noun",
+      "example": "그 일은 평생 잊지 못할 거예요."
+    },
+    {
+      "id": "a2v168",
+      "word": "최근",
+      "form": "최근",
+      "meaning": "recently, latest",
+      "pos": "noun",
+      "example": "최근에 본 영화가 뭐예요?"
+    },
+    {
+      "id": "a2v169",
+      "word": "옛날",
+      "form": "옛날",
+      "meaning": "the old days",
+      "pos": "noun",
+      "example": "옛날에는 이 동네에 논이 많았어요."
+    },
+    {
+      "id": "a2v170",
+      "word": "미래",
+      "form": "미래",
+      "meaning": "future",
+      "pos": "noun",
+      "example": "미래에 무슨 일을 하고 싶어요?"
+    },
+    {
+      "id": "a2v171",
+      "word": "걱정하다",
+      "form": "걱정해요",
+      "meaning": "to worry",
+      "pos": "verb",
+      "example": "어머니는 늘 제 건강을 걱정해요."
+    },
+    {
+      "id": "a2v172",
+      "word": "고민하다",
+      "form": "고민해요",
+      "meaning": "to agonize, to think hard",
+      "pos": "verb",
+      "example": "어느 대학교에 갈지 고민해요."
+    },
+    {
+      "id": "a2v173",
+      "word": "결정하다",
+      "form": "결정해요",
+      "meaning": "to decide",
+      "pos": "verb",
+      "example": "이번 주까지 여행지를 결정해요."
+    },
+    {
+      "id": "a2v174",
+      "word": "경험하다",
+      "form": "경험해요",
+      "meaning": "to experience",
+      "pos": "verb",
+      "example": "한국에서 새로운 문화를 경험해요."
+    },
+    {
+      "id": "a2v175",
+      "word": "신청하다",
+      "form": "신청해요",
+      "meaning": "to apply",
+      "pos": "verb",
+      "example": "인터넷으로 장학금을 신청해요."
+    },
+    {
+      "id": "a2v176",
+      "word": "예약하다",
+      "form": "예약해요",
+      "meaning": "to reserve",
+      "pos": "verb",
+      "example": "여행 가기 전에 호텔을 예약해요."
+    },
+    {
+      "id": "a2v177",
+      "word": "취소하다",
+      "form": "취소해요",
+      "meaning": "to cancel",
+      "pos": "verb",
+      "example": "비가 많이 와서 약속을 취소해요."
+    },
+    {
+      "id": "a2v178",
+      "word": "확인하다",
+      "form": "확인해요",
+      "meaning": "to check, to confirm",
+      "pos": "verb",
+      "example": "출발하기 전에 비행기 시간을 확인해요."
+    },
+    {
+      "id": "a2v179",
+      "word": "연락하다",
+      "form": "연락해요",
+      "meaning": "to contact",
+      "pos": "verb",
+      "example": "일이 끝나면 바로 연락해요."
+    },
+    {
+      "id": "a2v180",
+      "word": "소개하다",
+      "form": "소개해요",
+      "meaning": "to introduce",
+      "pos": "verb",
+      "example": "제 친구를 부모님께 소개해요."
+    },
+    {
+      "id": "a2v181",
+      "word": "부탁하다",
+      "form": "부탁해요",
+      "meaning": "to ask a favour",
+      "pos": "verb",
+      "example": "친구에게 이사를 도와 달라고 부탁해요."
+    },
+    {
+      "id": "a2v182",
+      "word": "약속하다",
+      "form": "약속해요",
+      "meaning": "to promise",
+      "pos": "verb",
+      "example": "다시는 늦지 않겠다고 약속해요."
+    },
+    {
+      "id": "a2v183",
+      "word": "이해하다",
+      "form": "이해해요",
+      "meaning": "to understand",
+      "pos": "verb",
+      "example": "선생님의 설명을 잘 이해해요."
+    },
+    {
+      "id": "a2v184",
+      "word": "설명하다",
+      "form": "설명해요",
+      "meaning": "to explain",
+      "pos": "verb",
+      "example": "선생님이 문법을 쉽게 설명해요."
+    },
+    {
+      "id": "a2v185",
+      "word": "발표하다",
+      "form": "발표해요",
+      "meaning": "to present",
+      "pos": "verb",
+      "example": "저는 내일 수업에서 발표해요."
+    },
+    {
+      "id": "a2v186",
+      "word": "출근하다",
+      "form": "출근해요",
+      "meaning": "to go to work",
+      "pos": "verb",
+      "example": "저는 매일 아침 여덟 시까지 출근해요."
+    },
+    {
+      "id": "a2v187",
+      "word": "퇴근하다",
+      "form": "퇴근해요",
+      "meaning": "to leave work",
+      "pos": "verb",
+      "example": "아버지는 보통 여섯 시에 퇴근해요."
+    },
+    {
+      "id": "a2v188",
+      "word": "입원하다",
+      "form": "입원해요",
+      "meaning": "to be hospitalized",
+      "pos": "verb",
+      "example": "할머니는 내일부터 병원에 입원해요."
+    },
+    {
+      "id": "a2v189",
+      "word": "퇴원하다",
+      "form": "퇴원해요",
+      "meaning": "to leave hospital",
+      "pos": "verb",
+      "example": "친구가 다음 주에 퇴원해요."
+    },
+    {
+      "id": "a2v190",
+      "word": "졸업하다",
+      "form": "졸업해요",
+      "meaning": "to graduate",
+      "pos": "verb",
+      "example": "저는 내년 이월에 대학교를 졸업해요."
+    },
+    {
+      "id": "a2v191",
+      "word": "입학하다",
+      "form": "입학해요",
+      "meaning": "to enter a school",
+      "pos": "verb",
+      "example": "동생은 올해 초등학교에 입학해요."
+    },
+    {
+      "id": "a2v192",
+      "word": "유학하다",
+      "form": "유학해요",
+      "meaning": "to study abroad",
+      "pos": "verb",
+      "example": "사촌 언니는 영국에서 유학해요."
+    },
+    {
+      "id": "a2v193",
+      "word": "환전하다",
+      "form": "환전해요",
+      "meaning": "to exchange money",
+      "pos": "verb",
+      "example": "여행 가기 전에 은행에서 환전해요."
+    },
+    {
+      "id": "a2v194",
+      "word": "교환하다",
+      "form": "교환해요",
+      "meaning": "to exchange (goods)",
+      "pos": "verb",
+      "example": "색깔이 마음에 안 들어서 옷을 교환해요."
+    },
+    {
+      "id": "a2v195",
+      "word": "환불하다",
+      "form": "환불해요",
+      "meaning": "to refund",
+      "pos": "verb",
+      "example": "고장 난 제품은 바로 환불해요."
+    },
+    {
+      "id": "a2v196",
+      "word": "주차하다",
+      "form": "주차해요",
+      "meaning": "to park",
+      "pos": "verb",
+      "example": "저는 회사 지하에 차를 주차해요."
+    },
+    {
+      "id": "a2v197",
+      "word": "운전하다",
+      "form": "운전해요",
+      "meaning": "to drive",
+      "pos": "verb",
+      "example": "저는 주말에만 운전해요."
+    },
+    {
+      "id": "a2v198",
+      "word": "이용하다",
+      "form": "이용해요",
+      "meaning": "to use (a service)",
+      "pos": "verb",
+      "example": "저는 출근할 때 지하철을 이용해요."
+    },
+    {
+      "id": "a2v199",
+      "word": "사용하다",
+      "form": "사용해요",
+      "meaning": "to use",
+      "pos": "verb",
+      "example": "요즘은 종이 대신 휴대폰을 많이 사용해요."
+    },
+    {
+      "id": "a2v200",
+      "word": "참가하다",
+      "form": "참가해요",
+      "meaning": "to participate",
+      "pos": "verb",
+      "example": "저는 이번 말하기 대회에 참가해요."
+    },
+    {
+      "id": "a2v201",
+      "word": "참석하다",
+      "form": "참석해요",
+      "meaning": "to attend",
+      "pos": "verb",
+      "example": "내일 회의에 사장님도 참석해요."
+    },
+    {
+      "id": "a2v202",
+      "word": "구경하다",
+      "form": "구경해요",
+      "meaning": "to look around, to sightsee",
+      "pos": "verb",
+      "example": "주말에 시장을 구경해요."
+    },
+    {
+      "id": "a2v203",
+      "word": "포장하다",
+      "form": "포장해요",
+      "meaning": "to wrap; to pack (takeout)",
+      "pos": "verb",
+      "example": "남은 음식을 포장해요."
+    },
+    {
+      "id": "a2v204",
+      "word": "배달하다",
+      "form": "배달해요",
+      "meaning": "to deliver",
+      "pos": "verb",
+      "example": "이 식당은 밤 열두 시까지 배달해요."
+    },
+    {
+      "id": "a2v205",
+      "word": "잊다",
+      "form": "잊어요",
+      "meaning": "to forget",
+      "pos": "verb",
+      "example": "저는 친구의 생일을 자주 잊어요."
+    },
+    {
+      "id": "a2v206",
+      "word": "잃어버리다",
+      "form": "잃어버려요",
+      "meaning": "to lose",
+      "pos": "verb",
+      "example": "동생은 우산을 자주 잃어버려요."
+    },
+    {
+      "id": "a2v207",
+      "word": "갈아타다",
+      "form": "갈아타요",
+      "meaning": "to transfer",
+      "pos": "verb",
+      "example": "시청역에서 이 호선으로 갈아타요."
+    },
+    {
+      "id": "a2v208",
+      "word": "건너다",
+      "form": "건너요",
+      "meaning": "to cross",
+      "pos": "verb",
+      "example": "횡단보도에서 길을 건너요."
+    },
+    {
+      "id": "a2v209",
+      "word": "지나다",
+      "form": "지나요",
+      "meaning": "to pass",
+      "pos": "verb",
+      "example": "이 버스는 시청 앞을 지나요."
+    },
+    {
+      "id": "a2v210",
+      "word": "지키다",
+      "form": "지켜요",
+      "meaning": "to keep (a promise), to protect",
+      "pos": "verb",
+      "example": "저는 약속을 꼭 지켜요."
+    },
+    {
+      "id": "a2v211",
+      "word": "바뀌다",
+      "form": "바뀌어요",
+      "meaning": "to be changed",
+      "pos": "verb",
+      "example": "다음 달부터 버스 노선이 바뀌어요."
+    },
+    {
+      "id": "a2v212",
+      "word": "고치다",
+      "form": "고쳐요",
+      "meaning": "to fix",
+      "pos": "verb",
+      "example": "아버지가 고장 난 의자를 고쳐요."
+    },
+    {
+      "id": "a2v213",
+      "word": "다치다",
+      "form": "다쳐요",
+      "meaning": "to get hurt",
+      "pos": "verb",
+      "example": "축구를 할 때 조심하지 않으면 다쳐요."
+    },
+    {
+      "id": "a2v214",
+      "word": "낫다",
+      "form": "나아요",
+      "meaning": "to recover",
+      "pos": "verb",
+      "example": "이 약을 먹으면 감기가 빨리 나아요."
+    },
+    {
+      "id": "a2v215",
+      "word": "짓다",
+      "form": "지어요",
+      "meaning": "to build; to make (a name, rice)",
+      "pos": "verb",
+      "example": "요즘 우리 동네에 새 아파트를 지어요."
+    },
+    {
+      "id": "a2v216",
+      "word": "걸다",
+      "form": "걸어요",
+      "meaning": "to hang; to make (a call)",
+      "pos": "verb",
+      "example": "저는 벽에 가족 사진을 걸어요."
+    },
+    {
+      "id": "a2v217",
+      "word": "모으다",
+      "form": "모아요",
+      "meaning": "to collect, to save",
+      "pos": "verb",
+      "example": "여행을 가려고 돈을 모아요."
+    },
+    {
+      "id": "a2v218",
+      "word": "모이다",
+      "form": "모여요",
+      "meaning": "to gather",
+      "pos": "verb",
+      "example": "명절에는 가족들이 할머니 댁에 모여요."
+    },
+    {
+      "id": "a2v219",
+      "word": "끓이다",
+      "form": "끓여요",
+      "meaning": "to boil",
+      "pos": "verb",
+      "example": "배가 고파서 라면을 끓여요."
+    },
+    {
+      "id": "a2v220",
+      "word": "굽다",
+      "form": "구워요",
+      "meaning": "to grill, to bake",
+      "pos": "verb",
+      "example": "주말마다 집에서 빵을 구워요."
+    },
+    {
+      "id": "a2v221",
+      "word": "볶다",
+      "form": "볶아요",
+      "meaning": "to stir-fry",
+      "pos": "verb",
+      "example": "야채와 고기를 같이 볶아요."
+    },
+    {
+      "id": "a2v222",
+      "word": "썰다",
+      "form": "썰어요",
+      "meaning": "to slice",
+      "pos": "verb",
+      "example": "칼로 양파를 썰어요."
+    },
+    {
+      "id": "a2v223",
+      "word": "섞다",
+      "form": "섞어요",
+      "meaning": "to mix",
+      "pos": "verb",
+      "example": "밥과 야채를 고추장과 섞어요."
+    },
+    {
+      "id": "a2v224",
+      "word": "빌려주다",
+      "form": "빌려줘요",
+      "meaning": "to lend",
+      "pos": "verb",
+      "example": "친구가 저에게 노트북을 빌려줘요."
+    },
+    {
+      "id": "a2v225",
+      "word": "갚다",
+      "form": "갚아요",
+      "meaning": "to pay back",
+      "pos": "verb",
+      "example": "빌린 돈은 다음 달에 갚아요."
+    },
+    {
+      "id": "a2v226",
+      "word": "늘다",
+      "form": "늘어요",
+      "meaning": "to increase, to improve",
+      "pos": "verb",
+      "example": "매일 연습하면 실력이 늘어요."
+    },
+    {
+      "id": "a2v227",
+      "word": "줄다",
+      "form": "줄어요",
+      "meaning": "to decrease",
+      "pos": "verb",
+      "example": "운동을 하면 몸무게가 줄어요."
+    },
+    {
+      "id": "a2v228",
+      "word": "오르다",
+      "form": "올라요",
+      "meaning": "to go up, to climb",
+      "pos": "verb",
+      "example": "요즘 물건 값이 계속 올라요."
+    },
+    {
+      "id": "a2v229",
+      "word": "떨어지다",
+      "form": "떨어져요",
+      "meaning": "to fall, to drop; to fail",
+      "pos": "verb",
+      "example": "가을이 되면 나뭇잎이 떨어져요."
+    },
+    {
+      "id": "a2v230",
+      "word": "넘어지다",
+      "form": "넘어져요",
+      "meaning": "to fall over",
+      "pos": "verb",
+      "example": "길이 미끄러워서 사람들이 자주 넘어져요."
+    },
+    {
+      "id": "a2v231",
+      "word": "깨다",
+      "form": "깨요",
+      "meaning": "to wake up; to break",
+      "pos": "verb",
+      "example": "저는 아침 여섯 시면 저절로 잠이 깨요."
+    },
+    {
+      "id": "a2v232",
+      "word": "깨지다",
+      "form": "깨져요",
+      "meaning": "to be broken",
+      "pos": "verb",
+      "example": "유리컵은 떨어뜨리면 쉽게 깨져요."
+    },
+    {
+      "id": "a2v233",
+      "word": "열리다",
+      "form": "열려요",
+      "meaning": "to be opened; to be held",
+      "pos": "verb",
+      "example": "이 문은 버튼을 누르면 열려요."
+    },
+    {
+      "id": "a2v234",
+      "word": "닫히다",
+      "form": "닫혀요",
+      "meaning": "to be closed",
+      "pos": "verb",
+      "example": "바람 때문에 문이 저절로 닫혀요."
+    },
+    {
+      "id": "a2v235",
+      "word": "생기다",
+      "form": "생겨요",
+      "meaning": "to come into being, to appear",
+      "pos": "verb",
+      "example": "우리 동네에 새 도서관이 생겨요."
+    },
+    {
+      "id": "a2v236",
+      "word": "남다",
+      "form": "남아요",
+      "meaning": "to remain, to be left",
+      "pos": "verb",
+      "example": "음식이 너무 많아서 항상 남아요."
+    },
+    {
+      "id": "a2v237",
+      "word": "남기다",
+      "form": "남겨요",
+      "meaning": "to leave (behind)",
+      "pos": "verb",
+      "example": "동생은 반찬을 자주 남겨요."
+    },
+    {
+      "id": "a2v238",
+      "word": "믿다",
+      "form": "믿어요",
+      "meaning": "to believe, to trust",
+      "pos": "verb",
+      "example": "저는 친구의 말을 믿어요."
+    },
+    {
+      "id": "a2v239",
+      "word": "느끼다",
+      "form": "느껴요",
+      "meaning": "to feel",
+      "pos": "verb",
+      "example": "가을이 오면 외로움을 느껴요."
+    },
+    {
+      "id": "a2v240",
+      "word": "즐기다",
+      "form": "즐겨요",
+      "meaning": "to enjoy",
+      "pos": "verb",
+      "example": "주말에는 여유를 즐겨요."
+    },
+    {
+      "id": "a2v241",
+      "word": "싸우다",
+      "form": "싸워요",
+      "meaning": "to fight, to argue",
+      "pos": "verb",
+      "example": "동생과 저는 가끔 싸워요."
+    },
+    {
+      "id": "a2v242",
+      "word": "화내다",
+      "form": "화내요",
+      "meaning": "to get angry",
+      "pos": "verb",
+      "example": "거짓말을 하면 아버지가 크게 화내요."
+    },
+    {
+      "id": "a2v243",
+      "word": "놀라다",
+      "form": "놀라요",
+      "meaning": "to be surprised",
+      "pos": "verb",
+      "example": "큰 소리가 나면 아기가 깜짝 놀라요."
+    },
+    {
+      "id": "a2v244",
+      "word": "사귀다",
+      "form": "사귀어요",
+      "meaning": "to make friends, to date",
+      "pos": "verb",
+      "example": "저는 한국 친구를 많이 사귀어요."
+    },
+    {
+      "id": "a2v245",
+      "word": "헤어지다",
+      "form": "헤어져요",
+      "meaning": "to part, to break up",
+      "pos": "verb",
+      "example": "우리는 역 앞에서 헤어져요."
+    },
+    {
+      "id": "a2v246",
+      "word": "어울리다",
+      "form": "어울려요",
+      "meaning": "to suit; to get along",
+      "pos": "verb",
+      "example": "그 옷이 정말 잘 어울려요."
+    },
+    {
+      "id": "a2v247",
+      "word": "맞다",
+      "form": "맞아요",
+      "meaning": "to be correct; to fit",
+      "pos": "verb",
+      "example": "네, 그 말이 맞아요."
+    },
+    {
+      "id": "a2v248",
+      "word": "틀리다",
+      "form": "틀려요",
+      "meaning": "to be wrong",
+      "pos": "verb",
+      "example": "저는 받침을 자주 틀려요."
+    },
+    {
+      "id": "a2v249",
+      "word": "정하다",
+      "form": "정해요",
+      "meaning": "to decide, to set",
+      "pos": "verb",
+      "example": "모임 장소는 다음 주에 정해요."
+    },
+    {
+      "id": "a2v250",
+      "word": "세우다",
+      "form": "세워요",
+      "meaning": "to set up, to stop (a car)",
+      "pos": "verb",
+      "example": "올해 목표를 세워요."
+    },
+    {
+      "id": "a2v251",
+      "word": "모시다",
+      "form": "모셔요",
+      "meaning": "to accompany, to serve (honorific)",
+      "pos": "verb",
+      "example": "제가 할머니를 병원까지 모셔요."
+    },
+    {
+      "id": "a2v252",
+      "word": "드리다",
+      "form": "드려요",
+      "meaning": "to give (humble)",
+      "pos": "verb",
+      "example": "할머니께 선물을 드려요."
+    },
+    {
+      "id": "a2v253",
+      "word": "주무시다",
+      "form": "주무세요",
+      "meaning": "to sleep (honorific)",
+      "pos": "verb",
+      "example": "할아버지는 지금 방에서 주무세요."
+    },
+    {
+      "id": "a2v254",
+      "word": "드시다",
+      "form": "드세요",
+      "meaning": "to eat, to drink (honorific)",
+      "pos": "verb",
+      "example": "아버지는 아침마다 커피를 드세요."
+    },
+    {
+      "id": "a2v255",
+      "word": "계시다",
+      "form": "계세요",
+      "meaning": "to be, to stay (honorific)",
+      "pos": "verb",
+      "example": "선생님은 지금 사무실에 계세요."
+    },
+    {
+      "id": "a2v256",
+      "word": "말씀하다",
+      "form": "말씀하세요",
+      "meaning": "to speak (honorific)",
+      "pos": "verb",
+      "example": "사장님이 회의에서 말씀하세요."
+    },
+    {
+      "id": "a2v257",
+      "word": "마중하다",
+      "form": "마중해요",
+      "meaning": "to go to meet (someone arriving)",
+      "pos": "verb",
+      "example": "친구가 오는 날 공항에서 마중해요."
+    },
+    {
+      "id": "a2v258",
+      "word": "배웅하다",
+      "form": "배웅해요",
+      "meaning": "to see (someone) off",
+      "pos": "verb",
+      "example": "친구가 떠나는 날 역에서 배웅해요."
+    },
+    {
+      "id": "a2v259",
+      "word": "초대하다",
+      "form": "초대해요",
+      "meaning": "to invite",
+      "pos": "verb",
+      "example": "생일에 친구들을 집에 초대해요."
+    },
+    {
+      "id": "a2v260",
+      "word": "방문하다",
+      "form": "방문해요",
+      "meaning": "to visit",
+      "pos": "verb",
+      "example": "다음 달에 고향 친구가 서울을 방문해요."
+    },
+    {
+      "id": "a2v261",
+      "word": "수리하다",
+      "form": "수리해요",
+      "meaning": "to repair",
+      "pos": "verb",
+      "example": "서비스 센터에서 휴대폰을 수리해요."
+    },
+    {
+      "id": "a2v262",
+      "word": "조심하다",
+      "form": "조심해요",
+      "meaning": "to be careful",
+      "pos": "verb",
+      "example": "눈이 오는 날에는 운전을 조심해요."
+    },
+    {
+      "id": "a2v263",
+      "word": "노력하다",
+      "form": "노력해요",
+      "meaning": "to make an effort",
+      "pos": "verb",
+      "example": "저는 한국어를 잘하려고 노력해요."
+    },
+    {
+      "id": "a2v264",
+      "word": "성공하다",
+      "form": "성공해요",
+      "meaning": "to succeed",
+      "pos": "verb",
+      "example": "열심히 하면 꼭 성공해요."
+    },
+    {
+      "id": "a2v265",
+      "word": "실패하다",
+      "form": "실패해요",
+      "meaning": "to fail",
+      "pos": "verb",
+      "example": "준비를 안 하면 실패해요."
+    },
+    {
+      "id": "a2v266",
+      "word": "도전하다",
+      "form": "도전해요",
+      "meaning": "to challenge oneself",
+      "pos": "verb",
+      "example": "올해는 마라톤에 도전해요."
+    },
+    {
+      "id": "a2v267",
+      "word": "반대하다",
+      "form": "반대해요",
+      "meaning": "to oppose",
+      "pos": "verb",
+      "example": "부모님은 제 유학을 반대해요."
+    },
+    {
+      "id": "a2v268",
+      "word": "찬성하다",
+      "form": "찬성해요",
+      "meaning": "to agree with",
+      "pos": "verb",
+      "example": "저는 그 의견에 찬성해요."
+    },
+    {
+      "id": "a2v269",
+      "word": "비교하다",
+      "form": "비교해요",
+      "meaning": "to compare",
+      "pos": "verb",
+      "example": "물건을 사기 전에 가격을 비교해요."
+    },
+    {
+      "id": "a2v270",
+      "word": "선택하다",
+      "form": "선택해요",
+      "meaning": "to choose",
+      "pos": "verb",
+      "example": "두 개 중에서 하나를 선택해요."
+    },
+    {
+      "id": "a2v271",
+      "word": "아름답다",
+      "form": "아름다워요",
+      "meaning": "beautiful",
+      "pos": "adjective",
+      "example": "제주도의 바다는 정말 아름다워요."
+    },
+    {
+      "id": "a2v272",
+      "word": "부럽다",
+      "form": "부러워요",
+      "meaning": "envious",
+      "pos": "adjective",
+      "example": "유학 가는 친구가 정말 부러워요."
+    },
+    {
+      "id": "a2v273",
+      "word": "외롭다",
+      "form": "외로워요",
+      "meaning": "lonely",
+      "pos": "adjective",
+      "example": "혼자 살아서 가끔 외로워요."
+    },
+    {
+      "id": "a2v274",
+      "word": "그립다",
+      "form": "그리워요",
+      "meaning": "missed, longed for",
+      "pos": "adjective",
+      "example": "고향 음식이 그리워요."
+    },
+    {
+      "id": "a2v275",
+      "word": "무섭다",
+      "form": "무서워요",
+      "meaning": "scary, afraid",
+      "pos": "adjective",
+      "example": "저는 높은 곳이 무서워요."
+    },
+    {
+      "id": "a2v276",
+      "word": "귀찮다",
+      "form": "귀찮아요",
+      "meaning": "bothersome",
+      "pos": "adjective",
+      "example": "비 오는 날에는 밖에 나가는 것이 귀찮아요."
+    },
+    {
+      "id": "a2v277",
+      "word": "심심하다",
+      "form": "심심해요",
+      "meaning": "bored",
+      "pos": "adjective",
+      "example": "할 일이 없어서 심심해요."
+    },
+    {
+      "id": "a2v278",
+      "word": "답답하다",
+      "form": "답답해요",
+      "meaning": "stuffy; frustrating",
+      "pos": "adjective",
+      "example": "창문을 닫아서 방이 답답해요."
+    },
+    {
+      "id": "a2v279",
+      "word": "부끄럽다",
+      "form": "부끄러워요",
+      "meaning": "shy, embarrassed",
+      "pos": "adjective",
+      "example": "사람들 앞에서 노래하는 것이 부끄러워요."
+    },
+    {
+      "id": "a2v280",
+      "word": "섭섭하다",
+      "form": "섭섭해요",
+      "meaning": "sad (at parting), let down",
+      "pos": "adjective",
+      "example": "친구가 생일을 잊어버려서 섭섭해요."
+    },
+    {
+      "id": "a2v281",
+      "word": "아쉽다",
+      "form": "아쉬워요",
+      "meaning": "regrettable",
+      "pos": "adjective",
+      "example": "여행이 벌써 끝나서 아쉬워요."
+    },
+    {
+      "id": "a2v282",
+      "word": "복잡하다",
+      "form": "복잡해요",
+      "meaning": "complicated; crowded",
+      "pos": "adjective",
+      "example": "출근 시간에는 지하철이 너무 복잡해요."
+    },
+    {
+      "id": "a2v283",
+      "word": "간단하다",
+      "form": "간단해요",
+      "meaning": "simple",
+      "pos": "adjective",
+      "example": "이 요리는 만드는 방법이 간단해요."
+    },
+    {
+      "id": "a2v284",
+      "word": "편리하다",
+      "form": "편리해요",
+      "meaning": "convenient",
+      "pos": "adjective",
+      "example": "서울은 교통이 아주 편리해요."
+    },
+    {
+      "id": "a2v285",
+      "word": "위험하다",
+      "form": "위험해요",
+      "meaning": "dangerous",
+      "pos": "adjective",
+      "example": "밤에 혼자 산에 가는 것은 위험해요."
+    },
+    {
+      "id": "a2v286",
+      "word": "안전하다",
+      "form": "안전해요",
+      "meaning": "safe",
+      "pos": "adjective",
+      "example": "이 동네는 밤에도 안전해요."
+    },
+    {
+      "id": "a2v287",
+      "word": "중요하다",
+      "form": "중요해요",
+      "meaning": "important",
+      "pos": "adjective",
+      "example": "건강이 제일 중요해요."
+    },
+    {
+      "id": "a2v288",
+      "word": "특별하다",
+      "form": "특별해요",
+      "meaning": "special",
+      "pos": "adjective",
+      "example": "오늘은 저에게 정말 특별해요."
+    },
+    {
+      "id": "a2v289",
+      "word": "비슷하다",
+      "form": "비슷해요",
+      "meaning": "similar",
+      "pos": "adjective",
+      "example": "두 사람은 얼굴이 아주 비슷해요."
+    },
+    {
+      "id": "a2v290",
+      "word": "똑같다",
+      "form": "똑같아요",
+      "meaning": "exactly the same",
+      "pos": "adjective",
+      "example": "제 휴대폰과 친구 휴대폰이 똑같아요."
+    },
+    {
+      "id": "a2v291",
+      "word": "부지런하다",
+      "form": "부지런해요",
+      "meaning": "diligent",
+      "pos": "adjective",
+      "example": "우리 어머니는 아주 부지런해요."
+    },
+    {
+      "id": "a2v292",
+      "word": "게으르다",
+      "form": "게을러요",
+      "meaning": "lazy",
+      "pos": "adjective",
+      "example": "제 룸메이트는 조금 게을러요."
+    },
+    {
+      "id": "a2v293",
+      "word": "성실하다",
+      "form": "성실해요",
+      "meaning": "sincere, hard-working",
+      "pos": "adjective",
+      "example": "그 직원은 아주 성실해요."
+    },
+    {
+      "id": "a2v294",
+      "word": "솔직하다",
+      "form": "솔직해요",
+      "meaning": "honest, frank",
+      "pos": "adjective",
+      "example": "제 친구는 항상 솔직해요."
+    },
+    {
+      "id": "a2v295",
+      "word": "활발하다",
+      "form": "활발해요",
+      "meaning": "lively, outgoing",
+      "pos": "adjective",
+      "example": "여동생은 성격이 활발해요."
+    },
+    {
+      "id": "a2v296",
+      "word": "적당하다",
+      "form": "적당해요",
+      "meaning": "appropriate, moderate",
+      "pos": "adjective",
+      "example": "이 방은 두 사람이 살기에 적당해요."
+    },
+    {
+      "id": "a2v297",
+      "word": "충분하다",
+      "form": "충분해요",
+      "meaning": "enough",
+      "pos": "adjective",
+      "example": "한 시간이면 충분해요."
+    },
+    {
+      "id": "a2v298",
+      "word": "부족하다",
+      "form": "부족해요",
+      "meaning": "insufficient",
+      "pos": "adjective",
+      "example": "요즘 잠이 부족해요."
+    },
+    {
+      "id": "a2v299",
+      "word": "신선하다",
+      "form": "신선해요",
+      "meaning": "fresh",
+      "pos": "adjective",
+      "example": "이 시장의 생선은 아주 신선해요."
+    },
+    {
+      "id": "a2v300",
+      "word": "싱겁다",
+      "form": "싱거워요",
+      "meaning": "bland",
+      "pos": "adjective",
+      "example": "국이 좀 싱거워요. 소금을 넣으세요."
+    },
+    {
+      "id": "a2v301",
+      "word": "시다",
+      "form": "셔요",
+      "meaning": "sour",
+      "pos": "adjective",
+      "example": "이 귤은 너무 셔요."
+    },
+    {
+      "id": "a2v302",
+      "word": "고소하다",
+      "form": "고소해요",
+      "meaning": "nutty, savoury",
+      "pos": "adjective",
+      "example": "참기름 냄새가 고소해요."
+    },
+    {
+      "id": "a2v303",
+      "word": "두껍다",
+      "form": "두꺼워요",
+      "meaning": "thick",
+      "pos": "adjective",
+      "example": "이 사전은 너무 두꺼워요."
+    },
+    {
+      "id": "a2v304",
+      "word": "얇다",
+      "form": "얇아요",
+      "meaning": "thin",
+      "pos": "adjective",
+      "example": "이 옷은 겨울에 입기에는 너무 얇아요."
+    },
+    {
+      "id": "a2v305",
+      "word": "진하다",
+      "form": "진해요",
+      "meaning": "strong, dark (colour, taste)",
+      "pos": "adjective",
+      "example": "이 커피는 너무 진해요."
+    },
+    {
+      "id": "a2v306",
+      "word": "연하다",
+      "form": "연해요",
+      "meaning": "light, mild",
+      "pos": "adjective",
+      "example": "이 커피는 맛이 연해요."
+    },
+    {
+      "id": "a2v307",
+      "word": "심하다",
+      "form": "심해요",
+      "meaning": "severe",
+      "pos": "adjective",
+      "example": "오늘은 감기가 더 심해요."
+    },
+    {
+      "id": "a2v308",
+      "word": "급하다",
+      "form": "급해요",
+      "meaning": "urgent; hasty",
+      "pos": "adjective",
+      "example": "시간이 없어서 마음이 급해요."
+    },
+    {
+      "id": "a2v309",
+      "word": "한가하다",
+      "form": "한가해요",
+      "meaning": "free, not busy",
+      "pos": "adjective",
+      "example": "오늘은 손님이 없어서 한가해요."
+    },
+    {
+      "id": "a2v310",
+      "word": "자유롭다",
+      "form": "자유로워요",
+      "meaning": "free",
+      "pos": "adjective",
+      "example": "방학에는 시간이 많아서 자유로워요."
+    },
+    {
+      "id": "a2v311",
+      "word": "친하다",
+      "form": "친해요",
+      "meaning": "close (friends)",
+      "pos": "adjective",
+      "example": "저는 같은 반 친구와 아주 친해요."
+    },
+    {
+      "id": "a2v312",
+      "word": "낯설다",
+      "form": "낯설어요",
+      "meaning": "unfamiliar",
+      "pos": "adjective",
+      "example": "이사 온 동네가 아직 낯설어요."
+    },
+    {
+      "id": "a2v313",
+      "word": "익숙하다",
+      "form": "익숙해요",
+      "meaning": "familiar, used to",
+      "pos": "adjective",
+      "example": "이제 한국 음식이 익숙해요."
+    },
+    {
+      "id": "a2v314",
+      "word": "뚱뚱하다",
+      "form": "뚱뚱해요",
+      "meaning": "fat",
+      "pos": "adjective",
+      "example": "우리 집 고양이는 조금 뚱뚱해요."
+    },
+    {
+      "id": "a2v315",
+      "word": "날씬하다",
+      "form": "날씬해요",
+      "meaning": "slim",
+      "pos": "adjective",
+      "example": "언니는 운동을 많이 해서 날씬해요."
+    },
+    {
+      "id": "a2v316",
+      "word": "상쾌하다",
+      "form": "상쾌해요",
+      "meaning": "refreshing",
+      "pos": "adjective",
+      "example": "아침 공기가 상쾌해요."
+    },
+    {
+      "id": "a2v317",
+      "word": "건조하다",
+      "form": "건조해요",
+      "meaning": "dry",
+      "pos": "adjective",
+      "example": "겨울에는 날씨가 건조해요."
+    },
+    {
+      "id": "a2v318",
+      "word": "깔끔하다",
+      "form": "깔끔해요",
+      "meaning": "neat, tidy",
+      "pos": "adjective",
+      "example": "형의 방은 항상 깔끔해요."
+    },
+    {
+      "id": "a2v319",
+      "word": "시원섭섭하다",
+      "form": "시원섭섭해요",
+      "meaning": "bittersweet",
+      "pos": "adjective",
+      "example": "졸업을 하니까 시원섭섭해요."
+    },
+    {
+      "id": "a2v320",
+      "word": "궁금하다",
+      "form": "궁금해요",
+      "meaning": "curious",
+      "pos": "adjective",
+      "example": "시험 결과가 정말 궁금해요."
+    },
+    {
+      "id": "a2v321",
+      "word": "똑똑하다",
+      "form": "똑똑해요",
+      "meaning": "smart",
+      "pos": "adjective",
+      "example": "그 학생은 아주 똑똑해요."
+    },
+    {
+      "id": "a2v322",
+      "word": "갑자기",
+      "form": "갑자기",
+      "meaning": "suddenly",
+      "pos": "adverb",
+      "example": "갑자기 비가 내리기 시작했어요."
+    },
+    {
+      "id": "a2v323",
+      "word": "드디어",
+      "form": "드디어",
+      "meaning": "finally",
+      "pos": "adverb",
+      "example": "드디어 시험이 끝났어요."
+    },
+    {
+      "id": "a2v324",
+      "word": "마침",
+      "form": "마침",
+      "meaning": "just in time, by chance",
+      "pos": "adverb",
+      "example": "마침 버스가 와서 바로 탔어요."
+    },
+    {
+      "id": "a2v325",
+      "word": "혹시",
+      "form": "혹시",
+      "meaning": "by any chance",
+      "pos": "adverb",
+      "example": "혹시 김민수 씨 아세요?"
+    },
+    {
+      "id": "a2v326",
+      "word": "반드시",
+      "form": "반드시",
+      "meaning": "without fail",
+      "pos": "adverb",
+      "example": "숙제는 반드시 내일까지 내세요."
+    },
+    {
+      "id": "a2v327",
+      "word": "절대로",
+      "form": "절대로",
+      "meaning": "absolutely (not)",
+      "pos": "adverb",
+      "example": "이 비밀은 절대로 말하지 마세요."
+    },
+    {
+      "id": "a2v328",
+      "word": "전혀",
+      "form": "전혀",
+      "meaning": "(not) at all",
+      "pos": "adverb",
+      "example": "저는 그 사람을 전혀 몰라요."
+    },
+    {
+      "id": "a2v329",
+      "word": "거의",
+      "form": "거의",
+      "meaning": "almost",
+      "pos": "adverb",
+      "example": "숙제를 거의 다 했어요."
+    },
+    {
+      "id": "a2v330",
+      "word": "대부분",
+      "form": "대부분",
+      "meaning": "mostly",
+      "pos": "adverb",
+      "example": "우리 반 학생들은 대부분 기숙사에 살아요."
+    },
+    {
+      "id": "a2v331",
+      "word": "자꾸",
+      "form": "자꾸",
+      "meaning": "repeatedly",
+      "pos": "adverb",
+      "example": "동생이 자꾸 제 옷을 입어요."
+    },
+    {
+      "id": "a2v332",
+      "word": "계속",
+      "form": "계속",
+      "meaning": "continuously",
+      "pos": "adverb",
+      "example": "아침부터 계속 비가 와요."
+    },
+    {
+      "id": "a2v333",
+      "word": "열심히",
+      "form": "열심히",
+      "meaning": "hard, diligently",
+      "pos": "adverb",
+      "example": "시험이 있어서 열심히 공부해요."
+    },
+    {
+      "id": "a2v334",
+      "word": "서로",
+      "form": "서로",
+      "meaning": "each other",
+      "pos": "adverb",
+      "example": "우리는 서로 많이 도와요."
+    },
+    {
+      "id": "a2v335",
+      "word": "직접",
+      "form": "직접",
+      "meaning": "directly, in person",
+      "pos": "adverb",
+      "example": "이 케이크는 제가 직접 만들었어요."
+    },
+    {
+      "id": "a2v336",
+      "word": "미리",
+      "form": "미리",
+      "meaning": "in advance",
+      "pos": "adverb",
+      "example": "표는 미리 사 두세요."
+    },
+    {
+      "id": "a2v337",
+      "word": "금방",
+      "form": "금방",
+      "meaning": "soon; just now",
+      "pos": "adverb",
+      "example": "금방 갈게요. 조금만 기다려요."
+    },
+    {
+      "id": "a2v338",
+      "word": "잠깐",
+      "form": "잠깐",
+      "meaning": "for a moment",
+      "pos": "adverb",
+      "example": "잠깐 이야기 좀 해요."
+    },
+    {
+      "id": "a2v339",
+      "word": "겨우",
+      "form": "겨우",
+      "meaning": "barely",
+      "pos": "adverb",
+      "example": "막차를 겨우 탔어요."
+    },
+    {
+      "id": "a2v340",
+      "word": "점점",
+      "form": "점점",
+      "meaning": "gradually",
+      "pos": "adverb",
+      "example": "날씨가 점점 추워져요."
+    },
+    {
+      "id": "a2v341",
+      "word": "훨씬",
+      "form": "훨씬",
+      "meaning": "much (more)",
+      "pos": "adverb",
+      "example": "지하철이 버스보다 훨씬 빨라요."
+    },
+    {
+      "id": "a2v342",
+      "word": "꽤",
+      "form": "꽤",
+      "meaning": "quite",
+      "pos": "adverb",
+      "example": "그 영화는 꽤 재미있었어요."
+    },
+    {
+      "id": "a2v343",
+      "word": "특히",
+      "form": "특히",
+      "meaning": "especially",
+      "pos": "adverb",
+      "example": "저는 과일을 좋아해요. 특히 딸기를 좋아해요."
+    },
+    {
+      "id": "a2v344",
+      "word": "역시",
+      "form": "역시",
+      "meaning": "as expected",
+      "pos": "adverb",
+      "example": "역시 엄마가 만든 음식이 제일 맛있어요."
+    },
+    {
+      "id": "a2v345",
+      "word": "아까",
+      "form": "아까",
+      "meaning": "a while ago",
+      "pos": "adverb",
+      "example": "아까 전화했는데 안 받았어요."
+    },
+    {
+      "id": "a2v346",
+      "word": "이따가",
+      "form": "이따가",
+      "meaning": "later (today)",
+      "pos": "adverb",
+      "example": "이따가 다시 전화할게요."
+    },
+    {
+      "id": "a2v347",
+      "word": "나중에",
+      "form": "나중에",
+      "meaning": "later",
+      "pos": "adverb",
+      "example": "그 이야기는 나중에 해요."
+    },
+    {
+      "id": "a2v348",
+      "word": "우선",
+      "form": "우선",
+      "meaning": "first of all",
+      "pos": "adverb",
+      "example": "우선 손부터 씻으세요."
+    },
+    {
+      "id": "a2v349",
+      "word": "결국",
+      "form": "결국",
+      "meaning": "in the end",
+      "pos": "adverb",
+      "example": "결국 그 사람은 오지 않았어요."
+    },
+    {
+      "id": "a2v350",
+      "word": "그냥",
+      "form": "그냥",
+      "meaning": "just, without reason",
+      "pos": "adverb",
+      "example": "그냥 집에서 쉬고 싶어요."
+    },
+    {
+      "id": "a2v351",
+      "word": "일부러",
+      "form": "일부러",
+      "meaning": "on purpose",
+      "pos": "adverb",
+      "example": "일부러 그런 것이 아니에요."
+    },
+    {
+      "id": "a2v352",
+      "word": "대신",
+      "form": "대신",
+      "meaning": "instead",
+      "pos": "adverb",
+      "example": "오늘은 아버지 대신 제가 요리했어요."
+    },
+    {
+      "id": "a2v353",
+      "word": "따로",
+      "form": "따로",
+      "meaning": "separately",
+      "pos": "adverb",
+      "example": "계산은 따로 할게요."
+    },
+    {
+      "id": "a2v354",
+      "word": "똑바로",
+      "form": "똑바로",
+      "meaning": "straight",
+      "pos": "adverb",
+      "example": "이 길로 똑바로 가세요."
+    },
+    {
+      "id": "a2v355",
+      "word": "아무리",
+      "form": "아무리",
+      "meaning": "no matter how",
+      "pos": "adverb",
+      "example": "아무리 바빠도 아침은 먹어요."
+    },
+    {
+      "id": "a2v356",
+      "word": "얼마나",
+      "form": "얼마나",
+      "meaning": "how much, how",
+      "pos": "adverb",
+      "example": "서울에서 부산까지 얼마나 걸려요?"
+    },
+    {
+      "id": "a2v357",
+      "word": "가장",
+      "form": "가장",
+      "meaning": "the most",
+      "pos": "adverb",
+      "example": "이 산이 한국에서 가장 높아요."
+    },
+    {
+      "id": "a2v358",
+      "word": "아마도",
+      "form": "아마도",
+      "meaning": "probably",
+      "pos": "adverb",
+      "example": "내일은 아마도 비가 올 거예요."
+    },
+    {
+      "id": "a2v359",
+      "word": "사촌",
+      "form": "사촌",
+      "meaning": "cousin",
+      "pos": "noun",
+      "example": "방학에 사촌 동생이 놀러 왔어요."
+    },
+    {
+      "id": "a2v360",
+      "word": "친척",
+      "form": "친척",
+      "meaning": "relative",
+      "pos": "noun",
+      "example": "명절에 친척들이 모두 모였어요."
+    },
+    {
+      "id": "a2v361",
+      "word": "조카",
+      "form": "조카",
+      "meaning": "nephew, niece",
+      "pos": "noun",
+      "example": "조카에게 장난감을 사 줬어요."
+    },
+    {
+      "id": "a2v362",
+      "word": "손자",
+      "form": "손자",
+      "meaning": "grandson",
+      "pos": "noun",
+      "example": "할머니는 손자를 아주 사랑하세요."
+    },
+    {
+      "id": "a2v363",
+      "word": "부부",
+      "form": "부부",
+      "meaning": "married couple",
+      "pos": "noun",
+      "example": "옆집 부부는 아주 사이가 좋아요."
+    },
+    {
+      "id": "a2v364",
+      "word": "신랑",
+      "form": "신랑",
+      "meaning": "bridegroom",
+      "pos": "noun",
+      "example": "신랑이 신부에게 반지를 끼워 줬어요."
+    },
+    {
+      "id": "a2v365",
+      "word": "신부",
+      "form": "신부",
+      "meaning": "bride",
+      "pos": "noun",
+      "example": "결혼식에서 신부가 정말 예뻤어요."
+    },
+    {
+      "id": "a2v366",
+      "word": "어린이",
+      "form": "어린이",
+      "meaning": "child",
+      "pos": "noun",
+      "example": "어린이는 버스 요금이 싸요."
+    },
+    {
+      "id": "a2v367",
+      "word": "노인",
+      "form": "노인",
+      "meaning": "elderly person",
+      "pos": "noun",
+      "example": "지하철에서 노인에게 자리를 양보했어요."
+    },
+    {
+      "id": "a2v368",
+      "word": "청소년",
+      "form": "청소년",
+      "meaning": "teenager, youth",
+      "pos": "noun",
+      "example": "이 영화는 청소년이 볼 수 없어요."
+    },
+    {
+      "id": "a2v369",
+      "word": "주민",
+      "form": "주민",
+      "meaning": "resident",
+      "pos": "noun",
+      "example": "아파트 주민들이 함께 청소를 했어요."
+    },
+    {
+      "id": "a2v370",
+      "word": "시민",
+      "form": "시민",
+      "meaning": "citizen",
+      "pos": "noun",
+      "example": "이 공원은 시민 모두가 이용할 수 있어요."
+    },
+    {
+      "id": "a2v371",
+      "word": "관광객",
+      "form": "관광객",
+      "meaning": "tourist",
+      "pos": "noun",
+      "example": "명동에는 외국인 관광객이 많아요."
+    },
+    {
+      "id": "a2v372",
+      "word": "승객",
+      "form": "승객",
+      "meaning": "passenger",
+      "pos": "noun",
+      "example": "버스에 승객이 별로 없어요."
+    },
+    {
+      "id": "a2v373",
+      "word": "고객",
+      "form": "고객",
+      "meaning": "customer, client",
+      "pos": "noun",
+      "example": "이 은행은 고객에게 아주 친절해요."
+    },
+    {
+      "id": "a2v374",
+      "word": "회원",
+      "form": "회원",
+      "meaning": "member",
+      "pos": "noun",
+      "example": "회원 카드가 있으면 할인을 받을 수 있어요."
+    },
+    {
+      "id": "a2v375",
+      "word": "은행원",
+      "form": "은행원",
+      "meaning": "bank clerk",
+      "pos": "noun",
+      "example": "누나는 은행원으로 일하고 있어요."
+    },
+    {
+      "id": "a2v376",
+      "word": "공무원",
+      "form": "공무원",
+      "meaning": "civil servant",
+      "pos": "noun",
+      "example": "형은 시청에서 일하는 공무원이에요."
+    },
+    {
+      "id": "a2v377",
+      "word": "기자",
+      "form": "기자",
+      "meaning": "journalist",
+      "pos": "noun",
+      "example": "기자가 사고 현장에서 뉴스를 전했어요."
+    },
+    {
+      "id": "a2v378",
+      "word": "변호사",
+      "form": "변호사",
+      "meaning": "lawyer",
+      "pos": "noun",
+      "example": "사촌 형은 변호사가 되었어요."
+    },
+    {
+      "id": "a2v379",
+      "word": "배우",
+      "form": "배우",
+      "meaning": "actor",
+      "pos": "noun",
+      "example": "그 배우는 연기를 정말 잘해요."
+    },
+    {
+      "id": "a2v380",
+      "word": "작가",
+      "form": "작가",
+      "meaning": "writer",
+      "pos": "noun",
+      "example": "저는 이 작가의 소설을 좋아해요."
+    },
+    {
+      "id": "a2v381",
+      "word": "화가",
+      "form": "화가",
+      "meaning": "painter",
+      "pos": "noun",
+      "example": "그 화가의 그림이 미술관에 있어요."
+    },
+    {
+      "id": "a2v382",
+      "word": "디자이너",
+      "form": "디자이너",
+      "meaning": "designer",
+      "pos": "noun",
+      "example": "언니는 옷을 만드는 디자이너예요."
+    },
+    {
+      "id": "a2v383",
+      "word": "통역사",
+      "form": "통역사",
+      "meaning": "interpreter",
+      "pos": "noun",
+      "example": "회의에서 통역사가 영어로 통역했어요."
+    },
+    {
+      "id": "a2v384",
+      "word": "군인",
+      "form": "군인",
+      "meaning": "soldier",
+      "pos": "noun",
+      "example": "오빠는 지금 군인이에요."
+    },
+    {
+      "id": "a2v385",
+      "word": "농부",
+      "form": "농부",
+      "meaning": "farmer",
+      "pos": "noun",
+      "example": "농부들이 가을에 쌀을 수확해요."
+    },
+    {
+      "id": "a2v386",
+      "word": "피부",
+      "form": "피부",
+      "meaning": "skin",
+      "pos": "noun",
+      "example": "겨울에는 피부가 건조해져요."
+    },
+    {
+      "id": "a2v387",
+      "word": "이마",
+      "form": "이마",
+      "meaning": "forehead",
+      "pos": "noun",
+      "example": "열이 있는지 이마를 만져 봤어요."
+    },
+    {
+      "id": "a2v388",
+      "word": "무릎",
+      "form": "무릎",
+      "meaning": "knee",
+      "pos": "noun",
+      "example": "등산을 많이 해서 무릎이 아파요."
+    },
+    {
+      "id": "a2v389",
+      "word": "손가락",
+      "form": "손가락",
+      "meaning": "finger",
+      "pos": "noun",
+      "example": "요리하다가 손가락을 다쳤어요."
+    },
+    {
+      "id": "a2v390",
+      "word": "발가락",
+      "form": "발가락",
+      "meaning": "toe",
+      "pos": "noun",
+      "example": "신발이 작아서 발가락이 아파요."
+    },
+    {
+      "id": "a2v391",
+      "word": "등",
+      "form": "등",
+      "meaning": "back",
+      "pos": "noun",
+      "example": "오래 앉아 있어서 등이 아파요."
+    },
+    {
+      "id": "a2v392",
+      "word": "가슴",
+      "form": "가슴",
+      "meaning": "chest",
+      "pos": "noun",
+      "example": "너무 긴장해서 가슴이 뛰어요."
+    },
+    {
+      "id": "a2v393",
+      "word": "피",
+      "form": "피",
+      "meaning": "blood",
+      "pos": "noun",
+      "example": "손가락에서 피가 났어요."
+    },
+    {
+      "id": "a2v394",
+      "word": "목도리",
+      "form": "목도리",
+      "meaning": "scarf",
+      "pos": "noun",
+      "example": "추워서 목도리를 했어요."
+    },
+    {
+      "id": "a2v395",
+      "word": "장갑",
+      "form": "장갑",
+      "meaning": "gloves",
+      "pos": "noun",
+      "example": "겨울에는 장갑을 꼭 끼세요."
+    },
+    {
+      "id": "a2v396",
+      "word": "귀걸이",
+      "form": "귀걸이",
+      "meaning": "earrings",
+      "pos": "noun",
+      "example": "생일 선물로 귀걸이를 받았어요."
+    },
+    {
+      "id": "a2v397",
+      "word": "반지",
+      "form": "반지",
+      "meaning": "ring",
+      "pos": "noun",
+      "example": "남자 친구가 반지를 선물했어요."
+    },
+    {
+      "id": "a2v398",
+      "word": "목걸이",
+      "form": "목걸이",
+      "meaning": "necklace",
+      "pos": "noun",
+      "example": "어머니께 목걸이를 사 드렸어요."
+    },
+    {
+      "id": "a2v399",
+      "word": "넥타이",
+      "form": "넥타이",
+      "meaning": "necktie",
+      "pos": "noun",
+      "example": "아버지 생신에 넥타이를 선물했어요."
+    },
+    {
+      "id": "a2v400",
+      "word": "정장",
+      "form": "정장",
+      "meaning": "suit",
+      "pos": "noun",
+      "example": "면접 때 정장을 입었어요."
+    },
+    {
+      "id": "a2v401",
+      "word": "잠옷",
+      "form": "잠옷",
+      "meaning": "pyjamas",
+      "pos": "noun",
+      "example": "집에 오면 바로 잠옷으로 갈아입어요."
+    },
+    {
+      "id": "a2v402",
+      "word": "수영복",
+      "form": "수영복",
+      "meaning": "swimsuit",
+      "pos": "noun",
+      "example": "바다에 가려고 수영복을 샀어요."
+    },
+    {
+      "id": "a2v403",
+      "word": "노트북",
+      "form": "노트북",
+      "meaning": "laptop",
+      "pos": "noun",
+      "example": "카페에서 노트북으로 과제를 해요."
+    },
+    {
+      "id": "a2v404",
+      "word": "충전기",
+      "form": "충전기",
+      "meaning": "charger",
+      "pos": "noun",
+      "example": "휴대폰 충전기를 빌려줄 수 있어요?"
+    },
+    {
+      "id": "a2v405",
+      "word": "이어폰",
+      "form": "이어폰",
+      "meaning": "earphones",
+      "pos": "noun",
+      "example": "지하철에서 이어폰으로 음악을 들어요."
+    },
+    {
+      "id": "a2v406",
+      "word": "건전지",
+      "form": "건전지",
+      "meaning": "battery",
+      "pos": "noun",
+      "example": "시계 건전지가 다 됐어요."
+    },
+    {
+      "id": "a2v407",
+      "word": "봉투",
+      "form": "봉투",
+      "meaning": "envelope; bag",
+      "pos": "noun",
+      "example": "편지를 봉투에 넣었어요."
+    },
+    {
+      "id": "a2v408",
+      "word": "엽서",
+      "form": "엽서",
+      "meaning": "postcard",
+      "pos": "noun",
+      "example": "여행지에서 친구에게 엽서를 보냈어요."
+    },
+    {
+      "id": "a2v409",
+      "word": "달력",
+      "form": "달력",
+      "meaning": "calendar",
+      "pos": "noun",
+      "example": "달력에 약속 날짜를 표시했어요."
+    },
+    {
+      "id": "a2v410",
+      "word": "가위",
+      "form": "가위",
+      "meaning": "scissors",
+      "pos": "noun",
+      "example": "가위로 종이를 잘랐어요."
+    },
+    {
+      "id": "a2v411",
+      "word": "테이프",
+      "form": "테이프",
+      "meaning": "tape",
+      "pos": "noun",
+      "example": "상자를 테이프로 붙였어요."
+    },
+    {
+      "id": "a2v412",
+      "word": "노선",
+      "form": "노선",
+      "meaning": "route",
+      "pos": "noun",
+      "example": "이 버스 노선은 시내를 지나가요."
+    },
+    {
+      "id": "a2v413",
+      "word": "횡단보도",
+      "form": "횡단보도",
+      "meaning": "crosswalk",
+      "pos": "noun",
+      "example": "길을 건널 때는 횡단보도로 건너세요."
+    },
+    {
+      "id": "a2v414",
+      "word": "신호등",
+      "form": "신호등",
+      "meaning": "traffic light",
+      "pos": "noun",
+      "example": "신호등이 초록색으로 바뀌었어요."
+    },
+    {
+      "id": "a2v415",
+      "word": "사거리",
+      "form": "사거리",
+      "meaning": "intersection",
+      "pos": "noun",
+      "example": "저 사거리에서 왼쪽으로 가세요."
+    },
+    {
+      "id": "a2v416",
+      "word": "막차",
+      "form": "막차",
+      "meaning": "last train/bus",
+      "pos": "noun",
+      "example": "막차를 놓쳐서 택시를 탔어요."
+    },
+    {
+      "id": "a2v417",
+      "word": "첫차",
+      "form": "첫차",
+      "meaning": "first train/bus",
+      "pos": "noun",
+      "example": "첫차는 새벽 다섯 시 반에 있어요."
+    },
+    {
+      "id": "a2v418",
+      "word": "좌석",
+      "form": "좌석",
+      "meaning": "seat",
+      "pos": "noun",
+      "example": "비행기 좌석이 아주 편했어요."
+    },
+    {
+      "id": "a2v419",
+      "word": "창가",
+      "form": "창가",
+      "meaning": "window side",
+      "pos": "noun",
+      "example": "창가 자리로 주세요."
+    },
+    {
+      "id": "a2v420",
+      "word": "통로",
+      "form": "통로",
+      "meaning": "aisle",
+      "pos": "noun",
+      "example": "통로 쪽 자리가 나가기 편해요."
+    },
+    {
+      "id": "a2v421",
+      "word": "마당",
+      "form": "마당",
+      "meaning": "yard",
+      "pos": "noun",
+      "example": "마당에서 강아지가 놀고 있어요."
+    },
+    {
+      "id": "a2v422",
+      "word": "정원",
+      "form": "정원",
+      "meaning": "garden",
+      "pos": "noun",
+      "example": "할머니 집 정원에 꽃이 많아요."
+    },
+    {
+      "id": "a2v423",
+      "word": "지붕",
+      "form": "지붕",
+      "meaning": "roof",
+      "pos": "noun",
+      "example": "눈이 와서 지붕이 하얘졌어요."
+    },
+    {
+      "id": "a2v424",
+      "word": "벽",
+      "form": "벽",
+      "meaning": "wall",
+      "pos": "noun",
+      "example": "벽에 그림을 걸었어요."
+    },
+    {
+      "id": "a2v425",
+      "word": "바닥",
+      "form": "바닥",
+      "meaning": "floor",
+      "pos": "noun",
+      "example": "바닥에 물이 있어서 미끄러워요."
+    },
+    {
+      "id": "a2v426",
+      "word": "천장",
+      "form": "천장",
+      "meaning": "ceiling",
+      "pos": "noun",
+      "example": "이 방은 천장이 높아요."
+    },
+    {
+      "id": "a2v427",
+      "word": "현관",
+      "form": "현관",
+      "meaning": "entrance hall",
+      "pos": "noun",
+      "example": "신발은 현관에 벗어 두세요."
+    },
+    {
+      "id": "a2v428",
+      "word": "베란다",
+      "form": "베란다",
+      "meaning": "veranda, balcony",
+      "pos": "noun",
+      "example": "베란다에서 빨래를 말려요."
+    },
+    {
+      "id": "a2v429",
+      "word": "식품",
+      "form": "식품",
+      "meaning": "food products",
+      "pos": "noun",
+      "example": "이 가게는 수입 식품을 팔아요."
+    },
+    {
+      "id": "a2v430",
+      "word": "간식",
+      "form": "간식",
+      "meaning": "snack",
+      "pos": "noun",
+      "example": "오후에 간식으로 떡을 먹었어요."
+    },
+    {
+      "id": "a2v431",
+      "word": "야식",
+      "form": "야식",
+      "meaning": "late-night snack",
+      "pos": "noun",
+      "example": "밤늦게 야식을 먹으면 살이 쪄요."
+    },
+    {
+      "id": "a2v432",
+      "word": "외식",
+      "form": "외식",
+      "meaning": "eating out",
+      "pos": "noun",
+      "example": "주말에 가족과 외식을 했어요."
+    },
+    {
+      "id": "a2v433",
+      "word": "후식",
+      "form": "후식",
+      "meaning": "dessert",
+      "pos": "noun",
+      "example": "후식으로 과일이 나왔어요."
+    },
+    {
+      "id": "a2v434",
+      "word": "참기름",
+      "form": "참기름",
+      "meaning": "sesame oil",
+      "pos": "noun",
+      "example": "나물에 참기름을 조금 넣으세요."
+    },
+    {
+      "id": "a2v435",
+      "word": "고추장",
+      "form": "고추장",
+      "meaning": "red pepper paste",
+      "pos": "noun",
+      "example": "비빔밥에 고추장을 넣어서 비벼요."
+    },
+    {
+      "id": "a2v436",
+      "word": "된장",
+      "form": "된장",
+      "meaning": "soybean paste",
+      "pos": "noun",
+      "example": "된장으로 찌개를 끓였어요."
+    },
+    {
+      "id": "a2v437",
+      "word": "간장",
+      "form": "간장",
+      "meaning": "soy sauce",
+      "pos": "noun",
+      "example": "간장을 너무 많이 넣어서 짜요."
+    },
+    {
+      "id": "a2v438",
+      "word": "잎",
+      "form": "잎",
+      "meaning": "leaf",
+      "pos": "noun",
+      "example": "가을이 되면 잎이 빨갛게 변해요."
+    },
+    {
+      "id": "a2v439",
+      "word": "단풍",
+      "form": "단풍",
+      "meaning": "autumn foliage",
+      "pos": "noun",
+      "example": "가을에 설악산으로 단풍 구경을 가요."
+    },
+    {
+      "id": "a2v440",
+      "word": "별",
+      "form": "별",
+      "meaning": "star",
+      "pos": "noun",
+      "example": "시골에서는 밤하늘에 별이 많이 보여요."
+    },
+    {
+      "id": "a2v441",
+      "word": "달",
+      "form": "달",
+      "meaning": "moon; month",
+      "pos": "noun",
+      "example": "오늘 밤에는 달이 아주 밝아요."
+    },
+    {
+      "id": "a2v442",
+      "word": "해",
+      "form": "해",
+      "meaning": "sun; year",
+      "pos": "noun",
+      "example": "해가 지면 밖이 어두워져요."
+    },
+    {
+      "id": "a2v443",
+      "word": "땅",
+      "form": "땅",
+      "meaning": "ground, land",
+      "pos": "noun",
+      "example": "비가 와서 땅이 젖었어요."
+    },
+    {
+      "id": "a2v444",
+      "word": "목표",
+      "form": "목표",
+      "meaning": "goal",
+      "pos": "noun",
+      "example": "올해 목표는 한국어능력시험 이 급을 받는 거예요."
+    },
+    {
+      "id": "a2v445",
+      "word": "꿈",
+      "form": "꿈",
+      "meaning": "dream",
+      "pos": "noun",
+      "example": "제 꿈은 선생님이 되는 거예요."
+    },
+    {
+      "id": "a2v446",
+      "word": "희망",
+      "form": "희망",
+      "meaning": "hope",
+      "pos": "noun",
+      "example": "어려울 때도 희망을 잃지 마세요."
+    },
+    {
+      "id": "a2v447",
+      "word": "성격",
+      "form": "성격",
+      "meaning": "personality",
+      "pos": "noun",
+      "example": "제 동생은 성격이 밝아요."
+    },
+    {
+      "id": "a2v448",
+      "word": "관심",
+      "form": "관심",
+      "meaning": "interest",
+      "pos": "noun",
+      "example": "요즘 요리에 관심이 생겼어요."
+    },
+    {
+      "id": "a2v449",
+      "word": "흥미",
+      "form": "흥미",
+      "meaning": "interest, fun",
+      "pos": "noun",
+      "example": "역사에 흥미를 느껴요."
+    },
+    {
+      "id": "a2v450",
+      "word": "인기",
+      "form": "인기",
+      "meaning": "popularity",
+      "pos": "noun",
+      "example": "그 가수는 외국에서도 인기가 많아요."
+    },
+    {
+      "id": "a2v451",
+      "word": "행운",
+      "form": "행운",
+      "meaning": "good luck",
+      "pos": "noun",
+      "example": "시험 잘 보세요. 행운을 빌어요."
+    },
+    {
+      "id": "a2v452",
+      "word": "기회",
+      "form": "기회",
+      "meaning": "opportunity",
+      "pos": "noun",
+      "example": "이번 기회에 한국 문화를 배우고 싶어요."
+    },
+    {
+      "id": "a2v453",
+      "word": "순서",
+      "form": "순서",
+      "meaning": "order, sequence",
+      "pos": "noun",
+      "example": "순서대로 줄을 서 주세요."
+    },
+    {
+      "id": "a2v454",
+      "word": "차례",
+      "form": "차례",
+      "meaning": "turn; order",
+      "pos": "noun",
+      "example": "이제 제 차례예요."
+    },
+    {
+      "id": "a2v455",
+      "word": "종류",
+      "form": "종류",
+      "meaning": "kind, type",
+      "pos": "noun",
+      "example": "이 가게에는 빵 종류가 많아요."
+    },
+    {
+      "id": "a2v456",
+      "word": "모양",
+      "form": "모양",
+      "meaning": "shape",
+      "pos": "noun",
+      "example": "이 과자는 별 모양이에요."
+    },
+    {
+      "id": "a2v457",
+      "word": "크기",
+      "form": "크기",
+      "meaning": "size",
+      "pos": "noun",
+      "example": "두 상자는 크기가 같아요."
+    },
+    {
+      "id": "a2v458",
+      "word": "무게",
+      "form": "무게",
+      "meaning": "weight",
+      "pos": "noun",
+      "example": "짐의 무게가 이십 킬로그램이 넘어요."
+    },
+    {
+      "id": "a2v459",
+      "word": "길이",
+      "form": "길이",
+      "meaning": "length",
+      "pos": "noun",
+      "example": "바지 길이를 줄이고 싶어요."
+    },
+    {
+      "id": "a2v460",
+      "word": "높이",
+      "form": "높이",
+      "meaning": "height",
+      "pos": "noun",
+      "example": "이 산의 높이는 천 미터예요."
+    },
+    {
+      "id": "a2v461",
+      "word": "소리",
+      "form": "소리",
+      "meaning": "sound, voice",
+      "pos": "noun",
+      "example": "옆방에서 이상한 소리가 나요."
+    },
+    {
+      "id": "a2v462",
+      "word": "냄새",
+      "form": "냄새",
+      "meaning": "smell",
+      "pos": "noun",
+      "example": "부엌에서 맛있는 냄새가 나요."
+    },
+    {
+      "id": "a2v463",
+      "word": "맛",
+      "form": "맛",
+      "meaning": "taste",
+      "pos": "noun",
+      "example": "이 김치는 맛이 아주 좋아요."
+    },
+    {
+      "id": "a2v464",
+      "word": "대화",
+      "form": "대화",
+      "meaning": "conversation",
+      "pos": "noun",
+      "example": "한국 친구와 대화를 많이 하세요."
+    },
+    {
+      "id": "a2v465",
+      "word": "인사",
+      "form": "인사",
+      "meaning": "greeting",
+      "pos": "noun",
+      "example": "아침에 이웃에게 인사를 했어요."
+    },
+    {
+      "id": "a2v466",
+      "word": "의견",
+      "form": "의견",
+      "meaning": "opinion",
+      "pos": "noun",
+      "example": "이 문제에 대한 여러분의 의견을 말해 주세요."
+    },
+    {
+      "id": "a2v467",
+      "word": "칭찬",
+      "form": "칭찬",
+      "meaning": "praise",
+      "pos": "noun",
+      "example": "선생님께 칭찬을 받아서 기뻤어요."
+    },
+    {
+      "id": "a2v468",
+      "word": "조언",
+      "form": "조언",
+      "meaning": "advice",
+      "pos": "noun",
+      "example": "선배의 조언이 많이 도움이 됐어요."
+    },
+    {
+      "id": "a2v469",
+      "word": "거짓말",
+      "form": "거짓말",
+      "meaning": "lie",
+      "pos": "noun",
+      "example": "거짓말을 하면 안 돼요."
+    },
+    {
+      "id": "a2v470",
+      "word": "농담",
+      "form": "농담",
+      "meaning": "joke",
+      "pos": "noun",
+      "example": "그 사람은 농담을 잘해요."
+    },
+    {
+      "id": "a2v471",
+      "word": "법",
+      "form": "법",
+      "meaning": "law",
+      "pos": "noun",
+      "example": "모든 사람은 법을 지켜야 해요."
+    },
+    {
+      "id": "a2v472",
+      "word": "규칙",
+      "form": "규칙",
+      "meaning": "rule",
+      "pos": "noun",
+      "example": "기숙사 규칙을 꼭 지키세요."
+    },
+    {
+      "id": "a2v473",
+      "word": "사회",
+      "form": "사회",
+      "meaning": "society",
+      "pos": "noun",
+      "example": "요즘 사회 문제에 관심이 많아요."
+    },
+    {
+      "id": "a2v474",
+      "word": "세계",
+      "form": "세계",
+      "meaning": "world",
+      "pos": "noun",
+      "example": "세계 여러 나라를 여행하고 싶어요."
+    },
+    {
+      "id": "a2v475",
+      "word": "인구",
+      "form": "인구",
+      "meaning": "population",
+      "pos": "noun",
+      "example": "서울의 인구는 약 천만 명이에요."
+    },
+    {
+      "id": "a2v476",
+      "word": "역사",
+      "form": "역사",
+      "meaning": "history",
+      "pos": "noun",
+      "example": "박물관에서 한국 역사를 공부했어요."
+    },
+    {
+      "id": "a2v477",
+      "word": "정치",
+      "form": "정치",
+      "meaning": "politics",
+      "pos": "noun",
+      "example": "저는 정치에 관심이 없어요."
+    },
+    {
+      "id": "a2v478",
+      "word": "선거",
+      "form": "선거",
+      "meaning": "election",
+      "pos": "noun",
+      "example": "이번 주 수요일에 선거가 있어요."
+    },
+    {
+      "id": "a2v479",
+      "word": "용돈",
+      "form": "용돈",
+      "meaning": "pocket money",
+      "pos": "noun",
+      "example": "부모님께 용돈을 받았어요."
+    },
+    {
+      "id": "a2v480",
+      "word": "생활비",
+      "form": "생활비",
+      "meaning": "living expenses",
+      "pos": "noun",
+      "example": "서울은 생활비가 많이 들어요."
+    },
+    {
+      "id": "a2v481",
+      "word": "교통비",
+      "form": "교통비",
+      "meaning": "transportation costs",
+      "pos": "noun",
+      "example": "한 달 교통비가 오만 원쯤 들어요."
+    },
+    {
+      "id": "a2v482",
+      "word": "요금",
+      "form": "요금",
+      "meaning": "fee, fare",
+      "pos": "noun",
+      "example": "택시 요금이 올랐어요."
+    },
+    {
+      "id": "a2v483",
+      "word": "저금",
+      "form": "저금",
+      "meaning": "savings",
+      "pos": "noun",
+      "example": "은행에 저금이 조금 있어요."
+    },
+    {
+      "id": "a2v484",
+      "word": "통장",
+      "form": "통장",
+      "meaning": "bankbook, account",
+      "pos": "noun",
+      "example": "은행에서 통장을 만들었어요."
+    },
+    {
+      "id": "a2v485",
+      "word": "소풍",
+      "form": "소풍",
+      "meaning": "picnic",
+      "pos": "noun",
+      "example": "봄에 학교에서 소풍을 갔어요."
+    },
+    {
+      "id": "a2v486",
+      "word": "캠핑",
+      "form": "캠핑",
+      "meaning": "camping",
+      "pos": "noun",
+      "example": "주말에 가족과 캠핑을 갔어요."
+    },
+    {
+      "id": "a2v487",
+      "word": "낚시",
+      "form": "낚시",
+      "meaning": "fishing",
+      "pos": "noun",
+      "example": "아버지는 주말마다 낚시를 하러 가세요."
+    },
+    {
+      "id": "a2v488",
+      "word": "독서",
+      "form": "독서",
+      "meaning": "reading (books)",
+      "pos": "noun",
+      "example": "가을은 독서의 계절이에요."
+    },
+    {
+      "id": "a2v489",
+      "word": "봉사",
+      "form": "봉사",
+      "meaning": "volunteer work",
+      "pos": "noun",
+      "example": "주말마다 양로원에서 봉사를 해요."
+    },
+    {
+      "id": "a2v490",
+      "word": "생신",
+      "form": "생신",
+      "meaning": "birthday (honorific)",
+      "pos": "noun",
+      "example": "할아버지 생신에 가족이 모두 모였어요."
+    },
+    {
+      "id": "a2v491",
+      "word": "돌잔치",
+      "form": "돌잔치",
+      "meaning": "first-birthday party",
+      "pos": "noun",
+      "example": "조카의 돌잔치에 갔어요."
+    },
+    {
+      "id": "a2v492",
+      "word": "집들이",
+      "form": "집들이",
+      "meaning": "housewarming party",
+      "pos": "noun",
+      "example": "이사한 친구 집에 집들이를 하러 갔어요."
+    },
+    {
+      "id": "a2v493",
+      "word": "송별회",
+      "form": "송별회",
+      "meaning": "farewell party",
+      "pos": "noun",
+      "example": "고향에 돌아가는 친구를 위해 송별회를 했어요."
+    },
+    {
+      "id": "a2v494",
+      "word": "환영회",
+      "form": "환영회",
+      "meaning": "welcome party",
+      "pos": "noun",
+      "example": "새로 온 학생들을 위해 환영회를 열었어요."
+    },
+    {
+      "id": "a2v495",
+      "word": "졸업식",
+      "form": "졸업식",
+      "meaning": "graduation ceremony",
+      "pos": "noun",
+      "example": "졸업식에 부모님이 오셨어요."
+    },
+    {
+      "id": "a2v496",
+      "word": "입학식",
+      "form": "입학식",
+      "meaning": "entrance ceremony",
+      "pos": "noun",
+      "example": "입학식에서 새 친구를 사귀었어요."
+    },
+    {
+      "id": "a2v497",
+      "word": "동쪽",
+      "form": "동쪽",
+      "meaning": "east",
+      "pos": "noun",
+      "example": "해는 동쪽에서 떠요."
+    },
+    {
+      "id": "a2v498",
+      "word": "서쪽",
+      "form": "서쪽",
+      "meaning": "west",
+      "pos": "noun",
+      "example": "해는 서쪽으로 져요."
+    },
+    {
+      "id": "a2v499",
+      "word": "남쪽",
+      "form": "남쪽",
+      "meaning": "south",
+      "pos": "noun",
+      "example": "제주도는 한국의 남쪽에 있어요."
+    },
+    {
+      "id": "a2v500",
+      "word": "북쪽",
+      "form": "북쪽",
+      "meaning": "north",
+      "pos": "noun",
+      "example": "겨울에는 북쪽에서 찬 바람이 불어요."
+    },
+    {
+      "id": "a2v501",
+      "word": "건너편",
+      "form": "건너편",
+      "meaning": "the other side",
+      "pos": "noun",
+      "example": "길 건너편에 은행이 있어요."
+    },
+    {
+      "id": "a2v502",
+      "word": "맞은편",
+      "form": "맞은편",
+      "meaning": "opposite side",
+      "pos": "noun",
+      "example": "우체국 맞은편에 약국이 있어요."
+    },
+    {
+      "id": "a2v503",
+      "word": "매년",
+      "form": "매년",
+      "meaning": "every year",
+      "pos": "noun",
+      "example": "우리 가족은 매년 여름에 바다에 가요."
+    },
+    {
+      "id": "a2v504",
+      "word": "매달",
+      "form": "매달",
+      "meaning": "every month",
+      "pos": "noun",
+      "example": "매달 십일에 월급을 받아요."
+    },
+    {
+      "id": "a2v505",
+      "word": "지난달",
+      "form": "지난달",
+      "meaning": "last month",
+      "pos": "noun",
+      "example": "지난달에 새 직장에 들어갔어요."
+    },
+    {
+      "id": "a2v506",
+      "word": "날짜",
+      "form": "날짜",
+      "meaning": "date",
+      "pos": "noun",
+      "example": "시험 날짜가 언제예요?"
+    },
+    {
+      "id": "a2v507",
+      "word": "요일",
+      "form": "요일",
+      "meaning": "day of the week",
+      "pos": "noun",
+      "example": "오늘이 무슨 요일이에요?"
+    },
+    {
+      "id": "a2v508",
+      "word": "기간",
+      "form": "기간",
+      "meaning": "period",
+      "pos": "noun",
+      "example": "신청 기간은 다음 주 금요일까지예요."
+    },
+    {
+      "id": "a2v509",
+      "word": "주중",
+      "form": "주중",
+      "meaning": "weekdays",
+      "pos": "noun",
+      "example": "주중에는 일 때문에 바빠요."
+    },
+    {
+      "id": "a2v510",
+      "word": "기억하다",
+      "form": "기억해요",
+      "meaning": "to remember",
+      "pos": "verb",
+      "example": "저는 처음 한국에 온 날을 아직도 기억해요."
+    },
+    {
+      "id": "a2v511",
+      "word": "상상하다",
+      "form": "상상해요",
+      "meaning": "to imagine",
+      "pos": "verb",
+      "example": "가끔 십 년 후의 제 모습을 상상해요."
+    },
+    {
+      "id": "a2v512",
+      "word": "감사하다",
+      "form": "감사해요",
+      "meaning": "to be thankful",
+      "pos": "verb",
+      "example": "도와주셔서 정말 감사해요."
+    },
+    {
+      "id": "a2v513",
+      "word": "후회하다",
+      "form": "후회해요",
+      "meaning": "to regret",
+      "pos": "verb",
+      "example": "열심히 공부하지 않은 것을 후회해요."
+    },
+    {
+      "id": "a2v514",
+      "word": "기대하다",
+      "form": "기대해요",
+      "meaning": "to look forward to",
+      "pos": "verb",
+      "example": "다음 주 여행을 많이 기대해요."
+    },
+    {
+      "id": "a2v515",
+      "word": "긴장하다",
+      "form": "긴장해요",
+      "meaning": "to be nervous",
+      "pos": "verb",
+      "example": "발표할 때마다 많이 긴장해요."
+    },
+    {
+      "id": "a2v516",
+      "word": "실망하다",
+      "form": "실망해요",
+      "meaning": "to be disappointed",
+      "pos": "verb",
+      "example": "시험 결과를 보고 실망해요."
+    },
+    {
+      "id": "a2v517",
+      "word": "대화하다",
+      "form": "대화해요",
+      "meaning": "to converse",
+      "pos": "verb",
+      "example": "저는 매일 한국 친구와 대화해요."
+    },
+    {
+      "id": "a2v518",
+      "word": "인사하다",
+      "form": "인사해요",
+      "meaning": "to greet",
+      "pos": "verb",
+      "example": "아침에 만나면 서로 인사해요."
+    },
+    {
+      "id": "a2v519",
+      "word": "칭찬하다",
+      "form": "칭찬해요",
+      "meaning": "to praise",
+      "pos": "verb",
+      "example": "선생님은 학생들을 자주 칭찬해요."
+    },
+    {
+      "id": "a2v520",
+      "word": "저금하다",
+      "form": "저금해요",
+      "meaning": "to save money",
+      "pos": "verb",
+      "example": "저는 매달 월급의 일부를 저금해요."
+    },
+    {
+      "id": "a2v521",
+      "word": "봉사하다",
+      "form": "봉사해요",
+      "meaning": "to volunteer",
+      "pos": "verb",
+      "example": "저는 주말마다 도서관에서 봉사해요."
+    },
+    {
+      "id": "a2v522",
+      "word": "낚시하다",
+      "form": "낚시해요",
+      "meaning": "to fish",
+      "pos": "verb",
+      "example": "아버지는 강에서 낚시해요."
+    },
+    {
+      "id": "a2v523",
+      "word": "캠핑하다",
+      "form": "캠핑해요",
+      "meaning": "to camp",
+      "pos": "verb",
+      "example": "여름에는 바닷가에서 캠핑해요."
+    },
+    {
+      "id": "a2v524",
+      "word": "외식하다",
+      "form": "외식해요",
+      "meaning": "to eat out",
+      "pos": "verb",
+      "example": "우리 가족은 한 달에 한 번 외식해요."
+    },
+    {
+      "id": "a2v525",
+      "word": "검사하다",
+      "form": "검사해요",
+      "meaning": "to examine, to inspect",
+      "pos": "verb",
+      "example": "병원에서 눈을 검사해요."
+    },
+    {
+      "id": "a2v526",
+      "word": "정리하다",
+      "form": "정리해요",
+      "meaning": "to organize, to tidy",
+      "pos": "verb",
+      "example": "주말에 책상을 정리해요."
+    },
+    {
+      "id": "a2v527",
+      "word": "설치하다",
+      "form": "설치해요",
+      "meaning": "to install",
+      "pos": "verb",
+      "example": "기사님이 에어컨을 설치해요."
+    },
+    {
+      "id": "a2v528",
+      "word": "충전하다",
+      "form": "충전해요",
+      "meaning": "to charge (a battery)",
+      "pos": "verb",
+      "example": "자기 전에 휴대폰을 충전해요."
+    },
+    {
+      "id": "a2v529",
+      "word": "검색하다",
+      "form": "검색해요",
+      "meaning": "to search (online)",
+      "pos": "verb",
+      "example": "모르는 단어는 인터넷으로 검색해요."
+    },
+    {
+      "id": "a2v530",
+      "word": "다운로드하다",
+      "form": "다운로드해요",
+      "meaning": "to download",
+      "pos": "verb",
+      "example": "휴대폰으로 음악을 다운로드해요."
+    },
+    {
+      "id": "a2v531",
+      "word": "멋지다",
+      "form": "멋져요",
+      "meaning": "wonderful, stylish",
+      "pos": "adjective",
+      "example": "무대 위의 가수가 정말 멋져요."
+    },
+    {
+      "id": "a2v532",
+      "word": "훌륭하다",
+      "form": "훌륭해요",
+      "meaning": "excellent",
+      "pos": "adjective",
+      "example": "그 선생님은 정말 훌륭해요."
+    },
+    {
+      "id": "a2v533",
+      "word": "유용하다",
+      "form": "유용해요",
+      "meaning": "useful",
+      "pos": "adjective",
+      "example": "이 앱은 한국어를 공부할 때 유용해요."
+    },
+    {
+      "id": "a2v534",
+      "word": "가난하다",
+      "form": "가난해요",
+      "meaning": "poor",
+      "pos": "adjective",
+      "example": "그 나라에는 아직 가난한 사람들이 많아요. 그 마을도 가난해요."
+    },
+    {
+      "id": "a2v535",
+      "word": "부자",
+      "form": "부자",
+      "meaning": "rich person",
+      "pos": "noun",
+      "example": "그 사람은 회사를 세 개나 가진 큰 부자예요."
+    },
+    {
+      "id": "a2v536",
+      "word": "가족사진",
+      "form": "가족사진",
+      "meaning": "family photo",
+      "pos": "noun",
+      "example": "거실에 가족사진이 걸려 있어요."
+    },
+    {
+      "id": "a2v537",
+      "word": "고향집",
+      "form": "고향집",
+      "meaning": "family home (in one's hometown)",
+      "pos": "noun",
+      "example": "명절에 고향집에 내려가요."
+    },
+    {
+      "id": "a2v538",
+      "word": "기숙사비",
+      "form": "기숙사비",
+      "meaning": "dormitory fee",
+      "pos": "noun",
+      "example": "이번 학기 기숙사비를 냈어요."
+    },
+    {
+      "id": "a2v539",
+      "word": "등록금",
+      "form": "등록금",
+      "meaning": "tuition",
+      "pos": "noun",
+      "example": "대학교 등록금이 너무 비싸요."
+    },
+    {
+      "id": "a2v540",
+      "word": "학생증",
+      "form": "학생증",
+      "meaning": "student ID",
+      "pos": "noun",
+      "example": "도서관에 들어갈 때 학생증이 필요해요."
+    },
+    {
+      "id": "a2v541",
+      "word": "외국어",
+      "form": "외국어",
+      "meaning": "foreign language",
+      "pos": "noun",
+      "example": "외국어를 배우는 것은 재미있어요."
+    },
+    {
+      "id": "a2v542",
+      "word": "발음",
+      "form": "발음",
+      "meaning": "pronunciation",
+      "pos": "noun",
+      "example": "한국어 발음이 많이 좋아졌어요."
+    },
+    {
+      "id": "a2v543",
+      "word": "문법",
+      "form": "문법",
+      "meaning": "grammar",
+      "pos": "noun",
+      "example": "이 문법은 조금 어려워요."
+    },
+    {
+      "id": "a2v544",
+      "word": "문장",
+      "form": "문장",
+      "meaning": "sentence",
+      "pos": "noun",
+      "example": "이 문장을 영어로 번역해 주세요."
+    },
+    {
+      "id": "a2v545",
+      "word": "번역",
+      "form": "번역",
+      "meaning": "translation",
+      "pos": "noun",
+      "example": "이 책의 번역이 아주 자연스러워요."
+    },
+    {
+      "id": "a2v546",
+      "word": "글씨",
+      "form": "글씨",
+      "meaning": "handwriting",
+      "pos": "noun",
+      "example": "친구는 글씨를 예쁘게 써요."
+    },
+    {
+      "id": "a2v547",
+      "word": "작문",
+      "form": "작문",
+      "meaning": "composition",
+      "pos": "noun",
+      "example": "작문 숙제로 일기를 썼어요."
+    },
+    {
+      "id": "a2v548",
+      "word": "듣기",
+      "form": "듣기",
+      "meaning": "listening (skill)",
+      "pos": "noun",
+      "example": "저는 듣기 시험이 제일 어려워요."
+    },
+    {
+      "id": "a2v549",
+      "word": "말하기",
+      "form": "말하기",
+      "meaning": "speaking (skill)",
+      "pos": "noun",
+      "example": "말하기 대회에 나가려고 연습하고 있어요."
+    },
+    {
+      "id": "a2v550",
+      "word": "읽기",
+      "form": "읽기",
+      "meaning": "reading (skill)",
+      "pos": "noun",
+      "example": "읽기 시험은 시간이 부족했어요."
+    },
+    {
+      "id": "a2v551",
+      "word": "쓰기",
+      "form": "쓰기",
+      "meaning": "writing (skill)",
+      "pos": "noun",
+      "example": "쓰기 실력을 늘리려고 매일 일기를 써요."
+    },
+    {
+      "id": "a2v552",
+      "word": "사용법",
+      "form": "사용법",
+      "meaning": "instructions for use",
+      "pos": "noun",
+      "example": "이 기계의 사용법을 알려 주세요."
+    },
+    {
+      "id": "a2v553",
+      "word": "비밀번호",
+      "form": "비밀번호",
+      "meaning": "password",
+      "pos": "noun",
+      "example": "비밀번호를 잊어버렸어요."
+    },
+    {
+      "id": "a2v554",
+      "word": "계좌",
+      "form": "계좌",
+      "meaning": "bank account",
+      "pos": "noun",
+      "example": "이 계좌로 돈을 보내 주세요."
+    }
+  ],
+  "questions": [
+    {
+      "id": "t01",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "직업",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "저는 병원에서 일합니다. 아픈 사람들을 돌봐 줍니다.",
+      "options": [
+        "직업",
+        "취미",
+        "계획",
+        "성격"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 직업",
+      "word_id": "a2v001"
+    },
+    {
+      "id": "t02",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "계획",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "다음 달에 운전을 배울 겁니다. 그리고 여름에는 여행을 갈 겁니다.",
+      "options": [
+        "계획",
+        "경험",
+        "날짜",
+        "건강"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 계획",
+      "word_id": "a2v011"
+    },
+    {
+      "id": "t03",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "건강",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "매일 아침 삼십 분씩 걷습니다. 담배도 끊었습니다.",
+      "options": [
+        "건강",
+        "쇼핑",
+        "이사",
+        "요일"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 건강",
+      "word_id": "a2v017"
+    },
+    {
+      "id": "t04",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "경험",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "작년에 혼자 유럽에 가 봤습니다. 처음으로 기차에서 잤습니다.",
+      "options": [
+        "경험",
+        "직업",
+        "위치",
+        "가격"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 경험",
+      "word_id": "a2v010"
+    },
+    {
+      "id": "t05",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "성격",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "제 동생은 말이 많고 활발합니다. 친구들을 쉽게 사귑니다.",
+      "options": [
+        "성격",
+        "외모",
+        "직업",
+        "고향"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 성격",
+      "word_id": "a2v447"
+    },
+    {
+      "id": "t06",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "기분",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "시험에 합격해서 아주 기쁩니다. 하늘을 나는 것 같습니다.",
+      "options": [
+        "기분",
+        "날씨",
+        "계절",
+        "교통"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 기분",
+      "word_id": "a2v030"
+    },
+    {
+      "id": "t07",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "이사",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "짐을 상자에 넣었습니다. 내일 새집으로 갑니다.",
+      "options": [
+        "이사",
+        "여행",
+        "쇼핑",
+        "운동"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 이사",
+      "word_id": "a2v050"
+    },
+    {
+      "id": "t08",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "교통",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "이 동네는 지하철역이 가깝습니다. 버스도 자주 옵니다.",
+      "options": [
+        "교통",
+        "날씨",
+        "성격",
+        "가족"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 교통"
+    },
+    {
+      "id": "t09",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "휴가",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "일주일 동안 회사에 가지 않습니다. 가족과 바다에 갑니다.",
+      "options": [
+        "휴가",
+        "출장",
+        "주말",
+        "약속"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 휴가"
+    },
+    {
+      "id": "t10",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "쇼핑",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "인터넷으로 신발을 주문했습니다. 내일 택배로 옵니다.",
+      "options": [
+        "쇼핑",
+        "요리",
+        "운동",
+        "직업"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 쇼핑"
+    },
+    {
+      "id": "t11",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "요리",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "양파를 썰어서 고기와 같이 볶습니다. 마지막에 간장을 넣습니다.",
+      "options": [
+        "요리",
+        "청소",
+        "쇼핑",
+        "공부"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 요리"
+    },
+    {
+      "id": "t12",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "외모",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "그 사람은 키가 크고 머리가 짧습니다. 안경을 썼습니다.",
+      "options": [
+        "외모",
+        "성격",
+        "직업",
+        "나이"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 외모"
+    },
+    {
+      "id": "t13",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "고향",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "저는 작은 바닷가 마을에서 태어났습니다. 거기에서 고등학교까지 다녔습니다.",
+      "options": [
+        "고향",
+        "여행",
+        "이사",
+        "학교"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 고향"
+    },
+    {
+      "id": "t14",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "명절",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "추석에 가족들이 모였습니다. 같이 송편을 만들었습니다.",
+      "options": [
+        "명절",
+        "생일",
+        "주말",
+        "휴가"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 명절",
+      "word_id": "a2v068"
+    },
+    {
+      "id": "t15",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "날씨",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "아침부터 하늘이 흐립니다. 오후에는 소나기가 온다고 합니다.",
+      "options": [
+        "날씨",
+        "계절",
+        "기분",
+        "시간"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 날씨"
+    },
+    {
+      "id": "t16",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "영화",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "이 영화는 두 시간 동안 합니다. 주인공 연기가 아주 좋습니다.",
+      "options": [
+        "영화",
+        "운동",
+        "음식",
+        "여행"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 영화"
+    },
+    {
+      "id": "t17",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "공부",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "매일 단어를 외우고 문법을 복습합니다. 시험이 얼마 남지 않았습니다.",
+      "options": [
+        "공부",
+        "운동",
+        "취미",
+        "쇼핑"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 공부"
+    },
+    {
+      "id": "t18",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "병원",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "접수를 하고 기다렸습니다. 의사 선생님이 주사를 놓아 주셨습니다.",
+      "options": [
+        "병원",
+        "은행",
+        "학교",
+        "공항"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 병원"
+    },
+    {
+      "id": "t19",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "은행",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "통장을 만들었습니다. 그리고 돈을 조금 저금했습니다.",
+      "options": [
+        "은행",
+        "우체국",
+        "시장",
+        "도서관"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 은행"
+    },
+    {
+      "id": "t20",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "우체국",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "소포의 무게를 쟀습니다. 그리고 우표를 샀습니다.",
+      "options": [
+        "우체국",
+        "은행",
+        "약국",
+        "서점"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 우체국"
+    },
+    {
+      "id": "t21",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "위치",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "학교는 지하철역에서 나와서 오른쪽에 있습니다. 은행 맞은편입니다.",
+      "options": [
+        "위치",
+        "시간",
+        "가격",
+        "교통"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 위치"
+    },
+    {
+      "id": "t22",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "가격",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "이 노트북은 백만 원입니다. 세일 기간에는 팔십만 원입니다.",
+      "options": [
+        "가격",
+        "위치",
+        "날짜",
+        "무게"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 가격",
+      "word_id": "a2v056"
+    },
+    {
+      "id": "t23",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "약속",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "토요일 오후 두 시에 만납시다. 장소는 시청 앞입니다.",
+      "options": [
+        "약속",
+        "휴가",
+        "생일",
+        "주소"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 약속"
+    },
+    {
+      "id": "t24",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "감사",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "선생님 덕분에 시험을 잘 봤습니다. 정말 고맙습니다.",
+      "options": [
+        "감사",
+        "사과",
+        "부탁",
+        "초대"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 감사"
+    },
+    {
+      "id": "t25",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "사과",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "약속 시간에 늦어서 죄송합니다. 다음부터는 일찍 오겠습니다.",
+      "options": [
+        "사과",
+        "감사",
+        "초대",
+        "부탁"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 사과"
+    },
+    {
+      "id": "t26",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "초대",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "이번 토요일에 저희 집에서 집들이를 합니다. 꼭 오세요.",
+      "options": [
+        "초대",
+        "사과",
+        "감사",
+        "여행"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 초대"
+    },
+    {
+      "id": "t27",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "부탁",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "내일 이사를 하는데 시간이 있으면 좀 도와주세요.",
+      "options": [
+        "부탁",
+        "초대",
+        "감사",
+        "계획"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 부탁",
+      "word_id": "a2v130"
+    },
+    {
+      "id": "t28",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "운동",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "일주일에 세 번 수영장에 다닙니다. 주말에는 자전거를 탑니다.",
+      "options": [
+        "운동",
+        "취미",
+        "쇼핑",
+        "휴가"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 운동"
+    },
+    {
+      "id": "t29",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "생활",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "한국에 온 지 일 년이 됐습니다. 이제 음식도 날씨도 익숙합니다.",
+      "options": [
+        "생활",
+        "여행",
+        "고향",
+        "경험"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 생활",
+      "word_id": "a2v126"
+    },
+    {
+      "id": "t30",
+      "type": "topic",
+      "section": "vocabulary",
+      "word": "시간",
+      "instruction": "무엇에 대한 내용입니까? 알맞은 것을 고르십시오.",
+      "instruction_en": "What is the text about?",
+      "prompt": "회의는 열 시에 시작해서 열한 시 반에 끝납니다.",
+      "options": [
+        "시간",
+        "위치",
+        "날짜",
+        "가격"
+      ],
+      "answer": 0,
+      "note": "화제 (topic): 시간"
+    }
+  ]
+}

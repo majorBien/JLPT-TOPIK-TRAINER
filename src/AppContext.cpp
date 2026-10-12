@@ -19,9 +19,10 @@ DeepSeekSettings deepseekSettings(const Config& cfg) {
 
 AppContext::AppContext(Config cfg, std::string lvl)
     : config(std::move(cfg)),
+      lang(languageProfile(config.language)),
       level(std::move(lvl)),
       userDir(config.levelUserDir(level)),
-      bank(QuestionBank::load(config.levelDataDir(level), level)),
+      bank(QuestionBank::load(config.levelDataDir(level), level, lang)),
       progress(userFile(userDir, "progress.json")),
       mistakes(userFile(userDir, "mistakes.json")),
       srs(userFile(userDir, "srs.json")),

@@ -142,6 +142,100 @@ std::vector<Morpheme> OpenJTalkEngine::analyze(const std::string& text) const {
     return words;
 }
 
+// ---- Korean ---------------------------------------------------------------
+
+namespace {
+
+// Both engines are normalised to the same PCM format so clips can be concatenated.
+bool toPcmWav(const std::string& in, const std::string& outWav) {
+    const std::string cmd = "ffmpeg -nostdin -loglevel error -y -i " + util::shellQuote(in) +
+                            " -ar 24000 -ac 1 -sample_fmt s16 " + util::shellQuote(outWav) + " >/dev/null 2>&1";
+    std::error_code ec;
+    return std::system(cmd.c_str()) == 0 && fs::exists(outWav, ec) && fs::file_size(outWav, ec) > 44;
+}
+
+}  // namespace
+
+KoreanTtsEngine::KoreanTtsEngine(const Config& cfg)
+    : voiceFemale_(cfg.koVoiceFemale), voiceMale_(cfg.koVoiceMale), voiceNarrator_(cfg.koVoiceNarrator),
+      rate_(cfg.koRate) {
+    const fs::path tp = fs::path(cfg.rootDir) / "third_party";
+    const std::string venvBin = (tp / "edge-tts/venv/bin/edge-tts").string();
+    if (!cfg.koEdgeTts.empty()) edgeTts_ = cfg.koEdgeTts;
+    else if (fs::exists(venvBin)) edgeTts_ = venvBin;
+    else if (util::commandExists("edge-tts")) edgeTts_ = "edge-tts";
+
+    const fs::path bundled = tp / "espeak-ng";
+    if (util::commandExists("espeak-ng")) {
+        espeak_ = "espeak-ng";
+    } else if (fs::exists(bundled / "usr/bin/espeak-ng")) {
+        espeak_ = (bundled / "usr/bin/espeak-ng").string();
+        espeakLibDir_ = firstExisting({(bundled / "usr/lib/x86_64-linux-gnu").string(),
+                                       (bundled / "usr/lib/aarch64-linux-gnu").string()});
+        espeakData_ = firstExisting({(bundled / "usr/lib/x86_64-linux-gnu/espeak-ng-data").string(),
+                                     (bundled / "usr/lib/aarch64-linux-gnu/espeak-ng-data").string(),
+                                     (bundled / "usr/share/espeak-ng-data").string()});
+    }
+    if (!util::commandExists("ffmpeg")) {
+        edgeTts_.clear();
+        espeak_.clear();
+        status_ = "ffmpeg not found (sudo apt install ffmpeg)";
+    } else if (!edgeTts_.empty()) {
+        status_ = std::string("edge-tts neural voices") + (espeak_.empty() ? "" : " (offline fallback: espeak-ng)");
+    } else if (!espeak_.empty()) {
+        status_ = "espeak-ng (robotic) — run scripts/setup_tts_ko.sh for natural voices";
+    } else {
+        status_ = "no Korean TTS — run scripts/setup_tts_ko.sh";
+    }
+}
+
+std::string KoreanTtsEngine::voiceSignature() const {
+    return "ko|" + std::string(edgeTts_.empty() ? "espeak" : "edge") + "|" + voiceFemale_ + "|" + voiceMale_ + "|" +
+           voiceNarrator_ + "|" + rate_;
+}
+
+bool KoreanTtsEngine::viaEdgeTts(const std::string& textFile, const std::string& speaker,
+                                 const std::string& outWav) const {
+    const std::string& voice = speaker == "M" ? voiceMale_ : speaker == "F" ? voiceFemale_ : voiceNarrator_;
+    const std::string mp3 = outWav + ".mp3";
+    const std::string cmd = util::shellQuote(edgeTts_) + " --voice " + util::shellQuote(voice) + " --rate=" +
+                            util::shellQuote(rate_) + " -f " + util::shellQuote(textFile) + " --write-media " +
+                            util::shellQuote(mp3) + " >/dev/null 2>&1";
+    const bool ok = std::system(cmd.c_str()) == 0 && toPcmWav(mp3, outWav);
+    std::remove(mp3.c_str());
+    return ok;
+}
+
+bool KoreanTtsEngine::viaEspeak(const std::string& textFile, const std::string& speaker,
+                                const std::string& outWav) const {
+    const std::string raw = outWav + ".espeak.wav";
+    std::string cmd;
+    if (!espeakLibDir_.empty()) cmd += "LD_LIBRARY_PATH=" + util::shellQuote(espeakLibDir_) + " ";
+    if (!espeakData_.empty()) cmd += "ESPEAK_DATA_PATH=" + util::shellQuote(espeakData_) + " ";
+    cmd += util::shellQuote(espeak_) + " -v ko -s 140 -p " + (speaker == "M" ? "35" : "65") + " -w " +
+           util::shellQuote(raw) + " -f " + util::shellQuote(textFile) + " >/dev/null 2>&1";
+    const bool ok = std::system(cmd.c_str()) == 0 && toPcmWav(raw, outWav);
+    std::remove(raw.c_str());
+    return ok;
+}
+
+bool KoreanTtsEngine::synthesize(const std::string& text, const std::string& speaker,
+                                 const std::string& outWav) const {
+    if (!available() || text.empty()) return false;
+    const std::string textFile = outWav + ".txt";
+    {
+        std::ofstream out(textFile);
+        out << text << '\n';
+        if (!out) return false;
+    }
+    // edge-tts needs the network; fall back to espeak-ng offline.
+    const bool ok = (!edgeTts_.empty() && viaEdgeTts(textFile, speaker, outWav)) ||
+                    (!espeak_.empty() && viaEspeak(textFile, speaker, outWav));
+    std::remove(textFile.c_str());
+    return ok;
+}
+
 std::unique_ptr<TtsEngine> makeTtsEngine(const Config& cfg) {
+    if (cfg.language == "ko") return std::make_unique<KoreanTtsEngine>(cfg);
     return std::make_unique<OpenJTalkEngine>(cfg);
 }
