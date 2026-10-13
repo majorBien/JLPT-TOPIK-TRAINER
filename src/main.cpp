@@ -5,8 +5,10 @@
 
 #include "App.h"
 #include "Config.h"
+#include "Platform.h"
 
 int main(int argc, char** argv) {
+    platform::initConsole();
     std::setlocale(LC_ALL, "");
     // Keep '.' as the decimal separator (e.g. LC_NUMERIC=pl_PL would turn
     // 0.3 into "0,3" and break the JSON we send to and read from disk/API).

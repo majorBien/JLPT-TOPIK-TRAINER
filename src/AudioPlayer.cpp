@@ -4,7 +4,16 @@
 #include <cstring>
 #include <fstream>
 
+#include "Platform.h"
 #include "Util.h"
+
+#if defined(_WIN32)
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
+#include <windows.h>
+#include <mmsystem.h>
+#endif
 
 namespace audio {
 
@@ -86,6 +95,40 @@ bool writeWav(const std::string& path, const WavData& wav) {
     return out.good();
 }
 
+bool normalizeWav(const std::string& path, std::uint32_t sampleRate) {
+    auto wav = readWav(path);
+    if (!wav || wav->bitsPerSample != 16 || wav->channels == 0 || wav->sampleRate == 0) return false;
+    if (wav->channels == 1 && wav->sampleRate == sampleRate) return true;
+
+    // Mix down to mono.
+    const std::size_t frames = wav->pcm.size() / (2u * wav->channels);
+    std::vector<double> mono(frames);
+    for (std::size_t f = 0; f < frames; ++f) {
+        double sum = 0;
+        for (std::uint16_t c = 0; c < wav->channels; ++c) {
+            const std::size_t at = (f * wav->channels + c) * 2;
+            sum += static_cast<std::int16_t>(readU16(wav->pcm.data() + at));
+        }
+        mono[f] = sum / wav->channels;
+    }
+    // Linear resampling.
+    const double ratio = static_cast<double>(wav->sampleRate) / sampleRate;
+    const std::size_t outFrames = frames == 0 ? 0 : static_cast<std::size_t>(frames / ratio);
+    WavData out{1, sampleRate, 16, {}};
+    out.pcm.resize(outFrames * 2);
+    for (std::size_t i = 0; i < outFrames; ++i) {
+        const double src = i * ratio;
+        const std::size_t i0 = static_cast<std::size_t>(src);
+        const std::size_t i1 = std::min(i0 + 1, frames - 1);
+        const double t = src - static_cast<double>(i0);
+        const double v = mono[i0] * (1.0 - t) + mono[i1] * t;
+        const auto sample = static_cast<std::int16_t>(std::max(-32768.0, std::min(32767.0, v)));
+        out.pcm[i * 2] = static_cast<char>(sample & 0xFF);
+        out.pcm[i * 2 + 1] = static_cast<char>((sample >> 8) & 0xFF);
+    }
+    return writeWav(path, out);
+}
+
 bool concatWav(const std::vector<std::pair<std::string, int>>& clipsWithPauseMs, const std::string& outPath) {
     std::optional<WavData> result;
     for (const auto& [path, pauseMs] : clipsWithPauseMs) {
@@ -110,16 +153,20 @@ AudioPlayer::AudioPlayer(const std::string& overrideCommand) {
         command_ = overrideCommand;
         return;
     }
+    if (platform::kWindows) {
+        command_ = "Windows audio (built-in)";
+        return;
+    }
     static const std::pair<const char*, const char*> candidates[] = {
+        {"afplay", "afplay"},  // macOS
         {"pw-play", "pw-play"},
         {"paplay", "paplay"},
         {"aplay", "aplay -q"},
         {"ffplay", "ffplay -nodisp -autoexit -loglevel quiet"},
         {"mpv", "mpv --really-quiet --no-video"},
-        {"afplay", "afplay"},
     };
     for (const auto& [binary, cmd] : candidates) {
-        if (util::commandExists(binary)) {
+        if (platform::commandExists(binary)) {
             command_ = cmd;
             return;
         }
@@ -128,8 +175,10 @@ AudioPlayer::AudioPlayer(const std::string& overrideCommand) {
 
 bool AudioPlayer::play(const std::string& wavPath) const {
     if (command_.empty()) return false;
-    const std::string cmd = command_ + " " + util::shellQuote(wavPath) + " >/dev/null 2>&1 </dev/null";
-    return std::system(cmd.c_str()) == 0;
+#if defined(_WIN32)
+    if (command_ == "Windows audio (built-in)") return PlaySoundA(wavPath.c_str(), nullptr, SND_FILENAME | SND_SYNC) != FALSE;
+#endif
+    return platform::runQuiet(command_ + " " + platform::quote(wavPath)) == 0;
 }
 
 }  // namespace audio

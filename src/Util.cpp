@@ -1,5 +1,7 @@
 #include "Util.h"
 
+#include "Platform.h"
+
 #include <algorithm>
 #include <cctype>
 #include <chrono>
@@ -8,7 +10,6 @@
 #include <ctime>
 #include <numeric>
 
-#include <unistd.h>
 
 namespace util {
 
@@ -41,28 +42,14 @@ std::string replaceAll(std::string s, std::string_view from, std::string_view to
 }
 
 std::string expandHome(const std::string& path) {
-    if (!startsWith(path, "~/")) return path;
-    const char* home = std::getenv("HOME");
-    return home ? std::string(home) + path.substr(1) : path;
+    if (!startsWith(path, "~/") && !startsWith(path, "~\\")) return path;
+    const std::string home = platform::homeDir();
+    return home.empty() ? path : home + path.substr(1);
 }
 
-std::string shellQuote(const std::string& s) {
-    return "'" + replaceAll(s, "'", "'\\''") + "'";
-}
+std::string shellQuote(const std::string& s) { return platform::quote(s); }
 
-bool commandExists(const std::string& name) {
-    const char* path = std::getenv("PATH");
-    if (!path) return false;
-    std::string_view rest(path);
-    while (!rest.empty()) {
-        const auto colon = rest.find(':');
-        const std::string dir(rest.substr(0, colon));
-        if (!dir.empty() && access((dir + "/" + name).c_str(), X_OK) == 0) return true;
-        if (colon == std::string_view::npos) break;
-        rest.remove_prefix(colon + 1);
-    }
-    return false;
-}
+bool commandExists(const std::string& name) { return platform::commandExists(name); }
 
 bool isKanji(std::uint32_t cp) {
     return (cp >= 0x4E00 && cp <= 0x9FFF) || (cp >= 0x3400 && cp <= 0x4DBF) || cp == 0x3005;  // 々
@@ -89,7 +76,11 @@ std::int64_t nowSeconds() {
 std::string formatDate(std::int64_t timestamp) {
     std::time_t t = static_cast<std::time_t>(timestamp);
     std::tm tm{};
+#if defined(_WIN32)
+    localtime_s(&tm, &t);
+#else
     localtime_r(&t, &tm);
+#endif
     char buf[32];
     std::strftime(buf, sizeof buf, "%Y-%m-%d %H:%M", &tm);
     return buf;

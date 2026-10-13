@@ -7,6 +7,7 @@
 #include <iostream>
 
 #include "Json.h"
+#include "Platform.h"
 #include "Util.h"
 
 namespace fs = std::filesystem;
@@ -39,8 +40,7 @@ std::string findRoot() {
     for (const char* var : {"JP_KOR_TRAINER_HOME", "JLPT_HOME"})  // JLPT_HOME: older name
         if (const char* env = std::getenv(var); env && looksLikeRoot(env)) return env;
     // A release is self-contained: data/ sits next to the executable.
-    std::error_code ec;
-    const fs::path exeDir = fs::read_symlink("/proc/self/exe", ec).parent_path();
+    const fs::path exeDir = platform::executableDir();
     const fs::path cwd = fs::current_path();
     for (const fs::path& candidate : {exeDir, cwd, cwd.parent_path(), fs::path(TRAINER_SOURCE_DIR)})
         if (!candidate.empty() && looksLikeRoot(candidate)) return fs::weakly_canonical(candidate).string();

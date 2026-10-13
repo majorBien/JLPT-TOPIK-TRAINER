@@ -21,6 +21,7 @@ add_executable(jp-kor-trainer
   src/Json.cpp
   src/Language.cpp
   src/MistakeTracker.cpp
+  src/Platform.cpp
   src/ProgressTracker.cpp
   src/Question.cpp
   src/QuestionBank.cpp
@@ -41,4 +42,7 @@ target_include_directories(jp-kor-trainer PRIVATE include)
 # Lets the binary find data/ even when started from another directory.
 target_compile_definitions(jp-kor-trainer PRIVATE TRAINER_SOURCE_DIR="${CMAKE_SOURCE_DIR}")
 target_link_libraries(jp-kor-trainer PRIVATE Threads::Threads)
+if(WIN32)
+  target_link_libraries(jp-kor-trainer PRIVATE winmm)
+endif()
 target_compile_options(jp-kor-trainer PRIVATE -Wall -Wextra -Wpedantic)

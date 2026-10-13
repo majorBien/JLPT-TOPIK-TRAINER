@@ -1,8 +1,5 @@
 #include "DeepSeekClient.h"
 
-#include <sys/wait.h>
-#include <unistd.h>
-
 #include <array>
 #include <cstdio>
 #include <cstdlib>
@@ -10,60 +7,30 @@
 #include <fstream>
 
 #include "Json.h"
+#include "Platform.h"
 #include "Util.h"
 
 namespace {
 
-// RAII temp file (mkstemp => mode 0600), removed on destruction.
+// Private temp file (0600 on POSIX), removed on destruction.
 class TempFile {
 public:
-    explicit TempFile(const std::string& content) {
-        std::string tmpl = (std::filesystem::temp_directory_path() / "jlpt-ds-XXXXXX").string();
-        const int fd = mkstemp(tmpl.data());
-        if (fd < 0) return;
-        path_ = tmpl;
-        std::size_t written = 0;
-        while (written < content.size()) {
-            const ssize_t n = ::write(fd, content.data() + written, content.size() - written);
-            if (n <= 0) break;
-            written += static_cast<std::size_t>(n);
-        }
-        ::close(fd);
-        ok_ = written == content.size();
-    }
+    explicit TempFile(const std::string& content) : path_(platform::writeTempFile(content)) {}
     ~TempFile() {
         if (!path_.empty()) std::remove(path_.c_str());
     }
     TempFile(const TempFile&) = delete;
     TempFile& operator=(const TempFile&) = delete;
 
-    bool ok() const { return ok_; }
+    bool ok() const { return !path_.empty(); }
     const std::string& path() const { return path_; }
 
 private:
     std::string path_;
-    bool ok_ = false;
 };
 
 std::string curlConfigQuote(const std::string& s) {
     return "\"" + util::replaceAll(util::replaceAll(s, "\\", "\\\\"), "\"", "\\\"") + "\"";
-}
-
-struct ProcessOutput {
-    int exitCode = -1;
-    std::string output;
-};
-
-ProcessOutput runCommand(const std::string& command) {
-    ProcessOutput result;
-    FILE* pipe = popen(command.c_str(), "r");
-    if (!pipe) return result;
-    std::array<char, 4096> buf{};
-    std::size_t n;
-    while ((n = std::fread(buf.data(), 1, buf.size(), pipe)) > 0) result.output.append(buf.data(), n);
-    const int status = pclose(pipe);
-    result.exitCode = WIFEXITED(status) ? WEXITSTATUS(status) : -1;
-    return result;
 }
 
 }  // namespace
@@ -139,13 +106,15 @@ ApiResult DeepSeekClient::chat(const std::string& systemPrompt, const std::strin
     TempFile configFile("url = " + curlConfigQuote(settings_.url) + "\n" +
                         "header = " + curlConfigQuote("Authorization: Bearer " + apiKey_) + "\n" +
                         "header = \"Content-Type: application/json\"\n" +
-                        "data-binary = " + curlConfigQuote("@" + bodyFile.path()) + "\n");
+                        "data-binary = " + curlConfigQuote("@" + bodyFile.path()) + "\n" +
+                        "write-out = \"\\n%{http_code}\"\n");
     if (!bodyFile.ok() || !configFile.ok()) return {false, {}, "could not create temporary files"};
 
-    const std::string command = "curl -sS -X POST --max-time " + std::to_string(settings_.timeoutSec) +
-                                " -w '\\n%{http_code}' -K '" + configFile.path() + "' 2>&1";
-    const ProcessOutput proc = runCommand(command);
-    if (proc.exitCode == 127) return {false, {}, "curl is not installed (sudo apt install curl)"};
+    const std::string curl = platform::findCommand("curl");
+    if (curl.empty()) return {false, {}, "curl is not installed"};
+    const std::string command = platform::quote(curl) + " -sS -X POST --max-time " + std::to_string(settings_.timeoutSec) +
+                                " -K " + platform::quote(configFile.path()) + " 2>&1";
+    const platform::CommandResult proc = platform::runCapture(command);
 
     const auto lastNl = proc.output.find_last_of('\n');
     const std::string httpCode = lastNl == std::string::npos ? "" : util::trim(proc.output.substr(lastNl + 1));

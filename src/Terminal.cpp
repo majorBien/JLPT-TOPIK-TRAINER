@@ -1,7 +1,6 @@
 #include "Terminal.h"
 
-#include <sys/ioctl.h>
-#include <unistd.h>
+#include "Platform.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -124,7 +123,7 @@ bool colorEnabled() {
     static const bool enabled = [] {
         if (std::getenv("NO_COLOR")) return false;
         if (std::getenv("JP_KOR_TRAINER_FORCE_COLOR")) return true;
-        return isatty(STDOUT_FILENO) != 0;
+        return platform::stdoutIsTerminal();
     }();
     return enabled;
 }
@@ -258,8 +257,7 @@ std::vector<std::string> wrap(std::string_view text, std::size_t width) {
 // ---- Layout ----------------------------------------------------------------
 
 int terminalWidth() {
-    winsize ws{};
-    if (ioctl(STDOUT_FILENO, TIOCGWINSZ, &ws) == 0 && ws.ws_col > 0) return ws.ws_col;
+    if (const int cols = platform::terminalColumns(); cols > 0) return cols;
     if (const char* cols = std::getenv("COLUMNS")) return std::max(40, std::atoi(cols));
     return 80;
 }
@@ -271,7 +269,7 @@ std::size_t frameWidth() {
 std::size_t contentWidth() { return frameWidth() - 4; }
 
 void clearScreen() {
-    if (isatty(STDOUT_FILENO)) std::cout << "\033[2J\033[H";
+    if (platform::stdoutIsTerminal()) std::cout << "\033[2J\033[H";
     else std::cout << '\n';
 }
 

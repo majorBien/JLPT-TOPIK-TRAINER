@@ -1,6 +1,6 @@
 // DeepSeek chat-completions client used by the "why" command.
 //
-// Transport: the system `curl` binary via popen(). The API key never appears
+// Transport: the system `curl` binary (platform::runCapture). The API key never appears
 // on the command line (ps-visible): it is written to a 0600 temporary curl
 // config file (-K) that is deleted right after the request.
 //

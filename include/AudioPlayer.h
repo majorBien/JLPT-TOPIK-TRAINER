@@ -1,5 +1,5 @@
-// WAV utilities (read/concatenate with pauses) and a blocking audio player
-// that shells out to whatever is installed: pw-play, paplay, aplay, ffplay.
+// WAV utilities (read/normalise/concatenate with pauses) and a blocking audio player:
+// Windows PlaySound, macOS afplay, Linux pw-play / paplay / aplay / ffplay / mpv.
 #pragma once
 
 #include <cstdint>
@@ -20,6 +20,9 @@ struct WavData {
 std::optional<WavData> readWav(const std::string& path);
 bool writeWav(const std::string& path, const WavData& wav);
 
+// Converts a 16-bit PCM WAV in place to mono at `sampleRate` (linear resampling).
+bool normalizeWav(const std::string& path, std::uint32_t sampleRate);
+
 // Joins PCM clips of identical format; each clip is followed by `pauseMs` of silence.
 bool concatWav(const std::vector<std::pair<std::string, int>>& clipsWithPauseMs, const std::string& outPath);
 
@@ -29,7 +32,7 @@ public:
 
     bool available() const { return !command_.empty(); }
     const std::string& command() const { return command_; }
-    // Blocks until playback ends. Ctrl+C stops playback (system() shields the app).
+    // Blocks until playback ends.
     bool play(const std::string& wavPath) const;
 
 private:

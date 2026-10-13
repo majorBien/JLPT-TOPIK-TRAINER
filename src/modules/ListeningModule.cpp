@@ -6,6 +6,7 @@
 #include <functional>
 #include <iostream>
 
+#include "Platform.h"
 #include "QuizSession.h"
 #include "Terminal.h"
 #include "Util.h"
@@ -122,7 +123,7 @@ void ListeningModule::runSession(AppContext& ctx) const {
                 return;
             }
             std::cout << "  " << ui::paint(ctx.lang.playing, {ui::style::Bold, ui::style::BrightCyan})
-                      << ui::paint("  (Ctrl+C stops playback)", ui::style::Gray) << std::flush;
+                      << ui::paint(platform::kWindows ? "" : "  (Ctrl+C stops playback)", ui::style::Gray) << std::flush;
             ctx.player.play(audioFiles[i]);
             std::cout << "\r\033[2K  " << ui::paint(ctx.lang.finished, ui::style::Cyan) << '\n';
         };
