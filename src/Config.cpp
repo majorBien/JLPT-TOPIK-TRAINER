@@ -37,9 +37,12 @@ bool updateSettings(const std::string& rootDir, const std::function<void(json::V
 
 std::string findRoot() {
     if (const char* env = std::getenv("JLPT_HOME"); env && looksLikeRoot(env)) return env;
+    // A release is self-contained: data/ sits next to the executable.
+    std::error_code ec;
+    const fs::path exeDir = fs::read_symlink("/proc/self/exe", ec).parent_path();
     const fs::path cwd = fs::current_path();
-    for (const fs::path& candidate : {cwd, cwd.parent_path(), fs::path(JLPT_SOURCE_DIR)})
-        if (looksLikeRoot(candidate)) return fs::weakly_canonical(candidate).string();
+    for (const fs::path& candidate : {exeDir, cwd, cwd.parent_path(), fs::path(JLPT_SOURCE_DIR)})
+        if (!candidate.empty() && looksLikeRoot(candidate)) return fs::weakly_canonical(candidate).string();
     return cwd.string();
 }
 

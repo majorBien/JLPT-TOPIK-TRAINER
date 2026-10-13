@@ -87,9 +87,11 @@ void renderQuestion(const AppContext& ctx, const Question& q, bool showPassage, 
     std::cout << "  " << ui::paint(q.instruction, {ui::style::Bold, ui::style::BrightCyan}) << '\n';
     if (!q.instructionEn.empty()) std::cout << "  " << ui::paint(q.instructionEn, ui::style::Gray) << "\n";
     std::cout << '\n';
-    for (const auto& line : ui::wrap(ui::renderMarkup(q.prompt), ui::contentWidth()))
-        std::cout << "    " << ui::paint(line, ui::style::BrightWhite) << '\n';
-    std::cout << '\n';
+    if (q.prompt != q.instruction) {  // some reading items ask exactly what the instruction says
+        for (const auto& line : ui::wrap(ui::renderMarkup(q.prompt), ui::contentWidth()))
+            std::cout << "    " << ui::paint(line, ui::style::BrightWhite) << '\n';
+        std::cout << '\n';
+    }
 
     for (std::size_t i = 0; i < q.options.size(); ++i) {
         const std::string label = ui::paint(" " + optionLabel(i) + " ", {ui::style::Bold, ui::style::BrightMagenta});
