@@ -17,8 +17,12 @@ inline constexpr bool kWindows = false;
 inline constexpr bool kMac = false;
 #endif
 
-// Windows: UTF-8 code page and ANSI colours for the console. No-op elsewhere.
+// Windows: UTF-8 console output via WriteConsoleW (std::cout / std::cerr), ANSI colours.
+// No-op elsewhere. Call first thing in main().
 void initConsole();
+
+// Reads one line from stdin as UTF-8 (Windows console: ReadConsoleW). False on EOF.
+bool readLine(std::string& line);
 
 bool stdoutIsTerminal();
 int terminalColumns();          // 0 when unknown

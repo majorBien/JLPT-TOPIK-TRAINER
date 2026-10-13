@@ -5,6 +5,8 @@
 #include <cstdlib>
 #include <filesystem>
 #include <fstream>
+#include <iostream>
+#include <streambuf>
 #include <random>
 #include <vector>
 
@@ -49,15 +51,134 @@ std::string forCmd(const std::string& command) { return "\"" + command + "\""; }
 
 }  // namespace
 
+#if defined(_WIN32)
+namespace {
+
+std::wstring toWide(const char* s, std::size_t n) {
+    if (n == 0) return {};
+    const int len = MultiByteToWideChar(CP_UTF8, 0, s, static_cast<int>(n), nullptr, 0);
+    std::wstring w(static_cast<std::size_t>(len), L'\0');
+    MultiByteToWideChar(CP_UTF8, 0, s, static_cast<int>(n), w.data(), len);
+    return w;
+}
+
+std::string toUtf8(const wchar_t* w, std::size_t n) {
+    if (n == 0) return {};
+    const int len = WideCharToMultiByte(CP_UTF8, 0, w, static_cast<int>(n), nullptr, 0, nullptr, nullptr);
+    std::string s(static_cast<std::size_t>(len), '\0');
+    WideCharToMultiByte(CP_UTF8, 0, w, static_cast<int>(n), s.data(), len, nullptr, nullptr);
+    return s;
+}
+
+bool isConsole(HANDLE h) {
+    DWORD mode = 0;
+    return h != INVALID_HANDLE_VALUE && h != nullptr && GetConsoleMode(h, &mode);
+}
+
+// Length of the longest prefix of `s` that ends on a complete UTF-8 character.
+std::size_t completeUtf8Prefix(const std::string& s) {
+    std::size_t i = s.size();
+    for (std::size_t back = 0; back < 4 && i > 0; ++back) {
+        const auto c = static_cast<unsigned char>(s[i - 1]);
+        if ((c & 0xC0) != 0x80) {  // lead byte (or ASCII) of the last character
+            const std::size_t need = c < 0x80 ? 1 : c >= 0xF0 ? 4 : c >= 0xE0 ? 3 : c >= 0xC0 ? 2 : 1;
+            return back + 1 >= need ? s.size() : i - 1;
+        }
+        --i;
+    }
+    return s.size();
+}
+
+// std::cout / std::cerr for a Windows console: UTF-8 in, WriteConsoleW (UTF-16) out.
+// Writing UTF-16 does not depend on the console code page or on how the C runtime
+// splits writes, so box drawing, kanji and hangul render correctly.
+class ConsoleBuf : public std::streambuf {
+public:
+    explicit ConsoleBuf(HANDLE handle) : handle_(handle) { setp(buf_, buf_ + sizeof buf_); }
+
+protected:
+    int_type overflow(int_type ch) override {
+        flushBuffer();
+        if (!traits_type::eq_int_type(ch, traits_type::eof())) {
+            *pptr() = traits_type::to_char_type(ch);
+            pbump(1);
+        }
+        return traits_type::not_eof(ch);
+    }
+    int sync() override {
+        flushBuffer();
+        return 0;
+    }
+
+private:
+    void flushBuffer() {
+        pending_.append(pbase(), static_cast<std::size_t>(pptr() - pbase()));
+        setp(buf_, buf_ + sizeof buf_);
+        const std::size_t n = completeUtf8Prefix(pending_);  // keep a split character for later
+        const std::wstring w = toWide(pending_.data(), n);
+        pending_.erase(0, n);
+        std::size_t done = 0;
+        while (done < w.size()) {
+            DWORD written = 0;
+            if (!WriteConsoleW(handle_, w.data() + done, static_cast<DWORD>(w.size() - done), &written, nullptr) ||
+                written == 0)
+                break;
+            done += written;
+        }
+    }
+
+    HANDLE handle_;
+    char buf_[4096];
+    std::string pending_;
+};
+
+}  // namespace
+#endif
+
 void initConsole() {
 #if defined(_WIN32)
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
-    const HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
-    DWORD mode = 0;
-    if (out != INVALID_HANDLE_VALUE && GetConsoleMode(out, &mode))
-        SetConsoleMode(out, mode | ENABLE_VIRTUAL_TERMINAL_PROCESSING | ENABLE_PROCESSED_OUTPUT);
+    for (const DWORD id : {STD_OUTPUT_HANDLE, STD_ERROR_HANDLE}) {
+        const HANDLE h = GetStdHandle(id);
+        DWORD mode = 0;
+        if (isConsole(h) && GetConsoleMode(h, &mode))
+            SetConsoleMode(h, mode | ENABLE_VIRTUAL_TERMINAL_PROCESSING | ENABLE_PROCESSED_OUTPUT);
+    }
+    // Redirected output (file, pipe) keeps the plain UTF-8 byte stream.
+    static ConsoleBuf outBuf(GetStdHandle(STD_OUTPUT_HANDLE));
+    static ConsoleBuf errBuf(GetStdHandle(STD_ERROR_HANDLE));
+    if (isConsole(GetStdHandle(STD_OUTPUT_HANDLE))) std::cout.rdbuf(&outBuf);
+    if (isConsole(GetStdHandle(STD_ERROR_HANDLE))) std::cerr.rdbuf(&errBuf);
 #endif
+}
+
+bool readLine(std::string& line) {
+    line.clear();
+#if defined(_WIN32)
+    const HANDLE in = GetStdHandle(STD_INPUT_HANDLE);
+    if (isConsole(in)) {
+        std::cout.flush();
+        std::wstring w;
+        wchar_t chunk[256];
+        for (;;) {
+            DWORD read = 0;
+            if (!ReadConsoleW(in, chunk, 256, &read, nullptr) || read == 0) {
+                if (w.empty()) return false;
+                break;
+            }
+            w.append(chunk, read);
+            if (!w.empty() && w.back() == L'\n') break;
+        }
+        while (!w.empty() && (w.back() == L'\n' || w.back() == L'\r')) w.pop_back();
+        if (w.size() == 1 && w[0] == 0x1A) return false;  // Ctrl+Z = end of input
+        line = toUtf8(w.data(), w.size());
+        return true;
+    }
+#endif
+    if (!std::getline(std::cin, line)) return false;
+    if (!line.empty() && line.back() == '\r') line.pop_back();
+    return true;
 }
 
 bool stdoutIsTerminal() {

@@ -418,7 +418,7 @@ std::vector<std::string> renderMarkdown(std::string_view text, std::size_t width
 std::optional<std::string> readLine(std::string_view prompt) {
     std::cout << "  " << paint("❯ ", {style::Bold, style::BrightMagenta}) << prompt << std::flush;
     std::string line;
-    if (!std::getline(std::cin, line)) {
+    if (!platform::readLine(line)) {
         std::cout << '\n';
         return std::nullopt;
     }
