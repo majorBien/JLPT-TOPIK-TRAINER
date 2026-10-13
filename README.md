@@ -1,4 +1,4 @@
-# JLPT / TOPIK Trainer
+# jp-kor-trainer — JLPT / TOPIK Trainer
 
 A fast, colourful terminal trainer for the **Japanese JLPT (N5–N3)** and the **Korean TOPIK I (A1–A2)** exams.
 Exam-style multiple-choice questions, real listening practice with synthesized voices, spaced repetition,
@@ -28,11 +28,11 @@ a mistakes notebook and AI explanations — all in your terminal.
 ## Quick start (Debian / Ubuntu, x86_64)
 
 ```bash
-tar xzf jlpt-trainer-1.0-linux-x86_64.tar.gz
-cd jlpt-trainer-1.0-linux-x86_64
-./jlpt-trainer                 # Japanese, N4
-./jlpt-trainer --lang ko       # Korean, TOPIK I A1
-./jlpt-trainer --level N5      # pick a level
+tar xzf jp-kor-trainer-1.0-linux-x86_64.tar.gz
+cd jp-kor-trainer-1.0-linux-x86_64
+./jp-kor-trainer                 # Japanese, N4
+./jp-kor-trainer --lang ko       # Korean, TOPIK I A1
+./jp-kor-trainer --level N5      # pick a level
 ```
 
 That's it — vocabulary, grammar, reading, SRS and progress work out of the box.
@@ -61,10 +61,11 @@ Uses the [DeepSeek API](https://platform.deepseek.com). Provide a key in one of 
 ```bash
 export DEEPSEEK_API_KEY=sk-...                          # environment variable
 # or
-mkdir -p ~/.config/jlpt-trainer && echo 'sk-...' > ~/.config/jlpt-trainer/deepseek.key
+mkdir -p ~/.config/jp-kor-trainer && echo 'sk-...' > ~/.config/jp-kor-trainer/deepseek.key
 ```
 
-The explanation language (Polish, English, Japanese, Korean, …) is chosen in *Settings*.
+Or point the app to any key file in *Settings → 3 DeepSeek API key file*.
+The explanation language (Polish, English, Japanese, Korean, …) is chosen in *Settings* too.
 
 ## How it looks
 
@@ -90,14 +91,14 @@ The explanation language (Polish, English, Japanese, Korean, …) is chosen in *
 
 `settings.json` (next to the binary): default language and levels, session size, SRS limits,
 DeepSeek key file and explanation language, voice options (`tts`, `tts_ko`).
-Environment: `DEEPSEEK_API_KEY`, `JLPT_HOME` (data root), `NO_COLOR`.
+Environment: `DEEPSEEK_API_KEY`, `JP_KOR_TRAINER_HOME` (data root), `NO_COLOR`.
 
 ## Build from source
 
 ```bash
 sudo apt install build-essential cmake
 cmake -S . -B build && cmake --build build -j
-./build/jlpt-trainer
+./build/jp-kor-trainer
 
 ./scripts/make_release.sh      # static release → release/
 ```

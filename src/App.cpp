@@ -1,6 +1,7 @@
 #include "App.h"
 
 #include <algorithm>
+#include <filesystem>
 #include <iostream>
 
 #include "Terminal.h"
@@ -107,11 +108,18 @@ void App::settingsMenu() {
         std::cout << "   " << ui::paint("[1]", ui::style::BrightMagenta) << " Study language / exam:            "
                   << ui::paint(ctx_->lang.nativeName + " · " + ctx_->lang.exam, {ui::style::Bold, ui::style::BrightGreen}) << '\n';
         std::cout << "   " << ui::paint("[2]", ui::style::BrightMagenta) << " Explanation language (DeepSeek):  "
-                  << ui::paint(ctx_->deepseek.language(), {ui::style::Bold, ui::style::BrightGreen}) << "\n\n";
+                  << ui::paint(ctx_->deepseek.language(), {ui::style::Bold, ui::style::BrightGreen}) << '\n';
+        const bool ready = ctx_->deepseek.isConfigured();
+        std::cout << "   " << ui::paint("[3]", ui::style::BrightMagenta) << " DeepSeek API key file:            "
+                  << ui::paint(ctx_->deepseek.keyFile().empty() ? "(not set)" : ctx_->deepseek.keyFile(),
+                               {ui::style::Bold, ready ? ui::style::BrightGreen : ui::style::BrightYellow})
+                  << '\n';
+        std::cout << "       " << ui::paint((ready ? "● " : "○ ") + ctx_->deepseek.statusLine(), ui::style::Gray) << "\n\n";
         const auto in = ui::readLine("Setting number (Enter = back): ");
         if (!in || in->empty() || util::toLower(*in) == "b" || util::toLower(*in) == "q") return;
         if (*in == "1") chooseStudyLanguage();
         if (*in == "2") chooseExplanationLanguage();
+        if (*in == "3") chooseDeepSeekKeyFile();
     }
 }
 
@@ -157,6 +165,36 @@ void App::chooseStudyLanguage() {
         return;
     }
     if (!config_.saveStudyLanguage(chosen)) ui::warn("Switched for now, but settings.json could not be saved.");
+}
+
+void App::chooseDeepSeekKeyFile() {
+    ui::clearScreen();
+    ui::printHeader("DeepSeek API key", "Used by [w] why and [t] translate");
+    std::cout << '\n';
+    ui::printBox({
+        "Current file: " + (ctx_->deepseek.keyFile().empty() ? std::string("(not set)") : ctx_->deepseek.keyFile()),
+        "Status:       " + ctx_->deepseek.statusLine(),
+        "",
+        ui::paint("The file holds just the key (sk-...) or a line  deepseek.api.key=sk-...", ui::style::Gray),
+        ui::paint("Get a key at https://platform.deepseek.com  ·  ~ is expanded to your home folder", ui::style::Gray),
+    }, "Key file", ui::style::Cyan);
+    if (ctx_->deepseek.keyFromEnvironment())
+        ui::warn("$DEEPSEEK_API_KEY is set — it is used instead of the key file.");
+    std::cout << '\n';
+
+    const auto in = ui::readLine("Path to the key file (Enter = cancel): ");
+    if (!in) return;
+    const std::string path = util::trim(*in);
+    if (path.empty()) return;
+
+    std::error_code ec;
+    if (!std::filesystem::is_regular_file(util::expandHome(path), ec))
+        ui::warn("File not found: " + util::expandHome(path) + " — saved anyway, create it later.");
+    if (!config_.saveDeepSeekKeyFile(path)) ui::warn("Using it for now, but settings.json could not be saved.");
+    ctx_->deepseek.setKeyFile(config_.deepseekKeyFile);
+    if (ctx_->deepseek.isConfigured()) ui::info(ctx_->deepseek.statusLine());
+    else ui::warn(ctx_->deepseek.statusLine());
+    ui::waitForEnter();
 }
 
 void App::chooseExplanationLanguage() {
@@ -208,7 +246,7 @@ int App::run() {
         loadLevel(config_.defaultLevelFor(config_.language));
     } catch (const std::exception& e) {
         ui::error(std::string("Failed to load level ") + config_.defaultLevelFor(config_.language) + ": " + e.what());
-        ui::info("Data directory: " + config_.levelsDir() + "  (set JLPT_HOME to the project root)");
+        ui::info("Data directory: " + config_.levelsDir() + "  (set JP_KOR_TRAINER_HOME to the folder with data/)");
         return 1;
     }
 

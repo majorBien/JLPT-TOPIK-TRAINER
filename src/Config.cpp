@@ -11,8 +11,8 @@
 
 namespace fs = std::filesystem;
 
-#ifndef JLPT_SOURCE_DIR
-#define JLPT_SOURCE_DIR "."
+#ifndef TRAINER_SOURCE_DIR
+#define TRAINER_SOURCE_DIR "."
 #endif
 
 namespace {
@@ -36,12 +36,13 @@ bool updateSettings(const std::string& rootDir, const std::function<void(json::V
 }
 
 std::string findRoot() {
-    if (const char* env = std::getenv("JLPT_HOME"); env && looksLikeRoot(env)) return env;
+    for (const char* var : {"JP_KOR_TRAINER_HOME", "JLPT_HOME"})  // JLPT_HOME: older name
+        if (const char* env = std::getenv(var); env && looksLikeRoot(env)) return env;
     // A release is self-contained: data/ sits next to the executable.
     std::error_code ec;
     const fs::path exeDir = fs::read_symlink("/proc/self/exe", ec).parent_path();
     const fs::path cwd = fs::current_path();
-    for (const fs::path& candidate : {exeDir, cwd, cwd.parent_path(), fs::path(JLPT_SOURCE_DIR)})
+    for (const fs::path& candidate : {exeDir, cwd, cwd.parent_path(), fs::path(TRAINER_SOURCE_DIR)})
         if (!candidate.empty() && looksLikeRoot(candidate)) return fs::weakly_canonical(candidate).string();
     return cwd.string();
 }
@@ -100,6 +101,15 @@ bool Config::saveExplanationLanguage(const std::string& lang) {
 bool Config::saveStudyLanguage(const std::string& lang) {
     language = lang;
     return updateSettings(rootDir, [&](json::Value& s) { s.set("language", lang); });
+}
+
+bool Config::saveDeepSeekKeyFile(const std::string& path) {
+    deepseekKeyFile = util::expandHome(path);
+    return updateSettings(rootDir, [&](json::Value& s) {
+        json::Value ds = s["deepseek"].isObject() ? s["deepseek"] : json::Value::object();
+        ds.set("key_file", path);
+        s.set("deepseek", std::move(ds));
+    });
 }
 
 const std::string& Config::defaultLevelFor(const std::string& lang) const {

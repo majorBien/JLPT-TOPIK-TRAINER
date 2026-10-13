@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(jlpt_trainer VERSION 1.0 LANGUAGES CXX)
+project(jp_kor_trainer VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -10,7 +10,7 @@ endif()
 
 find_package(Threads REQUIRED)
 
-add_executable(jlpt-trainer
+add_executable(jp-kor-trainer
   src/main.cpp
   src/App.cpp
   src/AppContext.cpp
@@ -37,8 +37,8 @@ add_executable(jlpt-trainer
   src/modules/VocabularyModule.cpp
 )
 
-target_include_directories(jlpt-trainer PRIVATE include)
+target_include_directories(jp-kor-trainer PRIVATE include)
 # Lets the binary find data/ even when started from another directory.
-target_compile_definitions(jlpt-trainer PRIVATE JLPT_SOURCE_DIR="${CMAKE_SOURCE_DIR}")
-target_link_libraries(jlpt-trainer PRIVATE Threads::Threads)
-target_compile_options(jlpt-trainer PRIVATE -Wall -Wextra -Wpedantic)
+target_compile_definitions(jp-kor-trainer PRIVATE TRAINER_SOURCE_DIR="${CMAKE_SOURCE_DIR}")
+target_link_libraries(jp-kor-trainer PRIVATE Threads::Threads)
+target_compile_options(jp-kor-trainer PRIVATE -Wall -Wextra -Wpedantic)

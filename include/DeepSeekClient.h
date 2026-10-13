@@ -58,6 +58,9 @@ public:
     std::string statusLine() const;
     const std::string& language() const { return settings_.language; }
     void setLanguage(const std::string& language) { settings_.language = language; }
+    const std::string& keyFile() const { return settings_.keyFile; }
+    bool keyFromEnvironment() const;           // $DEEPSEEK_API_KEY wins over the key file
+    void setKeyFile(const std::string& path);  // re-reads the credentials
 
     // Explains a wrong answer, or — when userAnswer == correctAnswer — why the right answer is right.
     ApiResult explain(const ExplainRequest& req) const;

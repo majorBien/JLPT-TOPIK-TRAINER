@@ -37,12 +37,13 @@ struct Config {
     std::string koVoiceNarrator = "ko-KR-SunHiNeural";
     std::string koRate = "-5%";
 
-    // Locates the project root ($JLPT_HOME, ./, ../, or the CMake source dir)
+    // Locates the project root ($JP_KOR_TRAINER_HOME, the executable's dir, ./, ../, or the CMake source dir)
     // and reads settings.json from it (missing keys keep their defaults).
     static Config load();
     // Update one setting and store it in settings.json (other keys are kept as they are).
     bool saveExplanationLanguage(const std::string& language);
     bool saveStudyLanguage(const std::string& language);
+    bool saveDeepSeekKeyFile(const std::string& path);  // stored as typed (~ allowed)
 
     const std::string& defaultLevelFor(const std::string& language) const;
     std::string levelsDir() const;  // for the current study language

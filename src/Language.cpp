@@ -25,7 +25,7 @@ LanguageProfile makeJapanese() {
     p.exitTitle = "終了";
     p.modules = {
         {"vocabulary", {"文字・語彙", "Language Knowledge (Vocabulary)"}},
-        {"grammar", {"文法・読解", "Language Knowledge (Grammar) & Reading"}},
+        {"grammar", {"文法・読解", "Language Knowledge (Grammar & Reading)"}},
         {"listening", {"聴解", "Listening"}},
         {"srs", {"復習 SRS", "SRS Vocabulary Trainer"}},
         {"mistakes", {"間違い", "My Mistakes"}},

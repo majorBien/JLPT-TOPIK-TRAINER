@@ -21,6 +21,7 @@ private:
     void settingsMenu();
     void chooseStudyLanguage();
     void chooseExplanationLanguage();
+    void chooseDeepSeekKeyFile();
 
     Config config_;
     std::unique_ptr<AppContext> ctx_;

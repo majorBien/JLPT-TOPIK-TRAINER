@@ -123,7 +123,7 @@ void appendHanging(std::vector<std::string>& out, std::string_view prefix, std::
 bool colorEnabled() {
     static const bool enabled = [] {
         if (std::getenv("NO_COLOR")) return false;
-        if (std::getenv("JLPT_FORCE_COLOR")) return true;
+        if (std::getenv("JP_KOR_TRAINER_FORCE_COLOR")) return true;
         return isatty(STDOUT_FILENO) != 0;
     }();
     return enabled;

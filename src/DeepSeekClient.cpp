@@ -70,6 +70,18 @@ ProcessOutput runCommand(const std::string& command) {
 
 DeepSeekClient::DeepSeekClient(DeepSeekSettings settings) : settings_(std::move(settings)) { loadCredentials(); }
 
+bool DeepSeekClient::keyFromEnvironment() const {
+    const char* env = std::getenv("DEEPSEEK_API_KEY");
+    return env && *env;
+}
+
+void DeepSeekClient::setKeyFile(const std::string& path) {
+    settings_.keyFile = path;
+    apiKey_.clear();
+    credentialsError_.clear();
+    loadCredentials();
+}
+
 void DeepSeekClient::loadCredentials() {
     if (const char* env = std::getenv("DEEPSEEK_API_KEY"); env && *env) {
         apiKey_ = util::trim(env);
