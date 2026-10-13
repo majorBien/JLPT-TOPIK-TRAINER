@@ -335,8 +335,30 @@ SessionResult QuizSession::run(const std::vector<Question>& questions) {
         if (correct) ++result.correct;
 
         ctx_.progress.record(q, correct);
-        if (!correct) ctx_.mistakes.add(q, ans.index, opt_.mistakeSource);
-        else if (opt_.resolveMistakesOnCorrect) ctx_.mistakes.resolve(q.id);
+        // Mistakes review: say what happened to the item's schedule (shown under the verdict).
+        std::string scheduleNote;
+        if (!correct) {
+            ctx_.mistakes.add(q, ans.index, opt_.mistakeSource);
+            if (opt_.reviewMistakes) scheduleNote = ui::paint("  ↺ Back to the start — it will come up again in the next practice.", ui::style::Yellow);
+        } else if (opt_.reviewMistakes) {
+            switch (ctx_.mistakes.reviewCorrect(q.id)) {
+                case MistakeReview::Advanced:
+                    if (const MistakeRecord* r = ctx_.mistakes.find(q.id))
+                        scheduleNote = ui::paint("  ↻ Next review in " + util::formatInterval(MistakeTracker::intervalForStep(r->step)) +
+                                                     "  (step " + std::to_string(r->step) + "/" +
+                                                     std::to_string(MistakeTracker::kSteps) + ")",
+                                                 ui::style::Cyan);
+                    break;
+                case MistakeReview::Retired:
+                    scheduleNote = ui::paint("  ★ Learned — removed from My Mistakes.", {ui::style::Bold, ui::style::BrightGreen});
+                    break;
+                case MistakeReview::NotDue:
+                    scheduleNote = ui::paint("  (not due yet — its schedule is unchanged)", ui::style::Gray);
+                    break;
+                case MistakeReview::NotTracked:
+                    break;
+            }
+        }
 
         if (opt_.listeningMode) {
             // Reveal the transcript and the spoken options now.
@@ -346,6 +368,7 @@ SessionResult QuizSession::run(const std::vector<Question>& questions) {
             std::cout << '\n';
         }
         showVerdict(ctx_, q, ans.index);
+        if (!scheduleNote.empty()) std::cout << scheduleNote << "\n\n";
         if (!postAnswerLoop(q, ans.index, correct, i)) {
             result.aborted = true;
             break;

@@ -21,6 +21,8 @@ void MistakeTracker::load() {
             r.firstSeen = v.getInt("first_seen");
             r.lastSeen = v.getInt("last_seen");
             r.explanation = v.getString("explanation");
+            r.step = static_cast<int>(v.getInt("step", 0));
+            r.due = v.getInt("due", 0);  // older files: due now
             if (!r.question.id.empty() && !r.question.options.empty()) records_.push_back(std::move(r));
         }
         sortByRecency();
@@ -40,6 +42,8 @@ bool MistakeTracker::save() const {
         v.set("first_seen", r.firstSeen);
         v.set("last_seen", r.lastSeen);
         if (!r.explanation.empty()) v.set("explanation", r.explanation);
+        v.set("step", r.step);
+        v.set("due", r.due);
         list.push_back(std::move(v));
     }
     json::Value root = json::Value::object();
@@ -63,8 +67,10 @@ void MistakeTracker::add(const Question& q, int chosenIndex, const std::string& 
         it->userAnswer = answer;
         it->question = q;  // refresh snapshot (option order may differ)
         it->explanation.clear();
+        it->step = 0;      // back to the start of the ladder
+        it->due = now;
     } else {
-        records_.push_back({q, answer, source, 1, now, now, {}});
+        records_.push_back({q, answer, source, 1, now, now, {}, 0, now});
     }
     sortByRecency();
     save();
@@ -80,14 +86,36 @@ void MistakeTracker::attachExplanation(const std::string& questionId, const std:
     }
 }
 
-bool MistakeTracker::resolve(const std::string& questionId) {
-    const auto before = records_.size();
-    records_.erase(std::remove_if(records_.begin(), records_.end(),
-                                  [&](const auto& r) { return r.question.id == questionId; }),
-                   records_.end());
-    if (records_.size() == before) return false;
+std::int64_t MistakeTracker::intervalForStep(int step) {
+    static constexpr std::int64_t days[kSteps] = {1, 3, 7, 14, 30};
+    return days[std::clamp(step, 1, kSteps) - 1] * 86400;
+}
+
+MistakeReview MistakeTracker::reviewCorrect(const std::string& questionId) {
+    const std::int64_t now = util::nowSeconds();
+    auto it = std::find_if(records_.begin(), records_.end(), [&](const auto& r) { return r.question.id == questionId; });
+    if (it == records_.end()) return MistakeReview::NotTracked;
+    if (!it->isDue(now)) return MistakeReview::NotDue;
+    if (it->step >= kSteps) {
+        records_.erase(it);
+        save();
+        return MistakeReview::Retired;
+    }
+    ++it->step;
+    it->due = now + intervalForStep(it->step);
     save();
-    return true;
+    return MistakeReview::Advanced;
+}
+
+std::size_t MistakeTracker::dueCount(std::int64_t now) const {
+    return static_cast<std::size_t>(std::count_if(records_.begin(), records_.end(), [&](const auto& r) { return r.isDue(now); }));
+}
+
+std::int64_t MistakeTracker::nextDue() const {
+    std::int64_t best = 0;
+    for (const auto& r : records_)
+        if (best == 0 || r.due < best) best = r.due;
+    return best;
 }
 
 void MistakeTracker::clear() {

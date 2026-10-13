@@ -10,6 +10,6 @@ public:
     void run(AppContext& ctx) override;
 
 private:
-    void practice(AppContext& ctx) const;
+    void practice(AppContext& ctx, bool dueOnly) const;
     void viewOne(AppContext& ctx, std::size_t index) const;
 };

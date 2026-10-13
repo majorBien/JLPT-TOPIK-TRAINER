@@ -48,7 +48,7 @@ struct SessionOptions {
     std::string moduleName;       // stored in session history
     std::string mistakeSource;    // tag stored with mistakes
     bool allowWhy = true;
-    bool resolveMistakesOnCorrect = false;
+    bool reviewMistakes = false;  // My Mistakes practice: move items along the review ladder
     bool listeningMode = false;   // transcript & spoken options hidden until answered
     std::function<void(std::size_t index)> present;  // e.g. play audio; also used for replay
 };
