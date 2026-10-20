@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Builds release archives in release/, one per platform, each with the binary,
-# data/, images/, README.md, settings.json and the voice setup scripts:
+# data/, images/, README.md, settings.json, a ready-to-use Open JTalk in open_jtalk/
+# (furigana + Japanese voice, see scripts/build_open_jtalk.sh) and the voice setup scripts:
 #
 #   jp-kor-trainer-<ver>-linux-x86_64.tar.gz     static (musl)
 #   jp-kor-trainer-<ver>-linux-arm64.tar.gz      static (musl)
@@ -9,7 +10,7 @@
 #   jp-kor-trainer-<ver>-windows-x86_64.zip
 #
 # Cross-compiling needs Zig (https://ziglang.org, 0.13): put it on $PATH or set ZIG=/path/to/zig.
-# Without Zig only the native Linux build is made (static, via CMake).
+# Without Zig only the native Linux build is made (static, via CMake), without Open JTalk.
 # Usage: scripts/make_release.sh [target ...]   e.g.  scripts/make_release.sh windows-x86_64
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -87,8 +88,12 @@ for platform in "${TARGETS[@]}"; do
   mkdir -p "$out"
   if ! build_binary "$platform" "$out/$exe"; then rm -rf "$out"; continue; fi
   chmod 755 "$out/$exe"
+  rm -f "$out"/*.lib "$out"/*.pdb  # Zig's Windows import-library leftovers
   cp -r "$ROOT/data" "$ROOT/images" "$ROOT/README.md" "$out/"
   write_settings "$out/settings.json"
+  if [[ -n "$ZIG" ]]; then
+    ZIG="$ZIG" "$ROOT/scripts/build_open_jtalk.sh" "$platform" "$out/open_jtalk"
+  fi
   if [[ "$platform" == linux-* ]]; then
     mkdir -p "$out/scripts"
     install -m 755 "$ROOT/scripts/setup_tts.sh" "$ROOT/scripts/setup_tts_ko.sh" "$out/scripts/"

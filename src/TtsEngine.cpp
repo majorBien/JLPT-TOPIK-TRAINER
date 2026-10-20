@@ -49,10 +49,15 @@ Prosody prosodyFor(const std::string& speaker, bool hasFemaleVoice) {
 // ---- Open JTalk -------------------------------------------------------------
 
 OpenJTalkEngine::OpenJTalkEngine(const Config& cfg) : speed_(cfg.ttsSpeed) {
+    // Release archives ship a ready-made build in open_jtalk/ (scripts/build_open_jtalk.sh);
+    // scripts/setup_tts.sh unpacks the Debian packages into third_party/open_jtalk/.
+    const fs::path release = fs::path(cfg.rootDir) / "open_jtalk";
+    const std::string releaseBin = (release / (platform::kWindows ? "open_jtalk.exe" : "open_jtalk")).string();
     const fs::path bundled = fs::path(cfg.rootDir) / "third_party" / "open_jtalk";
     const std::string bundledBin = (bundled / "usr/bin/open_jtalk").string();
 
     if (!cfg.ttsBinary.empty()) binary_ = platform::findCommand(cfg.ttsBinary);
+    else if (fs::exists(releaseBin)) binary_ = releaseBin;
     else if (platform::commandExists("open_jtalk")) binary_ = platform::findCommand("open_jtalk");
     else if (fs::exists(bundledBin)) binary_ = bundledBin;
 
@@ -60,10 +65,11 @@ OpenJTalkEngine::OpenJTalkEngine(const Config& cfg) : speed_(cfg.ttsSpeed) {
         libDir_ = firstExisting({(bundled / "usr/lib/x86_64-linux-gnu").string(),
                                  (bundled / "usr/lib/aarch64-linux-gnu").string(), (bundled / "usr/lib").string()});
     }
-    dictionary_ = firstExisting({cfg.ttsDictionary, "/var/lib/mecab/dic/open-jtalk/naist-jdic",
+    dictionary_ = firstExisting({cfg.ttsDictionary, (release / "dic").string(), "/var/lib/mecab/dic/open-jtalk/naist-jdic",
                                  (bundled / "var/lib/mecab/dic/open-jtalk/naist-jdic").string()});
     const std::string voiceRel = "usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice";
-    voiceMale_ = firstExisting({cfg.ttsVoiceMale, "/" + voiceRel, (bundled / voiceRel).string()});
+    voiceMale_ = firstExisting({cfg.ttsVoiceMale, (release / "voice/nitech_jp_atr503_m001.htsvoice").string(),
+                                "/" + voiceRel, (bundled / voiceRel).string()});
     voiceFemale_ = firstExisting({cfg.ttsVoiceFemale});
 
     if (binary_.empty()) status_ = "open_jtalk not found";
